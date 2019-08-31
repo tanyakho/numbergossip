@@ -1,0 +1,11 @@
+<h3> <a name = "amicable"> amicable </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> The number n is <i>amicable</i> if it belongs to an amicable pair. Two numbers n and m are called an <i>amicable pair</i> if the sum of all positive divisors of n is equal to the sum of all positive divisors of m and both are equal to n + m.
+<p>
+It all started with <a href = "#perfect"> perfect</a> numbers which are amicable with themselves. Those numbers adopted social virtues and qualities; for the parts of each of them have the power to generate the other. See also <a href = "#sociable"> sociable</a> numbers.
+<p>
+<i>First ten:</i> 220, 284, 1184, 1210, 2620, 2924, 5020, 5564, 6232, 6368
+<p>There are 10 amicable numbers below 10,000.
+</h4>
+

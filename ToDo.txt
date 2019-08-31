@@ -1,0 +1,173 @@
+Number Gossip.
+
+
+I stopped working with OEIS at 127 (I did 127). I am moving down.
+I am also moving down with proves. I stopped at 1312.
+
+
+Potential links:
+
+Factoring large numbers:
+http://www.alpertron.com.ar/ecm.htm
+
+Zoo of numbers
+http://www.archimedes-lab.org/numbers/Num1_69.html
+Properties for number upto 500.
+Similar to Freidman's site, but less. Too many mistakes.
+Do not want to include.
+
+Glossary of numbers at Math Forum
+http://mathforum.org/dr.math/faq/faq.number.glossary.html
+small subset of what I have - do not want to include.
+
+Types of numbers at Virtue Science:
+http://www.virtuescience.com/numbertypes.html
+Also the properties for every number upto 2,000.
+For every number math properties, a lot connections to religions, history and film.
+Last time I tried the site was password protected.
+If it is always protected I shouldn't include it.
+
+Problems & Puzzles: Puzzle 225. VSP (Very Sparse Primes)
+http://www.primepuzzles.net/puzzles/puzz_225.htm
+Some unique or very rare properties of primes. The list is very short - I decided not to include it.
+
+Properties of the First 5000 Integers
+http://www.mrob.com/pub/math/numbers-list.html
+mostly prime and figurate numbers. They are indexed.
+
+PlanetMath.org
+small integers that are or might be the largest of their kind
+http://planetmath.org/encyclopedia/SmallIntegersThatAreOrMightBeTheLargestOfTheirKind.html
+
+http://math.crg4.com/uninteresting.html
+Uninteresting numbers. The list of numbers that do not get to the books and webpages, like my numbers that do not have unique properties.
+I will not add the link because this list is highly unstable. It should be self-generated.
+
+----------------------------------------------
+
+
+Differentiate links in definitions and everywhere from internal and external.
+
+
+Add standard vampire numbers, rename my vampire numbers to disfigured vampire numbers.
+
+
+Ideas for properties:
+
+!!POlite and impolite numbers: http://en.wikipedia.org/wiki/Polite_number
+
+A047841  Autobiographical numbers 
+Brilliant numbers
+Fortunate numbers
+Sexy prime pairs
+April fool primes - composite numbers ending in 1,3,7,9
+holey - with holes?
+Hyperperfect
+Noncototient
+Totient
+Nontotient
+Cototient
+Primeval
+Admirable numbers
+Compatible numbers
+Father primes
+Autobiographical numbers
+Gossip numbers - invent
+Printer Error numbers
+modest numbers A054986  	 	 Base-10 modest numbers.
+economical numbers http://arxiv.org/abs/math.NT/9802046  A046759 Economical numbers
+A033950  Refactorable numbers: number of divisors of n divides n. Also
+known as tau numbers. 
+also, early bird.
+I also should periodically check wiki on integer sequences:
+http://en.wikipedia.org/wiki/Category:Integer_sequences
+Flimsy Numbers http://www.research.att.com/~njas/sequences/A005360
+ugly numbers: http://acm.uva.es/p/v1/136.html
+unhholey - without holes
+----------------------
+star numbers:
+Star Numbers:
+A 'star number' is a number n, with a property P, such that the number of digits in the
+number n, d(n) is also a number with the property P.
+For example, 1024 is a square number and d(1024) = 4, also a square number.
+Another example, a star prime is a prime number,p, such that d(p) is also a prime number.
+54563 is prime, and d(54563)= 5, also a prime number.
+
+Ref.:  "Star Numbers and Constellations" by Richard Francis, THE MATHEMATICS TEACHER, v. 86, no.1,
+Jan. 1993, pp. 88-89.
+
+Regards,
+T. M. Green
+----------------------------------------------
+sturdy and flimsy numbers
+
+
+Conjectured properties
+5 is believed to be the only odd untouchable number
+86 is conjectured to be the largest number n such that 2^86 doesn't contain zeroes.
+1331 is the largest cube with at most two different non-zero digits.
+?? 88 is the only number known whose square has no isolated digits;
+A018848 Strobogrammatic squares: the same upside down (probably finite). Maybe I can prove it.
+
+
+A suggestion sent by John Baima:
+The ability to search for traits and multiple (evil and palindromic).
+
+
+
+Add vampire numbers and change current vampire to disfigurate vampires.
+
+Add NewsLetters - send them out and add an archive
+
+Create a form for submittions
+
+Sell numbers - sponsor
+
+Add proofs and details
+
+------------------------------
+From A letter from Maximilian Hasler:
+
+Deficient
+Evil
+Odd
+Prime
+Square-free
+
+Of course I knew it is a prime; but "evil" is only property that does
+not follow from being prime (>2).
+I just thought you might want to mention this
+("All primes are square-free and deficient.") in the description of primes.
+
+You might also want to mention the relation between powerful and
+square-free numbers.
+
+I don't know to what point you plan to make the descriptions more complete,
+or if you prefer to keep them short, so feel free to ignore my idea above.
+(and also another idea: to put more links to wikipedia, as you did for
+Catalan; most properties have a WP page which gives further info &
+links (to mathworld etc))
+(You may want to have the links open in a new window, as to keep your
+visitors on your site ;-)
+Deficient
+Evil
+Odd
+Prime
+Square-free
+
+Of course I knew it is a prime; but "evil" is only property that does
+not follow from being prime (>2).
+I just thought you might want to mention this
+("All primes are square-free and deficient.") in the description of primes.
+
+You might also want to mention the relation between powerful and
+square-free numbers.
+
+I don't know to what point you plan to make the descriptions more complete,
+or if you prefer to keep them short, so feel free to ignore my idea above.
+(and also another idea: to put more links to wikipedia, as you did for
+Catalan; most properties have a WP page which gives further info &
+links (to mathworld etc))
+(You may want to have the links open in a new window, as to keep your
+visitors on your site ;-)
+------------------------------------------

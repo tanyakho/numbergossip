@@ -1,0 +1,484 @@
+<h3> <a name = "abundant"> abundant </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> The number n is <i>abundant</i> if the sum of all its positive divisors except itself is more than n.
+<p>
+They are abundant above perfection, not to mention deficiency. See <a href = "#perfect"> perfect</a> and <a href = "#deficient"> deficient</a> numbers.
+<p>
+<i>First ten:</i> 12, 18, 20, 24, 30, 36, 40, 42, 48, 54
+<p>There are 2487 abundant numbers below 10,000.
+</h4>
+
+<h3> <a name = "amicable"> amicable </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> The number n is <i>amicable</i> if it belongs to an amicable pair. Two numbers n and m are called an <i>amicable pair</i> if the sum of all positive divisors of n is equal to the sum of all positive divisors of m and both are equal to n + m.
+<p>
+It all started with <a href = "#perfect"> perfect</a> numbers which are amicable with themselves. Those numbers adopted social virtues and qualities; for the parts of each of them have the power to generate the other. See also <a href = "#sociable"> sociable</a> numbers.
+<p>
+<i>First ten:</i> 220, 284, 1184, 1210, 2620, 2924, 5020, 5564, 6232, 6368
+<p>There are 10 amicable numbers below 10,000.
+</h4>
+
+<h3> <a name = "apocalyptic powers"> apocalyptic power </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i>The number n is called an <i>apocalyptic power</i> if 2<sup>n</sup> contains the consecutive digits 666 (in decimal).
+<p>
+<p>
+<i>First ten:</i> 157, 192, 218, 220, 222, 224, 226, 243, 245, 247
+<p>There are 6485 apocalyptic powers below 10,000.
+</h4>
+
+<h3> <a name = "aspiring"> aspiring </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i>The number n is called an <i>aspiring</i> number if its aliquot sequence terminates in a <a href = "#perfect">perfect</a> number, and it is not a perfect number itself.
+<p>
+<p>
+<i>First ten:</i> 25, 95, 119, 143, 417, 445, 565, 608, 650, 652
+<p>There are 89 aspiring numbers below 10,000.
+</h4>
+
+<h3> <a name = "automorphic(curious)">  automorphic(curious)</a> </h3> 
+<p>
+<h4>
+<i>Definition:</i>The number n is called an <i>automorphic</i> number if (the decimal expansion of) n<sup>2</sup> ends with n. These numbers are also called <i>curious</i>.
+<p>It is curious, how for a k-digit automorphic number n there is another automorphic number -- <span class="nowrap">10<sup>k</sup> + 1 - n</span>. For this to work with n=1, you have to treat 1 as a zero-digit number.
+<p>
+<i>First ten:</i> 1, 5, 6, 25, 76, 376, 625, 9376, 90625, 109376.
+<p>There are 8 automorphic numbers below 10,000.
+</h4>
+
+<h3> <a name = "cake"> cake </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i>The n-th <i>cake</i> number is the maximum number of pieces a (cylindrical) cake can be cut into with n (straight-plane) cuts.
+<p>Unfortunately, not everybody gets the frosting. If you cut pizza rather than cake, you get <a href = "#lazy caterer"> lazy caterer's numbers</a>.
+<p>
+<i>First ten:</i> 2, 4, 8, 15, 26, 42, 64, 93, 130, 176.
+<p>There are 38 cake numbers below 10,000.
+</h4>
+
+<h3> <a name = "Carmichael"> Carmichael </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> The composite integer n is a <i>Carmichael</i> number if <span class="nowrap">b<sup>n-1</sup> = 1 (mod n)</span> for every integer b 
+which is relatively prime with n.
+<p>
+Carmichael numbers behave like prime numbers with respect to the most useful primality test, that is they pretend to be prime.
+<p>
+<i>First ten:</i> 561, 1105, 1729, 2465, 2821, 6601, 8911, 10585, 15841, 29341.
+<p>There are 7 Carmichael numbers below 10,000.
+</h4>
+
+<h3> <a name = "Catalan"> Catalan </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> The n-th <i>Catalan</i> number is equal to <span class="nowrap">(2n choose n)/(n+1) = (2n)!/(n!(n+1)!).</span>
+<p>There are many ways Catalan numbers can be interpreted; there are <a href = "http://mathforum.org/advanced/robertd/catalan.html">some cool pictures here</a> and the <a href = "http://en.wikipedia.org/wiki/Catalan_numbers">Wikipedia article</a> is very good.
+<p>
+<i>First ten:</i> 1, 2, 5, 14, 42, 132, 429, 1430, 4862, 16796.
+<p>There are 9 Catalan numbers below 10,000.
+</h4>
+
+<h3> <a name = "composite"> composite </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> A positive integer greater than 1 that is not prime is called <i>composite</i>.
+<p>Composite numbers are opposite to <a href="#prime">prime</a> numbers.
+<p>
+<i>First ten:</i> 4, 6, 8, 9, 10, 12, 14, 15, 16, 18.
+<p>There are 8769 composite numbers below 10,000.
+</h4>
+
+<h3> <a name = "compositorial"> compositorial</a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> The n-th <i>compositorial</i> is the product of the first n composite numbers.
+<p>Compositorial numbers are <a href = "#factorial"> factorials</a> divided by <a href = "#primorial"> primorials</a>.
+<p>
+<i>First ten:</i> 4, 24, 192, 1728, 17280, 207360, 2903040, 43545600, 696729600, 12541132800, 
+250822656000.
+<p>There are 4 compositorials below 10,000.
+</h4>
+
+<h3> <a name = "cube"> cube </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> The number n is a <i>cube</i> if it is the cube of an integer.
+<p>
+<p>
+<i>First ten:</i> 1, 8, 27, 64, 125, 216, 343, 512, 729, 1000
+<p>There are 21 cube numbers below 10,000.
+</h4>
+
+<h3> <a name = "deficient"> deficient </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> The number n is <i>deficient</i> if the sum of all its positive divisors except itself is less than n.
+<p>
+Compare with <a href = "#perfect"> perfect</a> and <a href = "#abundant"> abundant</a> numbers.
+<p>
+<i>First ten:</i> 1, 2, 3, 4, 5, 7, 8, 9, 10, 11.
+<p>There are 7508 deficient numbers below 10,000.
+</h4>
+
+<h3> <a name = "even"> even </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> A number is <i>even</i> if it is divisible by 2.
+<p>Numbers that are not even are <a href = "#odd"> odd</a>. Compare with another pair -- <a href = "#evil"> evil</a> and <a href = "#odious"> odious</a> numbers.
+<p>
+<i>First ten:</i> 2, 4, 6, 8, 10, 12, 14, 16, 18, 20.
+<p>There are 4999 even numbers below 10,000.
+</h4>
+
+<h3> <a name = "evil"> evil </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> The number n is <i>evil</i> if it has an even number of 1's in its binary expansion.
+<p>Guess what <a href = "#odious"> odious</a> numbers are.
+<p>
+<i>First ten:</i> 3, 5, 6, 9, 10, 12, 15, 17, 18, 20.
+<p>There are 4999 evil numbers below 10,000.
+</h4>
+
+<h3> <a name = "factorial"> factorial </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> The n-th <i>factorial</i> is the product of the first n natural numbers.
+<p>The factorial deserved an exclamation mark for its notation: k! = 1*2*3*...*k.
+<p>
+<i>First ten:</i> 1, 2, 6, 24, 120, 720, 5040, 40320, 362880, 3628800.
+<p>There are 7 factorials below 10,000.
+</h4>
+
+<h3> <a name = "Fibonacci"> Fibonacci </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> <i>Fibonacci</i> numbers are numbers that form the Fibonacci sequence. The Fibonacci sequence is defined as starting with 1, 1 and then each next term is the sum of the two preceding ones.
+<p> Fibonacci numbers are <a href = "http://www.mcs.surrey.ac.uk/Personal/R.Knott/Fibonacci/fibnat.html"> very common in nature</a>.  For example, a pineapple has 8 spirals if you count one way, and 13 if you count the other way.
+<p>
+<i>First ten:</i> 1, 1, 2, 3, 5, 8, 13, 21, 34, 55.
+<p>There are 19 different Fibonacci numbers below 10,000.
+</h4>
+
+<h3> <a name = "Google"> Google </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> The n-th <i>Google</i> number is the first n-digit prime found in the decimal expansion of e.
+<p> They are named <i>Google</i> numbers because of the <a href="http://www.boston.com/news/local/articles/2004/09/09/comprehension_test/">unusual hiring ad</a> that <i>Google</i> put up.
+<p>
+<i>First ten:</i> 2, 71, 271, 4523, 74713, 904523, 2718281, 72407663, 360287471, 7427466391.
+<p>There are 4 Google numbers below 10,000.
+</h4>
+
+<h3> <a name = "happy"> happy </a> </h3>
+<p>
+<h4>
+<i>Definition:</i> One can take the sum of the squares of the digits of a number.  Those numbers are <i>happy</i> for which iterating this operation eventually leads to 1.
+<p>
+<i>First ten:</i> 1, 7, 10, 13, 19, 23, 28, 31, 32, 44.
+<p>There are 1441 happy numbers below 10,000.
+</h4>
+
+<h3> <a name = "hungry"> hungry </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> The k-th <i>hungry</i> number is the smallest number n such that 2^n contains the first k digits of the decimal expansion of pi.
+<p> They are named <i>hungry</i> numbers because they try to eat as much "pi" as possible.
+<p>
+<i>First ten:</i> 5, 17, 74, 144, 144, 2003, 2003, 37929, 82810, 161449.
+<p>There are 5 different hungry numbers below 10,000.
+</h4>
+
+<h3> <a name = "lazy caterer"> lazy caterer </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> The n-th <i>lazy caterer</i> number is the maximum number of pieces a (circular) pizza can be cut into with n (straight-line) cuts.
+<p>Unlike the situation with <a href = "#cake">cake</a>, everybody gets the toppings.
+<p>
+<i>First ten:</i> 2, 4, 7, 11, 16, 22, 29, 37, 46, 56.
+<p>There are 140 lazy caterer numbers below 10,000.
+</h4>
+
+<h3> <a name = "lucky"> lucky </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> To build the <i>lucky</i> number sequence, start with natural numbers.  Delete every second number, leaving 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, ... .  The second number remaining is 3, so delete every third number, leaving 1, 3, 7, 9, 13, 15, 19, 21, ... . The next number remaining is 7, so delete every 7th number, leaving 1, 3, 7, 9, 13, 15, 21, ... .  The next number remaining is 9, so delete every ninth number, etc.
+<p> Those numbers were lucky they weren't crossed out.
+<p>
+<i>First ten:</i> 1, 3, 7, 9, 13, 15, 21, 25, 31, 33.
+<p>There are 1118 lucky numbers below 10,000.
+</h4>
+
+<h3> <a name = "Mersenne"> Mersenne </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> A number of the form 2<sup>p</sup> - 1 is called a <i>Mersenne</i> number if p is <a href="#prime">prime</a>.
+<p>It was believed many years ago, that all Mersenne numbers are prime. This is not so, thus there is a separate entry for <a href = "#Mersenne prime"> Mersenne prime</a> numbers.
+<p>
+<i>First ten:</i> 3, 7, 31, 127, 2047, 8191, 131071, 524287, 8388607, 536870911.
+<p>There are 6 Mersenne numbers below 10,000.
+</h4>
+
+<h3> <a name = "Mersenne prime"> Mersenne prime </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> A <a href = "#Mersenne"> Mersenne</a> number which is also prime is called a <i>Mersenne prime</i>.
+<p>The drive to find prime numbers among Mersenne numbers supplies humanity with the largest known prime numbers.
+<p>
+<i>First ten:</i> 3, 7, 31, 127, 8191, 131071, 524287, 2147483647, 2305843009213693951, 618970019642690137449562111.
+<p>There are 5 Mersenne primes below 10,000.
+</h4>
+
+<h3> <a name = "narcissistic"> narcissistic </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> A k-digit number n is called <i>narcissistic</i> if it is equal to the sum of k-th powers of its digits. They are also called <i>Plus Perfect</i> numbers.
+<p> 
+<p>
+<i>First ten:</i> 1, 2, 3, 4, 5, 6, 7, 8, 9, 153.
+<p>There are 16 narcissistic numbers below 10,000.
+</h4>
+
+<h3> <a name = "odd"> odd </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> A number is <i>odd</i> if it is not divisible by 2.
+<p>Numbers that are not odd are <a href = "#even"> even</a>. Compare with another pair -- <a href = "#evil"> evil</a> and <a href = "#odious"> odious</a> numbers.
+<p>
+<p>
+<i>First ten:</i> 1, 3, 5, 7, 9, 11, 13, 15, 17, 19.
+<p>There are 5000 odd numbers below 10,000.
+</h4>
+
+<h3> <a name = "odious"> odious </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> The number n is <i>odious</i> if it has an odd number of 1's in its binary expansion.
+<p>Guess what <a href = "#evil"> evil</a> numbers are.
+<p>
+<p>
+<i>First ten:</i> 1, 2, 4, 7, 8, 11, 13, 14, 16, 19.
+<p>There are 5000 odious numbers below 10,000.
+</h4>
+
+<h3> <a name = "palindrome"> palindrome </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> A <i>palindrome</i> is a number that reads the same forward or backward.
+<p>
+<p>
+<i>First ten:</i> 1, 2, 3, 4, 5, 6, 7, 8, 9, 11.
+<p>There are 198 palindromic numbers below 10,000.
+</h4>
+
+<h3> <a name = "palindromic prime"> palindromic prime </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> A <i>palindromic prime</i> is a <a href = "#prime"> prime</a> which is a <a href = "#palindrome"> palindrome</a>.
+<p>In base 2 <a href = "#Mersenne prime"> Mersenne primes</a> are palindromic primes.
+<p>
+<i>First ten:</i> 2, 3, 5, 7, 11, 101, 131, 151, 181, 191.
+<p>There are 20 palindromic primes below 10,000.
+</h4>
+
+<h3> <a name = "pentagonal"> pentagonal </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> <i>Pentagonal</i> numbers are of the form n(3n - 1)/2.
+<p>Pentagonal numbers are to pentagons what <a href = "#triangular">triangular numbers</a> are to triangles and <a href = "#square">square numbers</a> are to squares.
+<p>
+<i>First ten:</i> 1, 5, 12, 22, 35, 51, 70, 92, 117, 145.
+<p>There are 81 pentagonal numbers below 10,000.
+</h4>
+
+<h3> <a name = "perfect"> perfect </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> The number n is <i>perfect</i> if the sum of all its positive divisors except itself is equal to n.
+<p>Less than perfect numbers are called <a href = "#deficient"> deficient</a>, too perfect -- <a href = "#abundant"> abundant</a>.
+<p>
+<i>First ten:</i> 6, 28, 496, 8128, 33550336, 8589869056, 137438691328, 2305843008139952128, 2658455991569831744654692615953842176,
+191561942608236107294793378084303638130997321548169216.
+<p>There are 4 perfect numbers below 10,000.
+</h4>
+
+<h3> <a name = "powerful"> powerful </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> An integer n is <i>powerful</i> if for every <a href = "#prime"> prime</a> p dividing n, p<sup>2</sup> also divides n.
+<p> How much power? They all can be written as a<sup>2</sup> b<sup>3</sup>.
+<p>
+<i>First ten:</i> 1, 4, 8, 9, 16, 25, 27, 32, 36, 49.
+<p>There are 184 powerful numbers below 10,000.
+</h4>
+
+<h3> <a name = "power of 2"> power of 2 </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> A number is a <i>power of 2</i> if it is 2 to some power.
+<p>
+<p>
+<i>First ten:</i> 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024.
+<p>There are 14 powers of 2 below 10,000.
+</h4>
+
+<h3> <a name = "practical"> practical </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> The number n is <i>practical</i> if all numbers strictly less than n are sums of distinct divisors of n.
+<p>
+<p>
+<i>First ten:</i> 1, 2, 4, 6, 8, 12, 16, 18, 20, 24.
+<p>There are 1455 practical numbers below 10,000.
+</h4>
+
+<h3> <a name = "prime"> prime </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> A <i>prime</i> is a positive integer greater than 1 that is divisible by no positive integers other than 1 and itself.
+<p>Prime numbers are opposite to <a href="#composite">composite</a> numbers.
+<p>
+<i>First ten:</i> 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.
+<p>There are 1229 primes below 10,000.
+</h4>
+
+<h3> <a name = "primorial"> primorial </a> </h3> 
+<p>
+<h4><i>Definition:</i> The p-<i>primorial</i> is the product of all primes less than or equal to p. It is sometimes denoted by p#.
+<p>Compare to <a href = "#compositorial"> compositorials</a> and <a href = "#factorial"> factorials</a>.
+<p>
+<i>First ten:</i> 2, 6, 30, 210, 2310, 30030, 510510, 9699690, 223092870, 6469693230.
+<p>There are 5 primorials below 10,000.
+</h4>
+
+<h3> <a name = "pronic"> pronic(heteromecic) </a> </h3> 
+<p>
+<h4><i>Definition:</i> The number is called <i>pronic</i> if it is the product of two consecutive numbers.
+<p>They are twice triangular numbers.
+<p>
+<i>First ten:</i> 2, 6, 12, 20, 30, 42, 56, 72, 90, 110.
+<p>There are 99 pronic numbers below 10,000.
+</h4>
+
+<h3> <a name = "repunit"> repunit</a> </h3> 
+<p>
+<h4><i>Definition:</i> A <i>repunit</i> is an integer in which every digit is one.
+<p>The term repunit comes from combining "repeated" and "unit".
+<p>
+<i>First ten:</i> 1, 11, 111, 1111, 11111, 111111, 1111111, 11111111, 111111111, 1111111111.
+<p>There are 4 repunits below 10,000.
+</h4>
+
+<h3> <a name = "Smith">Smith (joke) </a> </h3> 
+<p>
+<h4><i>Definition:</i> A composite number is called a <i>Smith</i> number if the sum of its digits equals the sum of all the digits appearing in its prime divisors (counting multiplicity).
+<p>In 1984, when Albert Wilansky called his brother-in-law, named Smith, he noticed that the phone number possesses the property described here. Are they called joke numbers, because they were named after an innocent unsuspecting brother-in-law :-) ?
+<p>
+<i>First ten:</i> 4, 22, 27, 58, 85, 94, 121, 166, 202, 265.
+<p>There are 376 Smith numbers below 10,000.
+</h4>
+
+<h3> <a name = "sociable"> sociable </a> </h3> 
+<p>
+<h4><i>Definition:</i> An aliquot sequence is formed by taking an integer, adding all of its divisors other than itself, and then repeating this process with the sum. The numbers for which this process returns to the starting point after more than two steps are called <i>sociable</i> numbers.
+<p> The 2-cycles are the <a href = "#amicable">amicable pairs</a> and the 1-cycles are the <a href = "#perfect">perfect numbers</a>. For some numbers it is very difficult to compute the aliquot sequence. The smallest number whose sequence has not been completely computed is 276.
+<p>
+<i>First ten (known):</i> 12496, 14264, 14288, 14316, 14536, 15472, 17716, 19116, 19916, 22744.
+<p>There are no sociable numbers below 10,000.
+</h4>
+
+<h3> <a name = "square"> square </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> The number n is a <i>square</i> if it is the square of an integer.
+<p>
+<p>
+<i>First ten:</i> 1, 4, 9, 16, 25, 36, 49, 64, 81, 100.
+<p>There are 99 squares below 10,000.
+</h4>
+
+<h3> <a name = "square-free"> square-free </a> </h3> 
+<p>
+<h4>
+<i>Definition:</i> A number is said to be <i>square-free</i> if its prime decomposition contains no repeated factors. 
+<p>
+<p>
+<i>First ten:</i> 1, 2, 3, 5, 6, 7, 10, 11, 13, 14.
+<p>There are 6083 square-free numbers below 10,000.
+</h4>
+
+<h3> <a name = "tetrahedral"> tetrahedral(pyramidal) </a> </h3> 
+<p>
+<h4><i>Definition:</i> A <i>tetrahedral</i> number is the number of balls you can put in a triangular pyramid.
+<p>This is the space generalization of <a href = "#triangular"> triangular</a> and <a href = "#square"> square</a> numbers.
+<p>
+<i>First ten:</i> 1, 4, 10, 20, 35, 56, 84, 120, 165, 220.
+<p>There are 83 tetrahedral numbers below 10,000.
+</h4>
+
+<h3> <a name = "triangular"> triangular </a> </h3> 
+<p>
+<h4><i>Definition:</i> If you start with n points on a line, then draw n-1 points above and between, then n-2 above and between them, and so on, you will get a triangle of points. The number of points in this triangle is a <i>triangle</i> number.
+<p>Compare to <a href="#square">square</a>, <a href="#pentagonal">pentagonal</a> and <a href="#tetrahedral">tetrahedral</a> numbers.
+<p>
+<i>First ten:</i> 1, 3, 6, 10, 15, 21, 28, 36, 45, 55.
+<p>There are 140 triangular numbers below 10,000.
+</h4>
+
+<h3> <a name = "twin"> twin </a> </h3> 
+<p>
+<h4><i>Definition:</i> A prime number is called a <i>twin</i> prime if there exists another prime number differing from it by 2.
+<p>
+<p>
+<i>First ten:</i> 3, 5, 7, 11, 13, 17, 19, 29, 31, 41.
+<p>There are 409 twin primes below 10,000.
+</h4>
+
+<h3> <a name = "Ulam"> Ulam </a> </h3> 
+<p>
+<h4><i>Definition:</i> The next <i>Ulam</i> number is uniquely the sum of two earlier distinct Ulam numbers.
+<p>
+<p>
+<i>First ten:</i> 1, 2, 3, 4, 6, 8, 11, 13, 16, 18.
+<p>There are 827 Ulam numbers below 10,000.
+</h4>
+
+<h3> <a name = "undulating"> undulating </a> </h3> 
+<p>
+<h4><i>Definition:</i> <i>Undulating</i> numbers are numbers of the form abababab... in base 10.
+<p>This property is significant starting from 3-digit numbers, so we will not consider numbers below 100.
+<p>
+<i>First ten:</i> 101, 111, 121, 131, 141, 151, 161, 171, 181, 191.
+<p>There are 180 undulating numbers below 10,000.
+</h4>
+
+<h3> <a name = "untouchable"> untouchable </a> </h3> 
+<p>
+<h4><i>Definition:</i> The <i>untouchable</i> numbers are those that are not the sum of the proper divisors of any number.
+<p>
+<i>First ten:</i> 2, 5, 52, 88, 96, 120, 124, 146, 162, 188.
+<p>There are 1212 untouchable numbers below 10,000.
+</h4>
+
+<h3> <a name = "vampire"> vampire </a> </h3> 
+<p>
+<h4><i>Definition:</i> The number n is called a <i>vampire</i> number if there exists a factorization of n using n's digits.
+<p>
+<p>
+<i>First ten:</i> 126, 153, 688, 1206, 1255, 1260, 1395, 1435, 1503, 1530.
+<p>There are 15 vampire numbers below 10,000.
+</h4>
+
+<h3> <a name = "weird"> weird </a> </h3> 
+<p>
+<h4><i>Definition:</i> The number n is called a <i>weird</i> number if it is <a href = "#abundant">abundant</a> but is not the sum of any subset of its proper factors.
+<p>
+<p>
+<i>First ten:</i> 70, 836, 4030, 5830, 7192, 7912, 9272, 10430, 10570, 10792.
+<p>There are 7 weird numbers below 10,000.
+</h4>
+

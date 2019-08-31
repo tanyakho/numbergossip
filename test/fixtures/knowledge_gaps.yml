@@ -1,0 +1,7 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+<% [2, 8, 15].each_with_index do |number, index| %>
+apocalypse_gap_<%= index %>:
+  id:           <%= index + 500 %>
+  number:       '<%= KnowledgeGap.zero_pad(number) %>'
+  property_id:  13
+<% end %>

@@ -1,0 +1,55 @@
+Background:
+
+My mail to seqfans:
+
+I can't find a cube triangular number other than 1. Is there a proof that they do not exist? 
+I can easily prove that cube pronic numbers do not exist (pronic numbers are twice triangular numbers). 
+
+Replies:
+
+From Max:
+
+> I can't find a cube triangular number other than 1. Is there a proof that they do not exist? 
+
+Suppose that n*(n+1)/2 = m^3. Then 
+(2*n+1)^2 - 1 = (2*m)^3 
+or 
+(2*n+1)^2 - (2*m)^3 = 1 
+According to the Catalan conjecture (proved recently) there is the 
+only pair of perfect powers differing in 1, which is 3^2 - 2^3 = 1. 
+Therefore, 2*n + 1 = 3  and 2*m = 2, implying n=m=1. 
+
+From Jaap:
+
+> I can't find a cube triangular number other than 1. Is there a proof that they do not exist? 
+> I can easily prove that cube pronic numbers do not exist (pronic numbers are twice triangular numbers). 
+
+See http://www.jaapspies.nl/mathfiles/problem2004-4A.pdf Remark. 
+
+From David Wilson:
+
+Max's use of the Catalan conjecture to show that that 0 and 1 are the only 
+triangular cubes was a very elegant overkill. Kudos. 
+
+Later I asked David Wilson if he knows another proof. His answer:
+
+No I don't have such a proof, but my gut feeling is probably that one 
+could 
+be found, though I would expect it to be rather more complicated than 
+the 
+Catalan proof.
+
+My comment about elegant overkill is that while using Catalan leads to 
+a 
+quick and elegant proof, Catalan itself has a very complicated proof 
+and 
+goes way beyond the needs of the problem at hand.
+
+on wiki
+
+http://en.wikipedia.org/wiki/Catalan's_conjecture
+http://mathworld.wolfram.com/CatalansConjecture.html - claims that it was 
+also known (before Catalan's conjecture) that 8 and 9 are the only consecutive cubic and square numbers (in either order). 
+
+Our email discussion appeared in Mathworld at:
+http://mathworld.wolfram.com/CubicTriangularNumber.html

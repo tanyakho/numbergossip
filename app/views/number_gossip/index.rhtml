@@ -1,0 +1,34 @@
+<% @page_title = @number ? "Number Gossip: #{@number}" : "Number Gossip" %>
+<h1>Number Gossip</h1>
+
+<script type="text/javascript">
+<!--
+function urlify_input( ) {
+  entry = document.getElementById('number').value;
+  if (/^[0-9]*$/.test(entry)) {
+    window.location = entry;
+    return false;
+  } else {
+    return true;
+  }
+}
+//-->
+</script>
+
+<p id="instructions">(Enter a number and I'll tell you everything you wanted to know about it but were afraid to ask.)</p>
+<% form_tag({ :action => :index, :number => nil }, { :method => :get }) do || %>
+<div id="form">
+<%= text_field_tag :number, params[:number] %>
+<%= tag :input, :type => "submit", :value => "Gossip", "onClick" => "return urlify_input()" %>
+</div>
+<% end %>
+
+<% if !flash[:error].blank? -%>
+<div class="error">
+<%= flash[:error] %>
+</div>
+<% end -%>
+
+<div id="properties">
+<%= render(:partial => "all_properties") %>
+</div>

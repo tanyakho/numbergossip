@@ -1,0 +1,13 @@
+<% property = status_line -%>
+<tr>
+<%# TODO I'm not quite sure that this is completely right. %>
+<%# What if not all aspects of a property can be computed? %>
+<% if property.memorized? -%>
+<td class="fresh">The <%= property.plural_noun %> are memorized</td><td></td>
+<% elsif property.testable? -%>
+<td class="fresh">The <%= property.plural_noun %> are computed</td><td></td>
+<% else -%>
+<%= freshness_row property.occurrences_up_to_date?, property.plural_noun, property.id %>
+<% end -%>
+<%= knowledge_report property %>
+</tr>

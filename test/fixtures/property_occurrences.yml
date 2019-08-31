@@ -1,0 +1,47 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+<% for i in 1..5 %>
+evenness_of_<%= 2*i %>:
+  id:           <%= i %>
+  number:       '<%= PropertyOccurrence.zero_pad(2*i) %>'
+  property_id:  1
+<% end %>
+
+<% [1,1,2,3,5,8].each_with_index do |number, index| %>
+fibonacciness_<%= index %>:
+  id:           <%= index + 100 %>
+  number:       '<%= PropertyOccurrence.zero_pad(number) %>'
+  property_id:  2
+<% end %>
+
+perfection:
+  id:           6
+  number:       '<%= PropertyOccurrence.zero_pad(6) %>'
+  property_id:  4
+
+<% ["02","03","05","07","11","13","17","19"].each_with_index do |number, index| %>
+primality_<%= index %>:
+  id:           <%= index + 200 %>
+  number:       '<%= PropertyOccurrence.zero_pad(number) %>'
+  property_id:  8
+<% end %>
+
+<% [12,18,20,24].each_with_index do |number, index| %>
+abundance_<%= index %>:
+  id:           <%= index + 300 %>
+  number:       '<%= PropertyOccurrence.zero_pad(number) %>'
+  property_id:  9
+<% end %>
+
+<% ["01", "02", "03", "05", "06", "07", "10", "11", "13", "14"].each_with_index do |number, index| %>
+square_freeness_<%= index %>:
+  id:           <%= index + 400 %>
+  number:       '<%= PropertyOccurrence.zero_pad(number) %>'
+  property_id:  12
+<% end %>
+
+<% [157, 192, 218, 220, 222, 224, 226, 243, 245, 247].each_with_index do |number, index| %>
+apocalypse_<%= index %>:
+  id:           <%= index + 500 %>
+  number:       '<%= PropertyOccurrence.zero_pad(number) %>'
+  property_id:  13
+<% end %>

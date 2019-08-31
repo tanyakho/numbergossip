@@ -1,0 +1,3 @@
+#!/bin/bash
+ 
+{ find . -name "*.rb"; find . -name "*.rhtml"; find . -name "*.txt"; find . -name "*.rjs"; find . -name "*.rxml"; } | xargs grep $@

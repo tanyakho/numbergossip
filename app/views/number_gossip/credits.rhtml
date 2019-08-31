@@ -1,0 +1,31 @@
+<% @page_title = "Number Gossip Credits" %>
+<h1>Number Gossip Credits</h1>
+
+<p>While many ideas for unique properties were my own, I would like to thank all the individuals who contributed unique properties:</p>
+<ul class="credits" id="submitters">
+<% @submitters.each do |mit| -%>
+<li><%= mit %></li>
+<% end -%>
+</ul>
+
+<p>as well as all the web pages I researched to find other unique properties:</p>
+<ul class="credits" id="sources">
+<li><a href="http://www.research.att.com/~njas/sequences/">The On-Line Encyclopedia of Integer Sequences</a></li>
+<li><a href="http://www.stetson.edu/~efriedma/numbers.html">What's Special About This Number?</a></li>
+<li><a href="http://primes.utm.edu/">The Prime Pages</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Category:Integers">The Wikipedia</a></li>
+</ul>
+
+<p>I would also like to thank everyone who helped me verify unique properties:</p>
+<ul class="credits" id="checkers">
+<% @checkers.each do |check| -%>
+<li><%= check %></li>
+<% end -%>
+</ul>
+
+<p>Special thanks are also due to James Psota, for the logo and his
+other contributions to the visual design of this website; and to
+Alexey Radul, both for his implemention of this latest version of the
+Number Gossip web site in <a href="http://www.rubyonrails.org">Ruby on
+Rails</a> and for his unwavering encouragement and support throughout
+the entirety of the Number Gossip project.</p>

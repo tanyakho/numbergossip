@@ -1,0 +1,23 @@
+<% @page_title = "Number Gossip: List of Properties" %>
+<h1>Number Gossip Properties</h1>
+
+<div id="property_list">
+<% breaks = breakpoints(4, @all_props.length) -%>
+<ul>
+<% 0.upto(@all_props.length-1) do |index| -%>
+  <li><a href="#<%= @all_props[index].name.anchor %>"><%= @all_props[index].name.adjective %></a></li>
+  <% if breaks.include?(index+1) && index != @all_props.length-1 -%>
+    </ul><ul>
+  <% end -%>
+<% end -%>
+</ul>
+<br style="clear:both;" /></div>
+
+<% @all_props.each do |property| %>
+<div class="property_block" id="<%= property.name.anchor %>">
+<h3><%= property.name.segment_heading %></h3>
+<p><strong>Definition:</strong> <%= interpolate_property_links(property.definition) %></p>
+<p><strong><%= first_ten_label(property) %></strong> <%= property.smallest_numbers(10).map { |num| number_link num }.join(", ") %></p>
+<p>There are <%= count_words(property) %> <%= property.duplicates_present? ? " different" : "" %> <%= property.name.plural_noun %> below <%= number_with_delimiter(Property.display_bound) %>.</p>
+</div>
+<% end %>

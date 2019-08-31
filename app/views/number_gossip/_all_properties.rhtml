@@ -1,0 +1,30 @@
+<% if @unique_properties && @unique_properties.length > 0 -%>
+<div id="unique_properties">
+<h2>Unique Properties of <%= @number %></h2>
+<ul>
+<% @unique_properties.each do |property| -%>
+<li><%= property.statement %></li>
+<% end -%>
+</ul>
+</div>
+<% end -%>
+
+<% if @properties -%>
+  <% coolsplit = @properties.partition {|prop| prop.cool? } -%>
+<% else -%>
+  <% coolsplit = [[], []] -%>
+<% end -%>
+
+<% if coolsplit[0].length > 0 -%>
+<div id="cool">
+<h2>Rare Properties of <%= @number %></h2>
+<%= render(:partial => "property", :collection => coolsplit[0]) -%>
+</div>
+<% end -%>
+
+<% if coolsplit[1].length > 0 -%>
+<div id="boring">
+<h2>Common Properties of <%= @number %></h2>
+<%= render(:partial => "property", :collection => coolsplit[1]) -%>
+</div>
+<% end -%>

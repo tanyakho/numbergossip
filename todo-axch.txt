@@ -1,0 +1,66 @@
+Relaunch
+- Direct numbergossip.com to new host
+- Allow tanya to deploy with Capistrano
+- Fire GoDaddy
+- Change /status to use svn info rather than unix timestamps?
+
+Database performace?  Do I even need a PropertyOccurrence table at
+all?
+
+Get rid of the zero_padding crap by making the appropriate things
+composed_of Bignum.
+
+
+Further Work: Functionality/UI
+- Test in IE and Opera/Safari/whatever
+- link to the property definition, via the italic name
+- links on the number pages
+  - random (in footer?), random /w property X
+- display all (known) numbers with a given property
+  - (see more) link after the first ten (chaining until knowledge runs out?)
+  - click on the count of how many there are to see all of them?
+- optional longer descriptions?
+- distribution graphs?
+- Unknown Properties of n, list with excuses
+
+Further Work: Aesthetics
+- differentiate external links from internal ones
+- commas in the display of large numbers in 1st ten lists?
+- make property walking links keep that property open on the next page
+  - property-to-number-page links, too
+
+Further Work: Data
+- New properties?
+  - Refactorable numbers?  Squareful?  Autobiographic?
+  - Noncototient?  Strobogrammatic?  Minimal (primes, composites, etc)?
+  - Emirp?  Nontotient?  Cyclic number?  Pandigital??  Hoax?  Sphenic?
+  - Square intersect triangular? half-quatran numbers/primes?
+  - balanced primes? sexy prime pairs? inconsummate numbers? magic constants?
+  - supersingluar primes? hyperfactorials? permutable primes? semiprime?
+  - Lychrel?? unprimeable? psuedoprime? Smith borthers? pime? autobigraphical?
+  - taxi-cab numbers?
+  - Do we want to select them by counts of Google hits as measure of
+    importance?
+- Some more potentially interesting unique properties:
+  - 191: &cent needs a terminating semicolon
+- Autogenerate unique properties from various families?
+- Figure out how to compute (exponential) generatable sequences forever
+- Figure out what to do with vampire numbers
+
+Further Work: Performance
+- Maybe set_occurrences should make so many db queries?
+- Maybe I shouldn't store numbers in the db with so many leading zeros?
+
+Refactorings
+- Define a bunch of useful methods on Integers for computing (unique)
+  properties (to do with digits): digits, digit_sum, concat, reverse, etc
+- Perhaps a "macro" for various aspects of computability, and 
+  derivative computations?
+- Perhaps a smallest_numbers(bound) method for properties?
+- See about the inter-property link implementation.  Perhaps
+  it can be accelerated.
+
+tests for existing functionality
+- integration test that walks over the whole site
+- test coverage reports
+- automated builds/tests?

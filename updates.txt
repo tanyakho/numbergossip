@@ -1,0 +1,3 @@
+Added in May 2016 to Unique. I should upload them and check that they work.
+
+* The largest amount of money one can have in n $1, $2, $5, $10, $20, and $50 bills and not be able to make exact change for a $100 bill; (from Internet)

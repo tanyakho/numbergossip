@@ -1,0 +1,18 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+multiplicative_identity:
+  id:                   1
+  number:               1
+  statement:            1 is the multiplicative identity
+  display:              "yes"
+  interest:             1
+  truth:                "yes"
+  uniqueness:           "yes"
+first_number:
+  id:                   2
+  number:               1
+  statement:            1 is the first number
+  display:              "no"
+  interest:             0
+  truth:                "yes"
+  uniqueness:           "yes"
+

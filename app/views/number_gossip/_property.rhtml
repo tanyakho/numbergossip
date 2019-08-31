@@ -1,0 +1,6 @@
+<% details_id = "details_" + property.id.to_s -%>
+<div class="property">
+  <a class="property_header" href="#" onclick="JRPEffect.toggle_blind('<%= details_id %>'); return false;"><%= property.name.segment_heading %></a>
+  <div id='<%= details_id %>' style='display:none'>
+    <p><%= interpolate_property_links property.definition %></p>
+    <%= neighborhood_row property, @number %></div></div>

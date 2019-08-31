@@ -1,0 +1,7 @@
+
+RewriteEngine On
+RewriteBase /
+RewriteRule !foo/ - [C,QSA]
+RewriteRule ^(.*)$ foo/$1 [QSA]
+# RewriteRule ^(.*) /number_gossip/public/$1
+# RewriteRule !/public/dispatch.cgi - [F]

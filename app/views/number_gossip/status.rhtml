@@ -1,0 +1,12 @@
+<table>
+<tr>
+<%= freshness_row UniqueProperty.definitions_up_to_date?, "unique properties", "unique" %>
+</tr>
+<tr>
+<%= freshness_row Property.definitions_up_to_date?, "property definitions", "definitions" %>
+</tr>
+<tr>
+<%= freshness_row Property.all_occurrences_up_to_date?, "property occurrences", "all", :update => "Autoupdate", :note => "This may take some time", :offer_to_update_anyway => false %>
+</tr>
+<%= render :partial => "status_line", :collection => @all_props %>
+</table>

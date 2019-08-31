@@ -1,0 +1,111 @@
+0 
+is the only integer that is neither positive not negative;
+is the only cardinality shared by a finite number of sets;
+is additive identity;
+
+1 
+* 1 is the multiplicative identity; 
+NVI is the first number;
+NVI is the One;
+* 1 is the only positive integer that is neither prime nor composite;
+* 1 is the only number with exactly one positive divisor;
+* 1 is the only number whose concatenation with itself can yield primes in many cases;
+NVI 1 divides any number. (follows from multiplicative identity)
+NVI As a consequence of its being its own square, one is also a Kaprekar number. (wiki)
+* 1 is the first figurate number of every kind, such as triangular number, pentagonal number and centered hexagonal number to name just a few. (wiki)
+* 1 is the only square-free square (submitted by Alexey Radul).
+2 
+* 2 is the only even prime number;
+* 2 is the only number whose factorial is prime;
+NVI is the only difference between two consecutive primes which is prime;
+* For any polyhedron, 2 is the number of vertices plus the number of faces minus the number of edges;
+NVI 2 divides any even number;
+NVI 2 is the only number such that if you add it to itself or multiply by itself you would get the same number. (follows from the definition of multiplication)
+* The smallest field has 2 elements. (wiki)
+* 2 is the only number that it is its own primorial, as well as its own factorial. (wiki)
+3 
+NVI the only twin prime triplet starts at 3;
+* 3 is the greatest number of consecutive integers that can be pairwise relatively prime;
+* 3 is the only prime sandwiched between a prime and a composite number;
+* 3 is the only number which is equal to the sum of all the natural numbers less than it;
+* 3 is the only triangular number which is prime;
+* 3 is the only prime, such that the next number is a square;
+* Every positive integer is the sum of at most 3 triangular numbers; (Gauss)
+NVI 3 is the only prime with period 1;
+NVI is the first odd prime number; 
+* If the n-th Fibonacci number is prime, then n must itself be prime, with the exception of 3, which is the 4th Fibonacci number; (Mathworld)
+NVI is the smallest evil number.
+NVI 3 is the only integer between e and pi. (wiki)
+4 
+* 4 is the only compositorial square; (we proved)
+* 4 is the order of the smallest non-cyclic group (contributed by Sam Steingold);
+NVI is the only number which is equal to its factorial divided by its primorial; (the same as first composite)
+NVI is the largest number such that its divisors plus 1 are all prime;
+* 4 is the maximum number of squares that are needed to sum to any positive integer;
+* 4 is the smallest number of colors sufficient to color any planar map; 
+NVI is the smallest composite number;
+* 4 is the only positive number that is both the sum and the product of the same two integers;
+* 4 is the only number in the English language for which the number of letters in its name is equal to the number itself. (wiki)
+* 4 is the only composite number that is equal to the sum of its prime factors. (wiki)
+5 
+NVI is the smallest number that appear in two twin Pythagorean triplest (3, 4, 5) and (5, 12, 13);
+* 5 is the smallest number of queens needed to attack every square on a standard chess board;
+* 5 is the only prime which is the difference of two prime squares; (because 3-2=1 hmm)
+* 5 is the only number which is equal to the sum of all primes less than itself;
+* 5 is the only prime that is a member of 2 pairs of twin primes; 
+* 5 is the number of Platonic solids;
+* 5 is the smallest prime which is not prime under complex integers (contributed by Sam Steingold);
+* 5 is the smallest degree at which polynomial roots are no longer findable in closed form.
+* 5 is the smallest number of vertices needed to create a non-planar graph. (wiki)
+
+6
+* 6 is the only even evil perfect number (contributed by Alexey Radul); (Alesha proved)
+* 6 is the order of the smallest non-abelian group (contributed by Sam Steingold);
+* 6 is the only number (except 1) such that the sum of all the primes up to 6 equals the sum of all the composite numbers up to 6;
+* 6 is the only even perfect number, for which repeatedly summing the digits you do not get 1; (proof posted at prime pages)
+* 6 is the only mean between a pair of twin primes which is triangular; (proof the triangular number minus 1 is almost always composite - n(n+1)/2-1=(n+2)(n-1)/2)
+* 6 is the smallest perfect number;
+* 6 is the minimum number of colors that is always sufficient to color any map on a Klein bottle  or on a M&ouml;bius strip;
+* 6 is the only number that is both the sum and the product of three distinct positive integers.
+?? 6 is a triangular number and so is its square (36) (wiki) (It is also true for 1, is it true that 6 and 1 are the only triangular numbers with triangular squares?))
+* A symmetic group S<sub>6</sub> is the only finite symmetric group which has an outer automorphism. (wiki)
+* A web page about number 6: <a href="http://math.ucr.edu/home/baez/six.html" class='external text' title="http://math.ucr.edu/home/baez/six.html">Some Thoughts on the Number Six</a>, John Baez.
+* 6 is the only square-free perfect number (contributed by Alexey Radul). (Alesha proved)
+7 
+* 7 is the smallest number that cannot be represented as a sum of 3 squares; (trivial proof modulo 8)
+* The numbers on opposite sides of a regular die always add up to 7;
+* 7 is the minimum number of colors that is always sufficient to color any map on a torus;
+* 7 is the smallest integer that is not the difference of two primes; (equivalent to 9 being the smallest odd composite)
+* 7 is the only prime such that the next number is cube; (checked)
+NVI is the first positive integer in English with more than one syllable;
+NVI the regular heptagon is the first (the smallest number of sides) regular polygon with non-integral angle measures in degrees;
+?? 7 is the smallest number of integer-sided rectangles that tile a rectangle so that no 2 rectangles share a common length. (I can't find the proof)
+There are seven frieze groups, the groups consisting of symmetries of the plane whose group of translations is isomorphic to the group of integers. (wiki)
+7 is the only dimension, besides the familiar 3, in which a vector cross product can be defined. (wiki)
+8 
+NVI is the smallest composite Fibonacci number;
+* 8 is the only composite cube in the Fibonacci sequence; 
+NVI is the smallest number which is the sum of two distinct odd primes.
+* 8 is the dimension of the octonions and is the highest possible dimension of a normed division algebra. (wiki)
+* 8 is the smallest number (except 1) which is equal to the sum of the digits of its cube. (checked with Mathematica)
+9 
+NVI is the smallest odd composite number;
+NVI is the smallest April Fool Prime;
+NVI is the arithmetic mean of the two consecutive primes which have the largest ratio (need to check and may be put at 7) (it is not about 9);
+* 9 is the maximum number of cubes that are needed to sum to any positive integer (mathworld);
+?? is the only square that is the sum of two distinct cubes
+* A cat has nine lives.
+* There are nine planets in our solar system.
+* There are nine members of The Fellowship of the Ring.
+There are nine basic personality types represented on the enneagram.
+* 9 is the only number (except one) which is equal to the sum of the digits of its square. (checked with Mathematica)
+* 9 Is the only non-trivial square consisting of only odd digits. (checked)
+10 
+NS The smallest number for which there are as many composite numbers less than it as there are primes;
+?? 10 is the the largest number, N, such that any set of N consecutive integers contains at least one integer relatively prime to all other integers in the set. 
+NS 10 is the only semi-prime number with the property that the sum as well as the difference of its prime divisors are primes (2 + 5 = 7 and 5 - 2 = 3). (Serezha checked)
+is the smallest composite number (the 5th) which is smaller than the corresponding (the 5th) prime 11;
+* 10 is the base of our number system.
+* In base n, n is always 10.
+* Ten is the smallest noncototient, a number that can not be expressed as the difference between any integer and the total of coprimes below it. (wiki)
+The number of Commandments from God to man.

@@ -1,0 +1,68 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+even:
+  id:                   1
+  adjective:            even
+  plural_noun:          even numbers
+  definition:           n % 2 == 0
+fibonacci:
+  id:                   2
+  adjective:            Fibonacci
+  plural_noun:          Fibonacci numbers
+  definition:           The Fibonacci numbers
+evil:
+  id:                   3
+  adjective:            evil
+  plural_noun:          evil numbers
+  definition:           bitcount % 2 == 0
+perfect:
+  id:                   4
+  adjective:            perfect
+  plural_noun:          perfect numbers
+  definition:           The perfect numbers, of course.
+  manual_knowledge_bound: 20
+odious:
+  id:                   5
+  adjective:            odious
+  plural_noun:          odious numbers
+  definition:           bitcount % 2 != 0
+loaded_property:
+  id:                   6
+  adjective:            loaded
+  plural_noun:          loaded numbers
+  definition:           whatever's in the file
+composite:
+  id:                   7
+  adjective:            composite
+  plural_noun:          composite numbers
+  definition:           not primes
+prime:
+  id:                   8
+  adjective:            prime
+  plural_noun:          primes
+  definition:           not factorable
+abundant:
+  id:                   9
+  adjective:            abundant
+  plural_noun:          abundant numbers
+  definition:           sigma exceeds self
+deficient:
+  id:                   10
+  adjective:            deficient
+  plural_noun:          deficient numbers
+  definition:           sigma does not exceed self
+square:
+  id:                   11
+  adjective:            square
+  plural_noun:          squares
+  definition:           a square of something
+square_free:
+  id:                   12
+  adjective:            square-free
+  plural_noun:          square-free numbers
+  definition:           no repeated primes in the factorization
+apocalyptic_power:
+  id:                   13
+  adjective:            apocalyptic power
+  plural_noun:          apocalyptic powers
+  definition:           2^n contains the number of the beast
+  manual_knowledge_bound: 300
