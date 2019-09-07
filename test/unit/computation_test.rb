@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/../test_helper'
 
-class ComputationTest < Test::Unit::TestCase
+class ComputationTest < ActiveRecord::TestCase
   def assert_all_there(*numbers)
     numbers.each do |num|
       assert @computer.test(num), "#{num} should test as true"
