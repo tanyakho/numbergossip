@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/../test_helper'
 
-class PropertyTest < Test::Unit::TestCase
+class PropertyTest < ActiveRecord::TestCase
   fixtures :properties
 
   def teardown
