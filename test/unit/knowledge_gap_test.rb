@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/../test_helper'
 
-class KnowledgeGapTest < Test::Unit::TestCase
+class KnowledgeGapTest < ActiveRecord::TestCase
   fixtures :knowledge_gaps
 
   # Replace this with your real tests.

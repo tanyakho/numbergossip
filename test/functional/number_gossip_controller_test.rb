@@ -4,7 +4,7 @@ require 'number_gossip_controller'
 # Re-raise errors caught by the controller.
 class NumberGossipController; def rescue_action(e) raise e end; end
 
-class NumberGossipControllerTest < Test::Unit::TestCase
+class NumberGossipControllerTest < ActionController::TestCase
   fixtures :properties, :property_occurrences, :unique_properties
 
   def setup

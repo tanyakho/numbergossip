@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/../test_helper'
 
-class PropertyComputerTest < Test::Unit::TestCase
+class PropertyComputerTest < ActiveRecord::TestCase
   fixtures :properties, :property_occurrences, :knowledge_gaps
 
   def test_even_testing
