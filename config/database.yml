@@ -1,4 +1,4 @@
-<% socket_line = /Richard|khazad-dum|doom-toaster|James-Bond/ =~ `hostname` ? "  socket: /var/run/mysqld/mysqld.sock" : "" %>
+<% socket_line = /Richard|khazad-dum|doom-toaster|James-Bond|annuminas/ =~ `hostname` ? "  socket: /var/run/mysqld/mysqld.sock" : "" %>
 development:
   adapter: mysql
   database: tanya_web_development
