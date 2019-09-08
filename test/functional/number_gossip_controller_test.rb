@@ -59,7 +59,7 @@ class NumberGossipControllerTest < ActionController::TestCase
     assert !assigns(:unique_properties)
     assert !assigns(:properties)
     assert_no_tag :tag => "div", :attributes => {:id => 'unique_properties'}
-    assert_tag :content => /I'm sure 11 is a fine number/
+    assert_tag :content => /sure 11 is a fine number/
   end
 
   def test_list
@@ -79,7 +79,7 @@ class NumberGossipControllerTest < ActionController::TestCase
   end
 
   def assert_routes_number(path, number)
-    assert_routing "/#{path}", :controller => 'number_gossip', :action => 'index', :number => number
+    assert_routing "/index/#{path}", :controller => 'number_gossip', :action => 'index', :number => number
   end
   
   def assert_routes_page(path, page)
