@@ -60,6 +60,8 @@ class PropertyTest < ActiveRecord::TestCase
     assert_equal [222, 224, 226], @apocalyptic_power.next_after(220)
     assert_equal [], @apocalyptic_power.next_after(300)
     assert_equal [157, 192, 218], @apocalyptic_power.last_before(220)
+    assert_equal [220, 222, 224], @apocalyptic_power.last_before(226)
+    assert_equal [3, 5, 7], @prime.last_before(8)
     assert_equal [16, 25, 36, 49], @square.next_after(9, 4)
     assert_equal [1, 4], @square.last_before(6)
     assert_equal [16, 18], @composite.next_after(15)

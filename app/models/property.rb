@@ -117,7 +117,8 @@ class Property < ActiveRecord::Base
     if computer.respond_to? :last_before
       computer.last_before(base, count)
     else
-      property_occurrences.find(:all, :conditions => [ "number < ?", PropertyOccurrence.zero_pad(base) ], :limit => count, :order => "number DESC").map { |occurrence| occurrence.number }.reverse
+      bound = PropertyOccurrence.zero_pad(base)
+      PropertyOccurrence.where("property_id = ? AND number < ?", id, bound).last(count).map { |occurrence| occurrence.number }
     end
   end
 
