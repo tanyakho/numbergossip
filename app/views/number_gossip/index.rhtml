@@ -16,7 +16,7 @@ function urlify_input( ) {
 </script>
 
 <p id="instructions">(Enter a number and I'll tell you everything you wanted to know about it but were afraid to ask.)</p>
-<% form_tag({ :action => :index, :number => nil }, { :method => :get }) do || %>
+<%= form_tag({ :action => :index, :number => nil }, { :method => :get }) do || %>
 <div id="form">
 <%= text_field_tag :number, params[:number] %>
 <%= tag :input, :type => "submit", :value => "Gossip", "onClick" => "return urlify_input()" %>
