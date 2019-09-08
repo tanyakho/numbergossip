@@ -141,7 +141,7 @@ class Property < ActiveRecord::Base
 
   # Exclusive
   def self.display_bound
-    if RAILS_ENV == "test"
+    if ::Rails.env.test?
       10
     else
       10000
