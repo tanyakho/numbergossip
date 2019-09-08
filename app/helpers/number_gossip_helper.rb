@@ -54,7 +54,7 @@ module NumberGossipHelper
 
   def number_link(num)
     if num < Property.display_bound
-      (link_to num.to_s, { :controller => "number_gossip", :action => "index", :number => num.to_s }, { :class => "number_link" }).html_safe
+      (link_to num.to_s, { :controller => "number_gossip", :action => "index", :number => num.to_s, :use_route => :number_page }, { :class => "number_link" }).html_safe
     else
       num.to_s
     end
