@@ -3,7 +3,7 @@
 <h2>Unique Properties of <%= @number %></h2>
 <ul>
 <% @unique_properties.each do |property| -%>
-<li><%= property.statement %></li>
+<li><%= raw property.statement %></li>
 <% end -%>
 </ul>
 </div>

@@ -8,7 +8,7 @@ class NumberGossipController < ApplicationController
       @number = params[:number].to_f.to_i
       case
       when @number == 0 && !(params[:number] =~ /^[+-]?[.0-9]/)
-        flash.now[:error] = "I only gossip about numbers, but if you want to know about #{h params[:number]}, I'm sure <a href='http://www.google.com'>Google</a> will enlighten you."
+        flash.now[:error] = "I only gossip about numbers, but if you want to know about #{h params[:number]}, I'm sure <a href='http://www.google.com'>Google</a> will enlighten you.".html_safe
       when @number < 1
         flash.now[:error] = "I'm sure #{@number} is a fine number, but I only like to talk about positive things."
       when @number >= Property.display_bound
@@ -29,6 +29,7 @@ class NumberGossipController < ApplicationController
 
   def credits
     @submitters = ["Sergei Bernstein", "<a href=\"http://web.mit.edu/~axch/www/\">Alexey Radul</a>", "Sam Steingold", "Andy Baker", "John Kiehl", "Andy Pallotta", "Billy", "Jonathan Post", "David Bernstein", "Michael W. Ecker", "Carlo S&eacute;quin", "<a href=\"http://www.knowltonmosaics.com/\">Ken Knowlton</a>", "Qiaochu Yuan", "<a href=\"http://www.peterrowlett.net\">Peter Rowlett</a>", "Dan MacKinnon", "Nick McGrath", "Sabine Stoecker", "Tamas Fleischer", "Dan D'Eramo"]
+    @submitters = @submitters.map do |x| x.html_safe end
     @checkers = ["Sergei Bernstein", "Alexey Radul", "Max Alekseyev", "Jaap Spies"]
   end
 

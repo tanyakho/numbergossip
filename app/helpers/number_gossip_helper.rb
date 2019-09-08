@@ -35,9 +35,9 @@ module NumberGossipHelper
                     else
                       ""
                     end
-      "<td width='50%' class='fresh'>The #{name} are up to date</td><td>" + button_html + "</td>"
+      ("<td width='50%' class='fresh'>The #{name} are up to date</td><td>" + button_html + "</td>").html_safe
     else
-      "<td width='50%' class='stale'>The #{name} are out of date</td><td>" + button_to(options[:update], :action => "update", :id => update_id) + " #{options[:note]}</td>"
+      ("<td width='50%' class='stale'>The #{name} are out of date</td><td>" + button_to(options[:update], :action => "update", :id => update_id) + " #{options[:note]}</td>").html_safe
     end
   end
 
@@ -49,12 +49,12 @@ module NumberGossipHelper
                       else
                         "known_well"
                       end
-    "<td class=\"#{knowledge_level}\"> &nbsp; The #{property.plural_noun} are known up to #{property.knowledge_bound}.</td>"
+    ("<td class=\"#{knowledge_level}\"> &nbsp; The #{property.plural_noun} are known up to #{property.knowledge_bound}.</td>").html_safe
   end
 
   def number_link(num)
     if num < Property.display_bound
-      link_to num.to_s, { :controller => "number_gossip", :action => "index", :number => num.to_s }, { :class => "number_link" }
+      (link_to num.to_s, { :controller => "number_gossip", :action => "index", :number => num.to_s }, { :class => "number_link" }).html_safe
     else
       num.to_s
     end

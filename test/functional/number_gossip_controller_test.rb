@@ -66,7 +66,7 @@ class NumberGossipControllerTest < ActionController::TestCase
     assert_template 'index'
     # HTML tags in property definitions should not be escaped
     assert_tag :tag => 'a', :attributes => {:href => /square-free/},
-               :content => 'square-free'
+               :content => /square-free/
   end
 
   def test_upper_bound
@@ -98,8 +98,8 @@ class NumberGossipControllerTest < ActionController::TestCase
     # Generated HTML tags should not be escaped
     assert_tag :tag => 'td', :attributes => {:class => 'fresh'},
                :content => /The unique properties are up to date/
-    assert_tag :tag => 'td', :attributes => {:class => 'fresh'},
-               :content => /The primes are up to date/
+    assert_tag :tag => 'td', :attributes => {:class => 'stale'},
+               :content => /The primes are out of date/
   end
 
   def test_credits

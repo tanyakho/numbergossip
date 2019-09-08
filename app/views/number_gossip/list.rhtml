@@ -16,8 +16,8 @@
 <% @all_props.each do |property| %>
 <div class="property_block" id="<%= property.name.anchor %>">
 <h3><%= property.name.segment_heading %></h3>
-<p><strong>Definition:</strong> <%= interpolate_property_links(property.definition) %></p>
-<p><strong><%= first_ten_label(property) %></strong> <%= property.smallest_numbers(10).map { |num| number_link num }.join(", ") %></p>
+<p><strong>Definition:</strong> <%= raw interpolate_property_links(property.definition) %></p>
+<p><strong><%= first_ten_label(property) %></strong> <%= raw property.smallest_numbers(10).map { |num| number_link num }.join(", ") %></p>
 <p>There are <%= count_words(property) %> <%= property.duplicates_present? ? " different" : "" %> <%= property.name.plural_noun %> below <%= number_with_delimiter(Property.display_bound) %>.</p>
 </div>
 <% end %>
