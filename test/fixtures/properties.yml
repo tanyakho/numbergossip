@@ -54,7 +54,7 @@ square:
   id:                   11
   adjective:            square
   plural_noun:          squares
-  definition:           a square of something
+  definition:           a square of something; not <a href = "#square-free"> square-free</a>
 square_free:
   id:                   12
   adjective:            square-free
@@ -64,5 +64,5 @@ apocalyptic_power:
   id:                   13
   adjective:            apocalyptic power
   plural_noun:          apocalyptic powers
-  definition:           2^n contains the number of the beast
+  definition:           2<sup>n</sup> contains the number of the beast
   manual_knowledge_bound: 300

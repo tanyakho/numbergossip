@@ -32,6 +32,10 @@ class NumberGossipControllerTest < ActionController::TestCase
 
     assert_tag :tag => 'div', :attributes => {:id => 'cool'}
     assert_tag :tag => 'div', :attributes => {:id => 'boring'}
+    # HTML tags in neighborhood rows should not be escaped
+    assert_tag :tag => 'ul', :attributes => {:class => 'neighborhood_row'}
+    assert_tag :tag => 'a', :attributes => {:class => 'number_link'},
+               :content => '7'
   end
 
   def test_no_duplicate_properties
@@ -51,6 +55,18 @@ class NumberGossipControllerTest < ActionController::TestCase
     assert_equal [@multiplicative_identity], assigns(:unique_properties)
     assert_tag :tag => "div", :attributes => {:id => 'unique_properties'}, :descendant => /multiplicative identity/
     assert_no_tag /first number/
+    # HTML tags in unique property definitions should not be escaped
+    assert_tag :tag => "i", :content => 'the'
+  end
+
+  def test_cross_link
+    get :index, :number => "4"
+
+    assert_response :success
+    assert_template 'index'
+    # HTML tags in property definitions should not be escaped
+    assert_tag :tag => 'a', :attributes => {:href => /square-free/},
+               :content => 'square-free'
   end
 
   def test_upper_bound
@@ -69,6 +85,9 @@ class NumberGossipControllerTest < ActionController::TestCase
     assert_tag :tag => 'div', :attributes => {:id => 'fibonacci_numbers'}
     assert_tag :tag => 'div', :attributes => {:id => 'evil_numbers'}
     assert_tag :tag => 'div', :attributes => {:id => 'perfect_numbers'}
+    # HTML tags in property definitions should not be escaped
+    # This one occurs in the apocalyptic powers definition
+    assert_tag :tag => 'sup', :content => 'n'
   end
 
   def test_status
@@ -76,6 +95,21 @@ class NumberGossipControllerTest < ActionController::TestCase
     assert_response :success
     assert_tag :content => /The primes are known up to 19/
     assert_tag :content => /The squares are computed/
+    # Generated HTML tags should not be escaped
+    assert_tag :tag => 'td', :attributes => {:class => 'fresh'},
+               :content => /The unique properties are up to date/
+    assert_tag :tag => 'td', :attributes => {:class => 'fresh'},
+               :content => /The primes are up to date/
+  end
+
+  def test_credits
+    get :credits
+    assert_response :success
+    assert_tag :tag => 'li', :content => /Sergei Bernstein/
+    # HTML tags in the credits should not be escaped
+    assert_tag :tag => 'a',
+               :attributes => {:href => 'http://www.knowltonmosaics.com/'},
+               :content => /Ken Knowlton/
   end
 
   def assert_routes_number(path, number)
