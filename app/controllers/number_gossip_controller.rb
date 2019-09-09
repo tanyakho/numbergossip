@@ -39,10 +39,10 @@ class NumberGossipController < ApplicationController
 
   def update
     case params[:id]
-    when /unique/i: UniqueProperty.parse_working_file
-    when /rebuild/i: Property.rebuild_database
-    when /definitions/i: Property.reload_definitions
-    when /all/i: Property.reload_stale_occurrences
+    when /unique/i then UniqueProperty.parse_working_file
+    when /rebuild/i then Property.rebuild_database
+    when /definitions/i then Property.reload_definitions
+    when /all/i then Property.reload_stale_occurrences
     else
       Property.find(params[:id].to_i).load_from_file
     end

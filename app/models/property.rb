@@ -199,9 +199,9 @@ class Property < ActiveRecord::Base
       numbers, gaps, bounds = [], [], []
       File.open(filename) do |file| file.each do |line|
           case line
-          when /^\d+/: numbers.push line.to_i
-          when /^\?(\d+)/: gaps.push $1.to_i
-          when /^~(\d+)/: bounds.push $1.to_i
+          when /^\d+/ then numbers.push line.to_i
+          when /^\?(\d+)/ then gaps.push $1.to_i
+          when /^~(\d+)/ then bounds.push $1.to_i
           end
         end end
       yield numbers, gaps, bounds
