@@ -68,6 +68,11 @@ GEM
       thor (~> 0.14.6)
     rake (10.5.0)
     rdoc (3.9.2)
+    sass (3.1.21)
+    sass-rails (3.1.0)
+      actionpack (~> 3.1.0)
+      railties (~> 3.1.0)
+      sass (>= 3.1.4)
     sprockets (2.0.5)
       hike (~> 1.2)
       rack (~> 1.0)
@@ -87,6 +92,8 @@ DEPENDENCIES
   rails (= 3.1.12)
   rake (= 10.5.0)
   rdoc (= 3.9.2)
+  sass (~> 3.1.20)
+  sass-rails (~> 3.1)
 
 BUNDLED WITH
    1.15.4
