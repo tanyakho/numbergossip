@@ -69,7 +69,7 @@ Numbergossip::Application.routes.draw do
 
   # This arrangement permits the system to handle arbitrary paths as
   # attempts to query for numbers, which receive graceful errors.
-  match ':number' => 'number_gossip#index', :as => :number_page
+  match '(:number)' => 'number_gossip#index', :as => :number_page
   # map.number_page ':number', :controller => "number_gossip", :action => "index"
 
 end
