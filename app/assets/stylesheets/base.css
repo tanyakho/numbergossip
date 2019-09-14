@@ -9,7 +9,7 @@ html body a:hover {color: #000; background-color: #E4F2F4;
 #navbar a, #main h1 a, .title a:link, .title a:visited {border-bottom-width: 0;}
 #main h1 a:hover, .title a:hover {border-bottom-width: 1px;}
 #header h1 {height: 90px; padding: 0px; }
-#header h1 a {display: block; background: url("/images/tk_logo_green.gif") left center no-repeat; text-indent: -10000px; height: 50px; border-width: 0px; padding: 20px;}
+#header h1 a {display: block; background: url("/assets/tk_logo_green.gif") left center no-repeat; text-indent: -10000px; height: 50px; border-width: 0px; padding: 20px;}
 
 h1, .title {color: #000; text-align: center;}
 h1, .title {font: 2.5em Georgia, Times, serif; margin-bottom: 0.5em;}
