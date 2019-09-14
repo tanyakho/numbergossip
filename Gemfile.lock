@@ -41,7 +41,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.25.1)
     multi_json (1.13.1)
-    mysql (2.8.1)
+    mysql2 (0.3.21)
     polyglot (0.3.5)
     rack (1.4.7)
     rack-cache (1.2)
@@ -92,7 +92,7 @@ PLATFORMS
 
 DEPENDENCIES
   execjs (= 1.4.0)
-  mysql (= 2.8.1)
+  mysql2 (= 0.3.21)
   rails (= 3.2.21)
   rake (= 10.5.0)
   rdoc (= 3.9.2)
