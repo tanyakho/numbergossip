@@ -46,6 +46,8 @@ class Property < ActiveRecord::Base
     if count_computable?
       computer.count(bound)
     else
+      # TODO Can I spell counting distinct numbers with the scope
+      # system?
       PropertyOccurrence.count_by_sql("SELECT COUNT(DISTINCT number) FROM property_occurrences WHERE property_id = #{id} and number < '#{PropertyOccurrence.zero_pad(bound)}'")
     end
   end
@@ -132,7 +134,11 @@ class Property < ActiveRecord::Base
       computer.last_before(base, count)
     else
       bound = PropertyOccurrence.zero_pad(base)
-      PropertyOccurrence.where("property_id = ? AND number < ?", id, bound).last(count).map { |occurrence| occurrence.number }
+      property_occurrences
+        .where("number < ?", bound)
+        .order(number: :asc)
+        .last(count)
+        .map { |occurrence| occurrence.number }
     end
   end
 
