@@ -17,7 +17,6 @@ class Property < ActiveRecord::Base
   composed_of :name, :mapping => [["adjective", "adjective"], ["alternate_adjective", "alternate_adjective"], ["plural_noun", "plural_noun"]]
   has_many :property_occurrences, :order => "number", :dependent => :destroy
   has_many :knowledge_gaps, :order => "number", :dependent => :destroy
-  has_one :last_occurrence, :class_name => "PropertyOccurrence", :order => "number DESC"
 
   def self.properties_of(number)
     props_from_db = PropertyOccurrence.find_all_by_number(PropertyOccurrence.zero_pad(number)).map {|occurrence| occurrence.property}.uniq
