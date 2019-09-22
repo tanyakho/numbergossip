@@ -49,9 +49,10 @@ class NumberGossipController < ApplicationController
     redirect_to :action => "status"
   end
 
-  # TODO page caching is broken
-  # after_filter :cache_number_page, :only => :index
-  # before_filter :expire_number_pages, :only => [:update]
+  # TODO Perhaps migrate to caching more modern than Rails 3,
+  # and flush actionpack-page_caching from the Gemfile
+  after_filter :cache_number_page, :only => :index
+  before_filter :expire_number_pages, :only => [:update]
 
   private
   def cache_number_page
