@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/../test_helper'
 
-class UniquePropertyTest < ActiveRecord::TestCase
+class UniquePropertyTest < ActiveSupport::TestCase
   fixtures :unique_properties
 
   def setup

@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/../test_helper'
 
-class PropertyOccurrenceTest < ActiveRecord::TestCase
+class PropertyOccurrenceTest < ActiveSupport::TestCase
   fixtures :property_occurrences
 
   def setup

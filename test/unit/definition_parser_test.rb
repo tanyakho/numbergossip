@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/../test_helper'
 
-class DefinitionParserTest < ActiveRecord::TestCase
+class DefinitionParserTest < ActiveSupport::TestCase
 
   def setup
     Property.load_definitions("test/fixtures/definitions.txt")
