@@ -5,9 +5,9 @@ class MetaKnowledge
   end
 
   def knowledge_bound
-    if @property.property_occurrences.last
-      [ @property.property_occurrences.last.number,
-        @property.manual_knowledge_bound || 0 ].max
+    the_last = @property.property_occurrences.order(number: :asc).last
+    if the_last
+      [ the_last.number, @property.manual_knowledge_bound || 0 ].max
     else
       @property.manual_knowledge_bound || 0
     end

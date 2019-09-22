@@ -15,7 +15,7 @@
 ## db/properties/*.file and dumping their contents into the database.
 class Property < ActiveRecord::Base
   composed_of :name, :mapping => [["adjective", "adjective"], ["alternate_adjective", "alternate_adjective"], ["plural_noun", "plural_noun"]]
-  has_many :property_occurrences, :order => "number", :dependent => :destroy
+  has_many :property_occurrences, :dependent => :destroy
   has_many :knowledge_gaps, :dependent => :destroy
 
   def self.properties_of(number)
