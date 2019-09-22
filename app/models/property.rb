@@ -19,9 +19,15 @@ class Property < ActiveRecord::Base
   has_many :knowledge_gaps, :dependent => :destroy
 
   def self.properties_of(number)
-    props_from_db = PropertyOccurrence.find_all_by_number(PropertyOccurrence.zero_pad(number)).map {|occurrence| occurrence.property}.uniq
-    tested_props = Property.find(:all).select {|prop| prop.testable? && prop.test(number)}
-    (props_from_db + tested_props).uniq.sort {|prop1, prop2| prop1.name.adjective.downcase <=> prop2.name.adjective.downcase}
+    props_from_db = PropertyOccurrence
+                    .where("number = ?", PropertyOccurrence.zero_pad(number))
+                    .to_a.map {|occurrence| occurrence.property}.uniq
+    tested_props = Property.all.select {|prop| prop.testable? && prop.test(number)}
+    (props_from_db + tested_props)
+      .uniq
+      .sort do |prop1, prop2|
+      prop1.name.adjective.downcase <=> prop2.name.adjective.downcase
+    end
   end
 
   def computer
@@ -228,7 +234,9 @@ class Property < ActiveRecord::Base
   end
 
   def self.all_occurrences_up_to_date?
-    Property.find(:all).inject(true) { |run, prop| run && (prop.testable? || prop.occurrences_up_to_date?) }
+    Property.all.inject(true) do |run, prop|
+      run && (prop.testable? || prop.occurrences_up_to_date?)
+    end
   end
 
   def self.reload_stale_occurrences
@@ -242,7 +250,7 @@ class Property < ActiveRecord::Base
   end
 
   def self.definitions_up_to_date?(filename = Property.default_definitions_file)
-    Property.find(:all).each do |prop|
+    Property.all.each do |prop|
       if !prop.updated_at || prop.updated_at < File.new(filename).mtime
         return false
       end
