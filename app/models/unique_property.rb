@@ -2,7 +2,7 @@ class UniqueProperty < ActiveRecord::Base
   composed_of :metadata, :class_name => "UniquePropertyMetadata", :mapping => [["display", "display"], ["interest", "interest"], ["truth", "truth"], ["uniqueness", "uniqueness"]]
 
   def self.properties_of(number)
-    find_all_by_number(number).select {|prop| prop.display?}
+    where("number = ?", number).to_a.select {|prop| prop.display?}
   end
 
   def display?
@@ -15,7 +15,7 @@ class UniqueProperty < ActiveRecord::Base
   end
 
   def self.definitions_up_to_date?(filename = UniqueProperty.default_working_file) #***!
-    UniqueProperty.find(:all).each do |prop|
+    UniqueProperty.all.each do |prop|
       if !prop.updated_at || prop.updated_at < File.new(filename).mtime
         return false
       end

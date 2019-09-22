@@ -24,7 +24,7 @@ class NumberGossipController < ApplicationController
   end
 
   def list
-    @all_props = Property.find(:all, :order => "adjective")
+    @all_props = Property.order(adjective: :asc).to_a
   end
 
   def credits
@@ -34,7 +34,7 @@ class NumberGossipController < ApplicationController
   end
 
   def status
-    @all_props = Property.find(:all, :order => "adjective")
+    @all_props = Property.order(adjective: :asc).to_a
   end
 
   def update

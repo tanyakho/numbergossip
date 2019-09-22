@@ -20,7 +20,10 @@ class MetaKnowledge
 
   def known?(number)
     number <= @property.knowledge_bound and
-      @property.knowledge_gaps.find(:all, :conditions => [ "number = ?", KnowledgeGap.zero_pad(number) ]).length == 0
+      @property
+      .knowledge_gaps
+      .where("number = ?", KnowledgeGap.zero_pad(number))
+      .count == 0
   end
 
 end

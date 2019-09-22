@@ -7,7 +7,7 @@ class DefinitionParserTest < ActiveSupport::TestCase
   end
 
   def teardown
-    Property.find(:all).each {|prop| prop.destroy}
+    Property.all.each {|prop| prop.destroy}
   end
 
   def test_smoke
