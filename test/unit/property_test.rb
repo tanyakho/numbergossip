@@ -85,7 +85,7 @@ class PropertyTest < ActiveSupport::TestCase
     assert_equal [1,1,2,3,5,8], @fibonacci.smallest_numbers(6)
     @fibonacci.clear_occurrences
     assert_equal [], @fibonacci.smallest_numbers(6)
-    assert_equal [], PropertyOccurrence.find_all_by_property_id(0)
+    assert_equal [], PropertyOccurrence.where("id = ?", 0).to_a
   end
 
   def test_metadata
@@ -120,23 +120,23 @@ class PropertyTest < ActiveSupport::TestCase
   end
 
   def test_definition_parsing
-    assert Property.find(:first, :conditions => ["adjective = ?", "amicable"]).nil?
+    assert Property.where("adjective = ?", "amicable").first.nil?
     Property.load_definitions("test/fixtures/property_parsing.txt")
-    amicable = Property.find(:first, :conditions => ["adjective = ?", "amicable"])
+    amicable = Property.where("adjective = ?", "amicable").first
     assert_kind_of Property, amicable
     assert_equal "amicable numbers", amicable.plural_noun
     assert amicable.definition =~ /The number n is <i>amicable<\/i> if/
   end
 
   def test_definition_updating
-    assert Property.find(:first, :conditions => ["adjective = ?", "amicable"]).nil?
+    assert Property.where("adjective = ?", "amicable").first.nil?
     Property.load_definitions("test/fixtures/property_parsing.txt")
-    amicable = Property.find(:first, :conditions => ["adjective = ?", "amicable"])
+    amicable = Property.where("adjective = ?", "amicable").first
     assert_kind_of Property, amicable
 
     # Same file for now, just to check against stupid breakages
     Property.reload_definitions("test/fixtures/property_parsing.txt")
-    amicable2 = Property.find(:first, :conditions => ["adjective = ?", "amicable"])
+    amicable2 = Property.where("adjective = ?", "amicable").first
     assert_kind_of Property, amicable2
   end
 

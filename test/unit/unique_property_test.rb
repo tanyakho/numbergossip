@@ -61,7 +61,7 @@ class UniquePropertyTest < ActiveSupport::TestCase
     assert_equal 2, UniqueProperty.count
     UniqueProperty.parse_working_file("test/fixtures/unique_property_parsing.txt")
     assert_equal 98, UniqueProperty.count
-    line_1 = UniqueProperty.find(:first)
+    line_1 = UniqueProperty.first
     assert_equal 0, line_1.number
     assert_equal "is the only integer that is neither positive not negative", line_1.statement
     assert !line_1.display?
