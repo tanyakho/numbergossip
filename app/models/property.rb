@@ -50,7 +50,9 @@ class Property < ActiveRecord::Base
     if count_computable?
       computer.count(bound)
     else
-      property_occurrences.count(:conditions => [ "number < ?", PropertyOccurrence.zero_pad(bound) ])
+      property_occurrences
+        .where("number < ?", PropertyOccurrence.zero_pad(bound))
+        .count
     end
   end
 
@@ -66,7 +68,9 @@ class Property < ActiveRecord::Base
     if testable?
       computer.test(number)
     else
-      property_occurrences.find(:all, :conditions => [ "number = ?", PropertyOccurrence.zero_pad(number) ]).length > 0
+      property_occurrences
+        .where("number = ?", PropertyOccurrence.zero_pad(number))
+        .count > 0
     end
   end
 
@@ -107,7 +111,12 @@ class Property < ActiveRecord::Base
     if computer.respond_to? :next_after
       computer.next_after(base, count)
     else
-      property_occurrences.find(:all, :conditions => [ "number > ?", PropertyOccurrence.zero_pad(base) ], :limit => count).map { |occurrence| occurrence.number }
+      property_occurrences
+        .where("number > ?", PropertyOccurrence.zero_pad(base))
+        .order(number: :asc)
+        .limit(count)
+        .to_a
+        .map { |occurrence| occurrence.number }
     end
   end
 
@@ -127,7 +136,9 @@ class Property < ActiveRecord::Base
     if computer.respond_to? :number_of_repetitions
       computer.number_of_repetitions(number)
     else
-      property_occurrences.count(:conditions => [ "number = ?", PropertyOccurrence.zero_pad(number) ])
+      property_occurrences
+        .where("number = ?", PropertyOccurrence.zero_pad(number))
+        .count
     end
   end
 
@@ -157,7 +168,7 @@ class Property < ActiveRecord::Base
   end
 
   def clear_occurrences
-#    property_occurrences.clear doesn't seem to clean up the occurrences correctly.
+    # property_occurrences.clear doesn't seem to clean up the occurrences correctly.
     PropertyOccurrence.delete_all "property_id = #{id}"
     self.occurrences_updated_at = Time.now
     property_occurrences(true) # force refresh
