@@ -56,20 +56,20 @@ Numbergossip::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id(.:format)))'
 
-  match 'index(/:number)' => 'number_gossip#index'
-  match 'list' => 'number_gossip#list'
-  match 'credits' => 'number_gossip#credits'
-  match 'links' => 'number_gossip#links'
-  match 'contact' => 'number_gossip#contact'
-  match 'editorial_policy' => 'number_gossip#editorial_policy'
-  match 'status' => 'number_gossip#status'
-  match 'update(/:id)' => 'number_gossip#update'
+  get 'index(/:number)' => 'number_gossip#index'
+  get 'list' => 'number_gossip#list'
+  get 'credits' => 'number_gossip#credits'
+  get 'links' => 'number_gossip#links'
+  get 'contact' => 'number_gossip#contact'
+  get 'editorial_policy' => 'number_gossip#editorial_policy'
+  get 'status' => 'number_gossip#status'
+  match 'update(/:id)' => 'number_gossip#update', via: [:get, :post]
 
   # map.connect ':action/:id', :controller => "number_gossip", :requirements => { :action => /index|list|credits|links|contact|editorial_policy|status|update/ }
 
   # This arrangement permits the system to handle arbitrary paths as
   # attempts to query for numbers, which receive graceful errors.
-  match '(:number)' => 'number_gossip#index', :as => :number_page
+  get '(:number)' => 'number_gossip#index', :as => :number_page
   # map.number_page ':number', :controller => "number_gossip", :action => "index"
 
 end
