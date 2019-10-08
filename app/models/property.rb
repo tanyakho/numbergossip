@@ -305,7 +305,7 @@ class Property < ActiveRecord::Base
     Property.transaction do
       Property.destroy_all
       Property.load_definitions
-      Property.find(:all).each { |prop| prop.load_from_file }
+      Property.all.each { |prop| prop.load_from_file }
       Property.parse_occurrences_from_definition_file
     end
   end
