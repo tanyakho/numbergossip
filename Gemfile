@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem 'rake', '10.5.0'
-gem 'rails', '4.0.13'
+gem 'rails', '4.1.16'
 gem 'rdoc', '3.9.2'
 gem 'mysql2', '0.3.21'
 
