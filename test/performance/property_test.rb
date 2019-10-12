@@ -4,7 +4,7 @@ class PropertyTest < ActiveSupport::TestCase
   fixtures :properties
 
   def teardown
-    Property.find(:all).each {|prop| prop.destroy}
+    Property.all.each {|prop| prop.destroy}
   end
 
   def test_load_from_file
@@ -22,7 +22,7 @@ class PropertyTest < ActiveSupport::TestCase
     Property.load_definitions("test/fixtures/definitions.txt")
     Property.parse_occurrences_from_definition_file("test/fixtures/definitions.txt")
     assert_equal 47, Property.count
-    Property.find(:all).each do |prop|
+    Property.all.each do |prop|
       assert_not_nil prop.name.adjective
       assert_not_nil prop.name.plural_noun
       assert_not_nil prop.definition
