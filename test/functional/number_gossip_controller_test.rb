@@ -30,12 +30,11 @@ class NumberGossipControllerTest < ActionController::TestCase
     assert_equal 6, assigns(:number)
     assert_not_nil assigns(:properties)
 
-    assert_tag :tag => 'div', :attributes => {:id => 'cool'}
-    assert_tag :tag => 'div', :attributes => {:id => 'boring'}
+    assert_select "div#cool"
+    assert_select "div#boring"
     # HTML tags in neighborhood rows should not be escaped
-    assert_tag :tag => 'ul', :attributes => {:class => 'neighborhood_row'}
-    assert_tag :tag => 'a', :attributes => {:class => 'number_link'},
-               :content => '7'
+    assert_select "ul.neighborhood_row"
+    assert_select "a.number_link", {text: '7'}
   end
 
   def test_no_duplicate_properties
@@ -53,10 +52,11 @@ class NumberGossipControllerTest < ActionController::TestCase
     get :index, :number => "1"
 
     assert_equal [@multiplicative_identity], assigns(:unique_properties)
-    assert_tag :tag => "div", :attributes => {:id => 'unique_properties'}, :descendant => /multiplicative identity/
-    assert_no_tag /first number/
+    assert_select "div#unique_properties" do
+      assert_select "li", /multiplicative identity/
+    end
     # HTML tags in unique property definitions should not be escaped
-    assert_tag :tag => "i", :content => 'the'
+    assert_select "i", "the"
   end
 
   def test_cross_link
@@ -65,8 +65,7 @@ class NumberGossipControllerTest < ActionController::TestCase
     assert_response :success
     assert_template 'index'
     # HTML tags in property definitions should not be escaped
-    assert_tag :tag => 'a', :attributes => {:href => /square-free/},
-               :content => /square-free/
+    assert_select "a[href='#square-free']", /square-free/
   end
 
   def test_upper_bound
@@ -74,42 +73,38 @@ class NumberGossipControllerTest < ActionController::TestCase
 
     assert !assigns(:unique_properties)
     assert !assigns(:properties)
-    assert_no_tag :tag => "div", :attributes => {:id => 'unique_properties'}
-    assert_tag :content => /sure 11 is a fine number/
+    assert_select "div#unique_properties", false
+    assert_select "div.error", /sure 11 is a fine number/
   end
 
   def test_list
     get :list
     assert_response :success
-    assert_tag :tag => 'div', :attributes => {:id => 'even_numbers'}
-    assert_tag :tag => 'div', :attributes => {:id => 'fibonacci_numbers'}
-    assert_tag :tag => 'div', :attributes => {:id => 'evil_numbers'}
-    assert_tag :tag => 'div', :attributes => {:id => 'perfect_numbers'}
+    assert_select "div#even_numbers"
+    assert_select "div#fibonacci_numbers"
+    assert_select "div#evil_numbers"
+    assert_select "div#perfect_numbers"
     # HTML tags in property definitions should not be escaped
     # This one occurs in the apocalyptic powers definition
-    assert_tag :tag => 'sup', :content => 'n'
+    assert_select "sup", "n"
   end
 
   def test_status
     get :status
     assert_response :success
-    assert_tag :content => /The primes are known up to 19/
-    assert_tag :content => /The squares are computed/
+    assert_select "td", /The primes are known up to 19/
+    assert_select "td.fresh", /The squares are computed/
     # Generated HTML tags should not be escaped
-    assert_tag :tag => 'td', :attributes => {:class => 'fresh'},
-               :content => /The unique properties are up to date/
-    assert_tag :tag => 'td', :attributes => {:class => 'stale'},
-               :content => /The primes are out of date/
+    assert_select "td.fresh", /The unique properties are up to date/
+    assert_select "td.stale", /The primes are out of date/
   end
 
   def test_credits
     get :credits
     assert_response :success
-    assert_tag :tag => 'li', :content => /Sergei Bernstein/
+    assert_select "li", /Sergei Bernstein/
     # HTML tags in the credits should not be escaped
-    assert_tag :tag => 'a',
-               :attributes => {:href => 'http://www.knowltonmosaics.com/'},
-               :content => /Ken Knowlton/
+    assert_select "a[href='http://www.knowltonmosaics.com/']", /Ken Knowlton/
   end
 
   def assert_routes_number(path, number)
