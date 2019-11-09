@@ -1,3 +1,5 @@
+require "rake/testtask.rb"
+
 desc "Run the performance tests in test/performance."
 Rake::TestTask.new("test_performance") { |t|
   t.libs << "test"
