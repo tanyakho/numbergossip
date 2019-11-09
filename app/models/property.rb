@@ -181,9 +181,9 @@ class Property < ActiveRecord::Base
 
   def clear_occurrences
     # property_occurrences.clear doesn't seem to clean up the occurrences correctly.
-    PropertyOccurrence.delete_all "property_id = #{id}"
+    PropertyOccurrence.where("property_id = #{id}").delete_all 
     self.occurrences_updated_at = Time.now
-    property_occurrences(true) # force refresh
+    property_occurrences.reload # force refresh
   end
 
   def add_occurrences(numbers)
@@ -200,7 +200,7 @@ class Property < ActiveRecord::Base
   # Do I want to clone the above?  Do I want to merge these into
   # one method that does it all (for consistent tracking)?
   def set_gaps(gaps)
-    KnowledgeGap.delete_all "property_id = #{id}"
+    KnowledgeGap.where("property_id = #{id}").delete_all
     knowledge_gaps << ( gaps.map { |number| KnowledgeGap.new(:number => number) } )
     save!
   end

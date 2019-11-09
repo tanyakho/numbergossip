@@ -17,7 +17,7 @@ class NumberGossipControllerTest < ActionController::TestCase
   end
 
   def test_cool_number
-    get :index, :number => "6"
+    get :index, params: {:number => "6"}
 
     assert_response :success
     # assert_template 'index'
@@ -32,7 +32,7 @@ class NumberGossipControllerTest < ActionController::TestCase
   end
 
   def test_no_duplicate_properties
-    get :index, :number => "1"
+    get :index, params: {:number => "1"}
 
     assert_response :success
     # assert_template 'index'
@@ -43,7 +43,7 @@ class NumberGossipControllerTest < ActionController::TestCase
   end
 
   def test_unique_display
-    get :index, :number => "1"
+    get :index, params: {:number => "1"}
 
     # assert_equal [@multiplicative_identity], assigns(:unique_properties)
     assert_select "div#unique_properties" do
@@ -54,7 +54,7 @@ class NumberGossipControllerTest < ActionController::TestCase
   end
 
   def test_cross_link
-    get :index, :number => "4"
+    get :index, params: {:number => "4"}
 
     assert_response :success
     # assert_template 'index'
@@ -63,7 +63,7 @@ class NumberGossipControllerTest < ActionController::TestCase
   end
 
   def test_upper_bound
-    get :index, :number => "11"
+    get :index, params: {:number => "11"}
 
     # assert !assigns(:unique_properties)
     # assert !assigns(:properties)
