@@ -11,18 +11,21 @@ class NumberGossipControllerTest < ActionController::TestCase
     get :index
 
     assert_response :success
-    # assert_template 'index'
-    # assert_nil assigns(:number)
-    # assert_nil assigns(:properties)
+    # Check we are on the front page and asking for a number
+    assert_select "form > div#form > input#number"
+    # Check that there are no properties
+    assert_select "div#cool", false
+    assert_select "div#boring", false
   end
 
   def test_cool_number
     get :index, params: {:number => "6"}
 
     assert_response :success
-    # assert_template 'index'
-    # assert_equal 6, assigns(:number)
-    # assert_not_nil assigns(:properties)
+    assert_select "form > div#form > input#number" do
+      assert_select "[name=?]", "number"
+      assert_select "[value=?]", "6"
+    end
 
     assert_select "div#cool"
     assert_select "div#boring"
@@ -31,21 +34,9 @@ class NumberGossipControllerTest < ActionController::TestCase
     assert_select "a.number_link", {text: '7'}
   end
 
-  def test_no_duplicate_properties
-    get :index, params: {:number => "1"}
-
-    assert_response :success
-    # assert_template 'index'
-    # props = assigns(:properties)
-    # props.each_with_index do |prop1, index|
-    #   props[0...index].each { |prop2| assert !(prop1 == prop2) }
-    # end
-  end
-
   def test_unique_display
     get :index, params: {:number => "1"}
 
-    # assert_equal [@multiplicative_identity], assigns(:unique_properties)
     assert_select "div#unique_properties" do
       assert_select "li", /multiplicative identity/
     end
@@ -57,7 +48,6 @@ class NumberGossipControllerTest < ActionController::TestCase
     get :index, params: {:number => "4"}
 
     assert_response :success
-    # assert_template 'index'
     # HTML tags in property definitions should not be escaped
     assert_select "a[href='#square-free']", /square-free/
   end
@@ -65,9 +55,10 @@ class NumberGossipControllerTest < ActionController::TestCase
   def test_upper_bound
     get :index, params: {:number => "11"}
 
-    # assert !assigns(:unique_properties)
-    # assert !assigns(:properties)
+    assert_select "form > div#form > input#number"
     assert_select "div#unique_properties", false
+    assert_select "div#cool", false
+    assert_select "div#boring", false
     assert_select "div.error", /sure 11 is a fine number/
   end
 
