@@ -1,4 +1,4 @@
-class KnowledgeGap < ActiveRecord::Base
+class KnowledgeGap < ApplicationRecord
   belongs_to :property
 
 # For dealing with numbers that are too big for the database to keep as ints.

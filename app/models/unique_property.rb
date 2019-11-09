@@ -1,4 +1,4 @@
-class UniqueProperty < ActiveRecord::Base
+class UniqueProperty < ApplicationRecord
   composed_of :metadata, :class_name => "UniquePropertyMetadata", :mapping => [["display", "display"], ["interest", "interest"], ["truth", "truth"], ["uniqueness", "uniqueness"]]
 
   def self.properties_of(number)
