@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 gem 'rake', '10.5.0'
 gem 'rails', '5.2.3'
-gem 'rdoc', '3.9.2'
 gem 'mysql2', '0.4.10'
 
 # Asset pipeline stuff
