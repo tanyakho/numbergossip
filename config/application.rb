@@ -68,5 +68,7 @@ module Numbergossip
     # Require `belongs_to` associations by default. Previous versions had false.
     Rails.application.config.active_record.belongs_to_required_by_default = true
 
+    # Initialize configuration defaults
+    config.load_defaults 5.1
   end
 end
