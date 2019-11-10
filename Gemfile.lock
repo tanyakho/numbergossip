@@ -134,7 +134,6 @@ DEPENDENCIES
   execjs (= 1.4.0)
   mysql2 (= 0.4.10)
   rails (= 5.2.3)
-  rake (= 10.5.0)
   sass (~> 3.2.19)
   sass-rails (~> 5.0.7)
   uglifier (~> 1.0.3)
