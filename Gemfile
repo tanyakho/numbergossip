@@ -3,8 +3,6 @@ gem 'rails', '5.2.3'
 gem 'mysql2', '0.4.10'
 
 # Asset pipeline stuff
-gem 'sass',         '~> 3'
-gem 'sass-rails',   '~> 5.0.7'
 gem 'execjs',       '1.4.0'
 gem 'uglifier',     '~> 1.0.3'
 
