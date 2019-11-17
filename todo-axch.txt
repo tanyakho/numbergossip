@@ -1,13 +1,7 @@
-Relaunch
-- Direct numbergossip.com to new host
-- Allow tanya to deploy with Capistrano
-- Fire GoDaddy
-- Change /status to use svn info rather than unix timestamps?
-
 Database performace?  Do I even need a PropertyOccurrence table at
 all?
 
-Get rid of the zero_padding crap by making the appropriate things
+Get rid of the zero_padding nonsense by making the appropriate things
 composed_of Bignum.
 
 
@@ -48,8 +42,7 @@ Further Work: Data
 - Figure out what to do with vampire numbers
 
 Further Work: Performance
-- Maybe set_occurrences should make so many db queries?
-- Maybe I shouldn't store numbers in the db with so many leading zeros?
+- Maybe set_occurrences shouldn't make so many db queries?
 
 Refactorings
 - Define a bunch of useful methods on Integers for computing (unique)
