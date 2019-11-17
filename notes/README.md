@@ -1,7 +1,6 @@
 
 Locations of files:
-uniqueWorking.txt is located at:
-db/properties
+- `uniqueWorking.txt` is located at: `db/properties`
 
 -----------------------------
 When I make changes, then first I can test it locally:
