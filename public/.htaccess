@@ -1,10 +1,13 @@
 # General Apache options
 # AddHandler fastcgi-script .fcgi
-AddHandler cgi-script .cgi
-Options +FollowSymLinks +ExecCGI
+# AddHandler cgi-script .cgi
+# Options +FollowSymLinks +ExecCGI
 
 # Recommended by Dreamhost at https://help.dreamhost.com/hc/en-us/articles/217185247-Ruby-Version-Manager-RVM-
-PassengerRuby /home/tankho1/.rvm/wrappers/ruby-1.8.7-head/ruby
+PassengerRuby /home/tankho1/.rvm/wrappers/ruby-2.6.5/ruby
+
+# Turning on helpful error pages while debugging Dreamhost's Passenger
+PassengerFriendlyErrorPages On
 
 # If you don't want Rails to look in certain directories,
 # use the following rewrite rules so that Apache won't rewrite certain requests
@@ -20,7 +23,7 @@ PassengerRuby /home/tankho1/.rvm/wrappers/ruby-1.8.7-head/ruby
 #
 # Example:
 #   RewriteRule ^(.*)$ dispatch.fcgi [QSA,L]
-RewriteEngine On
+# RewriteEngine On
 
 # If your Rails application is accessed via an Alias directive,
 # then you MUST also set the RewriteBase in this htaccess file.
@@ -29,10 +32,10 @@ RewriteEngine On
 #   Alias /myrailsapp /path/to/myrailsapp/public
 #   RewriteBase /myrailsapp
 
-RewriteRule ^$ index.html [QSA]
-RewriteRule ^([^.]+)$ $1.html [QSA]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ dispatch.fcgi [QSA,L]
+# RewriteRule ^$ index.html [QSA]
+# RewriteRule ^([^.]+)$ $1.html [QSA]
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteRule ^(.*)$ dispatch.fcgi [QSA,L]
 
 # In case Rails experiences terminal errors
 # Instead of displaying this message you can supply a file here which will be rendered instead
