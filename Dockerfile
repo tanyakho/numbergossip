@@ -6,3 +6,4 @@ WORKDIR /app
 RUN bundle install --without development test
 ADD . /app
 # RUN RAILS_GROUPS=assets bundle exec rake assets:precompile
+CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
