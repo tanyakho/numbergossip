@@ -4,6 +4,9 @@ RUN gem install bundler -v 2.0.2
 ADD Gemfile* /app/
 WORKDIR /app
 RUN bundle install --without development test
+RUN apt-get update
+RUN apt-get install -y apache2
 ADD . /app
 # RUN RAILS_GROUPS=assets bundle exec rake assets:precompile
-CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
+# CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
+CMD ["apachectl", "-D", "FOREGROUND"]
