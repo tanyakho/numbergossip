@@ -5,4 +5,4 @@ ADD Gemfile* /app/
 WORKDIR /app
 RUN bundle install --without development test
 ADD . /app
-RUN RAILS_GROUPS=assets bundle exec rake assets:precompile
+# RUN RAILS_GROUPS=assets bundle exec rake assets:precompile
