@@ -7,6 +7,7 @@ RUN bundle install --without development test
 RUN apt-get update
 RUN apt-get install -y apache2
 ADD . /app
+RUN ln -s /app/deploy/vhost.conf /etc/apache2/sites-enabled/
 # RUN RAILS_GROUPS=assets bundle exec rake assets:precompile
 # CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
 CMD ["apachectl", "-D", "FOREGROUND"]
