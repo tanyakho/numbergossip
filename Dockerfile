@@ -32,17 +32,19 @@ RUN rm /etc/apache2/sites-enabled/000-default.conf
 # Let Rails read the master key file
 RUN chmod 0644 config/master.key
 
-# Make sure the log files exist and are writable by Rails
-RUN touch log/development.log log/production.log
-RUN chown www-data:www-data log/*.log
-RUN chmod 0666 log/*.log
-
 # Precompile the assets
 RUN bundle exec rails assets:precompile
 
 # Build the production database
 RUN bundle exec rails db:schema:load
 RUN bundle exec rails rebuild_database
+
+# Make sure the log files exist
+RUN touch log/development.log log/production.log
+
+# Make logs, site location, assets, and the database read-write by
+# Apache and Rails (there are no other users to protect from)
+RUN chmod -R 0777 log/ public/ db/
 
 # CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
 CMD ["apachectl", "-D", "FOREGROUND"]
