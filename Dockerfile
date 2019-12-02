@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 ENV DEBIAN_FRONTEND=noninteractive
-ENV RAILS_ENV production
+ENV RAILS_ENV=production
 
 RUN apt-get update
 RUN apt-get install -y gnupg apt-transport-https ca-certificates
@@ -37,6 +37,8 @@ RUN touch log/development.log log/production.log
 RUN chown www-data:www-data log/*.log
 RUN chmod 0666 log/*.log
 
-# RUN RAILS_GROUPS=assets bundle exec rake assets:precompile
+# Precompile the assets
+RUN bundle exec rails assets:precompile
+
 # CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
 CMD ["apachectl", "-D", "FOREGROUND"]
