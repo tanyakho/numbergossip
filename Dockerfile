@@ -21,13 +21,14 @@ ADD Gemfile* /app/
 WORKDIR /app
 RUN bundle install --without development test
 
+# Flush default virtual host so it doesn't hijack requests
+RUN rm /etc/apache2/sites-enabled/000-default.conf
+
 # Load the app code
 ADD . /app
 
 # Configure Apache
-RUN ln -s /app/deploy/vhost.conf /etc/apache2/sites-enabled/
-# Flush default virtual host so it doesn't hijack requests
-RUN rm /etc/apache2/sites-enabled/000-default.conf
+RUN ln -s /app/deploy/numbergossip-apache.conf /etc/apache2/sites-enabled/
 
 # Let Rails read the master key file
 RUN chmod 0644 config/master.key
