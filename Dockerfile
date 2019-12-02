@@ -1,4 +1,5 @@
 FROM ubuntu:18.04
+ENV DEBIAN_FRONTEND=noninteractive
 ENV RAILS_ENV production
 
 RUN apt-get update
@@ -8,7 +9,7 @@ RUN apt-get install -y gnupg apt-transport-https ca-certificates
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 561F9B9CAC40B2F7
 RUN echo deb https://oss-binaries.phusionpassenger.com/apt/passenger xenial main > /etc/apt/sources.list.d/passenger.list
 RUN apt-get update
-RUN apt-get install -y build-essential \
+RUN apt-get install -y build-essential tzdata \
   libssl-dev ruby ruby-dev \
   apache2 passenger libapache2-mod-passenger \
   libsqlite3-dev \
