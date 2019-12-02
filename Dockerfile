@@ -1,22 +1,27 @@
-FROM ruby:2.6.5
+FROM ruby:2.5.1
 ENV RAILS_ENV production
 
+RUN apt-get update
+RUN apt-get install -y gnupg apt-transport-https ca-certificates
+
+# Install Apache, Ruby, and Passenger
+RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 561F9B9CAC40B2F7
+RUN echo deb https://oss-binaries.phusionpassenger.com/apt/passenger xenial main > /etc/apt/sources.list.d/passenger.list
+RUN apt-get update
+RUN apt-get install -y apache2 passenger libapache2-mod-passenger libssl-dev
+
 # Install gems
-RUN gem install bundler -v 2.0.2
+# RUN gem install bundler -v 2.0.2
 ADD Gemfile* /app/
 WORKDIR /app
 RUN bundle install --without development test
-
-# Install Apache
-RUN apt-get update
-RUN apt-get install -y apache2 libapache2-mod-fcgid
 
 # Load the app code
 ADD . /app
 
 # Configure Apache
 RUN ln -s /app/deploy/vhost.conf /etc/apache2/sites-enabled/
-RUN a2enmod rewrite  # Enable RewriteEngine
+# RUN a2enmod rewrite  # Enable RewriteEngine
 # Flush default virtual host so it doesn't hijack requests
 RUN rm /etc/apache2/sites-enabled/000-default.conf
 
