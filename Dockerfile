@@ -29,6 +29,14 @@ RUN ln -s /app/deploy/vhost.conf /etc/apache2/sites-enabled/
 # Flush default virtual host so it doesn't hijack requests
 RUN rm /etc/apache2/sites-enabled/000-default.conf
 
+# Let Rails read the master key file
+RUN chmod 0644 config/master.key
+
+# Make sure the log files exist and are writable by Rails
+RUN touch log/development.log log/production.log
+RUN chown www-data:www-data log/*.log
+RUN chmod 0666 log/*.log
+
 # RUN RAILS_GROUPS=assets bundle exec rake assets:precompile
 # CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
 CMD ["apachectl", "-D", "FOREGROUND"]
