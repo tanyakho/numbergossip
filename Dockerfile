@@ -40,5 +40,9 @@ RUN chmod 0666 log/*.log
 # Precompile the assets
 RUN bundle exec rails assets:precompile
 
+# Build the production database
+RUN bundle exec rails db:schema:load
+RUN bundle exec rails rebuild_database
+
 # CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
 CMD ["apachectl", "-D", "FOREGROUND"]
