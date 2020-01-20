@@ -34,7 +34,7 @@ ADD . /app
 RUN ln -s /app/deploy/numbergossip-apache.conf /etc/apache2/sites-enabled/
 
 # Let Rails read the master key file
-RUN chmod 0644 config/master.key
+# RUN chmod 0644 config/master.key
 
 # Precompile the assets
 RUN bundle exec rails assets:precompile
