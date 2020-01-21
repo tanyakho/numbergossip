@@ -1,0 +1,22 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: numbergossip-web
+spec:
+  selector:
+    matchLabels:
+      app: numbergossip
+  template:
+    metadata:
+      labels:
+        app: numbergossip
+    spec:
+      containers:
+        - image: gcr.io/pelagic-force-260622/numbergossip:e7a7bbc
+          name: numbergossip
+          imagePullPolicy: Always
+          ports:
+          - containerPort: 80
+          env:
+            - name: "RAILS_ENV"
+              value: "production"
