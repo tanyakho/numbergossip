@@ -18,6 +18,21 @@ in terminal window in ng directory, type rails test
 
 TODO(axch): New deployment instructions
 
+TODO(axch): Detail necessary setup.
+Once everything has been set up, deployment:
+
+Upload new version of code to Google Cloud
+`git push gcloud master`
+
+If the Kubernetes configuration changed, rebuild the pod and/or the service
+`kubectl apply -f deploy/web.yml` or
+`kubectl apply -f deploy/web-svc.yml` respectively
+
+kubectl replace may work, too
+
+Otherwise it should update automatically?  If not, can force it with
+`kubectl apply -f deploy/web.yml`
+
 
 go to numbergossip/status and push buttons if needed. Right now it tells that everything is out of date after the deploy because the time stamp changes. I do need to update the unique properties if I changed them.
 
