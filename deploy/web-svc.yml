@@ -8,5 +8,6 @@ spec:
     targetPort: 80
     protocol: TCP
   type: LoadBalancer
+  loadBalancerIP: 35.196.200.253
   selector:
     app: numbergossip
