@@ -16,11 +16,7 @@ after that I should run unit tests:
 in terminal window in ng directory, type rails test
 
 
-To update the website at dreamhost.com I need to check in first as it updates from doom-toaster.
-
-Deploy:
-type "cap deploy" in terminal
-Note: this will login to doom-toaster and numbergossip.com with passwordless ssh.
+TODO(axch): New deployment instructions
 
 
 go to numbergossip/status and push buttons if needed. Right now it tells that everything is out of date after the deploy because the time stamp changes. I do need to update the unique properties if I changed them.
