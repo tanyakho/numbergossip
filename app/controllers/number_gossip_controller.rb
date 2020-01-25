@@ -58,6 +58,7 @@ class NumberGossipController < ApplicationController
   def cache_number_page
     if @cache_page
       cache_page(response.body, :number => @number)
+      cache_page(response.body, number_page_path(@number))
     end
   end
 
