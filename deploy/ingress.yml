@@ -1,0 +1,11 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: numbergossip-ingress
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: numbergossip-global-ip
+    networking.gke.io/managed-certificates: numbergossip-ssl-cert
+spec:
+  backend:
+    serviceName: web-svc
+    servicePort: 80
