@@ -1,10 +1,61 @@
+----------------------------------------
+Locations of files
 
-Locations of files:
 - `uniqueWorking.txt` is located at: `db/properties`
 - `*.html.erb` files are in `app/views/number_gossip`
    do not need to push buttons, just check
 - To update credits, I have to go to
   app/controllers/number_gossip_controller and add there.
+
+---------------------------------------
+Sanity checks
+
+Each line of uniqueWorking.txt that is not empty should contain a
+colon:
+
+```
+grep " " uniqueWorking.txt|grep -v ";"
+```
+
+Each line that contains * corresponds to an approved property.
+This can be checked with:
+
+```
+grep "^*" uniqueWorking.txt|wc
+```
+
+This checks lines that start with a `*`
+
+- On May 28 2007 it was 752
+- On Aug 28 2007 it was 782
+- On Apr 1 2008 it was 839
+
+In unique.txt the number of properties is counted in the following manner:
+```
+cat unique.txt | tr ";" "\n" | wc
+```
+
+`cat onefile` - outputs file; `tr` - replaces ; with a new line, then
+we count the number of lines.
+
+- On May 28 2007 it was 750.
+
+Each line that contains ?? corresponds to a property I have to check.
+This can be checked with:
+
+```
+grep "??" uniqueWorking.txt | wc
+```
+
+- On May 15 2007 it was 666
+- On Aug 28 2007 it was 740
+- On April 1 2008 it was 674
+
+Each line in `unique.txt` corresponds to a number with unique properties.
+This can be checked with `wc unique.txt`
+
+- On May 28 it was 463.
+- On Aug 28 2007 it was 478.
 
 ----------------------------------------
 When I make changes, then first I can test it locally:
@@ -18,7 +69,6 @@ Then in Firefox type
 
 after that I should run unit tests:
 in terminal window in ng directory, type rails test
-
 
 ----------------------------------------
 To redeploy to the cloud
@@ -56,71 +106,29 @@ Once everything has been set up (see below), deployment:
 - Don't forget to commit and push the updated web.yml to Github so
   that future deployments pick up the change.
 
----------------------------------------
-Moving Unique working to number_gossip directory on April 1, 2008
-
-Sanity check - each line that is not empty should contain a colon:
-
-```
-grep " " uniqueWorking.txt|grep -v ";"
-```
-
-Each line that contains * corresponds to an approved property.
-this can be checked with 
-```
-grep "^*" uniqueWorking.txt|wc
-```
-This checks lines that start with a `*`
-
-- On May 28 2007 it was 752
-- On Aug 28 2007 it was 782
-- On Apr 1 2008 it was 839
-
-In unique.txt the number of properties is counted in the following manner:
-```
-cat unique.txt | tr ";" "\n" | wc
-```
-
-`cat onefile` - outputs file; `tr` - replaces ; with a new line, then
-we count the number of lines.
-
-- On May 28 2007 it was 750.
-
-Each line that contains ?? corresponds to a property I have to check.
-this can be checked with
-```
-grep "??" uniqueWorking.txt | wc
-```
-
-- On May 15 2007 it was 666
-- On Aug 28 2007 it was 740
-- On April 1 2008 it was 674
-
-Each line in `unique.txt` corresponds to a number with unique properties.
-This can be checked with `wc unique.txt`
-
-- On May 28 it was 463.
-- On Aug 28 2007 it was 478.
-
 ----------------------------------------
-
 To set up Google Cloud control tooling
 
-Install Cloud SDK
-- From https://cloud.google.com/sdk/docs/downloads-apt-get
+Install Cloud SDK and Kubernetes
+- These instructions taken from
+  https://cloud.google.com/sdk/docs/downloads-apt-get
 - Install prereqs
   - sudo apt-get install apt-transport-https ca-certificates gnupg
-  - They were already there
 - Get the Google key
-  - curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
-- Add the repo
-  - echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
-- Actually install it, with Kubernetes
+  - curl https://packages.cloud.google.com/apt/doc/apt-key.gpg \
+    | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
+- Add the Google repository for Debian packages
+  - echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" \
+    | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+- Actually install the SDK, and Kubernetes
   - sudo apt-get update && sudo apt-get install google-cloud-sdk kubectl
 - Initialize (machine local, apparently?)
   - gcloud init
 
 ----------------------------------------
+To start a Cloud numbergossip project
+
+It should not be necessary to repeat this.
 
 Is there a separate step to create a project?
 
