@@ -28,6 +28,23 @@ Once everything has been set up (see below), deployment:
 - Upload new version of code to Google Cloud
   `git push gcloud master`
 
+- This triggers and automatic rebuild, taking 4-5 minutes.  You can
+  watch the status with
+  `gcloud builds list`
+
+- To use the result, edit `deploy/web.yml`, to set
+  spec.template.spec.containers[0].image to the built image, which
+  should have a name like
+  gcr.io/pelagic-force-260622/numbergossip:f9842d1
+
+- Redeploy with
+  `kubectl apply -f deploy/web.yml`
+
+- This should trigger a rollout that you watch with
+  `kubectl rollout status deployment.apps/numbergossip-web`
+  or whose end result can be seen with
+  `kubectl get pods`
+
 - If the Kubernetes configuration changed, rebuild the pod and/or the service
   `kubectl apply -f deploy/web.yml`,
   `kubectl apply -f deploy/web-svc.yml`,
@@ -36,13 +53,8 @@ Once everything has been set up (see below), deployment:
 
   kubectl replace may work, too
 
-  Otherwise it should update automatically?  If not, can force it with
-  `kubectl apply -f deploy/web.yml`
-
-- go to numbergossip/status and push buttons if needed. Right now it
-  tells that everything is out of date after the deploy because the
-  time stamp changes. I do need to update the unique properties if I
-  changed them.
+- Don't forget to commit and push the updated web.yml to Github so
+  that future deployments pick up the change.
 
 ---------------------------------------
 Moving Unique working to number_gossip directory on April 1, 2008
@@ -169,6 +181,7 @@ To check that it worked
 
 ```
 kubectl get pods
+kubectl get deployments
 kubectl get services
 kubectl get ingress
 kubectl describe managedcertificate
