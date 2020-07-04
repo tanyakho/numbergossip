@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-gem 'rails', '5.2.3'
-# gem 'mysql2', '0.4.10'
+gem 'rails', '5.2.4'
+gem 'sprockets', '< 4'  # Because of https://github.com/rails/sprockets-rails/issues/444
 gem 'sqlite3'
 
 # To use the old page caching instead of Rails 5.0's Russian-doll caching
