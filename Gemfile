@@ -4,7 +4,7 @@ gem 'sprockets', '< 4'  # Because of https://github.com/rails/sprockets-rails/is
 gem 'sqlite3'
 
 # To use the old page caching instead of Rails 5.0's Russian-doll caching
-gem 'actionpack-page_caching', '1.2.1'
+gem 'actionpack-page_caching', '1.2.2'
 
 group :development do
   gem "capistrano", "~> 3.11", require: false
