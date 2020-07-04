@@ -60,15 +60,28 @@ This can be checked with `wc unique.txt`
 ----------------------------------------
 When I make changes, then first I can test it locally:
 
-Starting local web server in the terminal in NG directory print:
-rails server
+Setup
+- Make sure Docker is installed and set up correctly
+- Make sure rbenv is set up properly and has the right version of Ruby
+  installed.
+- bundle install
 
-Then in Firefox type
-`localhost:(port number)`
+Test code
+- bundle exec rake test
 
+Test Rails app
+- bundle exec rails server and browse localhost:<port>
 
-after that I should run unit tests:
-in terminal window in ng directory, type rails test
+Test full container
+- docker build .
+  - Prints a new image ID at the end
+- docker run -p 127.0.0.1:3000:80 <image id>
+- docker ps
+  - Lists the running containers
+- docker exec <container name> <command>
+  - To debug what's going on in the container
+- docker stop -t 1 <container name>
+  - Stops the container when done
 
 ----------------------------------------
 To redeploy to the cloud
