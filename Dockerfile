@@ -33,8 +33,9 @@ ADD . /app
 # Install Apache configuration
 RUN ln -s /app/deploy/numbergossip-apache.conf /etc/apache2/sites-enabled/
 
-# Let Rails read the master key file
-# RUN chmod 0644 config/master.key
+# Let Rails read the master key file, if present
+# It will typically be present during development, but not production
+RUN if [ -e config/master.key ]; then chmod 0644 config/master.key; fi
 
 # Precompile the assets
 RUN bundle exec rails assets:precompile
