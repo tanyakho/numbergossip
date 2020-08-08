@@ -68,6 +68,8 @@ Setup
 
 Test code
 - bundle exec rake test
+- bundle exec rails db:schema:load
+- bundle exec rake rebuild_database
 
 Test Rails app
 - bundle exec rails server and browse localhost:<port>
