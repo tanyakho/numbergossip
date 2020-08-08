@@ -68,6 +68,8 @@ Setup
 
 Test code
 - bundle exec rake test
+
+Set up database
 - bundle exec rails db:schema:load
 - bundle exec rake rebuild_database
 
