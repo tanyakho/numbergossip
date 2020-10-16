@@ -155,7 +155,7 @@ Start a cluster named `numbergossip-web`
 gcloud container clusters create numbergossip-web \
     --enable-cloud-logging \
     --enable-cloud-monitoring \
-    --machine-type=n1-standard-1 \
+    --machine-type=e2-micro \
     --num-nodes=1
 ```
 
@@ -216,3 +216,25 @@ DNS may take time to propagate.
 
 The SSL certificate may take time to provision, and that can only
 happen after DNS has propagated.
+
+----------------------------------------
+Changing machine types is surprisingly annoying
+
+List existing node pool
+gcloud container node-pools list --cluster numbergossip-web
+
+Create desired new node pool
+gcloud container node-pools create small-pool \
+  --cluster=numbergossip-web \
+  --machine-type=e2-small \
+  --num-nodes=1
+
+The tutorial at
+https://cloud.google.com/kubernetes-engine/docs/tutorials/migrating-node-pool
+has a lot of stuff about cordoning and draining the old node pool, but
+it didn't seem to be necessary.
+
+Delete the old node pool
+gcloud container node-pools delete default-pool --cluster numbergossip-web
+
+The web site was still up, so it seems to have worked
