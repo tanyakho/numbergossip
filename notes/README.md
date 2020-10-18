@@ -127,19 +127,30 @@ Once everything has been set up (see below), deployment:
 To set up Google Cloud control tooling
 
 Install Cloud SDK and Kubernetes
+
 - These instructions taken from
   https://cloud.google.com/sdk/docs/downloads-apt-get
+
 - Install prereqs
-  - sudo apt-get install apt-transport-https ca-certificates gnupg
+
+- sudo apt-get install apt-transport-https ca-certificates gnupg
+
 - Get the Google key
+
   - curl https://packages.cloud.google.com/apt/doc/apt-key.gpg \
     | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
+
 - Add the Google repository for Debian packages
+
   - echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" \
     | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+
 - Actually install the SDK, and Kubernetes
-  - sudo apt-get update && sudo apt-get install google-cloud-sdk kubectl
+
+- sudo apt-get update && sudo apt-get install google-cloud-sdk kubectl
+
 - Initialize (machine local, apparently?)
+
   - gcloud init
 
 ----------------------------------------
