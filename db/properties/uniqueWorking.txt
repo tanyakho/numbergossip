@@ -682,7 +682,9 @@ NVI 90 is the number of degrees in a right angle;
 ?? 91 is the smallest positive integer expressible as a sum of two cubes in two different ways if negative roots are allowed: 91 = 6^3+(-5)^3 = 4^3+3^3; (See 1729 for more details). (wiki)
 * 91 is the first non-trivial composite: every smaller composite is either even, a familiar square, ends in 5, has a digit sum that is a multiple of 3, or is obviously divisible by 11;
 * In cents of a U.S. dollar, 91 is the amount of money one has if one has one each of the coins of denominations less than a dollar (penny, nickel, dime, quarter and half dollar);
-?? NS 91 is the smallest pseudoprime in base 3;
+* 91 is the smallest pseudoprime to base 3;
+* 91 is the smallest Cuban composite, that is the smallest composite number equal to the difference of two consecutive cubes;
+* 91 is the smallest number which is both the sum and the difference of two consecutive positive cubes (submitted by Anthony Kozar);
 92
 * 92 is the number of different placements of 8 non-attacking queens on a chessboard;
 * 92 is the number of Johnson solids; (wiki)
