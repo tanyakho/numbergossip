@@ -149,6 +149,9 @@ Install Cloud SDK and Kubernetes
 
 - sudo apt-get update && sudo apt-get install google-cloud-sdk kubectl
 
+- Needs to be granted permission to access the project, presumably by
+  an existing owner, presumably via cloud.google.com.
+
 - Initialize (machine local, apparently?)
 
   - gcloud init
