@@ -95,7 +95,7 @@ Once everything has been set up (see below), deployment:
 - Upload new version of code to Google Cloud
   `git push gcloud master`
 
-- This triggers and automatic rebuild, taking 4-5 minutes.  You can
+- This triggers an automatic rebuild, taking 4-5 minutes.  You can
   watch the status with
   `gcloud builds list`
 
@@ -111,6 +111,7 @@ Once everything has been set up (see below), deployment:
   `kubectl rollout status deployment.apps/numbergossip-web`
   or whose end result can be seen with
   `kubectl get pods`
+  - Once it says 'deployment "numbergossip-web" successfully rolled out', the change should be live.
 
 - If the Kubernetes configuration changed, rebuild the pod and/or the service
   `kubectl apply -f deploy/web.yml`,
@@ -252,3 +253,11 @@ Delete the old node pool
 gcloud container node-pools delete default-pool --cluster numbergossip-web
 
 The web site was still up, so it seems to have worked
+
+----------------------------------------
+To add a new developer setup to an existing cloud setup
+
+Just add the git remote
+```
+git remote add gcloud ssh://<email>@source.developers.google.com:2022/p/pelagic-force-260622/numbergossip
+```
