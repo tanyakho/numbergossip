@@ -501,7 +501,8 @@ NVI 52 is the number of weeks in a year;
 ?? 53 is the smallest prime which is not the sum or difference between powers of 2 and 3;
 NU 53 is a value of n with the property that n divides the sum of the first n primes; (1 and 23 is good too) (A045345 Numbers n such that n divides sum of first n primes A007504[n].)
 * 1000<sup>53</sup> - 53 is prime: note that 53 is the smallest number with this property; (checked with Mathematica)
-?? NS 53 is the only two digit number that is reversed in hexadecimal: 35<sub>16</sub>; (zoo of numbers)
+* 53 is the only two-digit number that equals its reverse in hexadecimal; A133377 Complete list of decimal numbers that when converted to hexadecimal produce the mirror image of the original number.
+
 54
 NVI ?? 54 is the smallest number that can be written as the sum of 3 squares in 3 ways; (too special)
 * 54 is the number of colored squares on a Rubik's cube;
@@ -684,7 +685,8 @@ NVI 90 is the number of degrees in a right angle;
 * In cents of a U.S. dollar, 91 is the amount of money one has if one has one each of the coins of denominations less than a dollar (penny, nickel, dime, quarter and half dollar);
 * 91 is the smallest pseudoprime to base 3;
 * 91 is the smallest Cuban composite, that is the smallest composite number equal to the difference of two consecutive cubes;
-* 91 is the smallest number which is both the sum and the difference of two consecutive positive cubes (submitted by Anthony Kozar);
+* 91 is the smallest number which is both the sum and the difference of two consecutive positive cubes (submitted by Anthony Kozar); Kozar wrote: In fact, it is the only number less than 10^18 that I could find with this property.
+
 92
 * 92 is the number of different placements of 8 non-attacking queens on a chessboard;
 * 92 is the number of Johnson solids; (wiki)
@@ -1413,6 +1415,10 @@ NS 366 is the number of days in a leap year;
 NS 369 is the number of octominoes; (checked by A000105 Number of polyominoes (or square animals) with n cells)
 ?? NS 369 is the smallest number for which the product of its digits is 9 times their sum; (from OEIS May 2007) (A062041 Numbers for which the product of the digits is 9 times their sum.)
 370
+
+371
+* 371 is the only three-digit number that equals its reverse in hexadecimal; A133377 Complete list of decimal numbers that when converted to hexadecimal produce the mirror image of the original number.
+
 373
 * 373 is the largest and only palindromic prime with all substrings prime; [Bakker] (p.c.) (easy to see that it needs to have an odd number of digits and those digits should be 3 or 7 and they should alternate, then check the table)
 378
@@ -2443,7 +2449,7 @@ NS 1927 is the smallest semiprime of the form 2<sup>n</sup> - n<sup>2</sup>; (ch
 1964
 ?? 1964 is the number of legal knight moves in chess, as the moves are written in transcripts - that is different captures are counted separately; (see A067875 One player's total legal chess moves by piece type on standard chessboard.)
 1969
-?? 1969 is the only known counterexample to a conjecture about modular Ackermann functions; (virtue science)
+* 1969 is the only number less than 4,000,000 for which the standard mod-n Ackermann function does not stabilize (submitted by Stewart Dickson); A085119 a(n) = number at which the Ackermann function mod n stabilizes. 
 1973
 * 1973 is the smallest prime formed from the possible end digits (1, 3, 7, and 9) of multidigit primes; [Gupta] (checked) (A108386 Primes p such that p's set of distinct digits is {1,3,7,9}.)
 1979
@@ -2832,8 +2838,9 @@ NS 5040 has been quoted as an important number in some types of numerology;
 * 5050 is the sum of the first 100 integers; Gauss
 5063
 * 5063 is the smallest odd number whose square is the sum of the first n primes for some n; [Gallardo] (checked with Mathematica) (A061888 Numbers n such that n^2 is the sum of the first k primes for some k.)
+
 5141
-?? 5141 is the only four-digit number that is reversed in hexadecimal.
+* 5141 is the only four-digit number that equals its reverse in hexadecimal (submitted by Stewart Dickson); A133377 Complete list of decimal numbers that when converted to hexadecimal produce the mirror image of the original number. 
 5152
 ?? 5152 is the number of legal rook moves in chess, as the moves are written in transcripts - that is different captures are counted separately; (see A067875 One player's total legal chess moves by piece type on standard chessboard.)
 5187
