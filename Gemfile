@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'rails', '5.2.4.3'
+gem 'rails', '~> 5.2.4.3'
 gem 'sprockets', '< 4'  # Because of https://github.com/rails/sprockets-rails/issues/444
 gem 'sqlite3'
 
