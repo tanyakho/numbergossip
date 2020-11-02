@@ -35,6 +35,7 @@ NVI As a consequence of its being its own square, one is also a Kaprekar number;
 * 2 is the only number that it is its own primorial, as well as its own factorial; (wiki)
 * 2 is the only number that isn't n-polygonal with any n (submitted by Alexey Radul); (trivial)
 * 2 is the largest deficient factorial (submitted by Alexey Radul); (trivial)
+* 2 is the only prime which does not contain the letter E once spelled out (submitted by Aaron Diveley);
 NVI is the only difference between two consecutive primes which is prime;
 NVI 2 divides any even number;
 NVI 2 is the only number such that if you add it to itself or multiply by itself you would get the same number; (follows from the definition of multiplication)
@@ -142,7 +143,7 @@ NT 9 is the only square that is the sum of two distinct cubes; (24^2 = 8^3 + 4^3
 * In base n, n is always written "10";
 * 10 is the only semi-prime number with the property that the sum as well as the difference of its prime divisors are primes (2 + 5 = 7 and 5 - 2 = 3); (Serezha checked) (this is because 5 belongs to two twin pairs)
 * 10 is the smallest noncototient, a number that can not be expressed as the difference between any integer and the total of coprimes below it; (wiki)
-?? 10 is the only number such that its binary representation is the concatenation of two copies of its decimal representation;
+* 10 is the only number such that its binary representation is the concatenation of two copies of its decimal representation; checked
 ?? 10 is the largest number, N, such that any set of N consecutive integers contains at least one integer relatively prime to all other integers in the set; (in prime curios there is a similar statement about 16(17))
 NVI 10 is the smallest number for which there are as many composite numbers less than it as there are primes; (we could have a similar property about 9 with "less or equal")
 NVI 10 is the smallest composite number (the 5th) which is smaller than the corresponding (the 5th) prime 11; (it could be a property of 11)
@@ -387,6 +388,7 @@ NT 33 is the smallest positive integer that can not be expressed as a sum of dif
 * 34 is the smallest number with the property that it and its neighbors have the same number of divisors; (wiki)
 * 34 is the magic constant of a 4 by 4 magic square; (wiki)
 * 34 is the alphanumeric value of ONE; (checked)
+?? 34 is the only Fibonacci number that is twice a prime; (compare to a similar property about 17)
 35
 * 35 = 2<sup>3</sup> + 3<sup>3</sup>, i.e., the sum of the cubes of the first two primes;
 * There are 35 hexominos, the polyominoes made from 6 squares;
@@ -576,16 +578,15 @@ NS ?? 65 is the ONLY number which gives a prime square, on adding as well as sub
 * 67 is the largest prime which is not the sum of distinct squares;  [Crespi de Valldaura] (found reference on Internet)
 68
 ?? NS 68 is the largest even number that is expressible as the sum of two primes in two different ways (7 + 61, 31 + 37);
-?? 68 is the smallest composite number that becomes prime by turning it upside down;  [Honaker]
+* 68 is the smallest composite number that becomes prime by turning it upside down; A048889
 69
 * 69 is the smallest strobogrammatic number which is not a palindrome;
 * 69 is the largest number out of two (the other being 63) such that the common alphabetical value of its Roman representation is equal to itself (LXIX - 12+24+9+24=69); (Serezha wrote a program)
 * 100<sup>69</sup> - 69 is prime: note that 69 is the smallest number with this property; (checked with Mathematica)
 * 69 has the interesting property of being the only number whose square and cube contain once and only once all numerals from zero to nine when written in decimal notation: 69<sup>2</sup> = 4761 and 69<sup>3</sup> = 328509; (checked with Mathematica)
 NS 69 is the largest number whose factorial is less than 10^100 (69! ? 1.71x10^98): this means it is often the largest factorial that can be calculated by a pocket calculator; (wiki)
-NVI 69 is a sex position in which the participants stimulate each others' sex organs with their mouths;
 * 69 is the smallest number besides 1 whose sum of divisors equals its reversal (96 = 1 + 3 + 23 + 69); (checked with Mathematica)
-NS ?? The title of the novel 69 by Ryu Murakami;
+* 69 is the smallest number whose square (4761) is the concatenation of two multi-digit primes; checked
 70
 * 70 is the smallest weird number;
 NT The largest integer such that any smaller integer relatively prime to it is either a prime or a power of a prime;  [Erdös] (I checked with Mathematica, this is not true)
@@ -607,7 +608,7 @@ NT 72 is the only number that is both pronic and powerful (submitted by Paul Wri
 * 73 is the largest two-digit Unholey prime: such primes do not have holes in their digits;
 NT 73 is the only number which is 1 less than the double of its reversal which also is a prime; (7993 is also like that)
 * 73 is the smallest number (besides 1) which is one less than twice its reverse; (checked)
-?? 73 is the smallest prime whose square (5329) is the concatenation of two multidigit primes; [Trotter]
+* 73 is the smallest prime whose square (5329) is the concatenation of two multi-digit primes; checked
 ?? NS 73 is the smallest number with the property that it and its neighbors can be written as a sum of 2 squares;
 * 73 is the alphanumeric value of the word NUMBER: 14 + 21 + 13 + 2 + 5 + 18 = 73; (checked) (zoo of numbers)
 74
@@ -619,7 +620,7 @@ NT 73 is the only number which is 1 less than the double of its reversal which a
 ?? There are 75 uniform polyhedra; (wiki) (not clear with Mathworld)
 
 76
-?? 76 is the only number n that can be partitioned in exactly n ways, using only distinct prime addends;
+* 76 is the only number <i>n</i> that can be partitioned in exactly <i>n</i> ways, using only distinct prime addends; fixed point of A000586
 77
 * 77 is the smallest number with multiplicative persistence 4; (Mathworld)
 ?? 77 is the largest number that cannot be written as a sum of distinct numbers whose reciprocals sum to 1;
@@ -651,8 +652,7 @@ NS ?? 83 is the number of zero-less pandigital squares;
 84
 NVI A town in Pennsylvania: Eighty Four;
 * 84 is the smallest number that can be expressed as the sum of 3 distinct primes raised to distinct prime exponents: 84 = 2<sup>5</sup> + 3<sup>3</sup> + 5<sup>2</sup>;
-?? 
-84 is the smallest multidigit number n such that sum of digits of n equals the sum of prime divisors of n; (from OEIS May 2007) (A070275 Numbers n such that sum of digits of n equals the sum of prime divisors of n.)	
+?? 84 is the smallest multidigit number n such that sum of digits of n equals the sum of prime divisors of n; (from OEIS May 2007) (A070275 Numbers n such that sum of digits of n equals the sum of prime divisors of n.)	
 85
 ?? 85 is the largest n for which 1<sup>2</sup>+2<sup>2</sup>+3<sup>2</sup>+...+n<sup>2</sup> = 1+2+3+...+m has a solution;
 86
@@ -668,7 +668,7 @@ NVI In sexual parlance 88 is used to describe oral sex performed twice (ate twic
 NVI In miles per hour, the speed the DeLorean must attain in order to travel in time, in the Back to the Future trilogy;
 NVI In Bingo, 88 is known as "Two Fat Ladies";
 89
-?? 89 is the smallest prime for which the sum of all odd primes less than or equal to it is a square;
+* 89 is the smallest number for which the positive sum of all odd primes less than or equal to it is a square; should submit
 ?? 89 is the first and only prime p such that the sum of its digits powered to 1, 2, ... (as the position of the digit from left to right) is equal to p: 89 = 8^1 + 9^2 - these numbers are sometimes called Michowich numbers;
 * 89 is the smallest prime that is a concatenation of p<sup>q</sup> and q<sup>p</sup> where p and q are prime;
 NVI 89 is the smallest pime: pimes (pronounced with a long i) are primes whose digits contain circles, i.e., using only the digits 0, 6, 8, 9;
