@@ -259,5 +259,9 @@ To add a new developer setup to an existing cloud setup
 
 Just add the git remote
 ```
-git remote add gcloud ssh://<email>@source.developers.google.com:2022/p/pelagic-force-260622/numbergossip
+git remote add gcloud ssh://<email>@source.developers.google.com:2022/p/pelagic-force-260622/r/numbergossip
 ```
+
+Also need to give them permission from cloud.google.com to do
+everything they will need to do.
+- In particular, they need to upload an ssh key to their account
