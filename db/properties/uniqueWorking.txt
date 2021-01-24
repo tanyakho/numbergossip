@@ -124,6 +124,7 @@ NU 7 is the only dimension, besides the familiar 3, in which a vector cross prod
 * 8 is the lexicographically the first string that represent an integer;
 NVI 8 is the smallest composite Fibonacci number;
 NVI 8 is the smallest number which is the sum of two distinct odd primes;
+
 9
 * 9 is the smallest odd composite number;
 * 9 is the maximum number of cubes that are needed to sum to any positive integer; (mathworld)
@@ -138,6 +139,7 @@ NVI A cat has 9 lives;
 NVI There were 9 planets in our solar system before August 2006;
 NVI There are 9 basic personality types represented on the enneagram;
 NT 9 is the only square that is the sum of two distinct cubes; (24^2 = 8^3 + 4^3, also if not mutually prime 11^3 + 37^3 = 228^2 (A103255 Numbers x in x^3 + y^3 = z^2 where x,y,z are relatively prime and positive.)
+
 10
 * 10 is the base of our number system;
 * In base n, n is always written "10";
@@ -199,6 +201,7 @@ NT 13 is the smallest permutable prime; (also 2, 3, 5, 7 and 11)
 ?? 14 is the smallest number n with the property that there are no numbers coprime to n smaller numbers;
 NS 14 is the smallest number n such that sigma(n) = sigma(n+1); (checked) (A002961 Numbers n such that n and n+1 have same sum of divisors. )
 NVI 14 is the first number such that it and the next number are both the product of two distinct primes (14 = 2*7 and 15 = 3*5);
+
 15
 * 15 is the smallest emirpimes;
 * 15 is the smallest composite cyclic number, that is number n with the property that there is only one group of order n; (Mathworld finite groups)
@@ -214,11 +217,11 @@ NVI 15 is the only composite odd teenage number (submitted by Isaac LaComb);
 * 16 is the smallest prime power of a prime power of a prime; (2^2^2).  [Woods] (too artificial)
 * 16 is the base of the hexadecimal number system, which is used extensively in computer science;
 NVI 16 is the smallest number which is the sum of two distinct odd primes in two ways, i.e., 16 = 3 + 13 = 5 + 11;
+
 17
 * There are 17 distinct sets of regular polygons that can be packed around a point (e.g., 4 squares, 2 hexagons and 2 triangles, etc); (Serezha checked with a program)
 * There are exactly 17 ways to express 17 as the sum of 1 or more primes - 17 is the only integer which is equal to the number of prime partitions of itself; (checked)
 * 17 is the number of <a href="http://www.clarku.edu/~djoyce/wallpaper/">wallpaper groups</a>;
-NVI 17 is the smallest prime for which the decimal expansion of the reciprocal 1/17 contains all 10 digits; (they repeat themselves)
 * 17 is the only prime of the form p<sup>q</sup> + q<sup>p</sup>, where p and q are prime; (one of them should be 2, then check mod 3) (Serezha proved)
 * 17 is the only multidigit number n such that n + SOD(n) and n - SOD(n) are square numbers, where SOD means sum of digits; (checked with Mathematica, the other numbers are 2 and 8)
 * 17 is described at MIT as 'the most random number', according to hackers' lore;
@@ -226,7 +229,7 @@ NVI 17 is the smallest prime for which the decimal expansion of the reciprocal 1
 * 17 is the smallest odd prime such that no odd Fibonacci number is divisible by it; (virtue science No odd Fibonacci Number is divisible by 17) (checked with Mathematica) (http://mathworld.wolfram.com/FibonacciNumber.html) (mine A133247 Prime numbers p with property that no odd Fibonacci number is divisible by p.)
 * 17 is the minimum number of Sudoku clues that produces a unique answer; (http://www.technologyreview.com/blog/arxiv/27469/)
 * Web pages about the number 17: <ul><li><a href="http://www.vinc17.org/d17_eng.html" class='external text' title="http://www.vinc17.org/d17 eng.html">Properties of 17</a></li> <li><a href="http://www.yellowpigs.net/index.php?topic=yellowpigs/YP_seventeen" class='external text' title="http://www.yellowpigs.net/index.php?topic=yellowpigs/YP seventeen">Mathematical properties of 17</a> at yellowpigs.net</li></ul>;
-?? 17 is the only integer which is equal to the number of prime partitions of itself; (prime puzzles)
+* 17 is the only integer which is equal to the number of prime partitions of itself; (prime puzzles) A000607 Number of partitions of n into prime parts. 
 ?? In any set of k < 17 consecutive integers there is always one which is relatively prime to all the others; (Is 17 the smallest number like that, there was some discussion about 14?)
 ?? 17 is the only prime which is the average of two consecutive Fibonacci numbers;  [Honaker] (average is a half of the next Fib number, equivalent to saying that 34 is the only Fib number that is twice a prime)
 ?? 17 is the only known prime which is equal to the sum of digits of its cube (17^3 = 4913 and 4 + 9 + 1 + 3 = 17); (maybe easy to prove that it is the only prime)
@@ -238,7 +241,9 @@ NVI 17 is the smallest prime that is the average of the squares of two primes (3
 NVI 17 is the smallest prime of the form p^2 + q^3, where p and q are prime; (this is trivial)
 NVI 17 is the smallest prime sandwiched between two non-squarefree numbers;
 NVI 17 is the middle term of the longest arithmetic progression of primes with a common difference of 6; (it contains 5 terms, all other sequences has a member divisible by 5) (not very interesting as it is not about 17)
+NVI 17 is the smallest prime for which the decimal expansion of the reciprocal 1/17 contains all 10 digits; (they repeat themselves)
 NT 17 is the smallest odd number which cannot be represented as the sum of a prime and twice a square; (what about 3 and 1?)
+
 18
 * 18 is the smallest difference between an emirp and its reverse; (we proved)
 * 18 is the only number that is twice the sum of its digits; (we proved)
@@ -434,7 +439,7 @@ NVI The classic Russian vodka is alcohol content 40 percent by volume;
 41
 NVI 41 is the smallest prime equal to x^2 + y^2 + z^2, where x, y, and z, are three distinct positive factorials; (too special)
 NS 41 is the smallest prime formed from reverse concatenation of two consecutive squares;
-?? 41 is the smallest prime that is not a difference between powers of 2 and 3; (41 is the smallest number that is not of the form |2^x - 3^y| (zoo of numbers))
+* 41 is the smallest prime that is not a difference between powers of 2 and 3 (submitted by Bruno Haible); (didn't check myself, but I believe it) (41 is the smallest number that is not of the form |2^x - 3^y| (zoo of numbers))
 NT 41 is the largest 2-digit prime which remains prime when 2 is added to any of its digits. I.e., 61 and 43 are primes; (59 is also true, but 59 is a special case - not clear how to treat 9))
 * 41 is the smallest non-palindromic prime which on subtracting its reverse gives a perfect cube (i.e., 41 - 14 = 3<sup>3</sup>); (checked with Mathematica)
 * 41 is the smallest half-quartan prime: p = (x<sup>4</sup> + y<sup>4</sup>)/2; (sloane)
@@ -549,7 +554,7 @@ NS Ten consecutive distinct digits begin at the 61st digit of pi; (checked with 
 62
 * 62 is the smallest inconsummate number in base 10: no number is a 62-multiple of the sum of its digits;
 NVI 62 is the smallest number that can be written as the sum of 3 distinct squares in 2 ways; (too special and boring)
-NS 62 is the biggest of only two numbers which contain exactly the first three digits in its unique prime factorisation;
+NS 62 is the biggest of only two numbers which contain exactly the first three digits in its unique prime factorization;
 * 62 is the only number whose cube (238328) consists of 3 digits each occurring 2 times; (checked with Mathematica)
 63
 * 63 is the smallest number out of two (the other being 69) such that the common alphabetical value of its Roman representation is equal to itself (LXIII - 12+24+9+9+9 = 63); (Serezha wrote a program)
@@ -620,7 +625,7 @@ NT 73 is the only number which is 1 less than the double of its reversal which a
 ?? There are 75 uniform polyhedra; (wiki) (not clear with Mathworld)
 
 76
-* 76 is the only number <i>n</i> that can be partitioned in exactly <i>n</i> ways, using only distinct prime addends; fixed point of A000586
+* 76 is the only number n that can be partitioned in exactly n ways, using only distinct prime addends; fixed point of A000586
 77
 * 77 is the smallest number with multiplicative persistence 4; (Mathworld)
 ?? 77 is the largest number that cannot be written as a sum of distinct numbers whose reciprocals sum to 1;
@@ -3030,7 +3035,7 @@ NU 8614 and its prime factors contain every digit from 1-9 exactly once; (Not Un
 * 8736 is the only four-digit number n such that 2<sup>n</sup> ends with n; (checked with Mathematica) (mine A121319 a(n) is the smallest number k such that k and 2^k have the same last n digits.)
 ?? NS 8736 is the smallest number that appears in its factorial 10 times; 
 8763
-?? 8763 is the smallest number such that it and its successor have the same digits in their prime factorization; (A061665 Numbers n whose digits in their prime factorization are the same as those of the prime factorization of n+1.)
+* 8763 is the smallest number such that it and its successor have the same digits in their prime factorization: factors of 8763 are 2, 3, and 127, while factors of 8764 are 2, 2, 7, and 313; (A061665 Numbers n whose digits in their prime factorization are the same as those of the prime factorization of n+1.)
 8833
 * 8833 is the largest 4-digit number that is the sum of the squares of its halves: 8833 = 88<sup>2</sup> + 33<sup>2</sup>; (checked with Mathematica - the other one is 1233) (A055616 Numbers with 2*n digits which are the sum of the squares of their n-digit halves)
 8867
@@ -3038,7 +3043,7 @@ NVI 8867 is the smallest prime with multiplicative persistence 6; (parameter 6) 
 8907
 ?? NS The ninetieth century is the first to contain no primes ending in one of the digits 1, 3, 7, or 9: I.e., 8907, 8917, 8927, 8937, 8947, 8957, 8967, 8977, 8987, 8997 are all composite numbers; 
 8925
-?? NS 8925 is the smallest odd number n such that a sum over a subset of divisors equals n; (A065235 Odd numbers n such that a sum over a subset of divisors equal n.)
+* 8925 is the smallest odd number n such that it can be written in exactly one way as a sum of a subset of its proper divisors; (A065235 Odd numbers which can be written in precisely one way as sum of a subset of their proper divisors.)
 
 9041
 * 9041 is the largest prime whose digits are distinct square digits; [Gupta] (checked)
