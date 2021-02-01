@@ -157,6 +157,13 @@ Install Cloud SDK and Kubernetes
 
   - gcloud init
 
+- If the cluster already exists, need to update ~/.kube/config to point to it
+  - gcloud container clusters get-credentials numbergossip-web
+  - https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubectl
+    claims that if you create the cluster with `gcloud container
+    clusters create foo`, it auto-updates the ~/.kube/config file for
+    you.
+
 ----------------------------------------
 To start a Cloud numbergossip project
 
