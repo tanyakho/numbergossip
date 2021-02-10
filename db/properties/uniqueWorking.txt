@@ -1718,13 +1718,14 @@ U?? 641 - Replacing each digit d with d copies of the digit d produces another p
 666
 * 666 is the standing modern guess as to the Number of the Beast (see discussion at, for example, <a href="http://en.wikipedia.org/wiki/Number_of_the_Beast">Wikipedia</a>);
 * 666 is the sum of all the numbers on a typical roulette wheel;
+* 666 is the largest triangular number that is also a repdigit; (wiki triangular numbers, referencing Bellew and Weger 1975-76.)
+* 666 is the largest triangular number such that all its substrings are also triangular numbers (submitted by Eran Binenbaum); checked manually
 NS The Roman numeral representation of the number 666 (DCLXVI) uses once each of the Roman numeral symbols with values under 1,000, and that they are in exact reverse order of their respective values (D = 500, C = 100, L = 50, X = 10, V = 5, I = 1);
 NVI 666 written in Roman Numerals reads "DCLXVI" which is the 6 smallest Roman Numerals in sequence;
 NU 666 is the sum of two consecutive palindromic primes; (p.c.)
 ?? NS Similar to the Roman numeral occurrence, combining one of each of Japan's coin currency yields 666 (500 piece, 100, 50, 10, 5, 1);
-* 666 is the largest triangular number that is also a repdigit; (wiki triangule numbers, referencing Bellew and Weger 1975-76.)
 668
-?? 668 is the number of legal pawn moves in chess, as the moves are written in transcripts - that is different captures are counted separately; (see A067875 One player's total legal chess moves by piece type on standard chessboard.)
+* 668 is the number of legal pawn moves in chess, as the moves are written in transcripts; that is, different captures are counted separately; (see A067875 One player's total legal chess moves by piece type on standard chessboard.)
 671
 ?? NS 671 is the 3-digit composite number (k) that yields the greatest percentage of primes from Leonhard Euler's formula: X^2 + X + K: 453 out of 1000 possible primes (45.3%); [Morse] 
 672
@@ -1734,18 +1735,18 @@ NU 672 is multiply perfect;
 679
 * 679 is the smallest number with multiplicative persistence 5; (MathWorld)
 680
-?? 680 is the smallest tetrahedral number that is also the sum of 2 tetrahedral numbers;
+* 680 is the smallest tetrahedral number that is also the sum of 2 tetrahedral numbers;
 682
 683
 ?? NS 683 is the smallest prime p such that p-3 and p+3 are divisible by a cube; (A089201 Primes p such that p-3 and p+3 are divisible by a cube.)
 ?? 693 is the smallest primes which, although has correct parity, are not in the prime number maze; (probably they mean it is not connected to 2) (A065123 Primes which, although they have correct parity, are not in the prime number maze.)
 ?? NS 683 = prime(6*8*3) - 6*8*3 - Note that the prime 683 is the smallest number greater than one with this property; Note that the next such number is also prime. [Firoozbakht] 
 687
-NS ?? In the Harry Potter movies, the Potter family vault at Gringotts Bank is 687;
+NS In the Harry Potter movies, the Potter family vault at Gringotts Bank is 687;
 688
 ?? 688 is the smallest number n such that n = a*b where ab is cyclic permutation of n: 688 = 86 * 8; (A057116 n = a*b where ab is cyclic permutation of n.)
 690
-?? 690 is the smallest number that is not the sum of a triangular number, a cube and a positive Fibonacci number; (A115177 Positive numbers that are not the sum of a triangular number, a cube and a positive Fibonacci number.)
+* 690 is the smallest number that is not the sum of a triangular number, a nonnegative cube and a positive Fibonacci number; (A115177 Positive numbers that are not the sum of a triangular number, a cube and a positive Fibonacci number.)
 693
 ?? NS 693 is the index of smallest prime p such that the concatenation of 1000 consecutive primes beginning with p is prime, i.e., p(693).p(694).p(695)...p(1692) is prime. Note that the resulting prime contains 4463-digits; [Firoozbakht] 
 694
@@ -1753,7 +1754,7 @@ NS ?? In the Harry Potter movies, the Potter family vault at Gringotts Bank is 6
 696
 U?? 696 has a square that is formed by 3 squares that overlap by 1 digit; (Uniqueness?)
 697
-?? 697 is the smallest 12-hyperperfect number: n=12(sigma(n)-n-1)+1; (A028500 12-hyperperfect numbers: n=12(sigma(n)-n-1)+1.)
+* 697 is the smallest 12-hyperperfect number; (A028500 12-hyperperfect numbers: n=12(sigma(n)-n-1)+1.)
 ?? NS 697 is the only known integer which is both a 12-Hyperperfect number and a Brilliant number; [Post] 
 
 704
@@ -1851,9 +1852,9 @@ NU 773 is an iccanobiF prime, that is it becomes a Fibonacci number when reverse
 * 773 is the largest three-digit Unholey prime: such primes do not have holes in their digits; (checked) (p.c.)
 780
 781
-?? 781 is the smallest number that is a sum of 5 distinct powers of 5; (A038477 Sums of 5 distinct powers of 5.)
+NVI 781 is the smallest number that is a sum of 5 distinct powers of 5; (A038477 Sums of 5 distinct powers of 5.)
 784
-?? NS 784 is the sum of the first 7 cubes;
+NVI 784 is the sum of the first 7 cubes;
 ?? 784 is the largest n for which <sub>2n</sub>C<sub>n</sub> is not divisible by the square of an odd prime;
 786
 ?? NS 786 might be the largest integer for which $ {}_{2n}\!C_n$ is not divisible by the square of an odd prime; (planetMath.org)
@@ -1889,7 +1890,7 @@ NU 810 is divisible by its reverse; (510 is the smallest non-trivial one)
 ?? NS 818 is the smallest palindrome that may be expressed as the sum of the squares of two primes (23^2 + 17^2); [King] 
 819
 * 819 is the largest 3-digit number whose square (670761) and cube (549353259) use different digits; (checked with Mathematica, others are 163, 173, 437, 1514, 1633, 6603, many more)
-?? 819 is the smallest number so that it and its successor are both the product of 2 primes and the square of a prime;
+NT 819 is the smallest number so that it and its successor are both the product of 2 primes and the square of a different prime;
 820
 NS 820 = 1 + 9 + 9^2 + 9^3;
 821
@@ -1899,25 +1900,25 @@ NS 821 is the smallest prime whose reversal is a seventh power (128 = 2^7); [Gup
 827
 ?? 827 is the smallest concube prime: it is made up of the cubes of two consecutive numbers written with no space between them (i.e., 2^3 and 3^3.) These numbers are rare, the only other instance less than one million being 6427. Even here, it is necessary to reverse 4^3 and 3^3 to get a prime number; [Edwards] (A104281 Primes which are the concatenation of two consecutive cubes.)
 ?? NS 827 is the smallest concatenation of any number of cubes of consecutive primes that is itself prime; [Patterson] 
-?? NS 827 is the smallest number n such that phi(phi(n)) + sigma(sigma(n)) - phi(sigma(n)) - sigma(phi(n)) = sigma(n); (A066946 Numbers n such that phi(phi(n)) + sigma(sigma(n)) - phi(sigma(n)) - sigma(phi(n)) = sigma(n).)
-?? NS 827 is the smallest prime expressible as the sum of 4 consecutive palindromes; (A046496 Primes expressible as the sum of 4 consecutive palindromes.)
+NVI 827 is the smallest number n such that phi(phi(n)) + sigma(sigma(n)) - phi(sigma(n)) - sigma(phi(n)) = sigma(n); (A066946 Numbers n such that phi(phi(n)) + sigma(sigma(n)) - phi(sigma(n)) - sigma(phi(n)) = sigma(n).)
+NS 827 is the smallest prime expressible as the sum of 4 consecutive palindromes; (A046496 Primes expressible as the sum of 4 consecutive palindromes.)
 829
 ?? NS 829 is the smallest number such that ten 'Reverse and Add' steps are needed to reach a palindrome; (A065215 Ten 'Reverse and Add' steps are needed to reach a palindrome.)
 833
 ?? NS 833 is the smallest sum of three edges of box having both integral orthogonal sides and integral geodesic distances between opposite vertices; (A095257 Sum of three edges of box having both integral orthogonal sides and integral geodesic distances between opposite vertices.)
 836
 * 836 is the numerical equivalent of the word TEN on a touch-tone telephone; (checked) (A079048 Numerical equivalents of words zero, one, two, three, ... on touch-tone telephone.)
-?? 836 is the smallest number such that its square is a palindrome with even number of digits; (A016113 Square is a palindrome with even number of digits.)
+* 836 is the smallest number such that its square is a palindrome with an even number of digits; (A016113 Square is a palindrome with even number of digits.)
 840
-NS 840 is the smallest number divisible by 1 through 8;
+NVI 840 is the smallest number divisible by 1 through 8;
 ?? 840 is the smallest products xyz such that there exist an integer n that there exist integers x,y,z from {1,2,...,n-1} for which x*y*z = (n-x)*(n-y)*(n-z) and the factors x, y, z, n-x, n-y, n-z are all different; (A102793 Products xyz arising from A102505.)(A102505 Integers n that there exist integers x,y,z from {1,2,...,n-1} for which x*y*z = (n-x)*(n-y)*(n-z) and the factors x, y, z, n-x, n-y, n-z are all different.)
 841
 * 841 is the smallest 3-digit square whose digits are decreasing; (checked)
 * 841 is the smallest binary prime square: perfect square whose binary representation considered as a decimal one is prime; (checked with Mathematica) (A108324 "Binary prime squares": perfect squares whose binary representation considered as decimal ones are primes.)
 NU 841 is a square that is also the sum of 2 consecutive squares; (virtue science) (also 25 = 16+9)
 844
-?? NS 844 is the smallest number so that it and the next 4 numbers are all squareful; (A078144 Starts for strings of at least five consecutive non-square-free numbers.)
-?? NS 844 is the smallest number that is the least of four consecutive numbers which are cube-free and non square-free; (A071320 Least of four consecutive numbers which are cube-free and non square-free)
+NVI 844 is the smallest number so that it and the next 4 numbers are all squareful; (A078144 Starts for strings of at least five consecutive non-square-free numbers.)
+NVI 844 is the smallest number that is the least of four consecutive numbers which are cube-free and non square-free; (A071320 Least of four consecutive numbers which are cube-free and non square-free)
 846
 854
 * 854 is the largest number that together with its square uses different digits not more than once; (checked with Mathematica) (A059930 Numbers n such that n and n^2 combined use different digits.)
@@ -2001,7 +2002,7 @@ NT 941 is the smallest number which is the reverse of the sum of its proper subs
 957
 NU 957 is a value of n for which sigma(n)=sigma(n+1); (14 is the smallest one - the sum of divisors of 14 is 24, which is the same for 15)
 959
-?? 959 is the first odd number that is not the sum of a prime and a power of two; (virtue science)
+NT 959 is the first odd number that is not the sum of a prime and a power of two; (virtue science) also 127 149.
 960
 NU 960 is the sum of its digits plus the cubes of its digits; (870 is like that too, 666, 12, 30, 1998) (A065138 Numbers which are equal to the sum of their digits plus the sum of cubes of their digits.)
 961
@@ -2025,7 +2026,7 @@ NU 990 is a triangular number that is the product of 3 consecutive integers; (6 
 NS 997 is the smallest prime of form 10^p - p, where p is prime; [Luhn] (trivial)
 * 997 is the smallest prime p such that the sum of the digits of p is not prime, but the sum of the squares of the digits of p is prime; (checked with Mathematica) (A091362 Primes p such that the sum of the digits of p is not prime, but the sum of the squares of the digits of p is prime.)
 * 997 is the smallest prime p such that the sum of the digits of p is not prime, but the sum of the cubes of the digits of p is prime; (checked with Mathematica) (A091365 Primes p such that the sum of the digits of p is not prime, but the sum of the cubes of the digits of p is prime.) (7477 also has both properties)
-?? NS 997 is the smallest prime lucky number n such that nextprime(n)=nextlucky(n); (A057698 Prime lucky numbers n (from A031157) such that nextprime(n)=nextlucky(n).)
+NVI 997 is the smallest prime lucky number n such that nextprime(n)=nextlucky(n); (A057698 Prime lucky numbers n (from A031157) such that nextprime(n)=nextlucky(n).)
 
 1000
 NS 1000 is the smallest number that can be expressed as the product of three 2-digit numbers; (trivial) (A033830 Numbers that can be expressed as the product of three 2-digit numbers in at least one way.)
@@ -2033,8 +2034,8 @@ NS A millennium has 1000 years;
 NS 1000 = 10<sup>3</sup>;
 NVI When the sequence of natural numbers are written out in English, one thousand is the first (smallest) to contain the letter 'a'; (not true, sometimes the rule is to pronounce 101 as one hundred and one)
 1001
-?? NS 1001 is the smallest palindromic number which cannot be prime when read in any base; [Poo Sung] (what about 6?)
-?? 1001 is the smallest palindromic product of 3 consecutive primes;
+NT 1001 is the smallest palindromic number which cannot be prime when read in any base; [Poo Sung] (what about 6?)
+* 1001 is the smallest palindromic product of 3 consecutive primes; checked
 1003
 U?? 1003 has a base 2 representation that ends with its base 3 representation; (virtue science)
 1005
@@ -2506,13 +2507,13 @@ NU 2025 is a square that remains square if all its digits are incremented; (25 a
 ?? NS 2047 is the smallest strong pseudoprime to base 2; (maybe the same as Mersenne composite) (A001262 Strong pseudoprimes to base 2.)
 2048
 2049
-?? NS 2049 is the least m such that sigma(1 + phi(m)) = sigma(phi(m)); (A071116 Least m such that sigma(n + phi(m)) = sigma(phi(m)).)
+NVI 2049 is the least m such that sigma(1 + phi(m)) = sigma(phi(m)); (A071116 Least m such that sigma(n + phi(m)) = sigma(phi(m)).)
 2053
 NT 2053 is the largest known primorial prime: value of n for which the product of the first n primes minus 1 is prime; (statement is incorrect - it should be primes up to n, also outdated - there are larger ones) (A057704 Primorial primes: n-th primorial minus 1 is prime. A006794 -1 + product of primes up to p is prime. )
 2063
-?? NS 2063 is the smallest of six consecutive primes whose sum of digits is prime; (if we consider less than 6 consecutive primes the smallest will be 2) (A106719 Smallest of six consecutive primes whose sum of digits is prime.)
+NS 2063 is the smallest of six consecutive primes whose sum of digits is prime; (if we consider less than 6 consecutive primes the smallest will be 2) (A106719 Smallest of six consecutive primes whose sum of digits is prime.)
 2074
-?? NS 2074 is the smallest number n such that zero is never reached by iterating the mapping k -> abs(reverse(lpd(k))-reverse(Lpf(k))), where lpd(k) is the largest proper divisor and Lpf(k) is the largest prime factor of k; (A076425 Numbers n such that zero is never reached by iterating the mapping k -> abs(reverse(lpd(k))-reverse(Lpf(k))). lpd(k) is the largest proper divisor and Lpf(k) is the largest prime factor of k.)
+NS 2074 is the smallest number n such that zero is never reached by iterating the mapping k -> abs(reverse(lpd(k))-reverse(Lpf(k))), where lpd(k) is the largest proper divisor and Lpf(k) is the largest prime factor of k; (A076425 Numbers n such that zero is never reached by iterating the mapping k -> abs(reverse(lpd(k))-reverse(Lpf(k))). lpd(k) is the largest proper divisor and Lpf(k) is the largest prime factor of k.)
 2092
 * 2092 is the smallest number n such that the numbers 1nn1, 3nn3, 7nn7 and 9nn9 are all primes; (checked Mathematica coding in the OEIS) (A102504 Values of n for which the numbers 1nn1, 3nn3, 7nn7 and 9nn9 are all primes.)
 
@@ -2535,7 +2536,7 @@ NVI 2169 is the smallest number of the form p<sup>11</sup> + 11<sup>p</sup> for 
 ?? 2178 is the smallest number n such that two applications of 'Reverse and Subtract' lead to n; note that one application never leads to n; (A072141 Numbers n such that two applications of 'Reverse and Subtract' lead to n, whereas one application does not lead to n.)
 2187
 2197
-?? NS 2197 is the smallest cube (13^3) that may be obtained by concatenating primes in two different ways: 2, 197 and 2, 19, 7; [Hartley] 
+* 2197 is the smallest cube (13<sup>3</sup>) that may be obtained by concatenating primes in two different ways: 2, 197 and 2, 19, 7; [Hartley] 
 * 2197 is the smallest cube whose digits sum to a prime; (checked) (A109408 Cubes whose digits sum to a prime.)
 * 2197 is the smallest odious cube that is not a power of 2;
 
