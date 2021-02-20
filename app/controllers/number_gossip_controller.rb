@@ -28,7 +28,7 @@ class NumberGossipController < ApplicationController
   end
 
   def credits
-    @submitters = ["Sergei Bernstein", "<a href=\"https://primes.utm.edu/\">Alexey Radul</a>", "Sam Steingold", "Andy Baker", "John Kiehl", "Andy Pallotta", "Billy", "Jonathan Post", "David Bernstein", "Michael W. Ecker", "Carlo S&eacute;quin", "<a href=\"http://www.knowltonmosaics.com/\">Ken Knowlton</a>", "Qiaochu Yuan", "<a href=\"http://www.peterrowlett.net\">Peter Rowlett</a>", "Dan MacKinnon", "Nick McGrath", "Sabine Stoecker", "Tamas Fleischer", "Dan D'Eramo", "Aaron Diveley", "Paton J. Lewis", "Bruno Haible", "Peter Rowlett", "Anthony Kozar", "Eran Binenbaum", "Stewart Dickson", "Alex Ryba"]
+    @submitters = ["Sergei Bernstein", "<a href=\"https://alexey.radul.name/\">Alexey Radul</a>", "Sam Steingold", "Andy Baker", "John Kiehl", "Andy Pallotta", "Billy", "Jonathan Post", "David Bernstein", "Michael W. Ecker", "Carlo S&eacute;quin", "<a href=\"http://www.knowltonmosaics.com/\">Ken Knowlton</a>", "Qiaochu Yuan", "<a href=\"http://www.peterrowlett.net\">Peter Rowlett</a>", "Dan MacKinnon", "Nick McGrath", "Sabine Stoecker", "Tamas Fleischer", "Dan D'Eramo", "Aaron Diveley", "Paton J. Lewis", "Bruno Haible", "Peter Rowlett", "Anthony Kozar", "Eran Binenbaum", "Stewart Dickson", "Alex Ryba"]
     @submitters = @submitters.map do |x| x.html_safe end
     @checkers = ["Sergei Bernstein", "Alexey Radul", "Max Alekseyev", "Jaap Spies"]
   end
