@@ -1097,6 +1097,7 @@ NT 157 is the largest number known whose square contains the same digits as the 
 * 160 is the number of triangular polyominoes with 9 cells; A000577
 
 161
+* 161 is the smallest composite number n whose Euler totient divides the sum of the Euler totients of the numbers less than or equal to n and not relatively prime to n; A249397
 NU When 161 is inverted (rotated 180 degrees) it becomes 191, another palindromic prime;  [Ondrejka] (161 is not prime)
 162
 NVI 162 is the only number with a prime factorisation of the form n(n-1)n^n or n(n+1)^(n^n);  [Hunter] (too trivial and too special)
