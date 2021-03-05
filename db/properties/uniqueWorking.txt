@@ -1658,7 +1658,7 @@ NVI 441 is the smallest square which is the sum of 6 consecutive cubes; (the sum
 ?? NS 443 is the first three-digit non-palindromic prime number whose binary equivalent (110111011) is a palindromic prime; [Hoffman] 
 
 444
-* * The diagonals of a regular dodecagon divide it into 444 regions; A007678
+* The diagonals of a regular dodecagon divide it into 444 regions; A007678
 ?? NS 444^444 + 5 is prime. Note that 444 is the only known number m such that m^m + 5 is prime; [Firoozbakht] 
 ?? NS 444 is the largest known n for which there is a unique integer solution to a<sub>1</sub>+...+a<sub>n</sub>=(a<sub>1</sub>)...(a<sub>n</sub>);
 448
