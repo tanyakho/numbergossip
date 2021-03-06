@@ -781,7 +781,7 @@ NS 100 is the number of verses in the pop song 99 Bottles of Beer;
 NS 100 is the number of tiles in a standard Scrabble set; (checked with wiki)
 
 101
-* 101 is the smallest naught-y prime, that is a prime with noughts (or zeros). 
+* 101 is the smallest naught-y prime, that is a prime with noughts (or zeros);
 NS ?? 101 is the first odd prime for which the Merten's function M(n) = 0; [Post] 
 NS 101 is the sum of all products p*q involving the four first primes, i.e., 2*3 + 2*5 + 2*7 + 3*5 + 3*7 + 5*7; [Gallardo] 
 NVI 101 is the smallest odd prime which can be represented as the sum of a square and its reverse, i.e., 100 + 001 = 101; [Gupta] (two-digit square and its reverse is divisible by 11)
@@ -880,7 +880,7 @@ NVI 115 (or 5! - 5) is the smallest composite number of the form p! - p, where p
 117
 * 117 is the smallest number n such that n<sup>2</sup> plus the reverse of n is a square; A113798
 ?? 117 = (1!! + 1!! + 7!!) + ((1)!! + (1)!! + (7)!!). Note that 117 is the only number with this property; [Firoozbakht] 
-* 117 is the smallest possible value of the longest edge in an integer Heronian Tetrahedron; (Mathworld) A272388
+* 117 is the smallest possible value of the longest edge in an integer Heronian tetrahedron; (Mathworld) A272388
 118
 * 118 is the smallest even number differing by a composite number from at least one of its prime neighbors; [Wagler] (I checked)
 * 118 is the smallest three digit composite number, all whose other digit permutations are prime; (checked)
@@ -912,8 +912,8 @@ NS ?? 122 is the smallest number n>1 so that n concatenated with n-1 0's concate
 * 123 is the smallest squarefree number whose external as well as internal digits digits form a squarefree number; A077378 
 
 124
-*124 is the smallest magic sum of a 4 by 4 semimagic square composed of consecutive primes; A270864
-*124 is the smallest nontotient untouchable number; A300325
+* 124 is the smallest magic sum of a 4 by 4 semimagic square composed of consecutive primes; A270864
+* 124 is the smallest nontotient untouchable number; A300325
 ?? NS 124 = sigma(1!*2!*4!). Note that 124 is the smallest multi-digit number with this property; [Firoozbakht] 
 ?? 124 is the smallest number whose sum of digits as well as the number itself are one less than the cube of a prime; [Gupta] 
 
@@ -995,7 +995,7 @@ NVI A molecule of Chlorophyll a, C55H72MgN4O5, consists of 137 atoms; [Blanton]
 NS ?? The most frequent digits to occur among primes less than 1010 start out 1, 3 & 7, in that order; [McCranie]  (could it be 10^10?)
 * 137 is the smallest 3-digit number with distinct digits that is prime if any one of its digits is removed; (checked)
 ?? The Gematria (i.e. Hebrew numerology) value of the word "Kabbalah", which is of special significance to Jewish mystics; (wiki)
-* A web page about 137: <a href="http://www.137.com/137/">http://www.137.com/137/</a>;
+
 138
 * 138 is the smallest possible product of 3 primes, one of which is the concatenation of the other two; (checked)
 
