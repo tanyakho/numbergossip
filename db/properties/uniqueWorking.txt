@@ -2830,7 +2830,7 @@ NU 2025 is a square that remains square if all its digits are incremented; (25 a
 ?? NS 2030 is the smallest 5-Smith Number; (A103126 5-Smith Numbers.)
 2041
 ?? NS 2041 is the smallest number n such that the concatenation of n with 9*n gives a square; (A115553 Numbers n such that the concatenation of n with 9*n gives a square.)
- * 2041 is the total sum of the digits of 3-digit primes; (mine a(n) A130817 is the total sum of the digits of n-digit primes.)
+* 2041 is the total sum of the digits of 3-digit primes; (mine a(n) A130817 is the total sum of the digits of n-digit primes.)
 2047
 * 2047 is the smallest Mersenne composite; [Gupta] 
 ?? NS 2047 is the smallest strong pseudoprime to base 2; (maybe the same as Mersenne composite) (A001262 Strong pseudoprimes to base 2.)
