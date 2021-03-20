@@ -1352,7 +1352,7 @@ NVI 216 is the smallest cube that is also a sum of several consecutive cubes: 21
 * If you deal 2 cards from a single deck of 52 cards, you have a 1 in 221 chance of getting 2 aces; checked
 NVI In the Sherlock Holmes mysteries by Arthur Conan Doyle, the house number of 221B Baker Street, where Sherlock Holmes and Dr. Watson lived at for many years with Mrs. Hudson as their landlady;
 222
-NT ?? Considering a standard digital clock starting from 01:00 going up to 12:59 (AM as well as PM), the exact number of 'prime times' in one standard day (two times 111 primes); [Patterson] it has to be 360
+NT Considering a standard digital clock starting from 01:00 going up to 12:59 (AM as well as PM), the exact number of 'prime times' in one standard day (two times 111 primes); [Patterson] it has to be 360
 * 222 is the smallest number with three prime digits; (from OEIS May 2007) (trivial) (A092625 Numbers with three prime digits.)
 223
 * 223 is the smallest prime with three prime digits; (from OEIS May 2007) (trivial) (A092623 Primes with three prime digits.)
