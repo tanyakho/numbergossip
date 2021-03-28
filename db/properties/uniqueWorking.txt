@@ -99,9 +99,11 @@ NVI is the smallest number that appear in two twin Pythagorean triplets (3, 4, 5
 * 6 is the largest square-free factorial; (trivial)
 * 6 is the only perfect factorial (submitted by Alexey Radul); (checked)
 * 6 is the number of convex regular polychora in 4D space (submitted by Carlo S&eacute;quin); 
-?? 6 is a triangular number and so is its square (36); (wiki) (It is also true for 1, is it true that 6 and 1 are the only triangular numbers with triangular squares? - I had a discussion with seqfans, they think it is true)
-NS Tetrahedron has 6 edges, cube has 6 faces, octahedron has 6 vertices;
-NVI 6 is the number of lives of a cat minus the square root of the number of lives of a cat (submitted by Tim Cates);
+* 6 is the largets triangular number and so that its square is also triangular; (wiki) (It is also true for 1, is it true that 6 and 1 are the only triangular numbers with triangular squares? proof: write an equation n^2(n+1)^2 = 2m(m+1). Then because of divisibility either n^2 = m and (n+1)^2 = 2(m+1) or n^2 = m+1 and (n+1)^2 = 2m. The first case give 1, the second case give 2
+* A tetrahedron has 6 edges, a cube has 6 faces, an octahedron has 6 vertices;
+* The maximum number of circles of same size that fit tangentially around a given circle is 6 (submitted by Chuck DeCarlucci);
+* The maximum number of side of a regular polygon that can tile a plane is 6 (submitted by Chuck DeCarlucci);
+
 
 7
 * 7 is the smallest number that cannot be represented as a sum of 3 squares; (trivial proof modulo 8)
@@ -1371,6 +1373,7 @@ NT 223 is the smallest prime such that no other prime can be produced by alterin
 * 225 is the smallest square that remain a square if prefixed with 1; A167035 
 * 225 is the smallest square which is pandigital is some base: 225 is 3201 is base 4; A339693
 * 225 is the smallest odd power that is not prime power; A216419
+* 225 is the smallest sum of a set of odd numbers that contain every digit once; checked
 
 227
 * 227 is the number of composite days in a year;
@@ -1477,89 +1480,158 @@ NVI 250 is the smallest multidigit number such that the sum of the cubes of its 
 * 251 is the smallest number that can be written as the sum of 3 positive cubes in 2 ways: 251 = 2<sup>3</sup> + 3<sup>3</sup> + 6<sup>3</sup> = 1<sup>3</sup> + 5<sup>3</sup> + 5<sup>3</sup>; (zoo of numbers) (A008917 Numbers that are the sum of 3 positive cubes in more than one way.) (A025396 Numbers that are the sum of 3 positive cubes in exactly 2 ways.)
 NVI 251 is the smallest prime which becomes a cube when the digits are rotated once to the left; weaker than above A234929
 NVI 251 is the smallest prime which becomes a cube when the digits are rotated once to the right; weaker than above A234928
+
 252
 * 252 is the smallest number which is the product of two distinct numbers that are reverses of each other: 252 = 12*21; (trivial) (mine A129623: Numbers which are the product of a nonpalindrome and its reversal, where leading zeros are not allowed.)
-NS If you flip a coin 10 times in a row, there are exactly 252 ways in which it can turn out that you get exactly 5 heads and 5 tails; (checked)
+* If you flip a coin 10 times in a row, there are exactly 252 ways in which it can turn out that you get exactly 5 heads and 5 tails; (checked)
+* 252 is the smallest palindrome with 5 prime factors (counted with multiplicity); A046331
+* 252 is the smallest average of an amicable pair; A275315
+
 253
-?? 253 is the smallest non-trivial triangular star number;
-?? NS 253 is the smallest number n such that n<sup>2</sup> can be split into two nonzero squares (perhaps with leading zeros) in two different ways (253<sup>2</sup> = 64009); (from OEIS May 2007) (A054737 Numbers n such that n^2 can be split into two nonzero squares (perhaps with leading zeros) in two different ways.)
+* 253 is the smallest non-trivial triangular star number; A006060
+?? 253 is the smallest number n such that n<sup>2</sup> can be split into two nonzero squares (perhaps with leading zeros) in two different ways (253<sup>2</sup> = 64009, and can be split as 64 and 009 or as 6400 and 9); (from OEIS May 2007) (A054737 Numbers n such that n^2 can be split into two nonzero squares (perhaps with leading zeros) in two different ways.)
+
 254
-NS 254 is the smallest composite number all of whose divisors (except 1) contain the digit 2; (checked) (A062664 Composite, and every divisor (except 1) contains the digit 2.)
+* 254 is the smallest composite number all of whose divisors (except 1) contain the digit 2; (checked) (A062664 Composite, and every divisor (except 1) contains the digit 2.)
+* 254 is the smallest number that is a concatenation of two numbers i and j such that n equals the sum of i-th and j-th prime numbers (2-nd and 54-th prime numbers are 3 and 251, which sum up to 254); A251860 Numbers n = concat(s,t) such that n = prime(s) + prime(t). 
 255
 * 255 is the largest value representable as an 8-bit binary number.  8 bits, otherwise known as a byte, is a very common size for storing "small" values in computer memories, and consequently 255 appears as a bound or an otherwise magic number in many computer-related tasks.  For example, 255 is the maximum amount of red, green, or blue that goes into an RGB color, as well as the maximum content of any of the four octets of an IP address;
 ?? NS The 255th Euler number is the only Euler number with a composite index that is prime. It is also the largest known Euler prime;
 ?? 255 is the least odd integer greater than 3 which is not the sum of two distinct powers of two and a prime; (p.c.)
+
 256
-* 256 is the number of different values in one byte; (mine)
+* 256 is the number of different values in one byte; (mine) A129539
 * 256 is the smallest composite to composite power; (mine) (mine A129539: Composite numbers to composite powers.)
+* 256 is the smallest nontrivial power of 2 that starts with 2; A070327
+* 256 is the smallest semiprime power of a semiprime; A114850
+
 257
 ?? NS 257 is the largest known prime of the form n<sup>n</sup> + 1; (p.c.)
-* 257 is the smallest three-digit prime with distinct prime digits;  [Moore] (I checked)
-?? NS 257 is the smallest number whose product of digits is 5 times the sum of the digits; (from OEIS May 2007) (A062382 Numbers whose product of digits is 5 times the sum of the digits.)
+* 257 is the smallest three-digit prime with distinct prime digits;  [Moore] (I checked) A100633
+* 257 is the smallest number whose product of digits is 5 times the sum of the digits; (from OEIS May 2007) (A062382 Numbers whose product of digits is 5 times the sum of the digits.)
 258
-?? NS 258 is the minimum magic sum of a magic square utilizing sixteen consecutive primes; First found by Allan W. Williams, Jr., of Washington, D.C. 
+* 258 is the minimum magic sum of a 4 by 4 magic square utilizing sixteen consecutive primes; First found by Allan W. Williams, Jr., of Washington, D.C. A173981
 
 260
-?? NS 260 is the constant of an 8x8 magic square; (zoo of numbers)
+* 260 is the magic constant of an 8 by 8 magic square; checked (zoo of numbers)
+* 260 = 0<sup>2<sup> + 1<sup>3<sup> + 2<sup>4<sup> + 3<sup>5<sup>; A061224
+* 260 is the smallest number that is the sum of prime factors, with multiplicity, of the previous and of the following two numbers; A287923
 261
+262
 263
+* 263 is the smallest prime such that it stays prime after adding or subtracting its largest digit; A245877
+* 263 is the smallest prime for which the sum of reciprocals of nonzero digits equals 1; A239685
 ?? NS Length(263!!) = 263. Note that 263 is the only prime with this property; [Firoozbakht] 
 ?? NS 263 is the largest known prime whose square is strobogrammatic;
-?? NS 263 is the smallest prime base 10 that is never prime in any smaller base b, 2<=b<10, expansions interpreted as decimal numbers; (from OEIS May 2007) (A052033 Primes base 10 that are never primes in any smaller base b, 2<=b<10, expansions interpreted as decimal numbers.)
+* 263 is the smallest prime base 10 that is never prime in any smaller base expansions interpreted as decimal numbers; checked that it is also composite in base 1 (from OEIS May 2007) (A052033 Primes base 10 that are never primes in any smaller base b, 2<=b<10, expansions interpreted as decimal numbers.)
 264
 * 264 is the largest known number whose square is undulating: 264<sup>2</sup> = 69696; (checked with Mathematica up to 1,000,000) (A122875 Numbers whose squares are undulating.)
+* 264 is the smallest multidigit number that is the sum of its digit into the first or fourth power (264 = 2 + 6 + 4<sup>4</sup>); A195672
 265
 266
+* 266 is the smallest number such that in base 8 it contains the same digits as its square and in the same proportion: 266 in base 8 is 412 and its square is 212144; (didn't check, but trust Erich) A061662
 267
 * 267 is the smallest number n such that n plus a googol is prime; [Honaker] (checked with Mathematica) (A049014 n plus a googol is prime.)
 268
-?? NS 268 is the smallest number whose product of digits is 6 times the sum of its digits; (zoo of numbers) (A062037 Numbers whose product of digits is 6 times the sum of the digits.)
+* 268 is the smallest number whose product of digits is 6 times the sum of its digits; (zoo of numbers) (A062037 Numbers whose product of digits is 6 times the sum of the digits.)
+269
+* 269 is the smallest number that cannot be represented as the determinant of a 10 by 10 (0,1)-matrix; A013588 
+
 270
 * 270 is the smallest number whose sum of divisors equals 10 times its reverse; (checked with Mathematica)
+* 270 is the smallest sum of a set of even numbers that contain every digit once; checked A274328
 271
 ?? There are exactly 271 positive numbers which give larger numbers when you write out their English name and add the letters (using a=1, b=2, c=3,...); [Hartley] 
-?? NS 271 is the smallest prime p so that p-1 and p+1 are divisible by cubes; (A086708 Primes p such that p-1 and p+1 are both divisible by cubes.)
+* 271 is the smallest prime so that both its predecessor and successor are divisible by cubes; (A086708 Primes p such that p-1 and p+1 are both divisible by cubes.)
 
 272
 * 272 is the smallest nontrivial palindrome that is a product of two consecutive numbers; checked
+* 272 is the smallest palindrome divisible by a fourth power; A133514
 ?? NS 272 is the smallest generalized tangent number; (from OEIS May 2007) (A000518 Generalized tangent numbers.)
 273
+* 273 is the product of the first three prime numbers with even indices; trivial
 NS American composer John Cage's piano composition 4'33" consists of 273 seconds (four minutes and 33 seconds) of silence, in three movements;
+274
 275
-?? NS 275 is the smallest number n such that reverse(n) = &phi;(n) + &sigma;(n); (from OEIS May 2007) (A070272 Numbers n such that reverse(n) = phi(n) + sigma(n).)
+* 275 is the smallest number n such that reverse(n) = &phi;(n) + &sigma;(n); (from OEIS May 2007) (A070272 Numbers n such that reverse(n) = phi(n) + sigma(n).)
+* 275 is the sum of fifth powers of the first two primes; A130292
 276
-?? 276 is the magic sum of a magic square utilizing sixteen consecutive primes; [Blanchette] 
-NS 276 is the sum of the first 3 5<sup>th</sup> powers; (checked) (A000539 Sum of 5th powers: 1^5 + 2^5 + ... + n^5. )
-* 276 is the smallest number whose aliquot sequence is not completely known; (A008892 Aliquot sequence starting at 276.)
+* 276 is the smallest number whose aliquot sequence is not completely known; (A008892 Aliquot sequence starting at 276.) A216072, A131884
+* 276 is the smallest integer area of a Robbins pentagon: a cyclic pentagon with integer sides and integer area; A228517
+NU 276 is the magic sum of a magic square utilizing sixteen consecutive primes; [Blanchette] minimum is 258
+* 276 is the sum of the first 3 fifth powers; (checked) (A000539 Sum of 5th powers: 1^5 + 2^5 + ... + n^5. )
+* 276 is the smallest hexagonal number which is a sum of two other non-zero hexagonal numbers; checked A133215
+
 277
-?? NS 277 is the smallest prime with multiplicative persistence value 4; (from OEIS May 2007) (A046504 Primes with multiplicative persistence value 4.)
-?? 277 is the smallest number n such that little googol + n is prime, where little googol is 2<sup>100</sup>; (from OEIS May 2007) (A108253 Numbers n such that little googol + n is prime.)
+* 277 is the smallest prime with multiplicative persistence value 4; (from OEIS May 2007) (A046504 Primes with multiplicative persistence value 4.)
+* 277 is the smallest number n such that little googol + n is prime, where little googol is 2<sup>100</sup>; (from OEIS May 2007) (A108253 Numbers n such that little googol + n is prime.)
+* 277 is the smallest prime p such that the sum of the inverses of the primes up to p is greater than two; A016088 
+278
+* 278 is the smallest semiprime such that the next semiprime (287) is its anagram; checked A228135
 279
-?? NS 279 is the smallest number whose product of digits is 7 times the sum of the digits; (from OEIS May 2007) (A062384 Numbers whose product of digits is 7 times the sum of the digits.)
+* 279 is the smallest number whose product of digits is 7 times the sum of the digits; (from OEIS May 2007) (A062384 Numbers whose product of digits is 7 times the sum of the digits.)
+* Every positive integer is the sum of at most 279 eighth powers; A002804 
+
+280
+* 280 is the smallest octagonal number that is a half of another octagonal number; A259079
 281
+* 281 is the smallest of the lesser twin prime pair such that permuting the digits of each prime gives are different prime pair (zeros are not allowed): numbers 281, 283, 821, and 823 are all prime; A178033
 NU 281 is a prime of the form n!!! + 1; (p.c.) (5!!! = 10, 6!!! = 18)
 282
 * 282 is the smallest multidigit palindrome sandwiched between twin primes; [Schuler] (checked) (A113838 Palindromes sandwiched between twin primes.)
 283
-?? NS 283 is the (2*8*3 + 2+8+3)th prime. Note that 283 is the smallest such prime; [Firoozbakht] 
-?? NS 283 is the smallest prime factor of the first composite numerator of a Bernoulli number; 
+* 283 is the smallest prime which is pandigital in base 4: 10123; A175276
+* 283 is the smallest prime such that its index is the product of its digits plus the sum of its digits; checked that this is the only one up to 10 million [Firoozbakht] 283 is the (2*8*3 + 2+8+3)th prime
+* 283 is the smallest prime factor of the first composite numerator of a Bernoulli number (-174611); checked
+
 284
 * 284 is the larger member of the smallest amicable pair; (A002046 Larger of amicable pair.)
+285
+* 285 is the sum of squares of all single-digit numbers; checked A332919
+* 285 is the smallest number whose sum of triangular divisors is its nontrivial divisor; A209311
+* 285 is the smallest number which is the product of its largest triangular proper divisor and the sum of its triangular proper divisors: 285 = 15(1+3+15); A225881
 286
-?? NS 286 is the smallest even pseudoprime to base 3; (from OEIS May 2007) (A130433 Even pseudoprimes to base 3.)
+* 286 is the smallest even pseudoprime to base 3; (from OEIS May 2007) (A130433 Even pseudoprimes to base 3.)
+?? 286 is the smallest perimeter of primitive Pythagorean triangle no side of which is squarefree; A329392
+287
+* 287 is the smallest number n such that all its digits are different and for each digit d it is true that n = d (modulo sum of the other digits of n): 87 = 7 (mod 2+8), 287 = 8 (mod 2+7) and 287 = 2 (mod 8+7); A306788
 288
-?? NS 288 is the smallest non-palindrome non-square that when multiplied by its reverse is a square; (A082994 Numbers n such that n*reverse(n) is a square, n and reverse(n) are not equal, and n and reverse(n) are both not squares.)
-?? NS 288 = 1<sup>1</sup> + 2<sup>2</sup> + 3<sup>3</sup> + 4<sup>4</sup>;
-?? NS 288 = 4! x 3! x 2! x 1!; (zoo of numbers)
+* 288 is the number of completed Sudokus of size 4 by 4; A291187 A107739
+* 288 is the smallest non-palindrome non-square without trailing zeros such that when multiplied by its reverse is a square: 288 * 882 = 504<sup>2</sup>; (A082994 Numbers n such that n*reverse(n) is a square, n and reverse(n) are not equal, and n and reverse(n) are both not squares.)
+* 288 = 1<sup>1</sup> + 2<sup>2</sup> + 3<sup>3</sup> + 4<sup>4</sup>; checked
+* 288 is the product of the first four factorials; (zoo of numbers) checked
+* 288 is the smallest number that is a member of an amicable pair where only abundant aliquot parts are considered: (288 is paired with 450); A280515
+
 289
-?? NS 289 is the smallest number n for which the absolute values of the abundances of n, n^2 and n^3 are all prime numbers; (from OEIS May 2007) (A125249  Numbers n for which the absolute values of the abundances of n, n^2 and n^3 are all prime numbers.)
+* 289 is the smallest number for which the absolute values of the abundances of itself, its square and its cube are all prime numbers; checked (from OEIS May 2007) (A125249  Numbers n for which the absolute values of the abundances of n, n^2 and n^3 are all prime numbers.)
 * 289 is the largest 3-digit square with increasing digits (submitted by Alexey Radul); (checked, A122683)
+* 289 is the smallest number with all different non-zero digits such that when it is divided by its digits the remainder is the same non-zero number: when 289 is divided by 2, 8, or 9, the remainder is 1; A152852
+
+290
 291
 * 291 is the smallest semiprime with prime factors summing up to 100; (mine) (mine A123913 Semiprimes with prime factors summing up to 100.)
 292
 * 292 is the number of ways to make change for a dollar; (Serezha checked)
+* 292 is the first 3-digit term in the continued fraction for pi; A048956
 293
-?? NS 292 is the smallest number n such that n-th and (n+1)-th primes have the same sum of their digits squared; (from OEIS May 2007) (A109182 Numbers n such that n-th and (n+1)-th primes have the same sum of their digits squared.)
+* 293 is the smallest zeroless number n such that subtracting the product of its digit from it results in a number with the same digits: 293 - 2*9*3 = 239; A248210
+* 293 is the smallest index of a prime number such that the next prime number have the same digits: 293th prime number is 1913, while the next one is 1931; submitted a sequence A342874
+NVI 293 is the smallest number n such that n-th and (n+1)-th primes have the same sum of their digits squared; the reuslt of the previous entry (Most of them have the same set of digits) (from OEIS May 2007) (A109182 Numbers n such that n-th and (n+1)-th primes have the same sum of their digits squared.)
+294
+
+295
+* 295 is the smallest semiprime whose binary and ternary representations are prime when read in decimal; A279052
+296 
+?? NS 296 is the smallest even number such that its square is an arithmetic number; A107924 Even numbers n such that n^2 is an arithmetic number. 
+297
+* 297 is the first position of 10 in the decimal expansion of 1 over pi (after the decimal point); A134260
+298
+299
+* 299 is the smallest number with the digit sum of 20; trivial A235229
+
+300
+* 300 is the smallest triangular number that is a product of a nontrivial triangular number and non-trivial square: 300 = 3*100, where 3 is triangular and 100 is square; A253650
+* 300 is the smallest number that is not a prime power such that it is divisible by a square of the sum of its prime divisors; A190879 A190880
 
 301
 * 301 is the number of intersections of diagonals inside a regular dodecagon; A006561
