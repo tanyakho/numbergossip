@@ -99,7 +99,7 @@ NVI is the smallest number that appear in two twin Pythagorean triplets (3, 4, 5
 * 6 is the largest square-free factorial; (trivial)
 * 6 is the only perfect factorial (submitted by Alexey Radul); (checked)
 * 6 is the number of convex regular polychora in 4D space (submitted by Carlo S&eacute;quin); 
-* 6 is the largets triangular number and so that its square is also triangular; (wiki) (It is also true for 1, is it true that 6 and 1 are the only triangular numbers with triangular squares? proof: write an equation n^2(n+1)^2 = 2m(m+1). Then because of divisibility either n^2 = m and (n+1)^2 = 2(m+1) or n^2 = m+1 and (n+1)^2 = 2m. The first case give 1, the second case give 2
+* 6 is the largest triangular number whose square is also triangular; (wiki) (It is also true for 1, is it true that 6 and 1 are the only triangular numbers with triangular squares? proof: write an equation n^2(n+1)^2 = 2m(m+1). Then because of divisibility either n^2 = m and (n+1)^2 = 2(m+1) or n^2 = m+1 and (n+1)^2 = 2m. The first case give 1, the second case give 2
 * A tetrahedron has 6 edges, a cube has 6 faces, an octahedron has 6 vertices;
 * The maximum number of circles of same size that fit tangentially around a given circle is 6 (submitted by Chuck DeCarlucci);
 * The maximum number of side of a regular polygon that can tile a plane is 6 (submitted by Chuck DeCarlucci);
