@@ -5,7 +5,7 @@ ENV RAILS_ENV=production
 RUN apt-get update
 RUN apt-get install -y gnupg apt-transport-https ca-certificates
 
-# Install Ruby, Apache, Passenger, Sqlite3 headers, and Nokogiri dependencies
+# Install Ruby, Apache, Passenger, Sqlite3 headers, and Nokogiri and mimemagic dependencies
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 \
     --recv-keys 561F9B9CAC40B2F7
 RUN echo deb https://oss-binaries.phusionpassenger.com/apt/passenger xenial main \
@@ -16,7 +16,7 @@ RUN apt-get install -y build-essential tzdata \
     apache2 \
     passenger libapache2-mod-passenger \
     libsqlite3-dev \
-    patch zlib1g-dev liblzma-dev
+    patch zlib1g-dev liblzma-dev shared-mime-info
 
 # Install gems
 RUN gem install bundler -v 2.0.2
