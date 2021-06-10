@@ -442,6 +442,7 @@ NVI 38 is the sum of squares of the first three primes (2^2 + 3^2 + 5^2);
 * 39 is the smallest number with multiplicative persistence 3; (Mathworld)
 * 39 is the smallest number which has 3 different partitions into 3 parts with the same product; (Joseph Biberstine from seqfans wrote a program)
 * 39 is the least composite odd number that is the sum of the primes between its smallest and largest prime factors (39 = 3 x 13 = 3 + 5 + 7 + 11 + 13);  [Rivera] (checked using A074036 - Sum of the primes from the smallest prime factor of n to the largest prime factor of n)
+* 39 is the smallest number with four X's in its Roman numerals notation XXXIX; note that five X's are impossible;
 40
 * In English, forty is the only number whose constituent letters appear in alphabetical order; (I checked)
 NVI ?? 40 is the maximum number of spheres that can touch another sphere in a lattice packing in 5 dimensions; kissing number. It is the lower bound, not sure it is proven.
@@ -767,7 +768,7 @@ NS The smallest odd non-Cluster prime: an odd prime p is called a Cluster prime 
 * 97 is the smallest prime occurring only once in its decade; A078494
 
 98
-* 98 is the smallest number that starts a sequence of three consecutive numbers with at least 3 prime divisors; (checked)
+* 98 is the smallest number that starts a sequence of three consecutive numbers with at least 3 prime divisors; (checked) submitted A344843
 
 99
 * 99 is the largest number that is equal to  the sum of its digits plus the product of its digits: 99 = 9 + 9 + 9 * 9; (checked with Mathematica)
@@ -1778,88 +1779,130 @@ NS 315 is the smallest double? valley of the Euler phi function; A076773 2-nadir
 349
 ?? NS pi(349) = pi(3)^1 + pi(4)^2 + pi(9)^3. Note that 349 is the largest number with this property; [Firoozbakht] it is not clear what it means.
 350
-?? NS 350 is the smallest number n where n, n+1, and n+2 are all products of 4 or more primes; (should submit 2, 8, 98, 350 number where a(n), a(n)+1 and a(n)+2 are products of n or more primes)
+* 350 is the smallest number n such that prime(n) contains a substring 2357 of all the prime digits in order; A295708
+NS 350 is the smallest number n where n, n+1, and n+2 are all products of 4 or more primes; checked. two parameters.
 
 351
-* 351 is the numeric value of all the letters of the English alphabet together;
-NT 351 is the smallest number n where n, n+1, and n+2 are all products of 4 or more primes; (353 is prime)
+* 351 is the numeric value of all the letters of the English alphabet together; 
+* 351 is the smallest number whose absolute difference from a triangular number is never a prime; A292990
 352
-?? NS 352 is the only number consisting of three distinct prime digits such that the first and third equal the third raised to the power of the second (i.e., 32 = 2^5); [Raffill] 
-NU 352 is the maximum number of teeth a football team may have on the field (submitted by Ken Knowlton);
+* 352 is the only number consisting of three distinct prime digits such that the concatenation of the first and the third digits equals the third digit raised to the power of the second (32 = 2<sup>5</sup>); [Raffill] checked
+* 352 is the maximum number of teeth a football team may have on the field (submitted by Ken Knowlton);
 353
 * 353 is the smallest multidigit palindromic prime whose digits are all prime; [Gupta] (easy) (A058375 Palindromic primes with just two distinct prime digits.)
-?? NS 353 is the smallest number whose 4th power can be written as the sum of 4 4th powers; (353^4=30^4+120^4+272^4+315^4). [Russo] 
-?? NS 353 is the smallest convenience store prime: prime of the form abs(7^n - 2^11); (from OEIS May 2007) (A122718 Convenience store primes or prime of the form abs(7^n - 2^11).)
+* 353 is the smallest number whose 4th power can be written as the sum of four positive 4th powers (353<sup>4</sup>=30<sup>4</sup>+120<sup>4</sup>+272<sup>4</sup>+315<sup>4</sup>); A003294 [Russo] 
+* 353 is the smallest convenience store prime: prime of the form |7<sup>n</sup> - 2<sup>11</sup>|; (from OEIS May 2007) (A122718 Convenience store primes or prime of the form abs(7^n - 2^11).)
 354
-NVI 354 is the smallest number whose first two digits are distinct odd primes and whose third digit is the arithmetic mean of the first two; [Raffill] (trivial)
-* 354 is the sum of the first 4 4<sup>th</sup> powers; (checked) (A000538 Sum of fourth powers: 0^4+1^4+...+n^4. )
+* 354 is the smallest number whose first two digits are distinct primes and whose third digit is the arithmetic mean of the first two; [Raffill] (trivial)
+* 354 is the sum of the first 4 non-negative 4<sup>th</sup> powers; (checked) (A000538 Sum of fourth powers: 0^4+1^4+...+n^4. )
+* 354 is the sum of the absolute value of the coefficients of Conway's polynomial in the Look-and-See sequence; wiki 
+
 358
 U?? NS The sum of the digit splits of 358 is equal to the product of the digits: (3 + 58) + (35 + 8) + (3 + 5 + 8 ) = 3 * 5 * 8; [Sladcik]  (?? Uniqueness?)
 360
 * 360 is the number of degrees in a circle;
 * 360 is the largest number out of two (the other being 36) that have the same number of letters in its Roman representation as its double, triple, quadruple, quintuple, sextuple and septuple;
+* 360 is the smallest number with three distinct exponents in its prime factorization; A323024
+* 360 is the smallest number which is a product of three positive integers with a minimal sum in more than one way (360 = 5*8*9 = 6*6*19, with the minimal sum of 22); A112536
 ?? NS 360 is the smallest light number: its mean sum of divisors <= mean running sum of divisors of all previous numbers; (from OEIS May 2007) (A048978  Light numbers, those whose mean sum of divisors <= mean running sum of divisors of all previous n.)
 
 361
-* 361 is the size of the go board;
+* 361 is the number of cells in the go board;
+* 361 is the smallest number that is not a multiple of 9 whose digital sum coincides with the digital sum of its largest proper divisor (361 = 19*19, the digital sum of 361 and 19 is 10); A219340
+* 361 is the smallest square containing a one, such that it remains a positive square after removing all ones from it; A176899
+
+363
+* 363 is the smallest integer multiplied by its successor gives a number that is a concatenation of some number with itself (363*364 = 132132); checked
+
 364
-?? The first two digits of 364 are the product of the first two primes to the power of the first prime, and the last two digits are the first prime to the product of the first two primes, i.e., 36 = (2*3)^2, and 64 = 2^(2*3); [Raffill] 
+* 364 is the sum of squares of the first prime quadruplet (364 = 5<sup>2</sup> + 7<sup>2</sup> + 11<sup>2</sup> + 13^<sup>2</sup>); A131348
+* The first two digits of 364 are the product of the first two primes to the power of the first prime, and the last two digits are the first prime to the product of the first two primes (36 = (2*3)<sup>2</sup>, and 64 = 2<sup>2*3</sup>); [Raffill] 
+* 364 is the total number of gifts received in the song "The Twelve Days of Christmas";
+
+
 365
-NS Neither 7 (the number of days in a week) nor 31 (the most frequent number of days in a month) are prime factors of 365 (the most frequent number of days in a year) - instead, its prime factors are 5 and 73, numbers which don't appear as part of any cycle in the Gregorian calendar; [Raffill] 
-NS 365 is the number of days in a year;
-?? 365 is the smallest number that can be written as a sum of consecutive squares in more than 1 way: 365 = 10^2 + 11^2 + 12^2 = 13^2 + 14^2; (A062681 Numbers that are sums of consecutive squares in more than 1 way.)
-?? NS 365 is the smallest number that can be written as a sum of 2 or 3 consecutive squares; (similar to the one before)
+* 365 is the number of days in a non-leap year;
+* 365 is the smallest number that can be written as a sum of two or more consecutive squares in more than 1 way: 365 = 10<sup>2</sup> + 11<sup>2</sup> + 12<sup>2</sup> = 13<sup>2</sup> + 14<sup>2</sup>; (A062681 Numbers that are sums of consecutive squares in more than 1 way.)
+
 366
-NS 366 is the number of days in a leap year;
+* 366 is the number of days in a leap year;
+* 366 is the smallest non-palindromic composite number that shares its arithmetic derivative (311) with its reverse; 
+
 367
 * 367 is the largest number whose square has strictly increasing digits; (checked with Mathematica)
-?? NS 367 is the smallest prime p such that sigma(p+1)=sigma(p-1); (from OEIS May 2007) (A067891 Primes p such that sigma(p+1)=sigma(p-1).)
-?? NS 367 is smaller of two consecutive smallest pair of lucky numbers with the same digital sum; (from OEIS May 2007) A118566 Smaller of two consecutive lucky numbers with the same digital sum.)
+* 367 is the smallest prime p such that &sigma;(p+1) = &sigma;(p-1); (from OEIS May 2007) (A067891 Primes p such that sigma(p+1)=sigma(p-1).)
+* 367 is the smallest lucky-indexed prime that is also a prime-indexed lucky number; A307009
+* 367 is smallest  lucky number such that the next lucky number (385) has the same digital sum; (from OEIS May 2007) A118566 Smaller of two consecutive lucky numbers with the same digital sum.)
+* 367 is the smallest prime such that the total frequency of every decimal digit in the set of all primes up to it and inclusive  is odd; A192448
+
 368
 ?? NS 3^3 - 6^6 + 8^8 is a prime with length (((368))) - Note there is only one composite and one prime with this property; [Firoozbakht] 
-?? NS 368 is the smallest number that is equal to p^q + q^p for consecutive pairs of twin primes p and q; (from OEIS May 2007) (A097501 p^q + q^p for consecutive pairs of twin primes p and q.)
+* 368 is the smallest number that is equal to p<sup>q</sup> + q<sup>p</sup> for distinct odd primes p and q (368 = 3<sup>5</sup> + 5<sup>3</sup>); (from OEIS May 2007) (A097501 p^q + q^p for consecutive pairs of twin primes p and q.) A173055
 369
 ?? NS 369 = (pi(3) + pi(6) + pi(9)) * (prime(3)+prime(6)+prime(9)) - Note that 369 is the largest (second) and only odd number with this property; [Firoozbakht] 
-NS 369 is the number of octominoes; (checked by A000105 Number of polyominoes (or square animals) with n cells)
-?? NS 369 is the smallest number for which the product of its digits is 9 times their sum; (from OEIS May 2007) (A062041 Numbers for which the product of the digits is 9 times their sum.)
+* 369 is the number of octominoes; (checked by A000105 Number of polyominoes (or square animals) with n cells)
+* 369 is the smallest number for which the product of its digits is 9 times its sum; (from OEIS May 2007) (A062041 Numbers for which the product of the digits is 9 times their sum.)
+
 370
+* 370 is the smallest sum of two primes squares that is also a sum of two primes cubes (370 = 3<sup>2</sup>+19<sup>2</sup> = 3<sup>3</sup>+7<sup>3</sup>); A283359
+* 370 is the smallest non-repdigit number that is the average of the numbers formed by all permutations of its digits (370 = (073+037+307+370+703+730)/6); A160818 
 
 371
 * 371 is the only three-digit number that equals its reverse in hexadecimal; A133377 Complete list of decimal numbers that when converted to hexadecimal produce the mirror image of the original number.
 
 373
+* 373 is the greatest prime such that all substrings are prime; A213301
 * 373 is the largest and only palindromic prime with all substrings prime; [Bakker] (p.c.) (easy to see that it needs to have an odd number of digits and those digits should be 3 or 7 and they should alternate, then check the table)
+* 373 is the smallest prime whose cube is interprime (interprime number is the average of two successive primes 373<sup>3</sup> = 51895117 with surrounding primes 51895093 and 51895141); A248799
+* 373 is the smallest prime that can be written as a sum of squares of five consecutive primes; A133559
 
 375
 * The diagonals of a regular undecagon divide it into 375 regions; A007678
 
 377
 * 377 is the largest number n such that the n-th odd composite number is 3n; A252995
+* 377 is the smallest Fibonacci number that ends in 7; A105717
 
 378
 * 378 is the smallest 3-digit number in which the sum of digits is equal to the sum of prime factors (378 = 2 * 3 * 3 * 3 * 7 and 2 + 3 + 3 + 3 + 7 = 3 + 7 + 8); (checked with Mathematica)
 * 378 is the smallest Smith triangular number; (A098840 Smith triangular numbers.)
-?? 378 is the smallest number that is equal to the sum of cubes of their prime factors; (from OEIS May 2007) (A058041 Numbers equal to the sum of cubes of their prime factors.)
-?? 378 is the smallest Smith abundant numbers; (from OEIS May 2007) (A098835 Smith abundant numbers.)
+* 378 is the smallest number that is equal to the sum of cubes of its prime factors (378 = 2 * 3<sup>3</sup> * 7 = 2<sup>3</sup> + 3<sup>3</sup> + 7<sup>3</sup>); (from OEIS May 2007) (A058041 Numbers equal to the sum of cubes of their prime factors.)
+* 378 is the smallest Smith abundant number; (from OEIS May 2007) (A098835 Smith abundant numbers.)
+* 378 is the smallest triangular number that is a product of three distinct non-trivial triangular numbers (378 = 3 * 6 * 21); A225440
 379
+* 379 is the smallest prime that is the sum of 15 consecutive primes; A161612
 ?? NS 379 is the smallest multidigit prime such that its largest digit is equal to the largest digit of the sum of its digits; [Russo] 
 
 383
 ?? NS 383 = prime(3*8*3) + phi(3*8*3) - Note that 383 is the earliest prime with this property; [Firoozbakht] 
 ?? NS 383 = prime(3*8*3) + sigma(3+8+3) - Note that 383 is the earliest number with this property; [Firoozbakht] 
-?? NS 383 is the smallest prime which can be represented as sum of a prime and its reverse (241 + 142 = 383); [Gupta] (A072385 Primes which can be represented as the sum of a prime and its reverse.)
-?? NS 383 is the sum of the first 3, three-digit palindromic primes: 101, 131 and 151; [Vouzaxakis] (A046491 Palindromes expressible as the sum of 3 consecutive palindromic primes.) (A046492 Palindromic primes expressible as the sum of 3 consecutive palindromic primes.)
-?? 383 is the first multidigit palindromic prime to appear in the decimal expansion of pi; [Wu] 
+*  383 is the smallest prime which can be represented as sum of a prime and its reverse (241 + 142 = 383); [Gupta] (A072385 Primes which can be represented as the sum of a prime and its reverse.)
+* 383 is the sum of the first 3, three-digit palindromic primes: 101, 131 and 151; [Vouzaxakis] (A046491 Palindromes expressible as the sum of 3 consecutive palindromic primes.) (A046492 Palindromic primes expressible as the sum of 3 consecutive palindromic primes.)
+* 383 is the first multidigit palindromic prime to appear in the decimal expansion of pi; [Wu] checked
+* 383 is the smallest palindromes expressible as the sum of 3 consecutive palindromic primes; A046491
 384
+* 384 is the smallest number that together with its fourth power is the sum of two twin primes (384 = 191+193 and  384<sup>3</sup> = 147456 = 73727+73729); A212430
 385
 * 385 is the sum of the first 10 squares;
+387
+* 387 is the smallest number that can be split into number a and b so that a<sup>b</sup> ends with itself (3<sup>87</sup> ends with 853387); A273383
 389
-?? NS 389 is the smallest prime with digit sum = 20; (from OEIS May 2007) (A106760 Primes with digit sum = 20.)
+* 389 is the smallest prime with the digit sum of 20; (from OEIS May 2007) (A106760 Primes with digit sum = 20.)
+?? 389 is the smallest prime hypotenuse of a Pythagorean triangle such that the sum of its leg is a cube; A282381
+NS The first three decimal digits after the period of of e<sup>2</sup>; A104999
+
+390
+* 390 is the smallest number with four C's in its Roman numerals notation CCCXC; note that five C's are impossible; A242182
+392
+* 392 is the smallest Achilles number which is coprime to the sum of its divisors (Achilles numbers are powerful but not perfect powers); A248022
+393
+* 393 is the smallest semiprime formed by inserting a semiprime between the its own ordered factors (insert 9 between 9's factors 3 and 3; A227942
 397
 ?? 397 is the largest prime having a unique representation as the sum of three positive squares, 3^2 + 8^2 + 18^2; [Noe] 
 ?? NS 397 is the smallest prime q such that p = (r+q+s-1)/2 is a balanced prime, where r, q, s are consecutive primes; (from OEIS May 2007) (A129190 Primes q such that p = (r+q+s-1)/2 is a balanced prime, where r, q, s are consecutive primes.)
 399
 * 399 is the smallest Lucas-Carmichael number; (p.c.) (checked by A006972 Lucas-Carmichael numbers: square-free composite numbers n such that p | n => p+1 | n+1)
+* 399 is the smallest product of three distinct primes, such that the sum of the primes, the sum of the squares of the primes, and the sum of the cubes of the primes are all prime numbers; A176911
 NS ?? 399 is the smallest number n such that x and y exist with sigma[x^2] = n = sigma[2*(y^2)]; (from OEIS May 2007) (A065767 Intersection of A065764 and A065765: n such that x and y exist with sigma[x^2] = n = sigma[2*(y^2)].)
 
 401
@@ -2706,6 +2749,8 @@ NT 1331 is the largest cube containing every digit exactly twice; (238328 = 62^3
 * 1331 is the smallest cube containing every digit it contains exactly twice; (checked) (A052052 Cubes whose digits occur with an equal minimal frequency of 2.) (mine A122659: Cubes whose digits occur exactly twice.)
 * 1331 is the smallest even-digit palindromic perfect power; (checked) (A076443 Even-digit palindromic perfect powers.)
 NS 1331 is the smallest cube ending in a different cube; (checked) (A038677 Cubes ending in a (different) cube.)
+* 1331 is the only non-trivial cube of the form x<sup>2</sup> + x - 1 (achieved for x = 36 or x = -37) (submitted by Joshua Gray); checked using mathoverflow
+
 1334
 NU 1334 is a value of n for which sigma(n)=sigma(n+1); (virtue science) (also 14, 206) (A002961 Numbers n such that n and n+1 have same sum of divisors.)
 1336
@@ -3218,7 +3263,7 @@ NT 1 gram equals 0.03527 ounces, and 1 pixel also equals 0.03527 centimeters; [W
 3618
 * 3618 is the smallest number n, such that the sum of the first n primes, prime squares, and prime cubes are all prime.  As a bonus the sum of the first 3618 fourth powers of primes is also prime; (checked with Mathematica)
 3624
-* 3624 is the smallest number that starts a sequence of four consecutive numbers with at least 4 prime divisors each; (checked)
+* 3624 is the smallest number that starts a sequence of four consecutive numbers with at least 4 prime divisors each; (checked) A119654
 3628
 NS ?? 3628 is the smallest number n such that the internal digits of n^2 include the digits of n as subsequence, and n does not end in 0; (too specific 5^2 = 25, 50^2 = 2500, 3628^2 = 13162384) (A046835 Internal digits of n^2 include digits of n as subsequence, n does not end in 0.)
 3687
@@ -3253,7 +3298,10 @@ NVI 3840 = 10!!; (should be part of a sequence)
 3888
 * 3888 is the largest number that can be written in Roman numerals, using standard rules - MMMDCCCLXXXVIII;
 3889
-* 3889 is the smallest number that can't be written in Roman numerals, using standard rules;
+NT 3889 is the smallest number that can't be written in Roman numerals, using standard rules;
+
+3899
+* 3899 is the largest number with four C's in its Roman numerals notation MMMDCCCXCIX; note that five C's are impossible;
 3906
 ?? NS 3906 is the smallest number n such that n^6+1091 is prime (this polynomial is famous for generating primes poorly); (A066386 Numbers n such that n^6+1091 is prime.)
 3942
@@ -3263,6 +3311,9 @@ NU 3977 has its largest proper divisor as a substring; (For example 25, 125)
 
 3980
 * 3980 is the smallest multiple of 20 such that its digit sum is also a multiple of 20; A002998
+
+3989
+* 3989 is the largest number with four X's in its Roman numerals notation MMMCMLXXIX; note that five X's are impossible;
 
 4007
 ?? NS 4007 is the first James Bond prime to be part of a sexy prime quadruplet. The other primes in the sexy quadruplet are 4007-6, 4007+6, and 4007+6+6; [Opao] 
