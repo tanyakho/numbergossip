@@ -1444,7 +1444,7 @@ NS 241 is the smallest prime p such that p+1, p+2, p+3, and p+4 have equal numbe
 
 242
 * 242 is the smallest number such that 2 to its power contains 000; A259092
-* digits in Morse code can be represented in base 3 with 1 for a dot and and 2 for a dash, coded zero in base 3 is evaluated to 242; A060110 
+* digits in Morse code can be represented in base 3 with 1 for a dot and 2 for a dash; Morse-coded zero in base 3 is evaluated to 242; A060110 
 NS ?? 242 is the smallest number n where n through n+3 are all products of 3 or more primes;
 * 242 is the smallest integer to start a run of four consecutive integers with the same number of divisors; (from OEIS May 2007) (A006601 Numbers n such that n, n+1, n+2 and n+3 have the same number of divisors.)
 
@@ -1905,22 +1905,33 @@ NS The first three decimal digits after the period of of e<sup>2</sup>; A104999
 * 399 is the smallest product of three distinct primes, such that the sum of the primes, the sum of the squares of the primes, and the sum of the cubes of the primes are all prime numbers; A176911
 NS ?? 399 is the smallest number n such that x and y exist with sigma[x^2] = n = sigma[2*(y^2)]; (from OEIS May 2007) (A065767 Intersection of A065764 and A065765: n such that x and y exist with sigma[x^2] = n = sigma[2*(y^2)].)
 
+400
+* 400 is the sum of the first four powers of seven: 1 + 7 + 49 + 343; 
+
 401
-U?? The Heptagonal number (r(5r - 3)/2) created using the prime base number of r = 401 is a concatenation of itself, 401401; [Heleen] (Uniqueness??)
+NU The Heptagonal number (r(5r - 3)/2) created using the prime base number of r = 401 is a concatenation of itself, 401401; [Heleen] (55 also works)
 * 401 is the start of the first occurrence of three consecutive primes using no prime digits (401, 409, 419); [Murthy] (checked)
+* 401 is the earliest occurrence of a 3-digit prime in the decimal expansion of &pi;<sup>2</sup>; A104926
 402
-?? 402 is the smallest 3-Smith number - the sum of the digits of its prime factors, i.e. Sp (402) = Sp(2*3*67)= 2 + 3 + 6 + 7 = 18 is equal to 3 times the digit sum of 402; (from OEIS May 2007) (A104391 3-Smith numbers.)
+* 402 is the smallest 3-Smith number, that is the sum of the digits of its prime factors (2 + 3 + 6 + 7 = 18) is equal to 3 times its digit sum (6); (from OEIS May 2007) (A104391 3-Smith numbers.)
+
 403
 * 403 is the smallest product of two different primes which are reverses of each other; (13 * 31) (A083815 Semiprimes whose prime factors are distinct and the reversal of one factor is equal to the other.)
+* 403 is the smallest semiprime that is the floor of e<sup>n</sup> (achieved for n=6); A117836
+* 403 is the smallest non-palindrome whose square is the product of a number and its reverse (403<sup>2</sup> = 162409 = 169 * 961); A325151 A207373 
 404
 * 404 is the HTTP status code for "file not found", perhaps the most famous HTTP status code of all;
+* 405 is the smallest composite number that is the sum of two, three, four, and five consecutive composite numbers (405 = 202 + 203 = 134 + 135 + 136 = 99 + 100 + 102 + 104 = 78 + 80 + 81 + 82 + 84); A151745
+* 405 is the smallest number with 10 odd divisors; A267893
+
 407
 * 407 is the largest number that is the sum of the cubes of its digits; (checked with Mathematica) (A046197 Fixed points for operation of repeatedly replacing a number by the sum of the cubes of its digits.)
 408
 * 408 is the number of prime minutes in a day; checked 
 409
-NS 409 is the smallest prime which along with both its neighbors uses non-prime digits (401, 409, 419); [Murthy] (checked)
-NS ?? 409 is the smallest prime number such that every digit of it and its index contains a loop (that is only digits 0,4,6,8,9 in prime and its index); (from OEIS May 2007) (A107625 Every digit of prime and its index contains a loop (only digits 0,4,6,8,9 in prime and its index).)
+* 409 is the smallest prime which along with both its neighbors uses non-prime digits (401, 409, 419); [Murthy] (checked)
+* 409 is the smallest prime number such that every digit of it and its index contains a loop (only digits 0, 4, 6, 8, 9 are allowed); (from OEIS May 2007) (A107625 Every digit of prime and its index contains a loop (only digits 0,4,6,8,9 in prime and its index).)
+* 409 is the smallest prime that yields a square after deleting its zeros; A321151
 410
 ?? NS 410 is the smallest number that can be represented as the sum of the squares of two distinct primes in two different ways (410 = 7^2 + 19^2 = 11^2 + 17^2); [Thoms] 
 411
@@ -1930,44 +1941,62 @@ NS ?? 409 is the smallest prime number such that every digit of it and its index
 
 418
 * 418 is the sum of all 2-digit emirps; checked
+419
+* 419 is the smallest prime p such that  p + 2, p<sup>3</sup> + 2 and p<sup>5</sup> + 2 are also prime; A242326
+* 419 is the smallest prime number, such that it is lesser of twin primes both of which are isolated from neighboring primes by more than 6; A138062
 
 420
-NS The number 420 is a euphemism for cannabis and its associated culture: <ul> <li><a href="http://www.snopes.com/language/stories/420.htm" class='external free' title="http://www.snopes.com/language/stories/420.htm">http://www.snopes.com/language/stories/420.htm</a></li> <li><a href="http://www.phish.net/faq/420.html" class='external free' title="http://www.phish.net/faq/420.html">http://www.phish.net/faq/420.html</a></li> </ul>; (wiki)
-NS 420 is the smallest number divisible by 1 through 7;
-NS ?? 420 is the smallest number n such that n^2+n+41 (Euler's "prime generating polynomial") has more than 2 prime factors; (from OEIS May 2007) (A097822 Numbers n such that n^2+n+41 (Euler's "prime generating polynomial") has more than 2 prime factors.)
-NS ?? 420 is the smallest long leg of more than one primitive Pythagorean triangle; (from OEIS May 2007) (A024410 Long leg of more than one primitive Pythagorean triangle.)
-NS ?? 420 is the smallest integer which have at least two different factorizations into coprime parts whose sum are equal; (from OEIS May 2007) (A069064 Integers which have at least two different factorizations into coprime parts whose sum are equal.)
+* 420 is the smallest number divisible by 1 through 7;
+* 420 is the smallest long leg of more than one primitive Pythagorean triangle; (from OEIS May 2007) (A024410 Long leg of more than one primitive Pythagorean triangle.)
+NS ?? 420 is the smallest integer which have at least two different factorizations into coprime parts whose sum are equal (420 = 5*4*21 = 3*7*20 and 5+4+21 = 30 = 3+7+20); (from OEIS May 2007) (A069064 Integers which have at least two different factorizations into coprime parts whose sum are equal.)
+* 420 is the smallest number n such that n<sup>2</sup>+n+41 (Euler's "prime generating polynomial") has more than 2 prime factors; (from OEIS May 2007) (A097822 Numbers n such that n^2+n+41 (Euler's "prime generating polynomial") has more than 2 prime factors.)
+* 420 is the smallest perimeter of exactly 5 different Pythagorean triangles; A156687
 
 421
 * 421 is the smallest prime formed by the powers of two in logical order from right to left; [Luhn] 
 NS All integers ever tested in the Collatz problem eventually ends in the sequence 4-2-1;  period? Hail?
 ?? NS "Four twenty one" is the only prime time in which the hour and minute hand cross each other on a standard clock; [Lipps] 
-NS 421 is the smallest prime in the concatenation n^2, n, and 1; (trivial) (not very interesting) (A068701 Primes in the concatenation n^2, n, and 1.)
+* 421 is the smallest prime formed by the concatenation n<sup>2</sup>, n, and 1; (trivial) (not very interesting) (A068701 Primes in the concatenation n^2, n, and 1.)
+* 421 is the earliest 3-digit prime in the decimal expansion of square root of 2; 
+
 422
+* 422 is the concatenation of the smallest composite number with its prime factors; A245315
 ?? 422 is the number of king moves in chess; (including castling)
+
+
 428
-NS ?? 428 has the property that its square is the concatenation of two consecutive numbers; (428^2 = 183184) (A030467 Numbers n such that n^2 is a concatenation of two successive numbers.)
+* An equilateral triangle whose area and perimeter are equal, has an area (and perimeter) equal to the square root of 432; wiki
+* 428 is the smallest number such that its square is a concatenation of two consecutive numbers (428<sup>2</sup> = 183184) ; (A030467 Numbers n such that n^2 is a concatenation of two successive numbers.)
 432
-U?? NS 432 = (4) (3)<sup>3</sup> (2)<sup>2</sup>; (Uniqueness?)
-?? 432 is the smallest number n such that n! is not divisible by the sum of the decimal digits of n!; (A066419 Numbers n such that n! is not divisible by the sum of the decimal digits of n!.)
+* 432 is the smallest number n such that n! is not divisible by the sum of the digits of n!; checked (A066419 Numbers n such that n! is not divisible by the sum of the decimal digits of n!.)
+* 432 is the smallest sum of consecutive cubes that is sandwiched between twin primes; A174717
+* 432 is the Achilles number whose double is also an Achilles number (Achilles numbers are powerful but not powers); A203663
+* 432 is the smallest number such that, in its prime factorization, the product of the exponents equals the sum of the prime factors and exponents; A231231
+
 433
 ?? NS Avant-garde composer John Cage's piece entitled 4'33" (referred to as "four, thirty-three") entails playing nothing at all for four minutes and thirty-three seconds; [Earls] 
+* 433 is the sum of the first five cubes and also a prime number; A193141
 434
-* 434 is the smallest number other than a twin prime such that sigma(n) + 2 = sigma(n+2); (checked with Mathematica) (A050507 Solutions to sigma(x)+2=sigma(x+2) other than the smaller of twin primes.)
+* 434 is the smallest number other than a twin prime such that &sigma;(n) + 2 = &sigma;(n+2); (checked with Mathematica) (A050507 Solutions to sigma(x)+2=sigma(x+2) other than the smaller of twin primes.)
+
+435
+* 435 is the smallest number such that n<sup>3</sup> &plusmn; 2 and 3n &plusmn; 2 are all prime; A268475
 438
 439
-?? NS 439 is the smallest prime where inserting the same digit between every pair of digits never yields another prime; (A050805 Inserting any digit between adjacent digits of prime p never yields another prime.)
+* 439 is the smallest prime for which inserting the same digit between every pair of digits never yields another prime (40309, 41319, 42327, 43339, 44349, 45359, 46369, 47379, 48389, and 49399 are all composite); (A050805 Inserting any digit between adjacent digits of prime p never yields another prime.)
+* 439 the smallest prime p such that the sum of three consecutive prime numbers, beginning with p, is a cube; A210205
 440
-?? NS 440 is the smallest number n such that the last digit of n, Phi(n) and Sigma(n) is 0; (A072604 Last digit of n, Phi(n) and sigma(n) is 0 in base 10.)
+* 440 is the smallest number n such that the last digit of n, &phi;(n), and &sigma(n); is 0; (A072604 Last digit of n, Phi(n) and sigma(n) is 0 in base 10.)
 NS 440 in hertz, the standard frequency to which most orchestras tune the pitch A above middle C;
 
 441
-NVI 441 is the smallest square which is the sum of 6 consecutive cubes; (the sum of the first several cubes is always a square. This is just a sum of the first 6 cubes = too special)
-?? NS 441 is the smallest power that is equal to a sum of first n primes plus 1; (A110996 Powers equal to (sum of first n primes) plus 1.)
+* 441 is the sum of the first 6 cubes; checked
+* 441 is the smallest square that can be written as a sum of 3 distinct nonzero squares in 3 or more ways; A207650
+* 441 is the smallest power that is equal to a sum of first n primes plus 1; (A110996 Powers equal to (sum of first n primes) plus 1.)
 442
 * 442 is the smallest composite n that divides F(n-1) where F(k) are the Fibonacci numbers; (checked with Mathematica) (A069106 Composite n such that n divides F(n-1) where F(k) are the Fibonacci numbers.)
 443
-?? NS 443 is the first three-digit non-palindromic prime number whose binary equivalent (110111011) is a palindromic prime; [Hoffman] 
+* 443 is the smallest non-palindromic prime number whose binary equivalent (110111011) is a palindromic prime; checked
 
 444
 * The diagonals of a regular dodecagon divide it into 444 regions; A007678
@@ -1977,13 +2006,18 @@ NVI 441 is the smallest square which is the sum of 6 consecutive cubes; (the sum
 * 448 is the number of triangular polyominoes with 10 cells; A000577
 NS 448 is the smallest number m such that three numbers, prime(m) - m, prime(m^2) - m^2 & prime(m^3) - m^3, are primes; [Firoozbakht] (checked with Mathematica)
 449
-?? NS 449 is the smallest prime number that can be constructed by two concatenated perfect squares (excluding the trivial 1^2). In this case the squares are prime squares (2^2 + 7^2 = 4 + 49 = 449); [Wagler] 
+* 449 is the largest number whose factorial is less than 10<sup>1000</sup>; wiki
+* 449 is the smallest prime that can be constructed by concatenating two non-trivial squares; checked [Wagler] submitted A345314
 * 449 is the smallest prime number whose individual digits are composite perfect squares; [Thoms] (A020466 Primes that contain digits 4 and 9 only.)
+* 449 is the earliest 3-digit prime to appear in the decimal expansion of &pi;<sup>2</sup>/6; A105376
+* 449 is the smallest prime with semiprime digits (4, 6, 9); A107666
+* 449 is the smallest prime such that the sum of the squares of its digits equals the sum of the squares of the digits of its index (449 is the 87nd prime and the sum of the squares of digits of both is 113); 
 450
+* 450 is the smallest number whose factorial is greater than 10<sup>1000</sup>; wiki
 NU 450 = (5+4)(5+5)(5+0); (Also 50, 210) (A097371 Numbers n such that n=(d_1+5)(d_2+5)*...*(d_k+5) where d_1 d_2 ... d_k is the decimal expansion of n.)
 
 451
-?? NS 451 is the smallest number whose reciprocal has period 10;
+* 451 is the smallest number whose reciprocal has period 10; checked
 NS Ray Bradbury Farenheit 451;
 454
 ?? NS 454 is the largest number known that cannot be written as a sum of 7 or fewer cubes; (?? 454 is the largest integer such that its shortest partition into cubes requires eight of them. - from planetMath.org)
