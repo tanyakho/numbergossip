@@ -604,6 +604,7 @@ NS ?? 65 is the ONLY number which gives a prime square, on adding as well as sub
 * 68 is the smallest exponent of a power of 2 that contains all ten digits; A130694
 * 68 is the smallest composite number that becomes prime by turning it upside down; A048889
 ?? NS 68 is the largest even number that is expressible as the sum of two primes in two different ways (7 + 61, 31 + 37);
+* 68 is the last 2-digit string to appear in the decimal expansion of pi; A032510
 
 69
 * 69 is the smallest strobogrammatic number which is not a palindrome;
@@ -904,6 +905,7 @@ NS 120 is the largest integer n for which pi(n) = n/4; [Woods]
 * 120 is the number of 1-piece positions at checkers; A055213
 * 120 is the smallest triangular number whose digit permutations yield at least two other triangular numbers (120 yields 21 and 210);  A069674
 * 120 is the smallest number that can be represented as a product of consecutive integers in more than one way: 120 = 2*3*4*5 = 4*5*6; A064224
+* 120 is the smallest even triangular number followed by a composite number; A345350
 
 121
 * 121 is the smallest multi-digit palindromic square;
@@ -1986,7 +1988,7 @@ NS All integers ever tested in the Collatz problem eventually ends in the sequen
 * 439 is the smallest prime for which inserting the same digit between every pair of digits never yields another prime (40309, 41319, 42327, 43339, 44349, 45359, 46369, 47379, 48389, and 49399 are all composite); (A050805 Inserting any digit between adjacent digits of prime p never yields another prime.)
 * 439 the smallest prime p such that the sum of three consecutive prime numbers, beginning with p, is a cube; A210205
 440
-* 440 is the smallest number n such that the last digit of n, &phi;(n), and &sigma(n); is 0; (A072604 Last digit of n, Phi(n) and sigma(n) is 0 in base 10.)
+* 440 is the smallest number n such that the last digit of n, &phi;(n), and &sigma;(n) is 0; (A072604 Last digit of n, Phi(n) and sigma(n) is 0 in base 10.)
 NS 440 in hertz, the standard frequency to which most orchestras tune the pitch A above middle C;
 
 441
@@ -1994,7 +1996,7 @@ NS 440 in hertz, the standard frequency to which most orchestras tune the pitch 
 * 441 is the smallest square that can be written as a sum of 3 distinct nonzero squares in 3 or more ways; A207650
 * 441 is the smallest power that is equal to a sum of first n primes plus 1; (A110996 Powers equal to (sum of first n primes) plus 1.)
 442
-* 442 is the smallest composite n that divides F(n-1) where F(k) are the Fibonacci numbers; (checked with Mathematica) (A069106 Composite n such that n divides F(n-1) where F(k) are the Fibonacci numbers.)
+* 442 is the smallest composite n that divides F(n-1), where F(k) are the Fibonacci numbers; (checked with Mathematica) (A069106 Composite n such that n divides F(n-1) where F(k) are the Fibonacci numbers.)
 443
 * 443 is the smallest non-palindromic prime number whose binary equivalent (110111011) is a palindromic prime; checked
 
@@ -2019,45 +2021,76 @@ NU 450 = (5+4)(5+5)(5+0); (Also 50, 210) (A097371 Numbers n such that n=(d_1+5)(
 451
 * 451 is the smallest number whose reciprocal has period 10; checked
 NS Ray Bradbury Farenheit 451;
+452
+?? 452 is the number of idempotent 4 by 4 0-1 matrices; A222823
 454
 ?? NS 454 is the largest number known that cannot be written as a sum of 7 or fewer cubes; (?? 454 is the largest integer such that its shortest partition into cubes requires eight of them. - from planetMath.org)
 459
-* 459 is the smallest number n such that if you subtract it from its reverse you get a natural number with the same digits as n: 954 - 459 = 495; (checked with Mathematica) (mine A121970 Numbers n such that if you subtract n from its reversal you get a positive number with the same digits as n.)
+* 459 is the smallest number n such that if you subtract it from its reversal you get a natural number with the same digits as n: 954 - 459 = 495; (checked with Mathematica) (mine A121970 Numbers n such that if you subtract n from its reversal you get a positive number with the same digits as n.)
 * 459 is the smallest number such that the product of its digits is 10 times their sum; (checked with Mathematica) (A062043 Numbers for which the product of the digits is 10 times their sum.) (mine A124694: Sets of digits such that the product of the digits is 10 times the sum of the digits. Each set is arranged as a number with nondecreasing digits.)
+* 459 is the smallest number such that the average of primes of itself and its successor is the same; A227754
+* 459 is the smallest 3-digit number n such there exist to other 3-digit numbers with the sum of n and so that all three numbers collectively use digits 1 through 9 once (459 - 173 = 286); A286845
+* 459 is the smallest solution to x + &phi;(x) = &sigma;(x)/2; A099650
+
 461
-?? NS 461 = prime( prime( 4*6* 1) ). Note that 461 is the smallest number with this property; [Firoozbakht] 
+* 461 is the smallest prime n such that n = prime(prime(product of digits of n)): 461 = prime(prime(4*6*1)); [Firoozbakht] A107121
 462
-* Assuming the Generalized Riemann Hypothesis, 462 is the largest number that is not of the form ab + bc + ca for positive integers a, b, and c; (A025052 Numbers not of form ab + bc + ca for 1<=a<=b<=c) (http://projecteuclid.org/Dienst/UI/1.0/Summarize/euclid.em/1046889597)
+* Assuming the Generalized Riemann Hypothesis, 462 is the largest number that is not of the form ab + bc + ca for positive integers a, b, and c; (A025052 Numbers not of form ab + bc + ca for 1<=a<=b<=c) (http://projecteuclid.org/Dienst/UI/1.0/Summarize/euclid.em/1046889597) A094380
 463
-?? NS 463 is the smallest multidigit prime such that both the sum of digits and product of digits of its square remain square; [Russo] 
+467 
+* 467 is the smallest prime p such that (p*nextprime(p) + 1)/2 is prime; A266163
 468
-* 468  is the smallest non-trivial number such that its own sum of digits is the same as its square's and its cube's sums of digits; (checked their Mathematica coding) (A114135 Primitive numbers n such that the sums of the digits of n, n^2 and n^3 coincide)
+* 468  is the smallest non-trivial number such that its own sum of digits is the same as its square's and its cube's sums of digits; (checked their Mathematica coding) (A114135 Primitive numbers n such that the sums of the digits of n, n^2 and n^3 coincide)a
+* 468 is the smallest number such that adding or subtracting half of its reversal to it produces a positive square; A282116
 469
 ?? NS 469 is the largest known value of n for which n!-1 is prime;
 473
 ?? 473 is the largest known number whose square and 4th power use different digits;
+* 473 is the smallest brilliant number that has a brilliant 10's complement (527) such that their concatenation (473527) is prime; A084629
 477
 ?? NS 477 = 89 + 83 + 67 + 61 + 53 + 47 + 41 + 29 + 5 + 2 is the smallest number which is sum of different primes by using twice all the digits greater than zero; [Capelle] 
 479
-?? NS 479 is the smallest prime p such that 2<sup>100</sup> - p  is prime; (A108256 Primes p such that little googol - p is prime.)
+* 479 is the smallest prime p such that 2<sup>100</sup> &minus; p  is prime; (A108256 Primes p such that little googol - p is prime.)
+
+480
+* 480 is the smallest product abc such that (a+2)(b+2)(c+2) = 2abc (480 = 6*8*10 and 960 = 8*10*12); A115157
+* 480 is the smallest number such that when written in hexadecimal (1E0) looks like another number in scientific E notation; A262222
+* 480 is the smallest integer area of an integer-sided triangle, where the lengths of two of the sides are cubes; A329536
 482
 483
-?? NS 483 is the last 3-digit string to appear in the decimal expansion of pi; (zoo of numbers)
+* 483 is the smallest number n such that the n-th octagonal number is the sum of three consecutive octagonal numbers; A251625
+* 483 is the last 3-digit string to appear in the decimal expansion of pi; (zoo of numbers) A032510
 484
+NS is the square of the smallest even hexagonal pyramidal number; A014803
+* 484 is the smallest magic constant of a 6 by 6 magic square composed of consecutive primes; A177434
+* 484 is the smallest nontotient that is the product of two totients; A329872
+486
+?? * 486 is the largest number such that the sum of its digits multiplied by the sum of the digits of its square produces the number itself; A130181
 487
 * 487 is the smallest prime such that p and p<sup>3</sup> have the same digit sum; [Honaker] (p.c.) (checked with Mathematica) (mine A124667 Prime numbers p such that the sum of the digits of p equals the sums of the digits of p^3.)
+489
+* 489 is the smallest number n such that &phi;(n) + &sigma;(n) = reversal(n) &minus; 4; A230005
+
+490
+* 490 is the smallest number n that is equal to the sum of all the numbers between two of n's consecutive divisors (14 and 35); A303556
 495
-?? 495 is the smallest number constant under Kaprekar routine;
+NVI 495 is the smallest number constant under Kaprekar routine; this is essentially similar to the next one.
+* 495 is the smallest number which is a difference of two of its own anagrams (954 - 459); A160851
+* 495 is the sum of the cubes of the first three odd primes; A138853
+* 495 is the smallest number which contain the same set of digits in 3 different smaller bases (495<sub>13</sub> = 2C1, 495<sub>17</sub> = 1C2, and 495<sub>21</sub> = 12C); A059828
 496
-?? Being the 31st triangular number, 496 is the smallest counterexample to the hypothesis that one more than an even indexed triangular number is a prime; (wiki) (smth wrong - could it be even, even-indexed? 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78, 91, 105, 120, 136, 153, 171, 190, 210, 231, 253, 276, 300, 325, 351, 378, 406, 435, 465, 496, 528, 561, 595)
-?? NS 496 is the smallest triangular number such that the sum of its digits cubed is prime; [Earls] (each digit cubed?)
+* 496 is the smallest triangular number such that the sum of cubes of its digits is prime; [Earls] (each digit cubed?) A345351
 * 496 is the largest perfect number with all different digits;
+* 496 is the smallest start of the first run of exactly 2 consecutive squareful triangular numbers; A333756
+* 496 is the smallest even prime-indexed triangular number such that the number number is composite; A097785 checked
 499
+* 499 is the smallest number n such that &phi;(n) + &sigma;(n) = reversal(n) + 4; A230004
 ?? NS The decimal expansion of 499^499 ends with the digits 499499. (Often p^p ends with the digits of p, but this is the only known case for which it ends with the digits of p twice); [Caldwell] 
 U??  497 + 2 = 499, inversing the number -> 994 = 497 x 2; (zoo of numbers)
 
 500
 * 500 is the HTTP status code for "Internal Server Error";
+* 500 is the smallest strong Achilles number (Achilles numbers are powerful but not powers; Strong Achilles numbers are numbers n such that &phi;(n) is also an Achilles number); A194085
 503
 * 503 is the smallest prime which is the sum of the cubes of the first few primes; (503 = 8 + 27 + 125 + 343) (checked)
 504
@@ -2639,6 +2672,9 @@ U?? 1067 has exactly the same digits in 3 different bases; (virtue science)
 ?? NS 1072 is the smallest number that can be represented as the sum of 2, 3, 4 and 5 cubes; (A085337 Numbers which are sums of two, three and four cubes.) (A085338 Numbers which are sums of two, three, four and also sums of five cubes.)
 1079
 ?? NS 1079 is the maximum number of 10th powers needed to sum to any number; (virtue science)
+
+1080
+* 1080 is the number of sets in the game of SET; 
 1084
 * 1084 is the smallest number whose English name contains all five vowels in order;
 1089
@@ -2750,6 +2786,8 @@ NS 1234 is the first four positive digits;
 1279
 NS 1279 is the smallest prime whose rearrangement of digits gives the famous Ramanujan number (1729); [Gupta] (checked)
 1285
+1288
+* 1288 is the number of ways to place two non-attacking queens on a chessboard; A036464
 1291
 ?? NS 1291 is the smallest prime of the set of five consecutive primes whose sum of digits is a set of five distinct primes; (A106816 Smallest prime of the set of five consecutive primes whose sum of digits is a set of five distinct primes.)
 1296
@@ -2882,6 +2920,7 @@ NS ?? 1560 is the smallest number that can be expressed as the difference of the
 * 1563 is the smallest number n such that sigma(n)=reversal(n) - n; (checked the code in A072394) (A072394 Numbers n such that sigma(n)=reversal(n)-n.)
 1568
 ?? NS 1568 is the smallest Rhonda number to base 10; (A099542 Rhonda numbers to base 10. An integer n is a Rhonda number to base b if the product of its digits in base b equals b*Sum of prime factors of n (including multiplicity).)
+* 1568 is the number of ways to place 2 non-attacking rooks on a chessboard; A163102
 1575
 * 1575 is the smallest odd number n such that n! divided by the product of the factorials of all the proper divisors of n is not an integer; (checked the coding in A075460) (A075460 Odd primitive numbers such that n! divided by product of factorials of all proper divisors of n is not an integer.)
 1581
@@ -2949,6 +2988,8 @@ NS 1729 is one of four numbers (the other three are 1458, 81 and 1) which, when 
 
 1730
 NU 1730 is the sum of consecutive squares in 2 ways; (virtue science) (365 is the smallest) (A062681 Numbers that are sums of consecutive squares in more than 1 way.)
+1736
+* 1736 is the number of ways to place 2 non-attacking bishops on a chessboard; A172123
 1747
 ?? NS (((3!)!)!) has 1747 digits. Note that 1747 is prime; [Hartley] 
 1759
@@ -2970,6 +3011,7 @@ NS ?? 1791 is the largest natural number that cannot be expressed as a sum of at
 1801
 * 1801 is the smallest prime consisting of all cube digits (i.e., 0,1,8); [Gupta] 
 1806
+* 1806 is the number of ways to place 2 non-attacking kings on a chessboard; A061995 
 ?? 1806 is the largest $ n$ such that $ m^{n + 1} = m \mod n$ for any $ m$; (planetMath.org)
 1807
 * 1807 is the smallest number such that the number itself and its square contain all ten digits: 1807<sup>2</sup>=3265249; (checked with Mathematica) (mine A122477 Numbers n such that n and n^2 together contain all ten digits.)
@@ -3542,6 +3584,8 @@ NT 6380 is the largest known value of n for which n!+1 is prime; (not anymore - 
 * 6661 is the smallest Beastly (contains 666) prime number; (checked) (submitting a sequence)
 6671
 ?? NS 6671 is the smallest number n such that the partition function is even and odd the same number of times for 0 <= x <= n; (A098936 Numbers n such that the partition function (A000041) is even and odd the same number of times for 0 <= x <= n.)
+6716
+* 6716 is the last 4-digit string to appear in the decimal expansion of pi; A032510
 6729
 * 6729 is the smallest number n such that the integer digits of n joined to the integer digits of 2n contain each of the digits from 1 to 9 once; (A064160 The integer digits of n joined to the integer digits of 2n contain each of the digits from 1 to 9 once.)
 6788
