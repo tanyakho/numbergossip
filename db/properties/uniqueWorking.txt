@@ -2040,7 +2040,7 @@ NS Ray Bradbury Farenheit 451;
 467 
 * 467 is the smallest prime p such that (p*nextprime(p) + 1)/2 is prime; A266163
 468
-* 468  is the smallest non-trivial number such that its own sum of digits is the same as its square's and its cube's sums of digits; (checked their Mathematica coding) (A114135 Primitive numbers n such that the sums of the digits of n, n^2 and n^3 coincide)a
+* 468  is the smallest non-trivial number such that its own sum of digits is the same as its square's and its cube's sums of digits; (checked their Mathematica coding) (A114135 Primitive numbers n such that the sums of the digits of n, n^2 and n^3 coincide)
 * 468 is the smallest number such that adding or subtracting half of its reversal to it produces a positive square; A282116
 469
 ?? NS 469 is the largest known value of n for which n!-1 is prime;
@@ -2065,7 +2065,7 @@ NS is the square of the smallest even hexagonal pyramidal number; A014803
 * 484 is the smallest magic constant of a 6 by 6 magic square composed of consecutive primes; A177434
 * 484 is the smallest nontotient that is the product of two totients; A329872
 486
-?? * 486 is the largest number such that the sum of its digits multiplied by the sum of the digits of its square produces the number itself; A130181
+?? 486 is the largest number such that the sum of its digits multiplied by the sum of the digits of its square produces the number itself; A130181
 487
 * 487 is the smallest prime such that p and p<sup>3</sup> have the same digit sum; [Honaker] (p.c.) (checked with Mathematica) (mine A124667 Prime numbers p such that the sum of the digits of p equals the sums of the digits of p^3.)
 489
