@@ -12,7 +12,7 @@ spec:
         app: numbergossip
     spec:
       containers:
-        - image: gcr.io/pelagic-force-260622/numbergossip:7604f55
+        - image: gcr.io/pelagic-force-260622/numbergossip:ce3931a
           name: numbergossip
           imagePullPolicy: Always
           ports:
