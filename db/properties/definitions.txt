@@ -466,7 +466,7 @@ Compare with <a href = "#perfect"> perfect</a> and <a href = "#abundant"> abunda
 
 <h3> <a name = "vampire"> vampire </a> </h3> 
 <p>
-<h4><i>Definition:</i> The number n is called a <i>vampire</i> number if there exists a factorization of n using n's digits.
+<h4><i>Definition:</i> The number n is called a <i>vampire</i> number if there exists a factorization of n using n's digits (counting multiplicity).
 <p>
 <p>
 <i>First ten:</i> 126, 153, 688, 1206, 1255, 1260, 1395, 1435, 1503, 1530.

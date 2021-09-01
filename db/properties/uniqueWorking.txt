@@ -611,7 +611,7 @@ NS ?? 65 is the ONLY number which gives a prime square, on adding as well as sub
 * 68 is the smallest exponent of a power of 2 that contains all ten digits; A130694
 * 68 is the smallest composite number that becomes prime by turning it upside down; A048889
 ?? NS 68 is the largest even number that is expressible as the sum of two primes in two different ways (7 + 61, 31 + 37);
-* 68 is the last 2-digit string to appear in the decimal expansion of pi; A032510
+* Out of all 2-digit strings, 68 is the last to appear in the decimal expansion of pi; A032510
 
 69
 * 69 is the smallest strobogrammatic number which is not a palindrome;
@@ -663,7 +663,7 @@ NT 73 is the only number which is 1 less than the double of its reversal which a
 77
 * 77 is the smallest number with multiplicative persistence 4; (Mathworld) A046513
 ?? 77 is the largest number that cannot be written as a sum of distinct numbers whose reciprocals sum to 1;
-* 77 is the smallest number n such that the smallest possible number of multiplications required to compute x to the n-th power is by 1 less than the number of multiplications obtained by Knuth's power tree method; A115616 A113945 
+* 77 is the smallest number n such that the smallest possible number of multiplications required to compute x to the n-th power is by 1 fewer than the number of multiplications obtained by Knuth's power tree method; A115616 A113945 
 78
 * A standard Tarot deck containing the 22 cards of the major arcana and the 56 cards of the minor arcana make up 78 cards; (wiki)
 * 78 is the number of lines that make up Metatron's Cube; (wiki)
@@ -2042,7 +2042,7 @@ NU 450 = (5+4)(5+5)(5+0); (Also 50, 210) (A097371 Numbers n such that n=(d_1+5)(
 * 451 is the smallest number whose reciprocal has period 10; checked
 NS Ray Bradbury Farenheit 451;
 452
-?? 452 is the number of idempotent 4 by 4 0-1 matrices; A222823
+* 452 is the number of idempotent 4 by 4 0-1 matrices; A222823
 454
 ?? NS 454 is the largest number known that cannot be written as a sum of 7 or fewer cubes; (?? 454 is the largest integer such that its shortest partition into cubes requires eight of them. - from planetMath.org)
 459
@@ -2875,7 +2875,7 @@ NS 1000 is the smallest number that can be expressed as the product of three 2-d
 NS A millennium has 1000 years;
 * 1000 = 10<sup>3</sup>, as such it is the smallest product of three 2-digit numbers; A033830
 * 1000 is the smallest number containing letter A when written out in American English; (??not true, sometimes the rule is to pronounce 101 as one hundred and one) A029722
-* 1000 is the smallest number whose scientific notation (1E3) is shorter that its decimal representation; A168650
+* 1000 is the smallest number whose scientific notation (1E3) is shorter than its decimal representation; A168650
 * 1000 is the smallest cube of a non-palindromic number; A319441
 1001
 NT 1001 is the smallest palindromic number which cannot be prime when read in any base; [Poo Sung] (what about 6?)
@@ -3280,6 +3280,8 @@ NS 1<sup>2</sup> + 37<sup>2</sup> + 1<sup>2</sup>; (see the previous one)
 1386
 * 1386 is the smallest number n such that n and 6n are anagrams; (checked with Mathematica) (A023090 Numbers n such that n and 6*n are anagrams.) (mine A133220 a(n) is the smallest number k such that k and n*k are anagrams.)
 
+1400
+* 1400 is the product of the numerical values of letters in the word TEN; A075831
 1402
 * 1402 is the smallest magic constant of a 4 by 4 magic square composed of triangular numbers; A271579
 1405
@@ -3646,6 +3648,8 @@ NT 2053 is the largest known primorial prime: value of n for which the product o
 * 2063 is the smallest of six consecutive primes whose sum of digits is prime (if we consider fewer than 6 consecutive primes the smallest will be 2); (A106719 Smallest of six consecutive primes whose sum of digits is prime.)
 2074
 NS 2074 is the smallest number n such that zero is never reached by iterating the mapping k -> abs(reverse(lpd(k))-reverse(Lpf(k))), where lpd(k) is the largest proper divisor and Lpf(k) is the largest prime factor of k; (A076425 Numbers n such that zero is never reached by iterating the mapping k -> abs(reverse(lpd(k))-reverse(Lpf(k))). lpd(k) is the largest proper divisor and Lpf(k) is the largest prime factor of k.)
+2084
+* 2064 is the cell number where a knight is trapped when moving on a spirally numbered chessboard to the lowest available unvisited cell and starting at cell 1; A333684
 2089
 * 2089 is the largest of six consecutive primes whose sum of digits is prime (if we consider fewer than 6 consecutive primes the smallest will be 2); (A106719 Smallest of six consecutive primes whose sum of digits is prime.) A106720
 * 2089 is the smallest prime that can be written as a sum of a positive square and a positive cube in more than two ways; A206606
@@ -3682,7 +3686,7 @@ NS 2074 is the smallest number n such that zero is never reached by iterating th
 ?? 2184 is the smallest number n such that &sigma;(n+1)=5&phi;(n); A067263
 ?? 2184 is the smallest starting point of a stapled consecutive interval: in a stapled interval each number shares a divisor with another number (2184 starts such an interval of length 17); A130173
 2187
-* 2187 is the smallest compact number: numbers that can be expressed more compactly using their prime factorization than their decimal expansion (where multiplication and power contribute one character: 2187 is written as 3^7); A279070
+* 2187 is the smallest compact number: numbers that can be expressed more compactly using their prime factorization than their decimal expansion, where multiplication and power contribute one character (2187 is written as 3^7); A279070
 2197
 * 2197 is the smallest cube (13<sup>3</sup>) that may be obtained by concatenating primes in two different ways: 2, 197 and 2, 19, 7; [Hartley] 
 * 2197 is the smallest cube whose digits sum to a prime; (checked) (A109408 Cubes whose digits sum to a prime.)
@@ -4168,6 +4172,8 @@ NU 4030 is an abundant number that is not the sum of some subset of its divisors
 4095
 * 4095 is the largest triangular number of the form 2<sup>k</sup> - 1; (wiki http://en.wikipedia.org/wiki/Ramanujan%E2%80%93Nagell_equation)
 
+4104
+* 4104 is the product of the numerical values of letters in the word SIX; A075831
 4111
 * 4111 is the smallest prime p whose smallest positive primitive root (mod p) is not squarefree; A205581
 4133
@@ -4364,7 +4370,7 @@ NU Recursive use of the prime counting function in which all numbers are prime: 
 5658
 NT 5658 is the only 4-digit number N which is the product of 4 distinct primes, and is also divisible by the sum of those 4 primes; (Also 1122, 2958, 4070, 5658, 9222)
 5682
-?? 5682 is the number of idempotent 5 by 5 0-1 matrices; A222824
+* 5682 is the number of idempotent 5 by 5 0-1 matrices; A222824 A086922 
 5689
 * 5689 is the largest prime factor of the smallest pandigital number 1023456789; A204532
 5691
@@ -4409,6 +4415,8 @@ NU 5775 is the product of two different substrings of its digits; 5775 = 77 * 75
 * 5913 can be expressed as 1! + 2! + 3! + 4! + 5! + 6! + 7!; (should be a sequence) (A007489 Sum of k!, k=1..n. )
 5936
 * 5936 is the smallest number n with all digits different, such that none of its digits divide n, but all digits not in n, excluding zero, do divide n; 
+5940
+* 5940 is the product of the numerical values of letters in the word FIVE; A075831
 5973
 * 5973 is the smallest odd number divisible by 3 which is neither of the form p + 3<sup>m</sup> + 1 nor of the form p + 3<sup>m</sup> - 1 with p prime; A282191
 5986
@@ -4530,6 +4538,8 @@ U?? 6809 is an Invertible number with Strobogrammatic prime factors: 6809 = 11*6
 6899
 * 6899 is the smallest prime whose sum of digits is a fifth power; [Gupta] (checked) (A106768 Primes with digit sum = 32.)
 
+6900
+* 6900 is the product of the numerical values of letters in the word TWO; A075831
 6969
 ?? NS 6969 is the smallest 1/3-Smith Number; (A050225 1/3-Smith Numbers.)
 6983
@@ -4660,7 +4670,7 @@ NU 8614 and its prime factors contain every digit from 1-9 exactly once; (Not Un
 8712
 * 8712 is the smallest number that is divisible by its reverse: 8712 = 4*2178 (excluding palindromes and numbers with trailing zeros); (wiki) (A071687 Non-palindromic numbers such that either x=q1.Rev[x] or Rev[x]=q2.x, where R[x]=A004086[x], and q1 or q2 are integers not divisible by 10) A031877
 8719
-* 8719 is the smallest number n such that the smallest possible number of multiplications required to compute x to the n-th power is by 2 less than the number of multiplications obtained by Knuth's power tree method; A115614
+* 8719 is the smallest number n such that the smallest possible number of multiplications required to compute x to the n-th power is by 2 fewer than the number of multiplications obtained by Knuth's power tree method; A115614
 8731
 * Sherlock Holmes' address 221B is the hexadecimal representation of 8731; (checked) [Rupinski] 
 8736
@@ -4675,6 +4685,7 @@ NU 8614 and its prime factors contain every digit from 1-9 exactly once; (Not Un
 
 8820
 * 8820 is the smallest non-palindrome that is a product of 7 primes whose reverse is also a product of 7 primes; A109018 
+* 8820 is the product of the numerical values of letters in the word NINE; A075831
 8833
 * 8833 is the largest 4-digit number that is the sum of the squares of its halves: 8833 = 88<sup>2</sup> + 33<sup>2</sup>; (checked with Mathematica - the other one is 1233) (A055616 Numbers with 2*n digits which are the sum of the squares of their n-digit halves)
 8867
@@ -4795,12 +4806,15 @@ A myriagon is a polygon with 10,000 sides;
 
 10007 is the smallest naughty prime: primes in which the number of zeros is greater than the number of all other digits; A164968
 10007 is the smallest prime that equals 10000 plus another prime; A165296
+10007 is the smallest 5-digit prime number; checked
 
 10009 is the smallest prime which is 10000 plus a square; A256838
 
 10011 is the smallest number such that its square has each digit with frequency 3 (10011<sup>2</sup> = 100220121); A052095
 
 10045 is the smallest pentagonal number that is the product of two pentagonal numbers greater than 1; A188663
+
+10080 is the number of minutes in a week; checked
 
 10103 is the smallest number that represents a date where the year is condensed; A213184 A213182
 
@@ -4812,6 +4826,11 @@ A myriagon is a polygon with 10,000 sides;
 10103 is the smallest prime date where the year is condensed; A227409 A227407
 
 10124 is the smallest number n such that n<sup>2</sup> contains exactly 9 different digits; A054037
+10124 is the smallest number whose square uses all the digits but 8; checked
+
+10128 is the smallest number such that its square uses all the digits but 9; A158931 checked
+
+10136 is the smallest number whose square uses all the digits but 5; checked
 
 10171 is the smallest number n with property that n<sup>2</sup> is a concatenation of three 3-digit primes; A153139
 
@@ -4879,12 +4898,15 @@ A myriagon is a polygon with 10,000 sides;
 
 10987 is the smallest prime which is the reverse concatenation of four consecutive numbers; A104323
 
+10989 the second largest and the only 5-digit number that is a reverse of itself when multiplied by 9; A001232
+
 11001 is the largest number using only digits 0 and 1 that does not repeat a pair of consecutive digits; A034712
 
 11025 is the smallest odd doubly abundant number: abundant numbers such that the sum of proper divisors is also abundant; A129087
 11025 is the smallest odd abundant number with odd abundance; A156942
 11025 is the smallest Cyclops power; A285845
 11025 is the smallest odd abundant number n such that &sigma;(n) == 3 (mod 4); A325311
+11025 is the sum of the cubes of the first 14 positive integers; 
 
 11093 is the smallest prime number such that two different substrings of length 4 are 4-digit prime numbers; A211686
 
@@ -4929,11 +4951,11 @@ A myriagon is a polygon with 10,000 sides;
 11411 is the smallest palindromic prime containing the middle digit 4. Digit 4 is the last digit to appear in the middle of a palindromic prime; A083975 checked A195294
 11411 is the smallest zeroless prime p such that the next prime after p can be obtained from p by adding the sum and product of the digits of p; A157655
 
-11605 is the smallest number n such that n through n+4 all have same number of divisors; A049051 
+11605 is the smallest number n such that n through n+4 all have the same number of divisors; A049051 
 
 11697 is the larger number of the smallest augmented amicable pair; A015630
 
-11826 is the smallest number whose square is a zeroless pandigital; A071519 A294661
+11826 is the smallest number whose square is a zeroless pandigital; A071519 A294661 checked
 
 12011 is the smallest Cyclops prime p such that 2p+1 is also a Cyclops prime; A183059
 
@@ -4968,6 +4990,8 @@ NS 12325 is the smallest number that can be written as (x + y)(x^2 + y^2), x > y
 
 12544 is the smallest square which is a decimal concatenation of triprimes (products of three primes); A225151
 
+12586 is the smallest number whose square uses all the digits but 2; checked
+
 12600 can be expressed as 10! divided by 0!1!2!3!4!; A248709
 
 12700 is the starting position of strings of four 1's in the decimal expansion of Pi; A083602
@@ -4979,6 +5003,8 @@ NS 12325 is the smallest number that can be written as (x + y)(x^2 + y^2), x > y
 12720 is the smallest number n such that n+1 is a prime, n+2 is twice a prime, n+3 is three times a prime, and n+4 is four times a prime; A278585
 
 12721 is the smallest prime p such that (p+1)/2, (p+2)/3 and (p+3)/4 are also primes; A163573
+
+?? 12758 is the largest number that cannot be expressed as the sum of distinct cubes; wiki
 
 12769 is the smallest square with 5 distinct digits; A235720
 
@@ -5016,6 +5042,8 @@ NS 12325 is the smallest number that can be written as (x + y)(x^2 + y^2), x > y
 
 13781 is the smallest prime p such that p+1, p+2, p+3, p+4 and p+5 have equal number of divisors; A119730
 
+?? 13792 is the largest number that is not a sum of 16 fourth powers; wiki
+
 ?? 13824 is the smallest number n such that n! is the product of exactly 4 smaller nontrivial factorials; A109102
 
 13901 is the smallest start of a sequence of 6 consecutive primes with consecutive gaps 2, 4, 6, 8, and 10; A190817
@@ -5041,6 +5069,8 @@ NS 12325 is the smallest number that can be written as (x + y)(x^2 + y^2), x > y
 14387 is the largest of the smallest nine consecutive primes the sum of the digits of each of which is prime; A106725
 
 14399 is the smallest number n such that the minimum distance between divisors of n occurs only between composite numbers; A253266
+
+?? 14400 is the sum of the cubes of the first 15 positive integers
 
 14449 is the smallest prime which is the decimal concatenation of two squares in more than one way; A203815
 
@@ -5158,6 +5188,8 @@ NS 12325 is the smallest number that can be written as (x + y)(x^2 + y^2), x > y
 
 17148 is the smallest recurring digital invariants of order 6; A218247
 
+?? 17163 is the largest number that is not the sum of the squares of distinct primes; wiki
+
 17254 is the smallest 2-nadir of &sigma;: the smallest number n such that &sigma;(n-2) &gt; &sigma;(n-1) &gt; &sigma;(n) &lt; &sigma;(n+1) &lt; &sigma;(n+2); A076774
 
 17261 is the smallest odd composite n such that n divides Fibonacci(n) + 1 but n does not divide Fibonacci(n+1); A094413
@@ -5167,6 +5199,8 @@ NS 12325 is the smallest number that can be written as (x + y)(x^2 + y^2), x > y
 17296 is the smallest number n such that the arithmetic derivative of n equals &sigma;(n); A230164
 
 17298 is the smallest non-trivial integer n that is equal to the determinant of the circulant matrix formed by the binary digits of n; A219325 A219357
+
+17389 is the 2000th prime number; checked
 
 NS 17424 is the smallest e-perfect number that is not e-unitary perfect; A322858
 
@@ -5178,9 +5212,11 @@ NS 17424 is the smallest e-perfect number that is not e-unitary perfect; A322858
 
 17783 is the smallest prime which is the sum of two, three, four and five consecutive composite numbers; A151744
 
-?? 18329 is the smallest prime p that together with the next prime q has the following property: there exist two successive prime numbers r and s such that p<sup>r</sup>q<sup>s</sup> contains every digit from 1 to 9 a prime number of times; A217049
+?? 18329 is the smallest prime p that together with the next prime q has the following property: p<sup>2</sup>q<sup>3</sup> contains every digit from 1 to 9 a prime number of times; A217049
 
 18362 is the smallest number n such that n, n+1, n+2, n+3, n+4 and n+5 are, in some order, 1 times a prime, 2 times a prime, ... and 6 times a prime; A071368
+
+?? 18496 is the sum of the cubes of the first 16 positive integers; wiki
 
 18530 is the smallest among Euler's fearsome foursome; A229076
 
@@ -5203,9 +5239,13 @@ NS 17424 is the smallest e-perfect number that is not e-unitary perfect; A322858
 
 19441 is the smallest prime p such that (p+1)/2, (p+2)/3, (p+3)/4 and (p+4)/5 are also prime; A204592
 
+?? 19455 is the smallest integer that cannot be expressed as a sum of fewer than 548 ninth powers; wiki
+
 ?? 19494 is the smallest number whose square can be written as the average of two positive cubes in more than one way; A322101
 
 19601 is the smallest number b greater than 1 such that the smallest five primes, i.e., 2, 3, 5, 7 and 11 are base-b Wieferich primes; A339534
+
+?? 19609 is the first prime followed by a prime gap of over fifty; wiki
 
 ?? 19633 is the smallest number n such that the period of the continued fraction of the square root of n is odd and equal to the period of the next number; A065304
 
@@ -5215,7 +5255,11 @@ NS 17424 is the smallest e-perfect number that is not e-unitary perfect; A322858
 
 19940 is the smallest number n such that n, n + 1, n + 2, and n + 3 all have the same prime signature; A175590
 
+20100 is the sum of the first 200 natural numbers; checked
+
 20160 is the smallest order for which there is more than one simple group; the alternating group A8 and the Chevalley group A2(4)
+
+?? 20161 is the largest integer that cannot be expressed as a sum of two abundant numbers; wiki
 
 ?? 20169 is the smallest starting number for which the RATS sequence has eventual period 3; A114613 A209878
 
@@ -5286,6 +5330,8 @@ NS 17424 is the smallest e-perfect number that is not e-unitary perfect; A322858
 
 21893 is the largest prime participating in a 3 by 3 semimagic square with the smallest magic constant formed from consecutive primes; A265614
 
+21978 is the second smallest and the only 5-digit number that reverses when multiplied by 4; A008918
+
 22011 is the smallest number n such that sum of 5th powers of digits of n equals the sum of prime divisors of n; A217533
 
 22020 is the smallest number that starts a string of exactly 6 consecutive nonsquarefree numbers; A049535
@@ -5338,6 +5384,8 @@ NS 17424 is the smallest e-perfect number that is not e-unitary perfect; A322858
 
 23357 is the smallest prime with a prime number of digits and using all of the prime digits 2, 3, 5, 7 repeated in strings, in that order; A153771
 
+?? 23409 is the sum of the cubes of the first 17 positive integers; wiki
+
 23518 is the smallest number n of the form p<sup>3</sup>-p<sup>2</sup>-p-1 (for prime p) such that n<sup>3</sup>-n<sup>2</sup>-n-1 is prime; A237528
 
 23571 is the first five digits of the Copeland–Erdős constant; A304652
@@ -5368,6 +5416,8 @@ NS 17424 is the smallest e-perfect number that is not e-unitary perfect; A322858
 
 ?? 25200 is the smallest triangular number that is a product of 9 factors; A076583
 25200 is the smallest triangular number that is a product of 4 distinct non-trivial triangular numbers. Coincidentally, it can also be represented as a product or two or three non-trivial triangular numbers; A226501
+
+?? 25205 is the largest number whose factorial is less than 10<sup>100000</sup>; wiki
 
 25247 is the smallest prime concatenation, in decreasing order, of the sides of a primitive Pythagorean triple; A174825
 
@@ -5404,7 +5454,6 @@ A093180
 
 NS 27312 is the smallest start of a run of 3 consecutive lazy-Fibonacci-Niven numbers; A328214
 
-
 27346 is the smallest number n such that 100000000n+1, 100000000n+3, 100000000n+7, 100000000n+9 are all primes; A064967
 
 27384 is the smallest number n that is divisible by at least five of its digits, which are different and greater than 1; A187533
@@ -5417,6 +5466,7 @@ NS 27312 is the smallest start of a run of 3 consecutive lazy-Fibonacci-Niven nu
 27720 is the smallest number n such that &sigma;(n) &ge; 4n. Actually, it is greater than 4n; A023198 A068404 A230608
 27720 is the smallest number n whose divisors can be partitioned into four disjoint sets whose sums are all &sigma;(n)/4; A204831
 27720 is the smallest number n having a proper divisor d such that &sigma;(n) - 4d = 4n; A291458 A307114
+?? 27720 is the smallest number divisible by the numbers 1 to 12; wiki
 
 ?? 27872 is the smallest palindrome that is a product of 7 primes; A046333
 
@@ -5445,47 +5495,735 @@ NS 27312 is the smallest start of a run of 3 consecutive lazy-Fibonacci-Niven nu
 
 30030 is the product of the first 6 primes; A046324 A067885 A074969 A138206 A147573
 30030 is the smallest number n such that &phi;(n) &lt; n/5; A066765
+?? 30030 is the smallest number which has more than one coprime factorization into nonprime powers which sum to the same number (30030 = 65*22*21 = 39*55*14 and 65+22+21 = 108 = 39+55+14); A072940 
+30030 is the smallest number n such that usigma(n) &ge; 3n, where usigma(k) is the sum of unitary divisors of n; A285615 A336671
 
 30031 is the smallest composite Euclid number, that is it is the smallest composite which is 1 more than a primorial (submitted by Martin Completa); (checked) A066576 A104877
 
+30103 is the smallest palindromic prime with 010 in the middle; A260459
+
+30135 is the smallest number n such that there are precisely 12 groups of each of the orders n and n + 1; A298429
+
+30240 is the smallest 4-perfect number: sum of divisors of n is 4n; A027687 A113286
+
+30241 is the smallest prime of the form 1 + 4-perfect number. Actually, 30240 is the smallest 4-perfect number; A171263
+
+30514 is the smallest number n such that n and n+1 have the same norm of the sum of divisors in Gaussian integers; A332315
+
+30923 is the least in the smallest series of five consecutive numbers which are cubefree and not squarefree; A071124
+
+?? 30491 is the first base 13 repunit prime;
+
+30977 is the smallest prime p such that the largest prime divisor of 1+p<sup>6</sup> is less than p; A102328
+
+31050 is the smallest number n divisible by exactly four nontrivial permutations of the digits of n (31050 is divisible by 135, 1035, 1350, and 10350); A090059
+
+?? 31127 is the smallest number n such that n<sup>4</sup> = a<sup>4</sup> + b<sup>4</sup> + c<sup>4</sup> + d<sup>4</sup> has at least two positive primitive solutions; A331675
+
+31261 is the smallest number n that is a product of two distinct primes such that 2n-1, 4n-3, 8n-7, 16n-15, 32n-31, 64n-63, 128n-127 and 256n-255 are also products of two distinct primes; A177217
+
 31330 is the second and the largest differential autobiographical number (the i-th digit describes how many pairs of digit has difference i); A256104
 
-32767 - largest value for a signed (two's complement) 16-bit signed integer on a computer;
+31415 the 5 digits that start the decimal expansion of Pi; A277171
 
-34448 - 34448 is the numerical equivalent of the word EIGHT on a touch-tone telephone; (checked) (A079048 Numerical equivalents of words zero, one, two, three, ... on touch-tone telephone.)
+31417 is the smallest number n such that both n and (n+1)/2 are Fermat pseudoprimes to base 2; A303531
+
+31513 is the smallest palindromic prime that is the sum of 3 consecutive primes, the middle one palindromic; A113846
+
+31609 is the smallest Fermat pseudoprime to base 2 that is tetradecagonal; A322123
+
+31729 is the smallest prime number ending in Hardy-Ramanujan number 1729; A193742
+
+31907 is the smallest prime p with a gap of 50 until the next prime number; A134124
+
+32043 is the smallest number such that its square (1026753849) is pandigital; A054038 A156977 A217368
+
+32045 is the smallest number that is the hypotenuse of exactly 40 distinct Pythagorean triangles; A097282
+32045 is the smallest number n that is the product of four distinct odd primes and x<sup>2</sup> + y<sup>2</sup> = n has integer solutions; A264499
+
+32054 is the smallest number whose square uses all the digits but 3; checked
+
+32164 is the smallest number whose square uses all the digits but 7; checked
+
+32233 is the smallest prime whose digits are all prime, sum of digits is prime and sum of reciprocals of digits is also prime; A269930
+
+?? 32257 is the smallest emirp made up of a prime number of only prime digits including all of 2,3,5,7; A137837
+
+?? 32318 is the smallest number n such that n<sup>2</sup> + 1 is divisible by a 7th power; A218574
+
+32377 is the smallest odd prime number n with property that 2<sup>n</sup>+n<sup>2</sup> == 0 mod (n+2); A156048
+
+?? 32469 is the smallest odd number n divisible by 3 such that for all k greater or equal to 1 the numbers n*2<sup>k</sup> + 1 and n*2<sup>(k+1)</sup> + 1 do not form a pair of primes; A243857
+
+?? 32564 is the smallest self-power number, that is, a number n without zeros and ones such that for each single digit d of n, we can also see the decimal expansion of the d-th power of some number as a substring of n (we can see a cube (64) , a square (4 or 25), a fifth power (32), a sixth power (64), and a fourth power (256)); A134698 A134947 A134949
+
+32640 is the smallest triangular number which is a product of 10 primes; A101744
+
+32767 is the largest value for a signed (two's complement) 16-bit signed integer on a computer;
+
+32768 is 8 to the fifth power. As such it is the smallest product of 15 primes; A017261 A069276 A232393 A236223 A303267
+
+32777 is the smallest semiprime p such that next semiprime after p is p+30; A217357
+
+32788 is the earliest starting position of a string of five 1's in the decimal expansion of Pi; A083603
+
+32832 is the smallest taxicab number sandwiched between twin primes; A272892
+
+32861 is the smallest number whose square uses all the digits but 6; checked
+
+32970 is the smallest twin prime pair average n such that 3n and 9n are also averages of twin prime pairs; A132992
+
+33075 is the smallest number that is a sum of two or more consecutive positive cubes in more than 1 way; A062682
+33075 is the smallest odd nonunitary abundant number; A094889
+
+33113 is the smallest limerick prime: a prime with decimal representation of the form AABBA, with B less than A; A332200
+
+33263 is the smallest number that is a sum of 3 successive primes and also a product of 3 successive primes; A203619
+
+33331 is the smallest prime formed by concatenating n, n, n, n, and 1; A210720
+
+?? 33581 is the smallest prime p that together with its successor q gives prime counts for all 10 digits in q<sup>2</sup>p<sup>3</sup>; A217565
+
+33603 is the smallest number n such that 10<sup>9999</sup> + n is a prime; A142587
+
+33608 is the smallest number n such that difference between the n-th prime and the next prime is 100; A116496
+
+34020 is the product of the numerical values of letters in the word FOUR; A075831
+
+34155 is the smallest odd number n that is equal to the sum of its proper divisors greater than its square root; A182292
+
+?? 34421 is the smallest integer that can be expressed as the sum of consecutive primes in at least 5 ways. Moreover, it can be express that way in exactly 6 ways; A055001 A164556
+
+34448 is the numerical equivalent of the word EIGHT on a touch-tone telephone; (checked) (A079048 Numerical equivalents of words zero, one, two, three, ... on touch-tone telephone.)
+
+34543 is the smallest prime that is a concatenation of the form n, n+1, n+2, n+1, n; A068703
+
+34549 is the smallest class 9- prime; A081428
+
+34771 is the smallest number n such that 2*prime(n)+1, 2*prime(n+1)+1, 2*prime(n+2)+3, 2*prime(n+3)+3 are also consecutive primes; A103911 
+
+34780 is the smallest number n such that n+prime(n)+prime(prime(n)) is a cube; A116016
+
+34933 is the smallest quasi-Carmichael numbers to exactly five bases; A257755
+
+35100 is the product of the numerical values of letters in the word ZERO; A075831
+
+?? 35172 is the smallest number n such that there is another number m such that both n and m use all 10 digits once, and the squares of m and n use all the digits at least once; A085545
+
+35217 is the smallest number n such that googol - n is an upper twin; A133282
+
+35245 is the smallest hexagonal number that is the sum of fourteen consecutive hexagonal numbers; A257724
+
+35729 is the smallest prime that is a concatenation of 3, 5, 7 and a prime; A101252
+
+35737 is the smallest number n such that n + googol is a lower twin prime; A133281
+
+?? 35864 is is the conjectured highest power of 2 which has no four identical digits in succession; A216065
+
+36000 is the largest achievable determinant of a 4 by 4 matrix whose elements are 16 distinct nonnegative integers chosen from the range 0 to 15; A097694
+
+36100 is the sum of the cubes of the first 19 positive integers; wiki
+
+36125 is the smallest multi-digit narcissistic number in exactly six bases; A256365
+
+36137 is the smallest number such that its square uses all digits but 4; A158931 checked
+
+36524 number of days in a century that doesn't contain years divisible by 400; A011770
+
+36525 number of days in a century that contain years divisible by 400; A011770 A011771
+
+36963 is the smallest number whose square is expressible as the difference of positive cubes in more than one way; A051393
+
+?? 37019 is the smallest prime with 5 distinct digits that remain prime (no leading zeros allowed) after deleting all occurrences of its digits d; A057881
+
+37447 is the smallest prime that is the sum of 101 consecutive primes; A215993
+
+37926 is the smallest pentagonal pyramidal number which is the sum of two other such numbers; A172425
+
+37961 is the smallest number n such that n and n &plusmn; 1 have 4 distinct prime factors; A168628
 
 38114 is one of Euler's fearsome foursome; A229076
 
-40320 - smallest factorial that is not a highly composite number (wiki)
+38227 is the smallest number n such that there are precisely 9 groups of orders n and n + 1; A298427
 
-45360 - first number to have 100 factors (including 1 and itself)
+38400 is the smallest composite n such that when added to the sum of its prime factors produces the next prime; A050765 A050777
+
+38416 14^4; A013873
+
+38431 is the smallest prime that can be achieved by the operation: add prime factors to a composite number to get the next prime number; A050766
+
+38570 is the smallest number n such that n and n+1 have at least 4 but not both exactly 4 distinct prime factors; A321494
+
+?? 38831 is the smallest number that is not possible as the determinant of a 4 by 4 matrix with elements 1 through 16; A088237
+
+39270 is the smallest number n such that &phi;(&psi;(n)) is greater than n; A196200
+
+39312 is the smallest number n such that n and its square are both sums of two positive cubes; A274128
+
+39367 is the smallest prime p such that (p^2 + 5)/6, (p^4 + 5)/6, and (p^8 + 5)/6 are prime; A253940
+
+39372 is the smallest average n of twin primes such that the sum (with multiplicity) of prime factors of n-1, n and n+1 is a  nontrivial prime power; A340062
+
+39607 is the smallest initial prime of exactly nine consecutive primes congruent to 3 modulo 4; A162866
+
+39887 is the earliest 5-digit prime in the decimal expansion of the golden ratio; A103809
+
+39937 is the smallest prime divisor of (10^9)^(10^9) + 1 = 10^9000000000 + 1; A076670
+
+40033 is the smallest cubefree taxi-cab number that are not squarefree; A272889
+
+40040 is the smallest number n not divisible by 6 such that &sigma;(n) is greater than 3n; A126104
+
+40147 is A076778 		3-nadirs of Omega: numbers k such that Omega(k-3) > Omega(k-2) > Omega(k-1) > Omega(k) < Omega(k+1) < Omega(k+2) < Omega(k+3), where Omega(k) = number of prime factors of k, counting multiplicity. 
+
+40320 is the smallest factorial with the initial digit 4; A045516
+40320 is the smallest factorial containing a 3; A072269
+40320 is smallest factorial that is not a highly composite number; (wiki)
+
+40470 is the smallest triangular number composed of digits 0, 4, and 7; A218399
+
+40500 is the smallest number n divisible by exactly five nontrivial permutations of the digits of n; A090060
+
+40585 is the largest factorion (the number that equals the sum of factorials of its digits); wiki
+
+?? 40625 is the smallest number that is the hypotenuse of exactly 16 distinct Pythagorean triangles; A097238
+
+41041 is the smallest super-Carmichael number with exactly 4 factors; A074379
+41041 is the smallest Carmichael number with more than 3 prime factors; A141711
+
+41203 is the smallest initial prime of 6 consecutive primes with 5 consecutive gaps 10, 8, 6, 4, 2; A286891
+
+41209 is the smallest abundance of a number that is an odd square; A188488
+
+?? 41214 is the smallest palindrome of form n^2 + (n+1)^2 + (n+2)^2 + (n+3)^2; A027577
+
+41609 is the smallest prime p with p + 2, prime(p) + 2, prime(prime(p)) + 2 and prime(prime(prime(p))) + 2 all prime; A236482
+
+41616 is the smallest square which can be represented as sum of at least two consecutive cubes and is not triangular numbers squared; A163392
+41616 is the smallest square that is equal to the sum of an odd number of consecutive cubes; A253681
+
+41624 is the smaller in the smallest pair of two consecutive numbers with prime signature {1,2,3}; A178800
+
+?? 42278 is the smallest number n such that each letter appears an even number of times in the English names for 1 through n taken together (names with "and"); A103155
+
+42294 is the number of set partitions of [10] such that 10 is the largest element of the last block; A271749
+
+42485 is the smallest number n such that the decimal expansion of 2 to the n-th power contains nine consecutive identical digits; A217164
+
+?? 42768 is the smallest n that equal to the number of fours used in all numbers not exceeding n written in base 6; A014892
+
+43331 is the smallest prime p with the gap of 60 till the next prime; A126771
+
+43465 is the smallest number n such that 2*prime(n) + 5, 2*prime(n+1) + 7, 2*prime(n+2) + 9, 2*prime(n+3) + 11 are also consecutive primes; A103875
+
+44100 is the square of the product of all 1-digit primes; A190377
+44100 is the smallest composite number whose number of proper divisors has a number of proper divisors which has a prime number of proper divisors; A223457
+44100 is the smallest number having exactly four non-unitary prime factors; A338541
+44100 is the sum of the cubes of the first 20 positive integers; wiki
+
+44287 is the smallest semiprime of the form m^10 - m^9 + m^8 - m^7 + m^6 - m^5 + m^4 - m^3 + m^2 - m + 1; A245483
+
+44290 is the smallest pentagonal number) that is the sum of five consecutive pentagonal numbers; A257714
+
+44310 is the smallest number n aving exactly 5 distinct prime factors, the largest of which is greater than or equal to sqrt(n); A115959
+
+44360 is the smallest number n such that n through n+8 are divisible by the same number of distinct primes; A045937
+
+44449 is the smallest prime with exactly four 4's; A178553
+44449 is the smallest prime that doesn't divide any of 9-digit zeroless pandigitals; A216203
+
+44488 is the first in the smallest quintuple of consecutive happy numbers; A194355
+
+44770 is the smallest nonsquarefree integer n such that, for prime p, if p^k|n then 2+p^k|2+n; A225814
+
+44839 is the smallest prime of the form sum_{k=1..n} prime(k)*prime(k+1); A197421 A197614
+
+45136 is the smallest number such that its square uses all the digits but 1; A158931
+
+?? 45141 is the earliest century that contains exactly four prime numbers that are in two pairs that are anagrams of each other; A162894
+
+45360 is the smallest integer with exactly 100 divisors; A163816
+?? 45360 is the smallest highly composite number that lack a prime factor that the previous highly composite number has; A210618
 
 45986 is one of Euler's fearsome foursome; A229076
 
+46097 is the smallest n such that the n-th triangular number contains each of the 10 decimal digits exactly once; A115939
 
-46656 - 6^6
+46189 is the smallest number n such that n, n+1, and their sum 2n + 1 each have 4 or more distinct prime factors; A168630
 
-46848 is the smallest non-palindrome that is a product of 10 primes whose reverse is also a product of 10 primes; A109018 
+46206 is the smallest number other than a prime power divisible by the sum of the squares of its prime divisors; A190882
+
+?? S46233 is the sum of the first eight factorials; wiki
+
+46427 is the smallest number n such that &phi;(n) + &sigma;(n) is the mean value of &phi;(&sigma;(n)) and &sigma;(&phi;(n)); A230237
+
+46441 is the smallest prime of the form n^6-n^3+1; A175170
+
+46489 is the smallest prime using only the composite digits (4, 6, 8, 9) and all of them; A157527
+
+46656 - 6^6 is the smallest perfect number raised to its own power; A017058 A017058
+46656 is the smallest number with 49 divisors; A175755
+
+46657 is the smallest Carmichael numbers preceded by a square; A265285
+
+46795 is the smallest nonsquarefree number n such that &phi;(n) = &phi;(n-2)-&phi;(n-1); A066359
+
+46848 is the smallest non-palindrome that is a product of 10 primes whose reverse is also a product of 10 primes; A109018 A109030
+
+47125 is the smallest number expressible as sum of squares of two distinct positive triangular numbers exactly in two ways; A212842
+
+47278 is the smallest hexagonal number that is the sum of twelve consecutive hexagonal numbers; A257723
+
+47441 is the earliest 5-digit prime to appear in the decimal expansion of sqrt(2) + sqrt(3) + sqrt(5); A241221
+
+47527 is the smallest prime p such that p+-1, p+-2 and p+-3 are not squarefree; A166003
+
+47961 is the smallest square  t^2 = (p+q+r)/3 which are arithmetic mean of three consecutive primes such that p < t^2 < q < r; A234297
+
+47989 can be expressed as 6^7 + 6^5 + 6^3 + 6^1; A043615
+
+48736 is the smallest number n such that n and 2^n end with the same 5 digits; A067869
+
+48761 is the smallest base-6 pandigital prime; A175278
+
+?? 48919 is the smallest number n such that n through n+9 are divisible by the same number of distinct primes; A045938
+
+49639 is the smallest number n such that the sum of the digits of n exceeds the sum of the digits of n^2 and the sum of digits of n^3; A258320
+
+49665 is the smallest octagonal number that is the sum of eleven consecutive octagonal numbers; A258131
+
+49999 is the smallest prime with digit sum 40; A106773
+
+?? 48091 is the smaller prime in the smallest pair of two successive primes using the same digits such that the hundreds digit is the most significant digit to differ; A156117
+
+48271 is the second value produced by the C++ minstd_rand random number generator with the default seed (1); A221556
+
+48439 os the earliest starting position of a string of five 6's in the decimal expansion of Pi; A083627
+
+?? 49042 is the smallest number n for which rank of the elliptic curve y^2 = x^3 - nx is 5; A309100
+
+50000 is the smallest number n such that the digits of n' end in n, where n' is the arithmetic derivative of n; A249540
+
+50069 is the smallest prime of the form (k+1)^1+(k+2)^2+(k+3)^3+(k+4)^4+(k+5)^5+(k+6)^6; A160932
+
+50123 is the smallest prime p such that both p and p^2 contain "123" as a substring; A268279
+
+50227 is the earliest 5-digit prime in decimal expansion of exp(2); A105001
+
+50400 is the product of the numerical values of letters in the word EIGHT; A075831
+
+50521 is the number of permutations of [10] having exactly nine alternating descents; A302902
+
+50521 is the number of permutations of [10] with exactly five increasing runs of even length; A317285
+
+50624 is the smallest integer n such that n and n+1 are products of 8 primes; A268469
+
+50625 is the fourth power of 15; A013877
+?? 50625 is the  smallest fourth power that can be expressed as the sum of only five distinct fourth powers; wiki
+
+50851 can be expressed as 15^4 + 15*2 + 15^0; checked A043672
+
+50881 is the product of the three smallest primes that have remainder 1 modulo 6 (17, 41, 73); A185379
+
+51840 is the order of the Weyl group of type R_6; A003134
+
+52298 is the smallest number n n such that sigma(phi(n)) - phi(n) = n + phi(sigma(n)-n); A291869
+
+52416 is the smallest number n such that if sum of the proper divisors of n is equal to m then n = phi(m); A107654
+
+52711 is the smallest prime p such that order of primeness is at least 10. By the way, it IS 10; A057851 A058326
+
+52781 A309556 Composite numbers m such that m divides Sum_{k=1..m-1} (lcm(1,2,...,(m-1)) / k)^2. 
+
+53295 is the smallest product of 5 primes that are symmetrically distributed around their average; A294752
+
+53359 is the smallest prime p such that p+2 is the square of a product of 3 distinct primes; A164519
+
+?? S53361 is the sum of the cubes of the first 21 positive integers; wikiw
+
+53955 is the smallest number that belongs to a non-trivial cycle under the Kaprekar map; A099010 A164720 A164723 A164724
+
+54023 is the smallest number such that in the list of its divisors, each digit 1-9 appears equally often. Specifically, every digit appears once; A038564 A243362
+
+54525 is the earliest starting position of a string of four 4's in the decimal expansion of Pi; A083616
+
+55255 is the smallest nontrivial palindromes in bases 10 and 256; A253148
+
+?? 55440 is the smallest number that can be expressed as the difference of the squares of primes in exactly twelve distinct ways; A092008
+
+?? 56092 is the number of groups of order 256; wiki
+
+56237 is the earliest 5-digit prime in the decimal expansion of sqrt(2); A198165
+
+56290 is the smallest number n such that (prime(n+i+1) - prime(n+i))/2 is prime for every i = 0, ..., 12; A244294
+
+?? 56591 is the smallest prime p, which is the k-th prime, such that k-th composite is a substring of p; A329270
+
+56953 is the smallest non-trivial number n which is not a power of 2, such that the digital sum of n in base 3 equals the digital sum of n^3 in base 2; A292788
+
+57735 is the smallest number whose square starts with 6 identical digits; A119887
+
+57967 is the smallest number n such that n, n+1, n+2 and n+3 are products of 5 primes; A124729
+
+?? 58367 is the smallest integer that cannot be expressed as a sum of fewer than 1079 tenth powers; wiki
+
+58472 is the smallest number n such that n+k-1 is the sum of two nonzero squares in exactly k ways for all k = 1, 2, 3; A273318
+
+58537 is the smallest prime of the form | n^5-2^n |; A075980
+
+58831 is the smallest first prime in a century with three primes; A157131
+58831 is the smallest prime such that the difference between its neighboring primes is 100; A217603
+
+58889 is the smallest middle prime in a century with three primes; A157131
+
+58897 is the smallest last prime in a century with three primes; A157131
+
+59049 is 3 to the tenth power. As such it is the smallest odd number that is the product of ten primes; A016846 A046323
+59049 is the smallest square n such that each digit of n is equal to the difference of at least two other digits of n; A255893
+59049 is the smallest power of 3 having a zero in its decimal representation. Moreover, 0 is the last digit to appear in a power of 3; A305931 A305934
+
+59318 is the smallest number n such that n, n+1 and n+2 have different prime signatures but the same number of divisors; A333056
+
+59417 is the earliest 5-digit prime to appear in the decimal expansion of Catalan's constant; A104919
+
+?? 60101 is the smallest prime with period of reciprocal 100; wiki
+
+?? 60480 is the smallest positive number differing from the next 4 greater squares by squares; A218488
+
+60491 is the smallest quasi-Carmichael number to exactly four bases; A257754
 
 ?? 61054 is the third largest (out of 4) number n such that n together with with its prime factors and non-trivial exponents contains all ten digits exactly once (61054 = 2*7<sup>3</sup>*89); A273260
 
-63504 - is the smallest square which is a product of a nonpalindrome and its reversal: 252*252=144*441.
+61223 is the smallest prime p such that six consecutive primes starting with p are congruent to {1,2,3,4,5,6} (mod 7); A215599
+
+61273 is the smallest number n such that n + 6^t is semiprime for t = 0 to 9; A330508
+
+61751 is the smallest prime p1 such that, with p2, p3, p4 the next three primes, p1*p2+p3*p4+p1, p1*p2+p3*p4+p2, p1*p2+p3*p4+p3 and p1*p2+p3*p4+p4 are all prime; A340126
+
+?? 62003 is the smallest prime that is the sum of more than one triangular numbers to the same power; A128879 
+
+62178 is the smallest number n uch that 2*p(n)+3, 2*p(n+1)+3, 2*p(n+2)+3, 2*p(n+3)+3 are consecutive primes, where p(i) denotes the i-th prime; A089009
+
+62208 is the smallest hook product of all partitions of 12; A093791
+
+62480 is the product of the smallest pair of amicable numbers; A180163 A180202
+
+63001 is the smallest number n n for which Ramanujan's function tau(n) is an odd prime; A135430
+
+?? 63048 the lesser number in a triple of numbers that have the same value of phi, sigma, and tau; A322679 A322689
+
+?? 63301 is the smallest number n such that sigma(n)=7*reversal(n); A115748
+
+63487 is the smallest initial member of 9 consecutive primes {a, b, c, d, e, f, g, h, i} such that (a + b + c)/3, (d + e + f)/3 and (g + h + i)/3 are all prime; A294147
+
+?? 63504 is the smallest square which is a product of a nonpalindrome and its reversal, where leading zeros are not allowed: 252*252=144*441; A076750
+63504 is the smallest even square which can be expressed as the product of a number and its reversal in at least two different ways. It even works when we remove even requirement; A083406 A083408 A117282 A325150
+
+63973 is the smallest Carmichael number divisible by a smaller Carmichael number; A214758
+63973 is the smallest Carmichael number n such that n-1 is not a practical number; A265827
+63973 is the smallest Carmichael number n such that Euler totient function of n is a cube; A290793
+
+?? 64000 is the smallest number n such that n = k/d(k) has exactly 5 solutions, where d(k) = number of divisors of k; A217126
+
+?? 64009 is the sum of the cubes of the first 22 positive integers; wiki
+?? 64009 is the smallest square which can be split into two nonzero squares (perhaps with leading zeros) in two different ways; A054738
+
+64079 is the smallest Cyclops-Lucas number; A182811
+
+64279 is the smallest prime p such that prime(floor(p/10) + (p mod 10)) = p; A224827
+
+64540 is the smallest number n such that pi(n) = (1/10)*n; A165689
+
+64553 is the smallest prime p such that pi(p) = floor(p/10), where pi is the prime counting function; A236469 
+
+64901 is the earliest prime from merging of 5 successive digits in decimal expansion of the Euler-Mascheroni Constant, whether the leading zeros are permitted or not; A104939 A198779
+
+65260 is the earliest starting position of a string of five 2's in the decimal expansion of Pi; A083608
+
+65535 is the largest value for an unsigned 16-bit integer on a computer; wiki
+
+65536 is 2 to the 16th, 4 to the 8,  16^4. As such it is the smallest product of 16 primes; A016964 A069277 A236224 A242323
+65536 is the smallest number with 17 divisors; A030635
+
+65537 is the smallest prime number with exactly four partitions into a square and cube; A123388
+65537 is the smallest prime of the form k^16 + (k+1)^16; A194185
+?? 65537 is the largest known Fermat prime; wiki
 
 65570 is the largest of Euler's fearsome foursome; A229076
 
+65573 is the smallest magic sum of 3 X 3 semimagic squares composed of consecutive primes; A268912
+
+65704 is the smallest number n such that subtracting a known Fermat prime (3, 5, 17, 257 and 65537) from it produces a prime; A063825 
+
+65793 is 10101 is hexadecimal; A043678 checked
+
 ?? 65821 is the largest largest (out of 4) number n such that n together with with its prime factors and non-trivial exponents contains all ten digits exactly once (65821 = 7*9403); A273260
 
+66122 is the smallest number n such that 6n+1 and 6n+101 are two consecutive primes; A194430
 
+66161 is the smallest prime p such that p^2 divides 6^(p-1) - 1; A212583
+66161 is the smallest number n such that 6^phi(n) == 1 (modulo n^2); A241978
+
+66347 is the smallest prime that is the sum of cubes of three consecutive primes; A164129
+
+?? 66430 is 10101010101 in base 3; A043591
+
+66747 us the smallest number k for each base  b >= 2 such that N = b^(2^n) + k is prime for 7  consecutive values from  n = 0 to  n = 6; A225560
+
+67103 is the smallest prime p such that (p^2 + 5)/6, (p^4 + 5)/6, (p^6 + 5)/6 and (p^8 + 5)/6 are prime; A253976
+
+?? 67122 the middle  number in a triple of numbers that have the same value of phi, sigma, and tau; A322679 A322689
+
+67891 is the earliest 5-digit prime appearing in the  decimal expansion of the Champernowne Constant; A104948 
+
+68059 is the smallest Cyclops prime that becomes a cube when the middle "0" is removed; A330414
+
+68889 is the smallest number with multiplicative persistence value 7; A046516 A199997
+
+69263 is the earliest 5-digit prime appearing in the decimal expansion of exp(Pi); A105010
+
+69497 is the lesser of twin primes such that all three of their neighbors are not cubefree; A162874 A162989
+
+69499 is the greater of twin primes such that all three of their neighbors are not cubefree; A162874 
+
+69593 is the smallest prime p such that p, p+30, p+60 are consecutive primes; A052195 A224324
+
+69623 is the smallest prime p such that p-30, p, p+30 are consecutive primes; A053075
+
+?? 69636 is the smallest number n such that n^4 contains every digit exactly twice; A154818
+
+69653 is the smallest prime p such that p-60, p-30, and p are consecutive primes; A053075
+
+69696 is the smallest square which repeats with at least two full periods when written in base 10; A069919
+69696 is the smallest square with structure dmdmd, where d is a single digit and m a string of digits; A116502 
 69696 - square of 264. It is the only known palindromic square that can be expressed as the sum of a pair of twin primes: 69696 = 34847 + 34849; (wiki)
 
-73876 - 73b36 is the numerical equivalent of the word SEVEN on a touch-tone telephone; (checked) (A079048 Numerical equivalents of words zero, one, two, three, ... on touch-tone telephone.)
+69905 can be written as 101010101 in base 4; A043600
 
-77773 is the smallest home prime that is home to ten primes; A118756
+?? 70818 the largest number in a triple of numbers that have the same value of phi, sigma, and tau; A322679 A322689
 
-78125 = 5^7
+70872 is the smallest number n such that exactly 5 consecutive primes starting with prime(n) are congruent to the same value modulo 7; A252728
 
-84733 - 84733 is the numerical equivalent of the word THREE on a touch-tone telephone; (checked) (A079048 Numerical equivalents of words zero, one, two, three, ... on touch-tone telephone.)
+71011 is the smallest prime that is the sum of 151 consecutive primes; A215994
 
-86400 - seconds in a day;
+71119 is the smallest prime that is a concatenation of 7, 11 and a prime; A101250
 
-90625 - the only five-digit automorphic number
+71825 is the smallest number that is the sum of 2 nonzero squares in exactly 9 or more ways. It is actually 9 ways. It is also whether we require distinct or not; A025292 A025300 A025310 A025319
+71825 is the smallest number that is  the hypotenuse of exactly 37 distinct Pythagorean triangles; A097245
+
+72000 is the product of the numerical values of letters in the word THREE; A075831
+
+72085 is the cell number where a knight is trapped when moving on a spirally numbered hexagonal board to the lowest available unvisited cell and starting at cell 1; A333684
+
+72285 is the smallest composite squarefree number n such that p + tau(n) divides n + phi(n), where p is any the prime factor of n; A229322
+
+72353 is the smallest prime that is the sum of three distinct positive eighth powers; A126658
+
+?? 72576 is the smallest number n such that its square contains exactly 2 copies of each digit of n; A114258
+
+72646 is the smallest composite whose prime factorization in base 9 is an anagram of the number in base 9; A260053
+
+72927 is the smallest palindromic number that is a fixed point of the TITO operation and is not a product of palindromic primes; A161730
+
+72930 is the smallest number n that is a product of 6 distinct primes and such that the sum of distinct primes dividing n is divisible by the largest prime dividing n; A071145
+
+?? 73225 is the smallest square of the main diagonal of 3-dimensional box with coprime integer sides and integer face diagonals (Euler brick); A023185
+
+73262 is the smallest number n such that all the gaps prime(n+i+1) - prime(n+i) (i = 0..5) are triangular numbers; A244254
+
+73293 is the smallest number n such that each of n, n + 1, n + 2, n + 4, n + 5, n + 6 is the squarefree product of three primes; A242805
+
+?? 73296 is the smallest number n, for which n-3, n-2, n-1, n+1, n+2, n+3 are all Sphenic numbers; wiki
+
+?? 73440 = 15*16*17*18;
+
+73615 is the smallest member of a set of three consecutive Smith numbers; A105648
+
+?? 73712 is the number of n-Queens Problem solutions for n = 13; wiki
+
+73836 - is the numerical equivalent of the word SEVEN on a touch-tone telephone; (checked) (A079048 Numerical equivalents of words zero, one, two, three, ... on touch-tone telephone.)
+
+74431 is the smallest number n n such that n has at least two distinct prime factors and if a prime p divides n then (p-1) | (n-1) and (p+1) | (n+1); A079543
+
+74453 is the smallest initial prime in set of 4 consecutive primes in arithmetic progression with common difference 18; A033448 A033450
+
+74507 is the smallest ending prime in set of 4 consecutive primes in arithmetic progression with common difference 18; A033448 A033450
+
+74713 is the earliest 5-digit prime in the decimal expansion of e; A104846
+
+?? 74747 is the smallest in the smallest triple of three consecutive palindromic primes with equal digital sum; A230221
+
+75024 is the smallest number  that have 12 terms in its Zeckendorf representation; A179252
+
+75025 is the smallest Fibonacci number having initial digit '7'. More importantly, 7 is the last digit to start a Fibonacci number, not counting zero; A045731
+75025 is the smallest cubefree Fibonacci number which is not squarefree; A173207
+
+?? 75557 is the middle number in the smallest triple of three consecutive palindromic primes with equal digital sum; A230221
+
+75600 can be expressed as 2^4*3^3*5^2*7^1; A323025
+
+75973 is the smallest number n such that phi(n) = phi(3n+1); A091294
+
+?? 76176 is the sum of the cubes of the first 23 positive integers; wiki
+
+76333 is the smallest prime p such that p+d is composite for all divisors d of p^2-1; A295818
+
+?? 76367 is the largest number in the smallest triple of three consecutive palindromic primes with equal digital sum; A230221
+
+76543 is the smallest prime that is a reverse concatenation of five consecutive numbers; checked A104327
+
+77385 is the smallest number n such that 2n-1, 4n-1, 6n-1, 8n-1, 10n-1 and 12n-1 are primes; A124489
+
+77551 is the smallest prime p such that seven consecutive primes starting with p are respectively congruent to {1,2,3,4,3,2,1} (mod 5); A215662
+
+77760 is Euler's totient of first cyclic number 142857; A087026
+
+77773 is the smallest home prime that is home to at least eight primes. In actuality, it is home to ten primes; A118756 A133971 A133973 A133974
+
+77777 is the smallest Haiku number: it is a haiku when written in English; A321235
+
+?? 77824 is the smallest number n such that n^2 = A^3 + B^4 + C^5 has more than two solutions in positive integers (A, B, C); A266967
+
+77976 is the smallest number whose square can be expressed as the sum of two positive cubes in more than one way. It has two ways; A051302 A145553
+
+78125 = 5^7;  A016975
+
+78233 is the smallest irregular prime with irregularity index five; A219333
+
+78498 There are 78498 primes less than a million; A038815 A038826
+
+78557 is the smallest (Provable) Sierpiński numbers: odd numbers n such that for all k >= 1 the numbers n*2^k + 1 are composite; A076336 A123159
+
+79432 is the smallest Numbers k such that 2*P(k) + 3, 2*P(k+1) + 5, 2*P(k+2) + 7, 2*P(k+3) + 9 are also consecutive primes where P(i) = i-th prime; A103873
+
+79997 is the lesser member of the smallest twin prime pairs using only digits 7 and 9; A112785
+
+79999 is the greater member of the smallest twin prime pairs using only digits 7 and 9; A112785
+
+80441 is the smallest recurring digital invariant of order 7; A218248
+
+80519 A102457 		Least k >= 2 with n^(kn) == n (mod kn), also n^(kn-1) == 1 (mod k).  A102459
+
+80535 is the smallest Odd unitary admirable numbers; A329188
+
+80640 is the smallest value of phi in arithmetic progression of at least 5 terms having the same value of phi in A050515; A050517
+
+81081 is the smallest odd abundant number not divisible by 5; A064001
+
+81250 A274033 		Numbers n such that n = a^2 + b^4 and n^2 = c^3 + d^5 for some positive integers a, b, c, d. 
+
+81380 is the smallest number whose A043608 		Numbers whose base-5 representation has exactly 8 runs. 
+
+?? 81517 is the smallest prime formed from the concatenation of primitive Pythagorean triples in increasing order; A138044 it has to be primitive.
+
+?? 82000 is the only currently known number greater than 1 that can be written in bases from 2 through 5 using only 0s and 1s; wiki
+
+82004 is the smallest number n such that n and n+1 are primitive abundant; A283418
+82004 is the smallest number n such that n and n+1 are both primitive abundant numbers; A330872
+
+?? 82287 is the smallest number A162184 		Numbers n whose digits can be divided into two substrings, x and y, such that n = y^2-x. 
+
+82323 is the smallest number n such that there are precisely 13 groups of orders n and n + 1; A298430
+
+82609 is the smallest prime p such that 4+p^7, 4+p^9 and 4+p^11 are also prime; A253937
+
+?? 82619 is the smallest prime that is the arithmetic mean of 1000 consecutive primes; A218187
+
+?? 82728 is the smallest palindrome with exactly 7 palindromic prime factors (counted with multiplicity); A046381
+
+?? 82944 is the smallest number n such that n = k/d(k) has exactly 6 solutions, where d(k) = number of divisors of k; A217127
+
+83132 is the smallest number n such that there are precisely 16 groups of orders n and n + 1; A298437
+
+83270 is the smallest number n such that n^4 + 1, n^4 + 3, n^4 + 7 and n^4 + 9 are all prime; A125779
+
+?? 83338 is the smallest Palindromic Super-4 Numbers; A032752
+
+83449 is the earliest 5-digit prime in the decimal expansion of (Pi^2); A104928
+
+83521 17^4; A013885
+
+83965 is the number of steps for a knight to be trapped when moving on a spirally numbered hexagonal board to the lowest available unvisited cell and starting at cell 1; A333683
+
+84733 is the numerical equivalent of the word THREE on a touch-tone telephone; (checked) (A079048 Numerical equivalents of words zero, one, two, three, ... on touch-tone telephone.)
+
+84889 is the smallest number n such that sigma(n)+n divides sigma(n^2); A232704
+
+?? 85,085 is the product of five consecutive primes: 5 × 7 × 11 × 13 × 17; wiki
+
+86400 is the number of seconds in a day; wiki
+
+86813 is the earliest 5-digit prime in the decimal expansion of cos(1); A104961
+
+87249 is the smallest pseudoprime n to base 2 such that n+2 and n+4 are primes; A230489
+
+87576 is the smallest surface of an Euler brick; A118899
+
+88073 is the smallest semiprime which is the sum of three distinct positive cubes of semiprime numbers in two or more distinct ways; A180106
+
+88209 is the smallest number n such that n^2 + (reversal of n)^2 is a perfect square. Ignore leading 0's; A068536
+
+90438 is the smallest number n such that n - 31, n - 1, n + 1 and n + 31 are consecutive primes; A270754
+
+90535 can be expressed as 543210/6; A075007
+
+?? 90625 is the only five-digit automorphic number; wiki
+
+90972 is the smaller member of the smallest exponential amicable pair; A126165 A127659 A127660 A323753
+
+?? 92185 A116097 		Numbers k such that k concatenated with k-9 gives the product of two numbers which differ by 5
+?? 92185 A116122 		Numbers k such that k concatenated with k-5 gives the product of two numbers which differ by 3. 
+?? 92185 A116134 		Numbers k such that k concatenated with k-3 gives the product of two numbers which differ by 1. 
+
+92416 is the smallest square number with at least one digit in common with any other positive square number; A182657
+
+93081 A128277 		a(n) is the n-th smallest integer m which is the product of 4 odd primes m=p1*p2*p3*p4 such that d+2*m/d are all primes for each d dividing 2*m. 
+
+93871 is the smallest prime number that is the sum of the cubes of three distinct primes with the same final digit; A126708
+
+94583 is the smallest prime that has the same set of digits as its square; A030091
+
+94649 is the smallest palindromic prime with only composite digits (i.e.,4,6,8,9); A128376
+
+94889 is the smallest emirp with only composite digits (i.e., 4, 6, 8, 9); A128389
+
+95800 is the smallest value of one of the variables in a solution to x^4+y^4+z^4=w^4. In other words, the smallest number n such that n^4 = x^4 - y^4 - z^4 for some integers .... ; A078518 A175598
+
+?? 96011 is the smallest n such that n times n+5 gives the concatenation of two numbers m and m-9; A116228
+
+?? 96012 is the smallest n such that n times n+3 gives the concatenation of two numbers m and m-5; A116253
+
+?? 96013 is the smallest n such that n times n+1 gives the concatenation of two numbers m and m-3; A116265 
+
+96608 is the number of idempotent (0,1)-matrices of size 6; A086922 A224577
+
+97879 is the smallest palindromic prime with digit sum of 40; A109185
+
+97969 is the smallest square whose arithmetic mean of digits is 8; A316488
+
+?? 99066 is the largest number whose square uses all of the decimal digits once: 99066^2 = 9814072356; wiki
+
+?? 99464 is the smallest number that can't be expressed by the following procedure: take the ten digits 0..9, arrange them in any order and then either concatenate adjacent ones or separate them with a plus or minus sign; A108224
+
+99528 is the smallest number other than prime power divisible by the sum and the sum of squares of its prime divisors; A268417
+
+99551 is the smallest prime sharing the last four digits with its index; A232188
+
+?? 99991 is the largest five-digit prime number
+
+100000 is 10 to the fifth; A017513 A099210
+?? 100000 is the smallest integer that can be generated with a C/C++ expression that is three or more characters shorter than their decimal representation; A168652
+
+
+
+
+
+
+
+
+
+
+
+
+
+146300 is the product of the numerical values of letters in the word SEVEN; A075831
