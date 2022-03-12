@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 ENV DEBIAN_FRONTEND=noninteractive
 ENV RAILS_ENV=production
 
@@ -8,7 +8,7 @@ RUN apt-get install -y gnupg apt-transport-https ca-certificates
 # Install Ruby, Apache, Passenger, Sqlite3 headers, and Nokogiri and mimemagic dependencies
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 \
     --recv-keys 561F9B9CAC40B2F7
-RUN echo deb https://oss-binaries.phusionpassenger.com/apt/passenger xenial main \
+RUN echo deb https://oss-binaries.phusionpassenger.com/apt/passenger focal main \
     > /etc/apt/sources.list.d/passenger.list
 RUN apt-get update
 RUN apt-get install -y build-essential tzdata \
