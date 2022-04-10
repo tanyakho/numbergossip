@@ -212,7 +212,7 @@ NVI 14 is the first number such that it and the next number are both the product
 * 15 is the smallest composite cyclic number, that is number n with the property that there is only one group of order n; (Mathworld finite groups)
 * 15 is the magic constant of the unique order-3 normal magic square;
 * 15 is the number of letters in the words "uncopyrightable" and "dermatoglyphics", which are the only two longest words there are without repeating a letter; (Serezha checked with OED)
-NVI ?? There are exactly 15 left-right-truncatable primes: 2, 3, 5, 7, 23, 37, 53, 73, 313, 317, 373, 797, 3137, 3797, and 739397; (This definition is not widely known, it appears only in one place - Prime curios 15)
+There are exactly 15 primes that are both  left-truncatable and right-truncatable; A020994 (This definition is not widely known, it appears only in one place - Prime curios 15)
 NVI 15 is the smallest product of twin primes;
 NVI 15 is the only composite odd teenage number (submitted by Isaac LaComb);
 
@@ -236,7 +236,7 @@ NVI 16 is the smallest number which is the sum of two distinct odd primes in two
 * 17 is the minimum number of Sudoku clues that produces a unique answer; (http://www.technologyreview.com/blog/arxiv/27469/)
 * Web pages about the number 17: <ul><li><a href="http://www.vinc17.org/d17_eng.html" class='external text' title="http://www.vinc17.org/d17 eng.html">Properties of 17</a></li> <li><a href="http://www.yellowpigs.net/index.php?topic=yellowpigs/YP_seventeen" class='external text' title="http://www.yellowpigs.net/index.php?topic=yellowpigs/YP seventeen">Mathematical properties of 17</a> at yellowpigs.net</li></ul>;
 * 17 is the only integer which is equal to the number of prime partitions of itself; (prime puzzles) A000607 Number of partitions of n into prime parts. 
-?? In any set of k < 17 consecutive integers there is always one which is relatively prime to all the others; (Is 17 the smallest number like that, there was some discussion about 14?)
+* 17 is the smallest number n such that there is a set of n consecutive integers none of which is relatively prime to all the others; https://math.stackexchange.com/questions/1780933/show-that-among-any-consecutive-16-natural-numbers-one-is-coprime-to-all-other/3080859#3080859
 ?? 17 is the only prime which is the average of two consecutive Fibonacci numbers;  [Honaker] (average is a half of the next Fib number, equivalent to saying that 34 is the only Fib number that is twice a prime)
 ?? 17 is the only known prime which is equal to the sum of digits of its cube (17^3 = 4913 and 4 + 9 + 1 + 3 = 17); (maybe easy to prove that it is the only prime)
 ?? Consider a sequence of real numbers between 0 and 1 such that the first two lie in different halves of this interval, the first three in different thirds, and so forth - the maximum possible length of such a sequence is 17; (Berlekamp & Graham, 1970, example 63). (wiki)
@@ -266,7 +266,6 @@ NT 17 is the smallest odd number which cannot be represented as the sum of a pri
 * 19 is the only prime which is equal to the difference of two cubes of primes; (easy)
 * 19 is the maximum number of 4th powers needed to sum to any positive integer; (wiki)
 * 19 is the smallest number that is equal to the product of its digits plus the sum of its digits;
-NS ?? 19 has been used as an alternative to twelve for a division of the octave into equal parts - This idea goes back to Salinas in the sixteenth century, and is interesting in part because it gives a system of meantone tuning, being close to 1/3 comma meantone; (wiki)
 NS The second repunit prime has 19 digits; (checked with Mathematica)
 NS ?? 19 is the only number m such that length(m^prime(m)) = m + prime(m);
 NVI 19 is the smallest prime equal to the product of twin primes plus their arithmetic mean (3*5 + 4 = 19);
@@ -286,6 +285,7 @@ NVI 20 is the smallest abundant number that is not a multiple of 3; (checked)
 * 21 is the number of spots on a standard cubical die (1+2+3+4+5+6); (checked)
 * 21 is the number of connected graphs with 5 vertices; A001349
 * 21 is the first century with ten prime years; A186311
+* 21 is the smallest integer n such that the concatenation of n in base 10 down up to base 2 is prime; checked
 NS 21 is the smallest triangular number whose sum of aliquot divisors is prime; (checked)
 22
 * 22 is the smallest Hoax Number; (Mathworld)
@@ -447,8 +447,6 @@ NVI 38 is the sum of squares of the first three primes (2^2 + 3^2 + 5^2);
 * 39 is the smallest number with four X's in its Roman numerals notation XXXIX; note that five X's are impossible;
 40
 * In English, forty is the only number whose constituent letters appear in alphabetical order; (I checked)
-NVI ?? 40 is the maximum number of spheres that can touch another sphere in a lattice packing in 5 dimensions; kissing number. It is the lower bound, not sure it is proven.
-NVI The classic Russian vodka is alcohol content 40 percent by volume;
 
 41
 * 41 is the smallest prime expressible as the sum of (at least two) consecutive primes in at least 2 ways; A067372 
@@ -535,7 +533,6 @@ NU 53 is a value of n with the property that n divides the sum of the first n pr
 NVI ?? 54 is the smallest number that can be written as the sum of 3 squares in 3 ways; (too special)
 * 54 is the number of colored squares on a Rubik's cube;
 55
-NVI ?? 55 is the smallest number that can be expressed as a sum of two primes, each ending with the digit 3, in two different ways (56 = 3 + 53 = 13 + 43); (too special)
 * 55 is the largest triangular number in the Fibonacci sequence; (mathworld)
 * 55 is the smallest multi-digit triangular number which is a palindrome; (I checked)
 * 55 is the product of the smallest sexy prime pair; trivial
@@ -968,7 +965,6 @@ NVI 127 is a prime expressed as the sum of factorials of the first three odd num
 128
 * 128 is the largest number which is not the sum of distinct squares; (Mathworld) (A001661 Largest number not the sum of distinct n-th powers.)
 NS 128 = 2! + 3! + 5!;  [Petersen]
-NS ?? 128 is the number of character codes in ASCII (a 7-bit, not 8-bit, code);
 * 128 is the smallest number n such that dropping the first and the last digit of n leaves its largest prime factor; (checked) (from OEIS) (A114565 Dropping first and last digit of n leaves its largest prime factor.)
 129
 NVI ?? 129 is the smallest number that can be written as the sum of 3 squares in 4 ways;
@@ -1026,7 +1022,7 @@ NS ?? The most frequent digits to occur among primes less than 1010 start out 1,
 139
 * 139 is the smallest prime which retains the end (unit) digit of its successor (149); [Murthy] (A031928 Lower prime of a difference of 10 between consecutive primes.) A290450
 * 139 is the smallest prime with one prime digit, one composite digit, and one digit that is neither prime nor composite;
-?? NS 139 is the largest prime factor among the smallest pair of odd amicable numbers; (12285, 14595), 
+* 139 is the largest prime factor among the smallest pair of odd amicable numbers; (12285, 14595) checked
 140
 * 140 is the smallest harmonic integer (an integer n such that the harmonic mean of its divisors is an integer) that is not multiperfect; A140798
 NT 140 is the smallest harmonic divisor number; (not true - see MathWorld)
@@ -1173,7 +1169,7 @@ NT 169 is the smallest multidigit reversible power with all different digits: it
 170
 * 170 is the smallest composite number such that exactly four distinct permutations of its decimal digits are prime (17, 71, 107, and 701 are all prime); A163556
 ?? NS 170 is the smallest number that can be written as the sum of the squares of 2 distinct primes, where each of these primes is the square of a prime added to another prime (170 = (2^2 + 3)^2 + (3^2 + 2)^2); [Thoms] 
-?? 170 is the smallest number n, except 1, for which phi(n) and sigma(n) are both square; (checked) (A067781 Numbers n such that phi(n) and sigma(n) are simultaneously perfect squares.)
+* 170 is the smallest number n, except 1, for which &phi;(n) and &sigma;(n) are both square; (checked) (A067781 Numbers n such that phi(n) and sigma(n) are simultaneously perfect squares.)
 
 171
 * If you write n consecutive digits starting with 1 and following 9 by 0, the smallest n that will give you a prime number is 171; (From OEIS) (checked the coding in OEIS) (A120819 Primes with n consecutive digits ascending beginning with the digit one.)
@@ -1314,7 +1310,7 @@ NU The numbers 6*206+1, 12*206+1, and 18*206+1 are all prime and hence (6*206+1)
 207
 * 207 is the smallest possible sum of primes which are formed using each of the digits 1 through 9 (i.e., 89 + 61 + 43 + 7 + 5 + 2 = 207); [Gupta] (checked by Dodik)
 * 207 is the smallest product if three primes that becomes a cube when its central digit is deleted; A217297
-U?? 207 has a 4th power where the first half of the digits are a permutation of the last half of the digits; (zoo of numbers)
+* 207 is the smallest integer such that the first half of the digits its 4th power (1836036801) are a permutation of the last half of the digits; (zoo of numbers) checked 
 
 208
 * 208 is the sum of squares of the first five primes; A131686
@@ -1405,7 +1401,6 @@ NT 223 is the smallest prime such that no other prime can be produced by alterin
 * The binary form of 228 contains all the two digit binary strings in sequence from highest to lowest; trivial
 
 229
-?? NVI There are 229 consonants among all the letters of the state names; [Blanchette] 
 * 229 is the smallest prime that remains prime when added to its reverse; (A061783 Primes p such that p + (p reversed) is also a prime.)
 * 229 is the smallest prime such that the composite numbers between it and the next prime all have an equal number of divisors (next prime is 233, while 230, 231 and 232 all have 8 divisors); (from OEIS May 2007) (A119711 Primes p such that p+1, p+2, and p+3 have equal number of divisors.) A332740
 
@@ -1439,7 +1434,7 @@ NS 232 is the only number of the form p^q(p+q^q), where q=p+1 and p and q are bo
 
 239
 * 239 is the smallest number such when it is summed with the product of its digits generates a nontrivial permutation of its digits (239 + 2*3*9 = 293); A243102
-?? NS The smallest prime with period length 7; [Yates] 
+* 239 The smallest prime p such that the decimal period of 1/p is 7; [Yates] checked
 * An article in Math World on <a href="http://mathworld.wolfram.com/239.html">number 239</a>;
 * 239 is the largest integer that cannot be written as a sum of 8 or fewer cubes (the only other number is 23); (zoo of numbers) Dickson's theorem
 * This prime number appears in one of the earliest known geometrically converging formulas for computing Pi: Pi/4 = 4 arctan(1/5) - arctan(1/239); (zoo of numbers) mathworld
@@ -1454,7 +1449,7 @@ NS 232 is the only number of the form p^q(p+q^q), where q=p+1 and p and q are bo
 
 241
 ?? NS 241 is the only number m such that prime(m) = (m * (m)); [Firoozbakht] 
-?? NS 241 is the smallest prime p such that the concatenation of p in base 10 down up to base 2 is prime; [Russo] 
+* 241 is the smallest prime p such that the concatenation of p in base 10 down up to base 2 is prime; [Russo] checked
 * 241 is the smallest prime which, when added to its reversal, equals a palindromic prime;  [Luhn] checked, submitted sequence A342681
 ?? NS 241 is the smallest duodecimal prime: p = (x^12 + y^12 )/(x^4 + y^4 ); (from OEIS May 2007) (A006687 Duodecimal primes: p = (x^12 + y^12 )/(x^4 + y^4 ).)
 NS 241 is the smallest prime p such that p+1, p+2, p+3, and p+4 have equal number of divisors; (from OEIS May 2007) (similar to the property for 242)(A119728 Primes p such that p+1, p+2, p+3, and p+4 have equal number of divisors.)
@@ -1840,7 +1835,6 @@ U?? NS The sum of the digit splits of 358 is equal to the product of the digits:
 * The first two digits of 364 are the product of the first two primes to the power of the first prime, and the last two digits are the first prime to the product of the first two primes (36 = (2*3)<sup>2</sup>, and 64 = 2<sup>2*3</sup>); [Raffill] 
 * 364 is the total number of gifts received in the song "The Twelve Days of Christmas";
 
-
 365
 * 365 is the number of days in a non-leap year;
 * 365 is the smallest number that can be written as a sum of two or more consecutive squares in more than 1 way: 365 = 10<sup>2</sup> + 11<sup>2</sup> + 12<sup>2</sup> = 13<sup>2</sup> + 14<sup>2</sup>; (A062681 Numbers that are sums of consecutive squares in more than 1 way.)
@@ -2055,6 +2049,8 @@ NS Ray Bradbury Farenheit 451;
 461
 * 461 is the smallest prime n such that n = prime(prime(product of digits of n)): 461 = prime(prime(4*6*1)); [Firoozbakht] A107121
 462
+* 462 is the smallest product of four different primes sandwiched between twin primes (submitted by Massimo Kofler); (461 and 463) checked.
+
 * Assuming the Generalized Riemann Hypothesis, 462 is the largest number that is not of the form ab + bc + ca for positive integers a, b, and c; (A025052 Numbers not of form ab + bc + ca for 1<=a<=b<=c) (http://projecteuclid.org/Dienst/UI/1.0/Summarize/euclid.em/1046889597) A094380
 463
 467 
@@ -3626,6 +3622,7 @@ NU 2020 is the second autobiographical (curious) number; (A046043 Autobiographic
 ?? NS 2021 is the denominator of the first coefficient in a continued fraction expansion of the Gamma function; (A119423 Denominators of coefficients in a continued fraction expansion of the Gamma function.)
 2022
 * 2022 is the smallest number n such that n, n+1, n+2, and n+3 have the maximal exponents in prime factorization equal 1, 2, 3, and 4 correspondingly; A176913
+* 2022 is the number of unimodular 3 by 3 matrices with entries in the set 0, 1, and 2; checked A279725
 2025
 NU 2025 is a square that remains square if all its digits are incremented; (25 also) (A061843 Squares which remain squares if you increment every digit by 1.)
 2030
