@@ -480,6 +480,7 @@ NS ?? 43 is the smallest prime number not mentioned in the King James Version of
 * 44 is the first number such that it and the next number are the product of a prime and another distinct prime squared (44 = 2<sup>2</sup>*11 and 45 = 3<sup>2</sup>*5);
 45
 * 45 is the only number that is the sum of its digits multiplied by 5; (checked)
+* 45 is the smallest deficient number that is not distended, where distended numbers are positive integers n for which each divisor of n is greater than the sum of all smaller divisors; checked A051772
 
 46
 * 46 is the number of human chromosomes;
@@ -564,9 +565,9 @@ NS 60 is the smallest number with exactly 12 divisors;
 * The 61st Fibonacci number (2504730781961) is the smallest Fibonacci number which contains all the digits from 0 to 9;
 * 61 is the smallest multi-digit prime p such that the sum of digits of p<sup>p</sup> is a square; (actually it is the smallest number after 10 with this property) (checked with Mathematica, SOD(61^61) = 484)
 * 61 is the smallest prime whose reversal is a square;  [Trigg] A007488
+* 61 is the smallest number n such that the reversal of concatenation of the first n natural numbers is prime; checked
 NS ?? 61 is the smallest prime p such that both p! and p# are pandigital;
 NS ?? 61 is the smallest prime p such that p# is pandigital;
-NS ?? 61 is the smallest number m and only two-digit number m such that the reversal of concatenation of the first m natural numbers is prime;
 NS ?? 61 is the largest prime of the form A(m,m), where A is Ackerman's function - 61 is A(3,3);
 NS ?? 61 is the smallest prime which can be written as the sum of a prime number of distinct primes to prime powers in a prime number of ways. Specifically, 61 = 2^2 + 2^3 + 7^2 = 2^2 + 5^2 + 2^5 = 3^2 + 5^2 + 3^3;
 NS Ten consecutive distinct digits begin at the 61st digit of pi; (checked with Mathematica)
@@ -651,7 +652,7 @@ NT 73 is the only number which is 1 less than the double of its reversal which a
 ?? There are 74 different non-Hamiltonian polyhedra with a minimum number of vertices; (wiki) (what does this mean?)
 75
 * 75 is the smallest pandigital number in base 4: 75 is written as 1023 in base 4 and contains all the possible digits; (checked)
-* 75 is the smallest numbers that is a sum of three squares forming an arithmetic progression: 75 = 1 + 25 + 49;  A292313
+* 75 is the smallest numbers that is a sum of three distinct squares forming an arithmetic progression: 75 = 1 + 25 + 49;  A292313
 ?? 75 is the smallest non-prime deficient number whose sum as well as product of aliquot divisors is a perfect square;   [Gupta]
 ?? There are 75 uniform polyhedra; (wiki) (not clear with Mathworld) there are exceptions with prisms and antiprisms.
 
@@ -926,7 +927,7 @@ NVI 122 is the smallest sum of two non-consecutive factorials of distinct primes
 NS ?? 122 is the smallest number n>1 so that n concatenated with n-1 0's concatenated with the reverse of n is prime;
 
 123
-* 123 is the smallest Semiprime which is the concatenation of the numbers 1 through n for some n; A116935 
+* 123 is the smallest semiprime which is the concatenation of the numbers 1 through n for some n; A116935 
 * 123 is the smallest squarefree number whose external as well as internal digits digits form a squarefree number; A077378 
 
 124
@@ -1038,6 +1039,7 @@ NT 140 is the smallest harmonic divisor number; (not true - see MathWorld)
 
 143
 * The largest amount of money one can have in n $1, $2, $5, $10, $20, and $50 bills and not be able to make exact change for a $100 bill; (from Internet)
+* 143 is the smallest integers n such that the prime factorization of n uses the proper subset of distinct digits of n (143 = 11<sup>1</sup> 13<sup>1</sup>); checked
 * 143 is the smallest Tnaillirb: a brilliant number whose reversal is a different brilliant number. This is a special subset of emirpimes, with only 102 examples below 100000; [Post] (A097435 Numbers n such that n and its reversal are distinct brilliant numbers) A097435
 * 143 is the smallest number n such that the last n digits of n<sup>n</sup> form a prime number; A126703
 
@@ -1097,6 +1099,7 @@ NS ?? 151 is the smallest palindromic prime that is not a Chen prime; (From OEIS
 ?? NS 154 = (1*5*4)*(1+5+4) - ((1*5*4)*(1+5+4)). Note that 154 is the smallest multidigit number with this property; [Firoozbakht] 
 155
 NU 155 is the sum of the primes between its smallest and largest prime factor; (it is true for primes and 10 and 39) (A055233 Composite numbers equal to the sum of the primes from their smallest prime factor to their largest prime factor.)
+
 156
 NS ?? 156 = ((1) + (5) + (6)) * (prime(1)+prime(5)+prime(6)). Note that 156 is the smallest and only even number with this property; [Firoozbakht] 
 * 156 is the number of graphs with 6 vertices; (confirmed by A000088 Number of graphs on n unlabeled nodes) 
@@ -1140,7 +1143,7 @@ U?? NS With 164 we can form 3 2-digits numbers. Those 3 numbers ± 3 are all pri
 * 165 is the smallest number n such that it is a product of three distinct primes summing to n (165 = 3*5*11); A176877
 166
 ?? NS 166 is the smallest number such that the number and its reversal are both congruent to 1 mod p for the same set of some three distinct odd primes (166 = 661 = 1 mod (3, 5, 11)); [Thoms] 
-NS 166 is the number of monotone Boolean functions of 4 variables; (confirmed by A007153 Dedekind numbers: monotone Boolean functions or antichains of subsets of an n-set containing at least one nonempty set)
+NS 166 is the number of monotone Boolean functions of 4 variables; (confirmed by A007153 Dedekind numbers: monotone Boolean functions or antichains of subsets of an n-set containing at least one nonempty set) A000372 gives a different number, also A014466
 
 167
 * 167 is the smallest prime in which the digits can be partitioned in three non-zero parts such that the sum of the first two parts equals the third one; (what about 101?) A088291
@@ -1181,10 +1184,10 @@ NT 169 is the smallest multidigit reversible power with all different digits: it
 * 173 is the smallest prime inconsummate number, that means that no number n is 173 times n's digit sum; A130338
 NU 173 has a square containing only 2 different digits 29929; (88, 100, 109 too) (A016070 Numbers n such that n^2 contains exactly 2 different digits, excluding 10^m, 2*10^m, 3*10^m.)
 174
-?? NS 174 is the only three-digit number n such that prime(n)^n - n! is prime; [Firoozbakht] 
+* 174 is the only three-digit number n such that prime(n)<sup>n</sup> &minus; n! is prime; [Firoozbakht] checked
 
 175
-NS 175 is the smallest number that is not distended, but all sums of subsets of divisors are distinct; A332047
+* 175 is the smallest number that is not distended, but all sums of subsets of divisors are distinct (here distended numbers are positive integers n for which each divisor of n is greater than the sum of all smaller divisors); A332047
 NU 1^1 + 7^2 + 5^3; (first four prime numbers) (not unique, see 135 and 598)
 
 176
@@ -2271,6 +2274,7 @@ NU 573 has the property that its square is the concatenation of two consecutive 
 
 590
 * 590 is the smallest number n such that n concatenated with n+2 gives the product of two consecutive numbers (590592 = 768*760); A116170
+* 590 is the only three-digit number n such that n ones plus n is prime; A108468 checked
 * 590-th prime is the smallest followed by a gap (distance to next larger prime) of 30; A320713
 594
 ?? 594 = 1<sup>5</sup> + 2<sup>9</sup> + 3<sup>4</sup> - it is the smallest after 1; (Uniqueness??) (A035138 Equal to the sum of ascending numbers raised to its digits powers.)
@@ -2715,6 +2719,7 @@ NS 864 is the smallest number such that (phi(n) + sigma(n))/(rad(n))^2 is an int
 870
 * 870 is the smallest non-square that can be written as the sum of squares of some of its distinct prime factors; A283449
 * 870 is the magic constant of a 12 by 12 magic square; checked
+* 870 is the smallest product of four different primes sandwiched between squarefree semiprimes (submitted by Massimo Kofler); checked
 873
 * 873 can be expressed as 873 = 1! + 2! + 3! + 4! + 5! + 6!; (checked)
 877
@@ -2746,13 +2751,13 @@ NS 864 is the smallest number such that (phi(n) + sigma(n))/(rad(n))^2 is an int
 900
 * 900 is the square of the smallest sphenic number. It is a product of squares of the first three primes; A162143 A258155
 * 900 is the smallest number whose sum of proper square divisors is a square greater than 1; A232556 
-?? NS 900 is the smallest number n such that it is not equal to p^3*q for two different primes p and q and the number of divisors is the cube of the number of distinct divisors; (this is a consequence of 900 being a square of a product of three different primes) (A074853 		Numbers n not in A065036 but such that tau(n)=omega(n)^3.)
+?? NS 900 is the smallest number n such that it is not equal to p^3*q for two different primes p and q and the number of divisors is the cube of the number of distinct divisors; (this is a consequence of 900 being a square of a product of three different primes) (A074853 Numbers n not in A065036 but such that tau(n)=omega(n)^3.)
 * 900 is the smallest number n such that &phi;(n)&tau;(n) divides n<sup>2</sup>, but neither &tau;(n) nor &phi;(n) divides n; A287800
 901
 * 901 is the sum of the digits of the first 100 positive integers; (checked with Mathematica)
 * 901 is the smallest composite number n such that any two numbers that multiply to n have a square difference (901 = 1*901 = 17*53, and 901-1 = 30<sup>2</sup> and 53 - 17 = 6<sup>2</sup>); A268585
 903
-?? NS 903 is the smallest odd Erdos-Woods number: the length of an interval of consecutive integers with property that every element has a factor in common with one of the end-points; (A059756 Erdos-Woods numbers: the length of an interval of consecutive integers with property that every element has a factor in common with one of the end-points.)
+* 903 is the smallest odd Erdos-Woods number: for such numbers n there exists an interval of consecutive integers of length n with property that every element has a factor in common with one of the end-points; (A059756 Erdos-Woods numbers: the length of an interval of consecutive integers with property that every element has a factor in common with one of the end-points.) I found papers confirming it.
 905
 * 905 is the smallest odd composite number that is not expressible as a prime plus a power of 2 (submitted by Andy Edwards); A098237 (A098237 Composite de Polignac numbers (A006285).) (A006285 Odd numbers not of form p + 2^x (de Polignac numbers). )
 906
@@ -2768,7 +2773,7 @@ NS 864 is the smallest number such that (phi(n) + sigma(n))/(rad(n))^2 is an int
 * 915 is the smallest number n such that &sigma;(n - &phi;(n)) = &phi;(n + &phi;(n)); (A074887 Numbers n such that sigma(n - phi(n)) = phi(n + phi(n)).)
 919
 * 919 is the smallest multidigit palindromic number whose sum of digits shows up as a substring of the number; [Russo] (checked with Mathematica) (mine A121939: Palindromic numbers that contain the sum of their digits as a substring.)
-?? NS 919 = 1^3 + 4^3 + 5^3 + 9^3, and 1459 = 9^3 + 1^3 + 9^3: This is the smallest pair of prime numbers which are mutually the sums of (the same) powers of each others digits; [Hartley] 
+?? NS 919 = 1^3 + 4^3 + 5^3 + 9^3, and 1459 = 9^3 + 1^3 + 9^3: This is the smallest pair of prime numbers which are mutually the sums of (the same) powers of each others digits; [Hartley] A046156
 * 919 is the smallest number which is not the difference between two positive palindromes; (confirmed by A084843 Numbers n such that no palindrome m exists with n + m also palindromic) A083142
 * 919 is the smallest palindromic prime whose digital root equals its middle digits; (A082518 Palindromic primes whose digital root equals their middle digits.)
 NS 919 is conjectured to be the largest palindromic prime such that the next prime is a palindrome; (A069803 Smaller of two consecutive palindromic primes.)
@@ -2794,11 +2799,11 @@ NT 941 is the smallest number which is the reverse of the sum of its proper subs
 942 is the smallest abundant number that differs from the next abundant number by 3; A228382
 943
 944
-?? NS 944 is the smallest even number n having partitions into distinct divisors of n+1; (A085493 Numbers n having partitions into distinct divisors of n+1.)(A106431 Even elements of A085493.)
+* 944 is the smallest even number n having partitions into distinct divisors of n+1; (A085493 Numbers n having partitions into distinct divisors of n+1.)(A106431 Even elements of A085493.) checked
 945
 * 945 is the smallest odd abundant number; (checked)
 946
-?? NS 946 is the only three-digit number m such that the reversal of concatenation of the first m natural numbers is prime; [Firoozbakht] 
+* 946 is the only three-digit number n such that the reversal of concatenation of the first n natural numbers is prime; [Firoozbakht] checked
 948
 * 948 is the smallest number n such that the sum of the largest and the smallest prime divisor of n<sup>2</sup> + 1 equals the sum of the other distinct prime divisors; A199924
 
@@ -2859,7 +2864,7 @@ NU 990 is a triangular number that is the product of 3 consecutive integers; (6 
 * 997 is the smallest prime of form 10<sup>p</sup - p, where p is prime; [Luhn] (trivial)
 * 997 is the smallest prime p such that the sum of the digits of p is not prime, but the sum of the squares of the digits of p is prime; (checked with Mathematica) (A091362 Primes p such that the sum of the digits of p is not prime, but the sum of the squares of the digits of p is prime.)
 * 997 is the smallest prime p such that the sum of the digits of p is not prime, but the sum of the cubes of the digits of p is prime; (checked with Mathematica) (A091365 Primes p such that the sum of the digits of p is not prime, but the sum of the cubes of the digits of p is prime.) (7477 also has both properties)
-?? 997 is the smallest prime lucky number n such that nextprime(n)=nextlucky(n); (A057698 Prime lucky numbers n (from A031157) such that nextprime(n)=nextlucky(n).)
+997 is the smallest prime lucky number n such that the next prime number equals the next lucky number; (A057698 Prime lucky numbers n (from A031157) such that nextprime(n)=nextlucky(n).) checked
 * 997 is the smallest prime with digit sum 25; A106763
 * 997 is the smallest prime p such that the digit sum of p is an odd composite number; A247122
 999
@@ -2877,8 +2882,9 @@ NS A millennium has 1000 years;
 NT 1001 is the smallest palindromic number which cannot be prime when read in any base; [Poo Sung] (what about 6?)
 * 1001 is the smallest palindromic product of 3 consecutive primes; checked
 * 1001 is the smallest number containing 2 pairs of identical digits; A291269
+1002
+* 1002 is the smallest number, not counting 1 such that its base 2 representation ends with its base 3 representation; A169828 checked
 1003
-U?? 1003 has a base 2 representation that ends with its base 3 representation; (virtue science)
 1005
 NT 1005 is the smallest number whose English name contains all five vowels exactly once; (not true, thousand five is not canonical - one thousand and five, the smallest it 206) (A058180 Numbers whose English names include all five vowels exactly once.)
 1006
@@ -2893,13 +2899,13 @@ NU 1008 is divisible by the number of primes below it; (virtue science) (also 3,
 * 1009 is the smallest prime made up of a nonprime number of only nonprime digits; A153640 
 * 1009 is the lexicographically earliest prime among primes less than 1000; A210759
 1010
-?? NS 1010 is the smallest generalized Smarandache palindrome which is not a palindrome: a generalized Smarandache palindrome is a number of the form a1a2...anan...a2a1 or a1a2...an-1anan-1...a2a1, where all a1, a2, ..., an are positive integers of various number of digits; (A082461 Generalized Smarandache palindromes which are not palindromes: a generalized Smarandache palindrome (GSP) is a number of the form a1a2...anan...a2a1 or a1a2...an-1anan-1...a2a1, where all a1, a2, ..., an are positive integers of various number of digits)
+* 1010 is the smallest generalized Smarandache palindrome which is not a palindrome: it can be represented as a non-trivial palindrome AA, where A = 10; (A082461 Generalized Smarandache palindromes which are not palindromes: a generalized Smarandache palindrome (GSP) is a number of the form a1a2...anan...a2a1 or a1a2...an-1anan-1...a2a1, where all a1, a2, ..., an are positive integers of various number of digits) checked
 * 1010 is the smallest non-palindromic balanced number: the first and the last half of digits have the same sum; A145808
 1011
 * 1011 is the smallest number without trailing zeroes such that the reversal of its cube is a cube of a different number (1101); (checked with Mathematica) (A035125 Roots of 'nonpalindromic cubes remaining cubic when written backwards'.)
 * 1011 is the smallest number with at least 4 digits such that any 3-digit substring forms a prime number; A345906
 1012
-?? 1012 is the smallest number n such that the period length of the 'Reverse and Subtract' trajectory of n is greater than 1; (note that period length 1 is impossible) (A072140 The period length of the 'Reverse and Subtract' trajectory of n is greater than 1.)
+* 1012 is the smallest number n such that the period length of the 'Reverse and Subtract' trajectory of n is greater than 1; most numbers end in a palindrome, then 0 which is period length 1 (A072140 The period length of the 'Reverse and Subtract' trajectory of n is greater than 1.) checked
 * 1012 is the smallest multiple of 11 in which the even positioned digits from left are odd and the odd positioned ones are even; A080467
 * If considered in base 3, 1012 is the smallest number that doubles when reversed; A223077
 1013
@@ -2919,7 +2925,7 @@ NU 1008 is divisible by the number of primes below it; (virtue science) (also 3,
 * 1021 is the smallest four-digit prime which yield a prime after removing two outermost digits; (A069791 Primes which yield primes each time the process of removing two outermost digits is carried out until finally a two digit prime (possibly with a leading 0) is obtained.)
 * 1021 is the smallest prime number in which the sum of the external digits equals the sum of the internal digits; A088290
 1022
-?? 1022 is the smallest number which when represented as a sum of palindromes using the greedy algorithm require more than 3 palindromes; A261676
+* 1022 is the smallest number which when represented as a sum of palindromes using the greedy algorithm require more than 3 palindromes; A261676, checked manually
 
 1023
 * 1023 is the highest number one can count to on one's fingers using binary;
@@ -2928,7 +2934,7 @@ NS 1023 is the sum of the first 10 distinct powers of 2; (A038461 Sums of 10 dis
 1024
 * 1024 is the number of bytes in a kilobyte;
 NVI 1024 is the smallest number with 11 divisors; (same as 2^10)
-?? 1024 is the smallest composite which uses less than all of its digits in its prime factorization: 1024 = 2<sup>10</sup> - uses 1, 0, 2 and doesn't use 4; (A074211 Composites which use less than all of their digits in their prime factorization.)
+* 1024 is the smallest number which uses a proper subset of its digits in its prime factorization: 1024 = 2<sup>10</sup> &mdash; the factorization uses 1, 0, 2, and doesn't use 4; (A074211 Composites which use less than all of their digits in their prime factorization.) checked
 * 1024 is the smallest square with 4 different digits; A235719
 * 1024 is the smallest power of 2 with the digit 0 in its decimal expansion; A298607
 * 1024 is the smallest square that is concatenation of two legs of a Pythagorean triangle (10<sup>2</sup> + 24<sup>2</sup> = 26<sup>2</sup>); A257650
@@ -2936,18 +2942,15 @@ NVI 1024 is the smallest number with 11 divisors; (same as 2^10)
 * 1025 is the smallest sum of a positive square and a positive cube in at least three ways; A171385
 * 1025 is the smallest number such that prepending it with 1 or 2 produces a square; A272672
 1027
-?? NS 1027 is the smallest number m such that 1000^1000 + m is prime; [Firoozbakht] 
+* 1027 is the smallest number m such that 1000^1000 + m is prime; [Firoozbakht] checked
 * 1027 is the smallest semiprime with 4 distinct digits; A235692
+
 1031
-NVI Halloween falls on 10/31 each year; [Patterson] (too special)
-?? NS 1031 is the smallest number n such that n | 2^n - 2^10; (A015932 Numbers n such that n | 2^n - 2^10.)
-?? NS 1031 is the length of the largest repunit that is known to be prime; (virtue science)
 1033
 * 1033 is the smallest number which is equal to the sum of 8 raised to the powers of its digits: 1033 = 8<sup>1</sup> + 8<sup>0</sup> + 8<sup>3</sup> + 8<sup>3</sup> = 1033; [Blanchette] (checked with Mathematica)
 1035
 * 1035 is the smallest number n such that n and 3n are anagrams; (checked) (A023087 Numbers n such that n and 3*n are anagrams.) (mine A133220 a(n) is the smallest number k such that k and n*k are anagrams.) A175692
 * 1035 is the smallest triangular number with 4 distinct digits; A241787
-U?? 1035 is a value of n for which n, 2n, 3n, and 4n all use the same number of digits in Roman numerals; (virtue science)
 1036
 * 1036 is the smallest number whose cube starts with 4 identical digits: 1036<sup>3</sup> = 1111934656; (checked with Mathematica)
 1037
@@ -2955,7 +2958,7 @@ U?? 1035 is a value of n for which n, 2n, 3n, and 4n all use the same number of 
 * 1037 is the smallest odd number n such that Fibonacci(n-2) is divisible by n; A159051 A159052
 1039
 * 1039 is the smallest four-digit prime with distinct digits; (checked) A074673
-?? NS 1039 is the center prime number in the smallest possible order-3 prime magic square consisting of primes in arithmetic progression (but not consecutive);
+* 1039 is the center prime number in the smallest possible 3 by 3 prime magic square consisting of primes in arithmetic progression; https://mathworld.wolfram.com/PrimeMagicSquare.html
 * 1039 is the smallest non-twin double lonely prime: it sandwiched between two pairs of twin primes on each side (primes surrounding 1039 are 1019,1021,1031,1033 and 1049,1051,1061,1063); (A069456 Non-twin primes that are at least doubly lonely.)
 
 1044
@@ -2972,11 +2975,11 @@ U?? 1035 is a value of n for which n, 2n, 3n, and 4n all use the same number of 
 * 1050 is the smallest unitary practical number that is squareful; A287173
 
 1052
-U?? 1052 has the property that placing the last digit first gives 1 more than twice it; (Uniqueness??)
+* 1052 is the smallest number n such that placing the last digit first gives 2n+1; checked
 1056
 * 1056 is the area of the smallest non-square rectangle that can be tiled with distinct integer-sided squares;
 1058
-?? 1058 ones plus 1058 is prime. This is the only such four-digit number; [Opao] 
+* 1058 is the only four-digit number n such that n ones plus n is prime; [Opao] A108468 checked
 
 1060
 * 1060 is the sum of primes below 100; A276355
@@ -3019,9 +3022,7 @@ U?? 1067 has exactly the same digits in 3 different bases; (virtue science)
 * 1098 is the smallest number n for which there are exactly five k such that n = k + (product of nonzero digits of k); (A096926 Numbers n for which there are exactly five k such that n = k + (product of nonzero digits of k).)
 
 1100
-U?? 1100 has a base 3 representation that ends with 1100; (virtue science)
 1101
-NU 1101 has a base 2 representation that ends with 1101; (virtue science) (NU 10 in base 2 is 1010)
 1103
 * 1103 is the smallest 4-digit prime that remains prime after swapping the first two digits with the last two digits; A271431
 * 1103 is the smallest lesser twin of a Carmichael number; A272754
@@ -3063,7 +3064,7 @@ NS 1105 = 5 x 13 x 17 is the product of the three smallest primes of the form 4n
 ?? The 23rd of November is the only date which can be read as a prime in both formats: 'month-day' and 'day-month'; [Kik] (17 and 71?or 101, 107 and 701, 311 and 1103, 709 and 907, 911 and 1109 and it is not a date)
 * 1123 is a prime formed by concatenating the first four Fibonacci numbers; [Gupta] (A104285 Primes which are the concatenation of four consecutive fibonacci numbers.) A104285
 1124
-U?? 1124 is a number whose product of digits is equal to its sum of digits; (virtue science) (also 22) (is it the smallest 4-digit number or the only 4-digit number with non-decreasing digits)
+* 1124 is the smallest 4-digit number whose product of digits is equal to its sum of digits; trivial
 1131
 * 1131 is the smallest number such that exactly 10 consecutive odd integers starting with it are composite; A162023
 * 1131 is the smallest number with at least 4 digits such that all its substrings of length 3 are primes with at lest 3 digits; A211684 checked
@@ -3074,9 +3075,9 @@ U?? 1124 is a number whose product of digits is equal to its sum of digits; (vir
 * 1134 is the smallest number such that the sum of its proper divisors equals the sum of the sums of proper divisors of its proper divisors; (checked with Mathematica) (A066365 The |sigma(n)-n|-perfect numbers, where f-perfect numbers for an arithmetical function f is defined in A066218.)
 1139
 ?? NS There are exactly 1139 consecutive composites following the prime 10^100 + 7443. This is the first occurrence of a kilogap between primes greater than a googol; [Honaker] 
-U?? 1139 has the property that placing the last digit first gives 1 more than 8 times it; (virtue science)
+* 1139 is the smallest number n such that placing the last digit first gives 8n+1; checked
 1140
-?? NS 1140 is the smallest number whose divisors contain every digit at least three times;
+* 1140 is the smallest number whose divisors contain every digit at least three times; A353066
 1141
 1146
 * 1146 is the smallest number such that both the sum of its semiprime divisors and the sum of its prime divisors are squares (The prime divisors 2, 3, and 191 sum to a square 196 = 14<sup>2</sup>. The semiprime divisors 6, 382 and 573 sum to a square 961 = 31<sup>2</sup>.); A227478 
@@ -3084,7 +3085,7 @@ U?? 1139 has the property that placing the last digit first gives 1 more than 8 
 * 1147 is the smallest 4-digit semiprime that is a concatenation and a product of two 2-digit primes; A180344
 
 1151
-?? NS 1151 is the smallest number can be expressed as the sum of consecutive primes in exactly 4 ways; (A054999 Integers that can be expressed as the sum of consecutive primes in exactly 4 ways.)
+?? NS 1151 is the smallest number that can be expressed as the sum of consecutive primes in exactly 4 ways; (A054999 Integers that can be expressed as the sum of consecutive primes in exactly 4 ways.)
 1152
 ?? 1152 is the number of SOLSSOMs (self-orthogonal Latin square with a symmetric orthogonal mate) of order 4; A166490
 1153
