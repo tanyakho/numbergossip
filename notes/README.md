@@ -125,6 +125,13 @@ Once everything has been set up (see below), deployment:
   that future deployments pick up the change.
 
 ----------------------------------------
+Notes on dealing with tool versions as of 5/28/22
+I ended up needing to
+- sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin (I think)
+- gcloud container clusters get-credentials numbergossip-web
+- USE_GKE_GCLOUD_AUTH_PLUGIN=True kubectl apply -f deploy/web.yml
+
+----------------------------------------
 To set up Google Cloud control tooling
 
 Install Cloud SDK and Kubernetes
