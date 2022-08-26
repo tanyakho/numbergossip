@@ -597,10 +597,11 @@ NS ?? 65 is the ONLY number which gives a prime square, on adding as well as sub
 * 65 is the smallest number that is a sum of 2 distinct nonzero squares in more than one way; A024508
 
 66
-?? 66 is the lowest number that shares a strobogrammatic prime factor with its invertible partner, i.e., 66 and 99 are both divisible by 11;  [Murton]
+* 66 is the lowest non-strobogrammatic number that shares a strobogrammatic prime factor with its invertible partner, i.e., 66 and 99 are both divisible by 11; checked (11 works if we remove the non-strobogrammatic) 
 * In Star Wars, Order 66 is a prepared order to the clone troopers to kill the Jedi commanding them;
 * 66 is the smallest abundant palindrome; (mine) (checked)
 * 66 is the number of triangular polyominoes with 8 cells; A000577
+* 66 is the smallest palindrome which is the product of three distinct prime factors (submitted by Massimo Kofler); checked, A046393
 67
 * 67 is the only number such that the common alphabetical value of its Roman representation is equal to its reversal (LXVII - 12+24+22+9+9=76); (Serezha wrote a program)
 * 67 is the smallest prime which contains all ten digits when raised to the tenth power; (pandigital) (checked with Mathematica)
@@ -608,7 +609,7 @@ NS ?? 65 is the ONLY number which gives a prime square, on adding as well as sub
 68
 * 68 is the smallest exponent of a power of 2 that contains all ten digits; A130694
 * 68 is the smallest composite number that becomes prime by turning it upside down; A048889
-?? NS 68 is the largest even number that is expressible as the sum of two primes in two different ways (7 + 61, 31 + 37);
+?? NS 68 is the largest number that is expressible as the sum of two primes in two different ways (7 + 61, 31 + 37); odd numbers are expressed in not more than one way. A000954, A045917
 * Out of all 2-digit strings, 68 is the last to appear in the decimal expansion of pi; A032510
 
 69
@@ -634,8 +635,8 @@ NU 71 divides the sum of the primes less than it; (5 is also)
 
 72
 * 72 is the smallest Achilles number, a number that is powerful but not a perfect power; A052486
-NS ?? 72 is the smallest number that can be expressed as the difference of the squares of consecutive primes in two distinct ways, i.e., 72 = 19^2 - 17^2 = 11^2 - 7^2;
-?? 72 is the only number of the form pq x qp that lies between a Twin prime pair, where p and q are distinct primes;
+* 72 is the smallest number that can be expressed as the difference of the squares of consecutive primes in two distinct ways, (72 = 19<sup>2</sup> - 17<sup>2</sup> = 11<sup>2</sup> - 7<sup>2</sup>); checked A069482
+* 72 is the only number of the form p<sup>q</sup> &middot; q<sup>p</sup> that lies between twin primes, where p and q are primes; checked, divisibility by 3 proves it
 NT 72 is the only number that is both pronic and powerful (submitted by Paul Wright); (Catalan's conjecture doesn't prove that as two consecutive numbers might not be powers, but just powerful. I wonder if the conjecture can be extended, I even asked SeqFans about that. they proved that it is not true: 465124 * 465125 == 216340800500 == 5^3 * 41602^2)
 73
 * Pi Day occurs on the 73rd day of the year (March 14) on non-leap years;
@@ -644,12 +645,12 @@ NT 72 is the only number that is both pronic and powerful (submitted by Paul Wri
 NT 73 is the only number which is 1 less than the double of its reversal which also is a prime; (7993 is also like that)
 * 73 is the smallest number (besides 1) which is one less than twice its reverse; (checked)
 * 73 is the smallest prime whose square (5329) is the concatenation of two multi-digit primes; checked
-?? NS 73 is the smallest number with the property that it and its neighbors can be written as a sum of 2 squares;
+* 73 is the smallest number with the property that it and its neighbors can be written as a sum of 2 nonzero squares; checked A000415, if we allow one square to be zero then 9 works.
 * 73 is the alphanumeric value of the word NUMBER: 14 + 21 + 13 + 2 + 5 + 18 = 73; (checked) (zoo of numbers)
 * 73 is the smallest Prime that is the sum of three distinct positive cubes; A122723
 74
 * 74 is the alphanumeric value of HUNDRED; (checked)
-?? There are 74 different non-Hamiltonian polyhedra with a minimum number of vertices; (wiki) (what does this mean?)
+?? There are 74 different non-Hamiltonian polyhedra with a minimum number of vertices; (wiki) (what does this mean?) They only exist starting from 11 vertices. A007033 
 75
 * 75 is the smallest pandigital number in base 4: 75 is written as 1023 in base 4 and contains all the possible digits; (checked)
 * 75 is the smallest numbers that is a sum of three distinct squares forming an arithmetic progression: 75 = 1 + 25 + 49;  A292313
@@ -2155,6 +2156,7 @@ NU 5<sup>1</sup> + 1<sup>2</sup> + 8<sup>3</sup>; (see 135 and 598)
 524
 * 524 is the smallest nonpalindrome such that its largest two proper divisors, and only them, are nontrivial palindromes (have more than one digit) (The divisors of 524 are 1, 2, 4, 131, 262, 524); A074889
 525
+* 525 is the smallest palindromic odd composite number with an odd number of distinct prime factors; checked, A356750
 ?? 525 is the smallest number n for which nontrivial positive magic squares of exactly 5 different orders with magic sum n exist; A125012
 * 525 is the smallest nummber n such that |n - 4<sup>k</sup>| is prime for k ranging from 1 to 10; A281549
 527
@@ -2209,7 +2211,7 @@ NU 540 is divisible by its reverse; (20 is the smallest non-palindrome one, 510 
 * 552 is the smallest number n such that all prime numbers below 20 to the power of n have an even digit sum; (A119897 Numbers n such that 2^n, 3^n, 5^n, 7^n, 11^n, 13^n, 17^n and 19^n have even digit sum.)
 555
 * 555 is the telephone exchange for fictitious phone numbers in US movies;
-* 555 is the smallest palindromic odd composite number with an odd number of distinct prime factors; (A075808 Palindromic odd composite numbers with an odd number of distinct prime factors.)
+* 555 is the smallest palindromic odd composite number that is a product of an odd number of distinct prime factors; checked (A075808 Palindromic odd composite numbers with an odd number of distinct prime factors.)
 557
 * 557 is the smallest prime that divides (2 + product of all primes less than itself); A340712
 
@@ -3347,6 +3349,8 @@ NS 1458 is one of four numbers (the other three are 1, 81 and 1729) which, when 
 * 1512 is the smallest number n such that the set of digits of n + (sum of digits of n) and n + (product of digits of n) is the same as the set of digits of n (without multiplicity); A248718
 1514
 * 1514 is the smallest 4-digit number whose square (2292196) and cube (3470384744) use different digits; (checked with Mathematica) (A029787 Digits of n^2 are not present in n^3.)
+1518
+* 1518 is the smallest tetraprime (product of 4 distinct primes), such that its reversal is a different tetraprime (submitted by Massimo Kofler); checked A356767
 1523
 * 1523 is the smallest prime whose difference with its reversal is a perfect cube; A217387
 1531
