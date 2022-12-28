@@ -33,6 +33,9 @@ ADD . /app
 # Install Apache configuration
 RUN ln -s /app/deploy/numbergossip-apache.conf /etc/apache2/sites-enabled/
 
+# Make sure /var/run/passenger-instreg exists so Passenger can write into it
+RUN mkdir -p /var/run/passenger-instreg
+
 # Let Rails read the master key file, if present
 # It will typically be present during development, but not production
 RUN if [ -e config/master.key ]; then chmod 0644 config/master.key; fi
