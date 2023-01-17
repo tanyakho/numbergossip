@@ -10,6 +10,11 @@ Locations of files
 ---------------------------------------
 Sanity checks
 
+The uniqueWorking file should parse.  Can check this by running
+```
+bundle exec rake rebuild_database
+```
+
 Each line of uniqueWorking.txt that is not empty should contain a
 colon:
 

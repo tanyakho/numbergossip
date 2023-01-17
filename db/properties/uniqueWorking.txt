@@ -403,19 +403,19 @@ NT 32 is the highest known power with all decimal digits being prime;  [Kulsha](
 33
 * 33 is the largest number that is not a sum of distinct triangular numbers; A053614
 * 33 is the smallest 2-digit palindrome which is also palindromic in binary (submitted by Andy Edwards); A007632
-NVI The smallest run of 3 consecutive integers that are semi-primes (the product of two primes) begins with 33; (checked) (why is this about 33?)
-NT 33 is the smallest positive integer that can not be expressed as a sum of different triangular numbers; ((wiki) - contradicts the above, 2, 5, 8, 12, 23 A053614)
+* The smallest run of 3 consecutive integers that are semi-primes (the product of two primes) begins with 33; (checked) (why is this about 33?)
+* 33 is the largest positive integer that can not be expressed as a sum of different triangular numbers; ((wiki A053614)
+
 34
 * 34 is the smallest number with the property that it and its neighbors have the same number of divisors; (wiki)
 * 34 is the magic constant of a 4 by 4 magic square; (wiki)
 * 34 is the alphanumeric value of ONE; (checked)
 * 34 is the number of graphs with 5 vertices; (confirmed by A000088 Number of graphs on n unlabeled nodes) 
-?? 34 is the only Fibonacci number that is twice a prime; (compare to a similar property about 17)
+?? 34 is the only Fibonacci number that is twice a prime; (compare to a similar property about 17) A014445
 35
 * 35 = 2<sup>3</sup> + 3<sup>3</sup>, i.e., the sum of the cubes of the first two primes;
 * There are 35 hexominos, the polyominoes made from 6 squares;
 * 35 is the number of intersections of diagonals inside a regular heptagon; A006561
-NVI 35 is the first composite number occurring in Pascal's Triangle whose digit reversal is prime; (p.c.) (not clear what first is)
 
 36
 * 36 is the smallest number out of two (the other being 360) that have the same number of letters in its Roman representation as its double, triple, quadruple, quintuple, sextuple and septuple;
@@ -1699,7 +1699,7 @@ U?? 303 has a cube that is a concatenation of other cubes; (zoo of numbers) shou
 312
 * 312 is the smallest number n such that &phi;(n) + &sigma;(n) = 3n; (from OEIS May 2007) (A011251 Numbers n such that phi(n) + sigma(n) = 3n.)
 313
-* NS 313 is the smallest multidigit palindromic prime that is both a left- and right-truncatable prime; [Patterson] A024785, A024770 
+* 313 is the smallest multidigit palindromic prime that is both a left- and right-truncatable prime; [Patterson] A024785, A024770 
 ?? NS 313 is the only 3-digit palindromic prime which is not the sum of consecutive composite numbers; [Russo] 
 * 313 is the only 3-digit palindromic prime which is palindromic in base 2 too; (checked with Mathematica) (A046472 Palindromic primes in base 10 and base 2) [Larsen]
 * 313 is the smallest palindromic prime such that the sum of its digits is prime and the number of prime digits is prime; (from OEIS May 2007) (A093808  Palindromic primes with property that sum of digits is prime and number of prime digits is prime.)
