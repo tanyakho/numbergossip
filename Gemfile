@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'rails', '~> 6.0.5.1'
+gem 'rails', '~> 6.0.6.1'
 gem 'sprockets', '< 4'  # Because of https://github.com/rails/sprockets-rails/issues/444
 gem 'sqlite3'
 gem 'listen'
