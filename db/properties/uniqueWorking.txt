@@ -225,6 +225,7 @@ NVI 15 is the only composite odd teenage number (submitted by Isaac LaComb);
 * 16 is the base of the hexadecimal number system, which is used extensively in computer science;
 * 16 is the smallest short leg in a primitive Pythagorean triangle whose three side lengths are composite integers; A165160 
 * 16 is the smallest number which is the sum of two distinct odd primes in two ways: 16 = 3 + 13 = 5 + 11; checked A140955
+* 16 is the only 2-digit number n such that n<sup>n</sup> ends with two copies of n: 16<sup>16</sup> = 18446744073709551616; checked
 
 17
 * There are 17 distinct sets of regular polygons that can be packed around a point (e.g., 4 squares, 2 hexagons and 2 triangles, etc); (Serezha checked with a program)
@@ -346,13 +347,13 @@ NVI 24 is the smallest number which is the sum of two distinct odd primes in thr
 * 25 is the smallest aspiring number;
 
 26
-* 26 is the only natural number to be sandwiched between a square and a cube; (I remember I proved it, I do not remember how)
+* 26 is the only natural number to be sandwiched between a square and a cube. Even stronger, 26 is the only number to be sandwiched between any two non-trivial powers; I remember I proved the first part, I do not remember how. I do not know how to prove the second part.
 * 26 is the smallest non-palindrome with a palindromic square;
 * 26 is the number of sporadic finite simple groups (submitted by Paton J. Lewis);
-?? 26 is the only number to be sandwiched between any two non-trivial powers; (stronger than the previous one, I do not know how to do it)
+* 26 is the smallest semiprime sandwiched between two squareful numbers (submitted by Massimo Kofler); checked
 NS 26 is the number of minimal primes; (the definition of minimal primes is not widely known - only in prime pages)
-NVI 26 is the number of letters in the English alphabet;
 NVI 26 is the smallest of only two numbers which contain exactly the first three digits in its unique prime factorization (26 = 13*2, the other one is 62 = 2*31);
+
 27
 * 27 is the only number which is thrice the sum of its digits; (checked with Mathematica)
 * 27 is the first composite number not divisible by any of its digits;
@@ -1194,6 +1195,7 @@ NT 169 is the smallest multidigit reversible power with all different digits: it
 * 170 is the smallest composite number such that exactly four distinct permutations of its decimal digits are prime (17, 71, 107, and 701 are all prime); A163556
 * 170 can be written as (2<sup>2</sup> + 3)<sup>2</sup> + (3<sup>2</sup> + 2)<sup>2</sup>); [Thoms] 
 * 170 is the smallest number n, except 1, for which &phi;(n) and &sigma;(n) are both square; (checked) (A067781 Numbers n such that phi(n) and sigma(n) are simultaneously perfect squares.)
+* 170 is the smallest sphenic number (the product of three distinct primes) sandwiched between two squareful numbers: 169 = 13<sup>2</sup>, 170 = 2 * 5 * 17, and 171 = 3<sup>2</sup> * 19 (submitted by Massimo Kofler); checked.
 
 171
 * If you write n consecutive digits starting with 1 and following 9 by 0, the smallest n that will give you a prime number is 171; (From OEIS) (checked the coding in OEIS) (A120819 Primes with n consecutive digits ascending beginning with the digit one.)
@@ -1928,8 +1930,8 @@ U?? NS The sum of the digit splits of 358 is equal to the product of the digits:
 NT 379 is the smallest multidigit prime such that its largest digit is equal to the largest digit of the sum of its digits; [Russo] A070958 199 is the smallest
 
 383
-?? NS 383 = prime(3*8*3) + sigma(3+8+3) - Note that 383 is the earliest number with this property; [Firoozbakht] need to exclude numbers containing zero
-*  383 is the smallest prime which can be represented as sum of a prime and its reverse (241 + 142 = 383); [Gupta] (A072385 Primes which can be represented as the sum of a prime and its reverse.)
+* 383 = prime(3*8*3) + &sigma;(3+8+3) &mdash; Note that 383 is the smallest number with this property; [Firoozbakht] need to exclude numbers containing zero
+* 383 is the smallest prime which can be represented as sum of a prime and its reverse (241 + 142 = 383); [Gupta] (A072385 Primes which can be represented as the sum of a prime and its reverse.)
 * 383 is the sum of the first 3, three-digit palindromic primes: 101, 131 and 151; [Vouzaxakis] (A046491 Palindromes expressible as the sum of 3 consecutive palindromic primes.) (A046492 Palindromic primes expressible as the sum of 3 consecutive palindromic primes.)
 * 383 is the first multidigit palindromic prime to appear in the decimal expansion of pi; [Wu] checked
 * 383 is the smallest palindromes expressible as the sum of 3 consecutive palindromic primes; A046491
@@ -1956,7 +1958,7 @@ NS The first three decimal digits after the period of of e<sup>2</sup>; A104999
 * 393 is the smallest semiprime formed by inserting a semiprime between the its own ordered factors (insert 9 between 9's factors 3 and 3; A227942
 397
 ?? 397 is the largest prime having a unique representation as the sum of three positive squares, 3^2 + 8^2 + 18^2; [Noe] 
-?? NS 397 is the smallest prime q such that p = (r+q+s-1)/2 is a balanced prime, where r, q, s are consecutive primes; (from OEIS May 2007) (A129190 Primes q such that p = (r+q+s-1)/2 is a balanced prime, where r, q, s are consecutive primes.)
+* 397 is the smallest prime q such that p = (r+q+s-1)/2 is a balanced prime (a balanced prime is the average of the two neighboring primes), where r, q, s are consecutive primes; (from OEIS May 2007) (A129190 Primes q such that p = (r+q+s-1)/2 is a balanced prime, where r, q, s are consecutive primes.)
 399
 * 399 is the smallest Lucas-Carmichael number; (p.c.) (checked by A006972 Lucas-Carmichael numbers: square-free composite numbers n such that p | n => p+1 | n+1)
 * 399 is the smallest product of three distinct primes, such that the sum of the primes, the sum of the squares of the primes, and the sum of the cubes of the primes are all prime numbers; A176911
@@ -1978,6 +1980,8 @@ NU The Heptagonal number (r(5r - 3)/2) created using the prime base number of r 
 * 403 is the smallest non-palindrome whose square is the product of a number and its reverse (403<sup>2</sup> = 162409 = 169 * 961); A325151 A207373 
 404
 * 404 is the HTTP status code for "file not found", perhaps the most famous HTTP status code of all;
+
+405
 * 405 is the smallest composite number that is the sum of two, three, four, and five consecutive composite numbers (405 = 202 + 203 = 134 + 135 + 136 = 99 + 100 + 102 + 104 = 78 + 80 + 81 + 82 + 84); A151745
 * 405 is the smallest number with 10 odd divisors; A267893
 
@@ -2018,7 +2022,7 @@ NS All integers ever tested in the Collatz problem eventually ends in the sequen
 
 422
 * 422 is the concatenation of the smallest composite number with its prime factors; A245315
-?? 422 is the number of king moves in chess; (including castling)
+* 422 is the number of legal white king moves in chess (including castling); checked
 
 
 428
@@ -2056,7 +2060,7 @@ NS 440 in hertz, the standard frequency to which most orchestras tune the pitch 
 
 444
 * The diagonals of a regular dodecagon divide it into 444 regions; A007678
-?? NS 444^444 + 5 is prime. Note that 444 is the only known number m such that m^m + 5 is prime; [Firoozbakht] 
+* 444 is the smallest number n such that n<sup>n</sup> is prime; checked Note that 444 is the only known number m such that m^m + 5 is prime [Firoozbakht] 
 ?? NS 444 is the largest known n for which there is a unique integer solution to a<sub>1</sub>+...+a<sub>n</sub>=(a<sub>1</sub>)...(a<sub>n</sub>);
 448
 * 448 is the number of triangular polyominoes with 10 cells; A000577
@@ -2078,7 +2082,8 @@ NU 450 = (5+4)(5+5)(5+0); (Also 50, 210) (A097371 Numbers n such that n=(d_1+5)(
 452
 * 452 is the number of idempotent 4 by 4 0-1 matrices; A222823
 454
-?? NS 454 is the largest number known that cannot be written as a sum of 7 or fewer cubes; (?? 454 is the largest integer such that its shortest partition into cubes requires eight of them. - from planetMath.org)
+* 454 is the largest number that cannot be written as a sum of 7 or fewer cubes; https://arxiv.org/abs/1505.00647
+
 459
 * 459 is the smallest number n such that if you subtract it from its reversal you get a natural number with the same digits as n: 954 - 459 = 495; (checked with Mathematica) (mine A121970 Numbers n such that if you subtract n from its reversal you get a positive number with the same digits as n.)
 * 459 is the smallest number such that the product of its digits is 10 times their sum; (checked with Mathematica) (A062043 Numbers for which the product of the digits is 10 times their sum.) (mine A124694: Sets of digits such that the product of the digits is 10 times the sum of the digits. Each set is arranged as a number with nondecreasing digits.)
@@ -2142,7 +2147,7 @@ NVI 495 is the smallest number constant under Kaprekar routine; this is essentia
 * 496 is the smallest even prime-indexed triangular number such that the next number is composite; A097785 checked
 499
 * 499 is the smallest number n such that &phi;(n) + &sigma;(n) = reversal(n) + 4; A230004
-?? NS The decimal expansion of 499^499 ends with the digits 499499. (Often p^p ends with the digits of p, but this is the only known case for which it ends with the digits of p twice); [Caldwell] 
+* 499 is the only 3-digit number n such that n<sup>n</sup> ends with two copies of n: 499<sup>499</sup> ends with 499499; checked
 U??  497 + 2 = 499, inversing the number -> 994 = 497 x 2; (zoo of numbers)
 
 500
@@ -2201,7 +2206,7 @@ NU 5<sup>1</sup> + 1<sup>2</sup> + 8<sup>3</sup>; (see 135 and 598)
 528
 * 528 is the smallest non-palindromic number whose sum of divisors is the same as the sum of divisors of its reverse (the sum of their divisors is 1488); [Gupta] (see A085329 Non-palindromic solutions to sigma[Rev[n]]=sigma[n].)
 NU 528 concatenated with its successor is square; (183184 = 428^2)
-?? NS 528 is the largest determinant of a 3 by 3 matrix whose elements are distinct digits from 0 to 9; (from OEIS May 2007) (A097401 Largest achievable determinant of a 3 X 3 matrix whose elements are 9 distinct nonnegative integers chosen from the range 0..n.)
+* 528 is the largest determinant of a 3-by-3 matrix whose elements are distinct digits from 0 to 9; (from OEIS May 2007) (A097401 Largest achievable determinant of a 3 X 3 matrix whose elements are 9 distinct nonnegative integers chosen from the range 0..n.)
 529
 * 529 is the smallest square n such that the next prime of the square root is a substring of n (Square root of 529 is 23 and the next prime if 29); (checked) (also A052074 Let p = square root of n then nextprime(p) is a substring of n.)
 531
@@ -4193,6 +4198,9 @@ NT 1 gram equals 0.03527 ounces, and 1 pixel also equals 0.03527 centimeters; [W
 
 3762
 * 3762 is the smallest number n whose 10's complements have the same sum of divisors as n (&sigma;(3762) = &sigma;(6238) = 9360); A300796
+
+3774
+* 3774 is the smallest tetraprime (product of four distinct primes) sandwiched between two squareful numbers: 3773 = 7<sup>3/sup> * 11, 3774 = 2 * 3 * 17 * 37, and 3775 = 5<sup>2/sup> * 151 (submitted by Massimo Kofler); checked
 3792
 * 3792 is the only four-digit number that is the concatenation of its distinct prime factors; (checked) (735 is the smallest one) (mine A121342 Composite numbers that are concatenations of their distinct prime divisors.)
 * 3792 is the smallest number n such that it doesn't end in 0 and the internal digits of n<sup>2</sup> include n as a substring; (checked with Mathematica) (A046837 Internal digits of n^2 include digits of n as substring, n does not end in 0.)
@@ -4225,7 +4233,7 @@ NT 3889 is the smallest number that can't be written in Roman numerals, using st
 3909
 * 3909 is the smallest middle of three consecutive semiprimes with common prime factor of 3; A131409
 3940
-?? There are 3940 distinct ways to arrange the 12 flat pentacubes (or 3-D pentominoes) into a 3x4x5 box (not counting rotations and reflections); wiki 
+* There are 3940 distinct ways to arrange the 12 flat pentacubes (or 3-D pentominoes) into a 3x4x5 box (not counting rotations and reflections); wiki 
 3942
 * 3942 is the smallest number n such that n and 4n, taken together, are zeroless pandigital; (parameter 4 - I do not like it) (A115929 Numbers n such that n and 4*n, taken together, are zeroless pandigital.)
 3977
