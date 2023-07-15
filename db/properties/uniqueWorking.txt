@@ -2568,7 +2568,7 @@ NS In the Harry Potter movies, the Potter family vault at Gringotts Bank is 687;
 * 728 is the smallest Fermat-near-miss number: it differs by 1 from a cube and it is a sum of two cubes; (A050790  Consider the Diophantine equation x^3+y^3=z^3-1 (x<y<z) or 'Fermat near misses'. Arrange solutions by increasing values of z. Sequence give values of x^3+y^3=z^3-1.)
 * 728 is the smallest number that is the sum of two (possibly negative) cubes in at least 3 ways, in other words it is the third cabtaxi number; (A051383  Sum of two (possibly negative) cubes in at least 3 ways.)
 * 728 is the smallest product of three positive integers (8,7,13) giving a solution to the Diophantine equation x<sup>3</sup> &minus; y<sup>3</sup> = z<sup>3</sup>; (A085479  Product of three solutions of the Diophantine equation x^3 - y^3 = z^2.) 
-* 728 is the smallest number n with property that n and 2n are sums of two distinct positive cubes (728 = 6<sup>3</sup> + 8<sup>3</sup> and 1456 = 5<sup>3</sup> + 11<sup>3</sup); A191345
+* 728 is the smallest number n with property that n and 2n are sums of two distinct positive cubes (728 = 6<sup>3</sup> + 8<sup>3</sup> and 1456 = 5<sup>3</sup> + 11<sup>3</sup>); A191345
 
 729
 * 729 is the largest 3-digit number in which the sum of digits is equal to the sum of prime factors; (checked with Mathematica)
@@ -2924,7 +2924,7 @@ NU 990 is a triangular number that is the product of 3 consecutive integers; (6 
 * 995 is the smallest noncube n such that n<sup>2</sup> + 1 is the sum of 2 positive cubes; A267119
 997
 * 997 is the largest three-digit prime; (checked)
-* 997 is the smallest prime of form 10<sup>p</sup - p, where p is prime; [Luhn] (trivial)
+* 997 is the smallest prime of form 10<sup>p</sup> - p, where p is prime; [Luhn] (trivial)
 * 997 is the smallest prime p such that the sum of the digits of p is not prime, but the sum of the squares of the digits of p is prime; (checked with Mathematica) (A091362 Primes p such that the sum of the digits of p is not prime, but the sum of the squares of the digits of p is prime.)
 * 997 is the smallest prime p such that the sum of the digits of p is not prime, but the sum of the cubes of the digits of p is prime; (checked with Mathematica) (A091365 Primes p such that the sum of the digits of p is not prime, but the sum of the cubes of the digits of p is prime.) (7477 also has both properties)
 997 is the smallest prime lucky number n such that the next prime number equals the next lucky number; (A057698 Prime lucky numbers n (from A031157) such that nextprime(n)=nextlucky(n).) checked
@@ -3298,7 +3298,7 @@ NS 1279 is the smallest prime whose rearrangement of digits gives the famous Ram
 
 1330
 * 1330 is the smallest number n that is divisible by 10 and is a difference between two cubes in at least one way; A038854 checked
-1330 is the smallest tetrahedral number which is a tetraprime (a product of four distinct primes}; checked A353027
+* 1330 is the smallest tetrahedral number which is a tetraprime (a product of four distinct primes}; checked A353027
 1331
 * 1331 is the smallest non-trivial cube containing only odd digits; (checked) (A030100 Cubes whose digits are all odd.)
 ?? 1331 is the largest cube containing exactly 2 distinct non-zero digits; (checked with Mathematica up to 10,000,000^3)
@@ -4105,9 +4105,9 @@ NU 3363 has the product of its digits (3*3*6*3 = 162) equal to exactly 2 times t
 3367
 * 3367 is the smallest number which is a difference between two positive cubes in exactly 3 ways; A014441
 3371
-* 3371 is the lesser of the smallest near-cube twin prime pair, that is a twin pair of the form k<sup<3</sup>-4 and k<sup<3</sup>-2; A178506
+* 3371 is the lesser of the smallest near-cube twin prime pair, that is a twin pair of the form k<sup>3</sup>-4 and k<sup>3</sup>-2; A178506
 3373
-* 3371 is the greater of the smallest near-cube twin prime pair, that is a twin pair of the form k<sup<3</sup>-4 and k<sup<3</sup>-2; A178506
+* 3371 is the greater of the smallest near-cube twin prime pair, that is a twin pair of the form k<sup>3</sup>-4 and k<sup>3</sup>-2; A178506
 3375
 * 3375 is the smallest cube that starts with 2 identical digits; (checked with Mathematica)
 NU 3375 is a cube containing only odd digits; (1331 is the smallest)
@@ -4200,7 +4200,7 @@ NT 1 gram equals 0.03527 ounces, and 1 pixel also equals 0.03527 centimeters; [W
 * 3762 is the smallest number n whose 10's complements have the same sum of divisors as n (&sigma;(3762) = &sigma;(6238) = 9360); A300796
 
 3774
-* 3774 is the smallest tetraprime (product of four distinct primes) sandwiched between two squareful numbers: 3773 = 7<sup>3/sup> * 11, 3774 = 2 * 3 * 17 * 37, and 3775 = 5<sup>2/sup> * 151 (submitted by Massimo Kofler); checked
+* 3774 is the smallest tetraprime (product of four distinct primes) sandwiched between two squareful numbers: 3773 = 7<sup>3</sup> * 11, 3774 = 2 * 3 * 17 * 37, and 3775 = 5<sup>2</sup> * 151 (submitted by Massimo Kofler); checked
 3792
 * 3792 is the only four-digit number that is the concatenation of its distinct prime factors; (checked) (735 is the smallest one) (mine A121342 Composite numbers that are concatenations of their distinct prime divisors.)
 * 3792 is the smallest number n such that it doesn't end in 0 and the internal digits of n<sup>2</sup> include n as a substring; (checked with Mathematica) (A046837 Internal digits of n^2 include digits of n as substring, n does not end in 0.)
@@ -4706,7 +4706,9 @@ NU The product of the factorials of the digits of 7351 produced another factoria
 
 7757
 * 7757 is the largest four-digit Unholey prime: such primes do not have holes in their digits; (checked)
-7776
+
+7770
+* 7770 is the smallest tetrahedral number which is a pentaprime (the product of five distinct primes: 7770 = 2*3*5*7*37 (submitted by Massimo Kofler); checked 
 
 7825
 * 7825 is the magic constant of a 25 by 25 magic square; checked
@@ -4716,9 +4718,9 @@ NU The product of the factorials of the digits of 7351 produced another factoria
 7849
 * 7849 is the smallest semiprime of the form n<sup>n+1</sup>-(n+1)<sup>n</sup>; A099498
 7859
-?? 7859 is the smallest happy number that is the sum of two cubes; A268583
+?? 7859 is the smallest happy number that is the sum of two cubes; A268583 the sequence is something else
 7874
-?? 7874 is the smallest number n such that the concatenation of n with n+2 gives a square; A115426
+* 7874 is the smallest number n such that the concatenation of n with n+2 gives a square: 8874<sup>2</sup> = 78747876; A115426
 
 7919
 * 7919 is the one thousandth prime number; (checked) (A031922 Primes p(1000n).)
@@ -4741,7 +4743,7 @@ NVI 8000 is the smallest cube which is also the sum of 4 consecutive nonzero cub
 * 8192 is 2 to the power 13; 
 
 8201
-?? NS 8201 is the largest odd number m such that (m) = reversal(m); [Firoozbakht] 
+?? NS 8201 is the largest odd number m such that Pi(m) = reversal(m); [Firoozbakht] not clear what is the function
 8208
 * 8208 is the only 4-digit number that equals the fourth power of its first digit plus the fourth power of the second digit plus the fourth power of the last two-digit number: 8208 = 8<sup>4</sup> + 2<sup>4</sup> + 8<sup>4</sup>; (checked with Mathematica)
 8281
@@ -4802,10 +4804,10 @@ NU 8614 and its prime factors contain every digit from 1-9 exactly once; (Not Un
 8867
 * 8867 is the smallest prime with multiplicative persistence 6; (parameter 6) (A046506 Primes with multiplicative persistence value 6.) (A046500 Smallest prime with multiplicative persistence n.)
 8874
-?? 8874 is the smallest number n such that the square of n is the concatenation of two numbers k and k+2; A115427
+* 8874 is the smallest number n such that the square of n is the concatenation of two numbers k and k+2: 8874<sup>2</sup> = 78747876; A115427 checked
 
 8907
-?? NS The ninetieth century is the first to contain no primes ending in one of the digits 1, 3, 7, or 9: I.e., 8907, 8917, 8927, 8937, 8947, 8957, 8967, 8977, 8987, 8997 are all composite numbers; 
+?? The ninetieth century is the first to contain no primes ending in one of the digits 1, 3, 7, or 9: I.e., 8907, 8917, 8927, 8937, 8947, 8957, 8967, 8977, 8987, 8997 are all composite numbers; checked, but how it relates to 8907?
 
 8911
 * 8911 is the largest 4-digit pseudoprime to base 2; A001567 
@@ -4909,7 +4911,7 @@ NU 8614 and its prime factors contain every digit from 1-9 exactly once; (Not Un
 * 9929 is the largest 4-digit number n such that when you erase the first two digits of n, you get the sum of the digits of n; checked
 
 9945
-?? 9945 is the smallest number that can be achieved by dividing all the numbers 0 through 9 into five pairs, then taking the product of all the sums of pairs; A266917
+* 9945 is the smallest number that can be achieved by dividing all the numbers 0 through 9 into five pairs, then taking the product of all the sums of pairs; A266917 the numbers should be spread out, so 01,23,45,67,89.
 9949
 * 9949 is the largest four-digit prime number containing no prime substrings; (checked) (A089771 Largest n-digit prime containing no prime substrings, or 0 if no such prime exists.)
 9973
@@ -4971,13 +4973,13 @@ A myriagon is a polygon with 10,000 sides;
 10296 is the smallest triangular number with 5 distinct digits; A241788
 
 10301 is the smallest palindromic prime date where the year is condensed;
-?? 10301 is the smallest 5-digit prime with digit sum 5;
+10301 is the smallest 5-digit prime with digit sum 5; checked
 
 10324 is the largest achievable determinant of a 4 by 4 matrix whose elements are 16 distinct integers chosen from the range -8 to 8; A097695
 
 10370 is the smallest number which is the sum of two squared primes in exactly four ways (ignoring order); A226599
 
-??10459 is the smallest n such that n and 8n, taken together, are pandigital; A114126
+?? 10459 is the smallest n such that n and 8n, taken together, are pandigital; A114126
 
 10513 is the smallest prime number whose central digit equals the sum of the other digits; A235119
 
@@ -5054,7 +5056,7 @@ A myriagon is a polygon with 10,000 sides;
 
 11235 is the smallest number n such that for any digit d of n the d-th prime is a substring of n; A135015
 
-?? 11236 is the smallest square without zeros such that its square root has zeros; A104316
+11236 is the smallest square without zeros such that its square root has zeros; A104316 checked
 
 11264 is the smallest number that can be written as n divided by the number of n-th divisors in four or more ways; A051346
 ?? 11264 is the number of ways to place 10 nonattacking kings on a 20 by 2 chessboard; A195649
@@ -5189,13 +5191,13 @@ NS 12325 is the smallest number that can be written as (x + y)(x^2 + y^2), x > y
 
 14399 is the smallest number n such that the minimum distance between divisors of n occurs only between composite numbers; A253266
 
-?? 14400 is the sum of the cubes of the first 15 positive integers
+14400 is the sum of the cubes of the first 15 positive integers; checked
 
 14449 is the smallest prime which is the decimal concatenation of two squares in more than one way; A203815
 
 14467 is the smallest number n such that the sum of cubes of even digits of n equals the sum of cubes of odd digits of n; A076165
 
-?? 14612 is the smallest number that cannot be prefixed or followed by any digit to form a prime; A032736 A032738
+14612 is the smallest number that cannot be prefixed or followed by any digit to form a prime; A032736 A032738
 
 14639 is the smallest prime of the form 11<sup>k</sup> - 2; A133858 checked
 
@@ -5335,7 +5337,7 @@ NS 17424 is the smallest e-perfect number that is not e-unitary perfect; A322858
 
 18362 is the smallest number n such that n, n+1, n+2, n+3, n+4 and n+5 are, in some order, 1 times a prime, 2 times a prime, ... and 6 times a prime; A071368
 
-?? 18496 is the sum of the cubes of the first 16 positive integers; wiki
+18496 is the sum of the cubes of the first 16 positive integers; wiki, checked
 
 18530 is the smallest among Euler's fearsome foursome; A229076
 
@@ -5364,7 +5366,7 @@ NS 17424 is the smallest e-perfect number that is not e-unitary perfect; A322858
 
 19601 is the smallest number b greater than 1 such that the smallest five primes, i.e., 2, 3, 5, 7 and 11 are base-b Wieferich primes; A339534
 
-?? 19609 is the first prime followed by a prime gap of over fifty; wiki
+19609 is the first prime followed by a prime gap of over fifty; wiki A002386 checked
 
 ?? 19633 is the smallest number n such that the period of the continued fraction of the square root of n is odd and equal to the period of the next number; A065304
 
@@ -5413,7 +5415,7 @@ NS 17424 is the smallest e-perfect number that is not e-unitary perfect; A322858
 
 20705 is the smallest Lucas-Carmichael number that is congruent to 1 (mod 4); A292021
 
-?? 21013 is the smallest 5-digit number where digits decrease until the central digit and increase afterwards; A157083
+21013 is the smallest 5-digit prime where digits decrease until the central digit and increase afterwards; A157083 obvious
 
 21025 is the smallest square such that the sum of digits is twice the number of digits; A316482
 
