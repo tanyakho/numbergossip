@@ -4672,7 +4672,7 @@ NT 6102 is the largest number n known where the number of numbers smaller than n
 
 6876
 8676
-* * 6876 is the smallest 4-digit number n (out of two), such that the sum of the digit splits of n is equal to the product of the digits of n: (6 + 876) + (68 + 76) + (687 + 6) + (6 + 8 + 76) + (6 + 87 + 6) + (68 + 7 + 6) + (6 + 8 + 7 + 6) = 6 * 8 * 7 * 6; checked
+* 6876 is the smallest 4-digit number n (out of two), such that the sum of the digit splits of n is equal to the product of the digits of n: (6 + 876) + (68 + 76) + (687 + 6) + (6 + 8 + 76) + (6 + 87 + 6) + (68 + 7 + 6) + (6 + 8 + 7 + 6) = 6 * 8 * 7 * 6; checked
 
 6886
 * 6886 is the smallest palindrome that may be expressed as the sum of two distinct prime cubes: 6886 = 19<sup>3</sup> + 3<sup>3</sup>; A086119, A120398
@@ -4820,7 +4820,7 @@ NU 8614 and its prime factors contain every digit from 1-9 exactly once; (Not Un
 * 8658 is the sum of the first four perfect numbers;
 
 8676
-* * 8676 is the largest 4-digit number n (out of two), such that the sum of the digit splits of n is equal to the product of the digits of n: (8 + 676) + (86 + 76) + (867 + 6) + (8 + 6 + 76) + (8 + 67 + 6) + (86 + 7 + 6) + (8 + 6 + 7 + 6) = 8 * 6 * 7 * 6; checked
+* 8676 is the largest 4-digit number n (out of two), such that the sum of the digit splits of n is equal to the product of the digits of n: (8 + 676) + (86 + 76) + (867 + 6) + (8 + 6 + 76) + (8 + 67 + 6) + (86 + 7 + 6) + (8 + 6 + 7 + 6) = 8 * 6 * 7 * 6; checked
 
 8712
 * 8712 is the smallest number that is divisible by its reverse: 8712 = 4*2178 (excluding palindromes and numbers with trailing zeros); (wiki) (A071687 Non-palindromic numbers such that either x=q1.Rev[x] or Rev[x]=q2.x, where R[x]=A004086[x], and q1 or q2 are integers not divisible by 10) A031877
