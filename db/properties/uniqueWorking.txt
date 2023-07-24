@@ -65,7 +65,7 @@ NVI 3 is the only prime with period 1;
 * 4 is the only number in the English language for which the number of letters in its name is equal to the number itself; (wiki)
 * 4 is the only composite number that is equal to the sum of its prime factors; (wiki)
 * 4 is the only composite number n which doesn't divide (n-1)!; (dictionary of numbers Wells)
-NVI The tetrahedron has 4 Vertices and 4 Faces;
+* The tetrahedron has 4 Vertices and 4 daces;
 NVI is the only number which is equal to its factorial divided by its primorial; (the same as first composite)
 * 4 is the largest number such that its divisors plus 1 are all prime; easy to show that it has to be a power of 2
 * 4 is the smallest composite number;
@@ -645,6 +645,7 @@ NS 62 is the biggest of only two numbers which contain exactly the first three d
 * 70 is the largest known number n such that 2<sup>n</sup> has a digit sum of n (the only other such number known is 5); (2^70 has a digit sum of 70 The only other number with this property I found with Mathematica is 5) (zak seidov from seqfans confirmed upto 20,000 and David Wilson provided some reasoning)
 * 70 is the only non-trivial square number of cannonballs that can be piled into a square pyramid (submitted by <a href="http://www.knowltonmosaics.com/">Ken Knowlton</a>); (checked - famous cannonball problem)
 NT The largest integer such that any smaller integer relatively prime to it is either a prime or a power of a prime;  [Erdös] (I checked with Mathematica, this is not true)
+* 70 is the smallest pentagonal number which is a product of 3 distinct primes (submitted by Massimo Kofler); checked.
 
 71
 * 71 is the only two-digit number n such that (n<sup>n</sup>-n!)/n is prime; (checked with Mathematica)
@@ -1101,7 +1102,7 @@ U?? 149 is an emirp (reversible prime) made up from the digits of first three pe
 * 149 is the smallest emirp with only nonprime digits (i.e. 0,1,4,6,8,9); (from OEIS) (A128390 Emirps with only nonprime digits (i.e. 0,1,4,6,8,9).)
 
 150
-+ 150 is the smallest n for which n times the n-th prime + n is a square; (A073614 Numbers n such that n*(prime(n)+1) is a square.)
+* 150 is the smallest n for which n times the n-th prime + n is a square; (A073614 Numbers n such that n*(prime(n)+1) is a square.)
 * 150 is the smallest integer area of a triangle with the sides and altitudes being integers too; A210643
 
 151
