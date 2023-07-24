@@ -50,13 +50,20 @@ class UniqueProperty < ApplicationRecord
   end
 
   def self.parse_line(line, current_number)
+    orig_line = line
     markers = []
     while line =~ /^(NVI|NS|NT|NU|\*|\?\?|[sS]\?\?|U\?\?) (.+)$/ do
       markers.push $1
       line = $2
     end
     statement_hash = UniqueProperty.parse_statement(line)
-    UniqueProperty.create(statement_hash.merge({ :number => current_number, :metadata => UniquePropertyMetadata.parse_metadata(markers) }))
+    metadata = nil
+    begin
+      metadata = UniquePropertyMetadata.parse_metadata(markers)
+    rescue RuntimeError
+      raise "Metadata parsing failed for line\n#{orig_line}"
+    end
+    UniqueProperty.create(statement_hash.merge({ :number => current_number, :metadata => metadata }))
   end
 
   def self.parse_statement(statement_with_comments)
