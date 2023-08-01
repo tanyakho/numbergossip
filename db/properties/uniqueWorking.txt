@@ -376,7 +376,7 @@ NS 27 is the smallest number that have composite sum of digits and prime sum of 
 * 29 is the smallest multi-digit prime whose product of digits of its cube is also a cube; (checked with Mathematica, non-primes are easy - 10, 20)
 * 29 is the smallest multi-digit number which on adding its reverse gives a perfect square (i.e., 29 + 92 = 121 = 11<sup>2</sup>); checked
 ?? 29 is the maximum number of squares a chess bishop can visit, if it is only allowed to visit each square once;
-?? 29 is the largest prime such that sum of its digits is greater than number of primes up to it;
+* 29 is the largest number such that sum of its digits is greater than the number of primes up to it; checked
 * 29 is the smallest prime of form p<sup>p</sup> + 2; checked
 NS None of the first 29 natural numbers have more than two different prime factors - this is the longest such consecutive sequence;
 * 29 is the smallest prime equal to the sum of three consecutive squares: 29 = 2<sup>2</sup> + 3<sup>2</sup> + 4<sup>2</sup>;
@@ -386,6 +386,7 @@ NT 29 is the smallest prime that is equal the sum of its digits plus the product
 * 30 is the first sphenic number, that is the smallest number with 3 distinct prime divisors;
 * 30 is the largest number with the property that all smaller numbers coprime to it are prime; (wiki)
 * Both a dodecahedron and an icosahedron have 30 edges;
+* There are 30 numbers with zeroless pandigital squares; checked
 
 31
 * 31 is the earliest and the only known case such that the sum of the divisors of two distinct numbers (16 & 25) is the same prime quantity (31), that is to say: 1+2+4+8+16 = 31 and 1+5+25 = 31; (checked with Mathematica up to 1,000,000)
@@ -432,6 +433,7 @@ NT 31 is the number of regular polygons with an odd number of sides that can be 
 * 36 is the smallest abundant square number; (mine) (checked) (A063734 Square abundant numbers.)
 * 36 is the smallest abundant triangular number; (mine) (checked) (A074315 Abundant triangular numbers.)
 * 36 is the smallest integer which can be expressed as the sum of consecutive primes in 2 ways: 5 + 7 + 11 + 13 and 17 + 19; (virtue science) A067372
+
 37
 * 37 is the smallest irregular prime (submitted by Andy Baker and John Kiehl); (too special and complicated)
 * 37 is the smallest left and right truncatable prime having more than one digit;
@@ -443,6 +445,7 @@ NT 31 is the number of regular polygons with an odd number of sides that can be 
 * 37 is the smallest prime that doesn't divide the order of the Monster group; (wiki) A002267 
 * Every positive integer is the sum of at most 37 fifth powers; (wiki)
 * 37 is the smallest number that appears in its factorial twice; checked
+* 37 is the smallest emirp that doesn't have a twin; checked
 
 38
 * 38 is the magic constant in the only possible magic hexagon (which utilizes all the natural integers up to and including 19); (mathworld)
@@ -666,20 +669,23 @@ NT 73 is the only number which is 1 less than the double of its reversal which a
 * 73 is the smallest number with the property that it and its neighbors can be written as a sum of 2 nonzero squares; checked A000415, if we allow one square to be zero then 9 works.
 * 73 is the alphanumeric value of the word NUMBER: 14 + 21 + 13 + 2 + 5 + 18 = 73; (checked) (zoo of numbers)
 * 73 is the smallest Prime that is the sum of three distinct positive cubes; A122723
+
 74
 * 74 is the alphanumeric value of HUNDRED; (checked)
-?? There are 74 different non-Hamiltonian polyhedra with a minimum number of vertices; (wiki) (what does this mean?) They only exist starting from 11 vertices. A007033 
+* There are 74 different non-Hamiltonian polyhedra with 11 vertices, which is the minimum number of vertices for such polyhedra to exist; (wiki) They only exist starting from 11 vertices. A007033 
+
 75
 * 75 is the smallest pandigital number in base 4: 75 is written as 1023 in base 4 and contains all the possible digits; (checked)
 * 75 is the smallest numbers that is a sum of three distinct squares forming an arithmetic progression: 75 = 1 + 25 + 49;  A292313
 * 75 is the smallest composite deficient number whose sum as well as product of aliquot divisors is a perfect square;   [Gupta] A064116 checked A357040
-?? There are 75 uniform polyhedra; (wiki) (not clear with Mathworld) there are exceptions with prisms and antiprisms.
+* There are 75 exceptional uniform polyhedra (that do not belong to infinite classes of prisms and antiprisms); (wiki)
 
 76
 * 76 is the only number n that can be partitioned in exactly n ways, using only distinct prime addends; fixed point of A000586
+
 77
 * 77 is the smallest number with multiplicative persistence 4; (Mathworld) A046513
-?? 77 is the largest number that cannot be written as a sum of distinct numbers whose reciprocals sum to 1;
+* 77 is the largest number that cannot be written as a sum of distinct numbers whose reciprocals sum to 1; A051882 
 * 77 is the smallest number n such that the smallest possible number of multiplications required to compute x to the n-th power is by 1 fewer than the number of multiplications obtained by Knuth's power tree method; A115616 A113945 
 78
 * A standard Tarot deck containing the 22 cards of the major arcana and the 56 cards of the minor arcana make up 78 cards; (wiki)
@@ -690,8 +696,6 @@ NVI ?? 78 is the smallest number that can be written as the sum of 4 distinct sq
 79
 * 79 is the smallest prime whose sum of digits is a fourth power; (Checked)
 * 79 is the least positive integer requiring the maximum number of terms, namely 19, when expressed as a sum of positive fourth powers; A018886, A002804 
-NVI 79 is the atomic prime number of gold. Precious, isn't it?; (checked)
-NT 79 is the smallest emirp that is not an element of a set of Twin primes; (p.c.) (37 and 2 also)
 
 80
 * The diagonals of a regular octagon divide it into 80 regions; A333075
@@ -710,7 +714,6 @@ NVI 81 is one of three numbers (the other two are 1458 and 1729) which, when its
 * 82 is the smallest number that becomes a square when concatenated with its predecessor; A054214
 
 83
-NS ?? 83 is the number of zero-less pandigital squares; I check with Mathematica that the number of squares that contain every non-zero digits once is 30
 ?? 83 is the first prime which may be written as a sum of composite numbers in more ways (12964 ways) than it may be written as a sum of prime numbers (12488 ways);
 * There are exactly 83 right-truncatable primes; (Mathworld)
 * 83 is the smallest multi-digit prime consisting of only curved digits; (checked)
@@ -731,20 +734,19 @@ NS ?? 83 is the number of zero-less pandigital squares; I check with Mathematica
 
 87
 * 87 is the smallest number whose carryless sum of divisors is zero; A323414 
-* 87 is the only two-digit number n such that 3<sup>n</sup> ends with n; A067749 
+* 87 is the only two-digit number n such that 3<sup>n</sup> ends with n; A067749
+* There are 87 numbers with pandigital squares; checked
 
 88
 * 88 is the number of constellations in the sky as defined by the International Astronomical Union;
 * 88 is the number of keys on the piano;
 ?? 88 is the only number known whose square has no isolated digits;
 * 88 is the smallest number such that its square has all its digits twice; (mine) (mine A125304: a(n) is the smallest number such that its n power has all its digits twice.)
-NVI The town of Eighty Eight, Kentucky;
 NVI In sexual parlance 88 is used to describe oral sex performed twice (ate twice);
-NVI In miles per hour, the speed the DeLorean must attain in order to travel in time, in the Back to the Future trilogy;
-NVI In Bingo, 88 is known as "Two Fat Ladies";
+
 89
 * 89 is the smallest number for which the positive sum of all odd primes less than or equal to it is a square; should submit
-?? 89 is the first and only prime p such that the sum of its digits powered to 1, 2, ... (as the position of the digit from left to right) is equal to p: 89 = 8^1 + 9^2 - these numbers are sometimes called Michowich numbers;
+?? 89 is the first and only prime p such that the sum of its digits powered to 1, 2, ... (as the position of the digit from left to right) is equal to p: 89 = 8^1 + 9^2 - these numbers are sometimes called Michowich numbers; 1-digit numbers work
 * 89 is the smallest prime that is a concatenation of p<sup>q</sup> and q<sup>p</sup> where p and q are prime;
 NVI 89 is the smallest pime: pimes (pronounced with a long i) are primes whose digits contain circles, i.e., using only the digits 0, 6, 8, 9;
 * 89 is the smallest prime whose digits are composites;
@@ -821,8 +823,8 @@ NS 101 is the sum of all products p*q involving the four first primes, i.e., 2*3
 NVI 101 is the smallest odd prime which can be represented as the sum of a square and its reverse, i.e., 100 + 001 = 101; [Gupta] (two-digit square and its reverse is divisible by 11)
 * 101 is the smallest prime whose sum of the digits is less than the number of digits; 
 * 101 is the largest prime factor of the smallest palindromic Carmichael number (101101); (checked)
-?? 101 is the only prime of the form 1010...101; undulating number with odd digits starting with 10. It is either divisible by 101 (if the number of ones is even) or by 11111, where the number of ones is half of the digits plus 1.
-NVI 101 is the smallest three-digit prime whose digits are not prime;
+* 101 is the only prime of the form 1010...101; undulating number with odd digits starting with 10. It is either divisible by 101 (if the number of ones is even) or by 11111, where the number of ones is half of the digits plus 1.
+* 101 is the smallest three-digit prime whose digits are not prime;
 * 101 is the smallest 3-digit palindromic prime;
 * 101 is the smallest undulating prime;
 
@@ -936,9 +938,9 @@ NS 120 is the largest integer n for which pi(n) = n/4; [Woods]
 121
 * 121 is the smallest multi-digit palindromic square;
 * 121 is the sum of the first five powers of 3: 121 = 1 + 3 + 9 + 27 + 81; checked
-?? 121 is the only odd palindromic square with an odd number of digits that is divisible by a palindromic prime number with an even number of digits; [Luhn] this is saying that larger palindromic numbers can't be divisible by 121.
 * 121 is the smallest palindromic composite such that some permutation of digits is prime; (checked - it trivially is not 2 digit) (mine A119378: Palindromic composites such that some digit permutation is prime.)
 NS ?? 121 is the only square known of the form 1+p+p<sup>2</sup>+p<sup>3</sup>+p<sup>4</sup>, where p is prime;
+* 121 is the only 3-digit number such that the product of its digits equals the number of prime factors counting multiplicities; checked
 
 122
 * 122 is the smallest squarefree number whose internal digits form a squarefree number; A077376 
@@ -953,7 +955,7 @@ NVI 122 is the smallest sum of two non-consecutive factorials of distinct primes
 * 124 is the smallest magic sum of a 4 by 4 semimagic square composed of consecutive primes; A270864
 * 124 is the smallest nontotient untouchable number; A300325
 * 124 is the smallest number that is written with 3 distinct digits forming a geometric progression; trivial
-?? NS 124 = sigma(1!*2!*4!). Note that 124 is the smallest multi-digit number with this property; [Firoozbakht] 
+* 124 = &sigma;(1!2!4!). Note that 124 is the smallest number, excluding the trivial 1, with this property; [Firoozbakht] checked
 * 124 is the smallest nulti-digit number which is one less than the cube of a prime, whose sum of digits as well as is one less than the cube of a prime; [Gupta] 7 also works.
 
 125
@@ -962,11 +964,12 @@ NS ?? 125 is the only number known that contains all its proper divisors as prop
 * 125 is the smallest hypotenuse for which there exist exactly 3 distinct Pythagorean triangles; A084647
 * 125 is the smallest number n such that n<sup>n</sup> contains a pandigital substring; A115938
 * 125 is the smallest cube with the same set of digits as another cube (512); 512
+* 125 is the smallest cube that is sandwiched between two non-squarefree numbers: 124 = 2<sup>2</sup> * 31, 125 = 5<sup>3</sup>, 126 = 2 * 3<sup>2</sup> * 7  (submitted by Massimo Koffler); checked
 
 126
 * 126 is the number of prime days in a non-leap year;
 * The prime gap that covers the first century with no primes (from 1671800 to 1671899) has length 126 (from 1671781 to 1671907); checked with A252800 and NextPrime
-?? 126 is the smallest multidigit number such that the sum of its prime factors (without multiplicities) equals the product of its digits; [Russo] (check with multiplicities too)
+* 126 is the smallest multidigit number such that the sum of its distinct prime factors equals the product of its digits: the prime factors of 126 are 2, 3, and 7, that sum to 12, which is the product of the digits 1, 2, and 6; checked A067173
 * 126 is the smallest vampire number; A020342
 * 126 is the number of intersections of diagonals inside a regular nonagon; A006561
 * 126 is the smallest non-palindrome that is a product of 4 primes whose reverse is also a product of 4 primes; A109018 
@@ -975,11 +978,11 @@ NS ?? 125 is the only number known that contains all its proper divisors as prop
 * 127 is the number of prime days in a leap year;
 * 127 is the smallest prime whose Zeckendorf expansion is palindromic; A095730
 * 127 is the first odd prime Motzkin number; [Post] A001006
-?? NS 127 = 1*prime(1) + 2*prime(2) + 7*prime(7). Note that 127 is the largest number with this property. There are only two such numbers, and both are primes; [Firoozbakht] 
+?? NS 127 = 1*prime(1) + 2*prime(2) + 7*prime(7). Note that 127 is the largest number with this property. There are only two such numbers, and both are primes; [Firoozbakht] There is a problem defining prime(0)
 NVI 127 is a prime expressed as the sum of factorials of the first three odd numbers (i.e., 1! + 3! + 5!); [Patterson] 
 * ASCII characters are numbered from 0 to 127 - this also means 127 is the largest integer that can be represented by a signed byte;
 * 127 is the smallest non-trivial odd number that is not expressible as a prime plus a power of 2 (submitted by Andy Edwards); (p.c.) A006285
-?? 127 is the smallest Friedman prime number. Note that 127 = 2^7 - 1; (p.c.) (A080035 "Good" Friedman numbers: Friedman numbers (A036057) where the construction digits are used in the proper order.) (A112419 Prime Friedman numbers.)
+* 127 is the smallest Friedman prime number (Friedman numbers can be written using their own digits and a given set of operations): 127 = -1 + 2<sup>7</sup>. Moreover is it the smallest orderly Friedman number, where the digits are used in their proper order; (p.c.) (A080035 "Good" Friedman numbers: Friedman numbers (A036057) where the construction digits are used in the proper order.) (A112419 Prime Friedman numbers.)
 * 127 is the largest Mersenne prime with all different digits; (checked)
 * 127 is the smallest prime whose internal digits form a prime; (checked) (from OEIS) (A075595 Smallest prime that is obtained by placing digits on both sides of the n-th prime. Or smallest prime that encompasses the n-th prime.) (A069686 Primes whose internal digits form a prime.)
 
@@ -3140,8 +3143,11 @@ NS 1105 = 5 x 13 x 17 is the product of the three smallest primes of the form 4n
 * 1111 is the smallest number such that its square contains 1234 as a substring (1111<sup>2</sup> = 1234321); A175464
 * 1111 is the smallest composite number having the same digits as their prime factors (with multiplicity), excluding zero digits (1111 = 11*101); A176670
 * 1111  is the smallest strobogrammatic composite numbes whose prime factors are strobogrammatic as well; A274831
+
 1113
 * 1113 is the smallest composite number with digital product 3; A199982
+* 1113 is the smallest 4-digit number such that the product of its digits equals the number of prime factors counting multiplicities; checked
+
 1114
 * 1114 is bar coding for 6 in Universal Product Code (barcode); (checked) (A091329 Bar coding for digits 0 through 9 in Universal Product Code (or UPC).)
 * 1114 can be expressed as 0<sup>1</sup> + 1<sup>2</sup> + 2<sup>3</sup> + 3<sup>4</sup> + 4<sup>5</sup>; (checked) A027622
@@ -4060,6 +4066,10 @@ NU 2916 is the product of the squares of a subset of its digits; (2916 = 9^2 6^2
 * 3105 is the smallest number n divisible by at least one nontrivial permutation of the digits of n, excluding all permutations that result in digit loss (3105 is divisible by 1035); (A090056 Numbers n divisible by at least one nontrivial permutation (rearrangement) of the digits of n, excluding all permutations that result in digit loss.)
 3106
 * 3106 is the smallest and possibly the only number that is the sum of the digits of two different Mersenne primes: the 16th and the 17th Mersenne primes; (A066538 Sum of the digits of the n-th Mersenne prime (A001348).)
+
+3111
+* 3111 is the largest 4-digit number such that the product of its digits equals the number of prime factors counting multiplicities; checked
+
 3112
 * 3112 is bar coding for 9 in Universal Product Code (barcode); (checked) (A091329 Bar coding for digits 0 through 9 in Universal Product Code (or UPC).)
 3114
