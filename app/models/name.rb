@@ -25,5 +25,9 @@ class Name
   def computer_name
     adjective.tr(" -", "__").camelize.to_sym
   end
+  
+  def adjective_nocase
+    adjective.lower_case
+  end
 
 end

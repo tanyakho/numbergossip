@@ -24,7 +24,7 @@ class NumberGossipController < ApplicationController
   end
 
   def list
-    @all_props = Property.order(adjective: :asc).to_a
+    @all_props = Property.order(adjective_nocase: :asc).to_a
   end
 
   def credits
