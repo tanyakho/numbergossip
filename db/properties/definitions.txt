@@ -23,7 +23,7 @@ It all started with <a href = "#perfect"> perfect</a> numbers which are amicable
 <h3> <a name = "apocalyptic powers"> apocalyptic power </a> </h3> 
 <p>
 <h4>
-<i>Definition:</i>The number n is called an <i>apocalyptic power</i> if 2<sup>n</sup> contains the consecutive digits 666 (in decimal).
+<i>Definition:</i> The number n is called an <i>apocalyptic power</i> if 2<sup>n</sup> contains the consecutive digits 666 (in decimal).
 <p>
 <p>
 <i>First ten:</i> 157, 192, 218, 220, 222, 224, 226, 243, 245, 247
@@ -33,7 +33,7 @@ It all started with <a href = "#perfect"> perfect</a> numbers which are amicable
 <h3> <a name = "aspiring"> aspiring </a> </h3> 
 <p>
 <h4>
-<i>Definition:</i>The number n is called an <i>aspiring</i> number if its aliquot sequence terminates in a <a href = "#perfect">perfect</a> number, and it is not a perfect number itself.
+<i>Definition:</i> The number n is called an <i>aspiring</i> number if its aliquot sequence terminates in a <a href = "#perfect">perfect</a> number, and it is not a perfect number itself.
 <p>
 <p>
 <i>First ten:</i> 25, 95, 119, 143, 417, 445, 565, 608, 650, 652
