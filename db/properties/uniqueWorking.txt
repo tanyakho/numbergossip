@@ -72,9 +72,9 @@ NVI is the only number which is equal to its factorial divided by its primorial;
 * 4 is the smallest non-Fibonacci number; (wiki)
 
 5
-* 5 is the smallest number of queens needed to attack every square on a standard chess board;
+* 5 is the smallest number of queens needed to attack every square on a standard chessboard;
 * 5 is the only prime which is the difference of two squares of primes; (because 3-2=1 hmm)
-* 5 is the only prime that is a member of 2 pairs of twin primes; 
+* 5 is the only prime that is a member of 2 pairs of twin primes. As such it is the only balanced prime;
 * 5 is the only number which is equal to the sum of all primes less than itself;
 * 5 is the number of Platonic solids;
 * If the Goldbach's conjecture is true, then 5 is the only odd untouchable number; represent 2n as p+q, then the sum of the proper factors of pq is 2n+1.
@@ -108,7 +108,7 @@ NVI is the only number which is equal to its factorial divided by its primorial;
 * 6 is the largest triangular number whose square is also triangular; (wiki) (It is also true for 1, is it true that 6 and 1 are the only triangular numbers with triangular squares? proof: write an equation n^2(n+1)^2 = 2m(m+1). Then because of divisibility either n^2 = m and (n+1)^2 = 2(m+1) or n^2 = m+1 and (n+1)^2 = 2m. The first case give 1, the second case give 2
 * A tetrahedron has 6 edges, a cube has 6 faces, an octahedron has 6 vertices;
 * The maximum number of circles of same size that fit tangentially around a given circle is 6 (submitted by Chuck DeCarlucci);
-* The maximum number of side of a regular polygon that can tile a plane is 6 (submitted by Chuck DeCarlucci);
+* The maximum number of sides of a regular polygon that can tile a plane is 6 (submitted by Chuck DeCarlucci);
 * Suppose edges of a complete graph are colored with 2 colors. Then if the number of vertices is at least 6, such graph always contains a monochromatic triangle;
 * Given a number of points on a plane, we connect each point to another point that is closest to it. The resulting graph has the highest degree not exceeding 6;
 
@@ -304,7 +304,7 @@ NVI 19 is the smallest prime which is the sum of three distinct primes; (too art
 * 19 is the smallest number sandwiched between two numbers that are products of 3 primes; checked
 
 20
-* 20 is the maximum number of moves needed to solve the Rubik's cube;
+* 20 is the maximum number of moves needed to solve the Rubik's cube, also called the God's number;
 * In a game of chess both players have 20 first moves from which to choose;
 * 20 is the smallest number that cannot be either prefixed or followed by one digit to form a prime; (mine A124665: Numbers that cannot be either prefixed or followed by one digit to form a prime.)
 * 20 is the largest number of set cards without a set; (need confirmation)
@@ -1062,7 +1062,7 @@ NS ?? 125 is the only number known that contains all its proper divisors as prop
 * 126 is the number of prime days in a non-leap year;
 * The prime gap that covers the first century with no primes (from 1671800 to 1671899) has length 126 (from 1671781 to 1671907); checked with A252800 and NextPrime
 * 126 is the smallest multidigit number such that the sum of its distinct prime factors equals the product of its digits: the prime factors of 126 are 2, 3, and 7, that sum to 12, which is the product of the digits 1, 2, and 6; checked A067173
-* 126 is the smallest vampire number; A020342
+* 126 is the smallest disfigurate vampire number; A020342
 * 126 is the number of intersections of diagonals inside a regular nonagon; A006561
 * 126 is the smallest non-palindrome that is a product of 4 primes whose reverse is also a product of 4 primes; A109018 
 
@@ -3465,7 +3465,7 @@ NT The last prime day of the year is 12/29; [Hageman] 1231 is also prime
 * 1259 is the smallest prime that is the sum of 25 consecutive primes; A215991
 
 1260
-?? 1260 is the smallest vampire number with another definition; (A014575 Vampire numbers (numbers having more than one pair of fangs are listed once for each pair).)
+* 1260 is the smallest true vampire; (A014575 Vampire numbers (numbers having more than one pair of fangs are listed once for each pair).)
 * 1260 is the smallest number n such that &phi;(n+1) = 4&phi;(n); A172314 
 1261
 * 1261 is the smallest number n such that &phi;(n) = 4&phi;(n-1); A268126
@@ -3944,13 +3944,18 @@ NU There is only one way to produce a sum of 2003 by adding consecutive integers
 * 2023 is the smallest number n (not counting 1) such that the sum of the digits of n times the square of the sum of the digits squared of n equals n: 2023 = (2 + 0 + 2 + 3) * (2<sup>2</sup> + 0<sup>2</sup> + 2<sup>2</sup> + 3<sup>2</sup>)<sup>2</sup>; A257766, checked
 
 2025
+* 2025 is the only 4-digit number abcd such that it is equal ((ab)c+d)<sup>2</sup> (submitted by Scott Kominers); checked, actually happy 2025 email from Scott.
 * 2025 is the second smallest square (after 25) that remains square if all its digits are incremented by 1; (A061843 Squares which remain squares if you increment every digit by 1.)
+* 2025 is the second smallest square (after 81) such that when it is split in half and the halves are summed, the result is the square root of the original number (submitted by Tamas Fleischer); checked A238237
+* 2025 is the smallest number with 15 odd divisors (submitted by Scott Kominers); checked
+
 2030
 * 2030 is the smallest 5-Smith number, aka the smallest number n such that the sum of digits of prime factors of n equals 5 times the sum of digits of n (counted with multiplicity); (A103126 5-Smith Numbers.)
+
 2041
 * 2041 is the smallest number n such that the concatenation of n with 9n gives a square; (A115553 Numbers n such that the concatenation of n with 9*n gives a square.) checked
 * 2041 is the total sum of the digits of all 3-digit primes; (mine a(n) A130817 is the total sum of the digits of n-digit primes.)
-* 2401 is the smallest 4-digit number that is a power of the sum of its digits; A023106
+
 2047
 * 2047 is the smallest Mersenne composite; [Gupta] A065341
 * 2047 is the smallest strong pseudoprime to base 2; (maybe the same as Mersenne composite) (A001262 Strong pseudoprimes to base 2.)
@@ -4100,6 +4105,8 @@ NVI is the concatenation of the first 4 primes;
 * 2401 is the smallest number (except 1) that is the 4<sup>th</sup> power of the sum of its digits; (checked with Mathematica) (A061210 Numbers which are the fourth powers of their digit sum.)
 * 2401 is the smallest fourth power that becomes prime when its leftmost digit is removed; A226092
 * 2401 is the largest number that equals the sum of its digits to the power of the number of its digits; checked A038178
+* 2401 is the smallest 4-digit number that is a power of the sum of its digits; A023106
+
 2407
 U?? NS 2407 is an anagram of the famous Mersenne number 2047. Its prime factorization (29*83) is also an anagram of that of 2047 (23*89); (Uniquenes??)
 2420
@@ -4174,7 +4181,7 @@ NU The prime number 2521 can be expressed as the sum of squares of two consecuti
 2576
 * 2576 is the smallest non-palindrome that is a product of 6 primes whose reverse is also a product of 6 primes; A109018 
 2592
-* 2592 is the smallest printer's error number: 2<sup>5</sup>9<sup>2</sup> = 2592 &mdash; forgetting to shift up gives the same number (submitted by Dan D'Eramo); (A096298 Numbers, not ending with 0, that are "printer's errors".)
+* 2592 is the smallest printer's error number: 2<sup>5</sup>9<sup>2</sup> = 2592 &mdash; forgetting to shift up gives the same number (submitted by Dan D'Eramo). In other words, this is the smallest multidigit fixed point under the powertrain map; (A096298 Numbers, not ending with 0, that are "printer's errors".) A135385
 
 
 2600
@@ -4620,6 +4627,9 @@ NU 4320 = (6+4)(6+3)(6+2)(6+0); (Other numbers like that: 90, 840, 4320) (A09737
 4762
 * 4762 is the smallest non-trivial number (other than the powers of 10) such that its square (22676644) contains the same set of digits as the number itself; (checked with Mathematica) (A029793 Numbers n such that n and n^2 have same digits.)
 
+4785
+* 4785 is the smallest tetraprime (product of 4 distinct primes) that is the sum of two successive tetraprimes (submited by Massimo Kofler); checked
+
 4800
 4802
 * 4802 is the smallest number that can be written as both the sum of two nonzero fourth powers and the sum of three nonzero fourth powers; A336536
@@ -4756,6 +4766,7 @@ NT 5658 is the only 4-digit number N which is the product of 4 distinct primes, 
 * 5750 is the smallest number n such that n equals |reverse(lpd(n)) &minus; reverse(Lpf(n))|, where lpd(n) is the largest proper divisor and Lpf(n) is the largest prime factor of n: (lpd(5750) = 2875, Lpf(5750) = 23, 5782 - 32 = 5750); (A076426 Fixed points of the mapping k -> abs(reverse(lpd(k))-reverse(Lpf(k))). lpd(k) is the largest proper divisor and Lpf(k) is the largest prime factor of k.)
 5769
 * 5769 is the smallest number n such that (n + digit sum of n) and (n + digit product of n) are nontrivial permutations of the digits of n; A246421
+
 5774
 * 5774 is the smallest deficient number n such that n + 3 is the next deficient numbers; A317049
 5775
@@ -4770,6 +4781,9 @@ NU 5775 is the product of two different substrings of its digits; 5775 = 77 * 75
 
 5784
 * 5784 is the smallest number such that its square uses consecutive digits twice each: 5784<sup>2</sup> = 33454656; checked
+
+5785
+* If we start with numbers 0 through 10 in some order, and then construct a triangle of numbers upwards where each new number is the sum of the two numbers below it, then there are 5785 different possible values for the apex; A066411
 
 5813
 * 5813 is the smallest prime formed with three consecutive Fibonacci numbers in ascending order; [Gallardo] (A104284 Primes which are the concatenation of three consecutive fibonacci numbers.)
