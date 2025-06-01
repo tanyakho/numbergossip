@@ -1,14 +1,18 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive
 ENV RAILS_ENV=production
 
 RUN apt-get update
 RUN apt-get install -y gnupg apt-transport-https ca-certificates
 
+# Clobber policy-rc.d (I don't know why I need to do this; found the
+# suggestion online as part of getting apache to start)
+RUN printf '#!/bin/sh\nexit 0' > /usr/sbin/policy-rc.d
+
 # Install Ruby, Apache, Passenger, Sqlite3 headers, and Nokogiri and mimemagic dependencies
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 \
     --recv-keys 561F9B9CAC40B2F7
-RUN echo deb https://oss-binaries.phusionpassenger.com/apt/passenger focal main \
+RUN echo deb https://oss-binaries.phusionpassenger.com/apt/passenger jammy main \
     > /etc/apt/sources.list.d/passenger.list
 RUN apt-get update
 RUN apt-get install -y build-essential tzdata \
