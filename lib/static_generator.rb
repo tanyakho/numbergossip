@@ -57,7 +57,7 @@ class StaticGenerator
       future = Concurrent::Future.execute(executor: pool) do
         begin
           html = get_page("/#{number}")
-          save_page("#{number}.html", html)
+          save_page("#{number}/index.html", html)
 
           # Update progress
           current = completed.increment
@@ -93,7 +93,7 @@ class StaticGenerator
 
       begin
         html = get_page("/#{page}")
-        save_page("#{page}.html", html)
+        save_page("#{page}/index.html", html)
 
       rescue => e
         puts "Error generating #{page}: #{e.message}"

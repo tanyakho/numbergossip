@@ -6,7 +6,7 @@ namespace :static do
     # First compile assets
     puts "Compiling assets..."
     Rake::Task['assets:precompile'].invoke
-    
+
     generator = StaticGenerator.new
     generator.generate_all
   end
@@ -15,7 +15,7 @@ namespace :static do
   task :generate_range, [:start_num, :end_num] => :environment do |t, args|
     start_num = args[:start_num]&.to_i || 1
     end_num = args[:end_num]&.to_i || 100
-    
+
     puts "Generating pages from #{start_num} to #{end_num}"
     generator = StaticGenerator.new
     generator.generate_range(start_num, end_num)
@@ -40,39 +40,30 @@ namespace :static do
   desc "Clean up generated static files"
   task clean: :environment do
     puts "Cleaning up static files..."
-    
-    # Remove generated number pages
-    Dir.glob('public/[0-9]*.html').each do |file|
+
+    # Remove generated pages
+    Dir.glob('public/**/index.html').each do |file|
       File.delete(file)
       puts "Deleted #{file}"
     end
-    
-    # Remove generated special pages
-    %w[index.html list.html credits.html links.html contact.html editorial_policy.html status.html].each do |file|
-      file_path = "public/#{file}"
-      if File.exist?(file_path)
-        File.delete(file_path)
-        puts "Deleted #{file_path}"
-      end
-    end
-    
+
     puts "Cleanup complete!"
   end
 
   desc "Compile and copy assets for static deployment"
   task compile_assets: :environment do
     puts "Compiling assets for static deployment..."
-    
+
     # Precompile assets
     Rake::Task['assets:precompile'].invoke
-    
+
     # Copy compiled assets to public directory
     if Dir.exist?('public/assets')
       puts "Assets already compiled and available in public/assets"
     else
       puts "Warning: No compiled assets found. Run 'rake assets:precompile' first."
     end
-    
+
     # Copy individual asset files for legacy compatibility
     asset_files = {
       'app/assets/stylesheets/base.css.erb' => 'public/stylesheets/base.css',
@@ -81,7 +72,7 @@ namespace :static do
       'app/assets/javascripts/prototype.js' => 'public/javascripts/prototype.js',
       'app/assets/javascripts/effects.js' => 'public/javascripts/effects.js'
     }
-    
+
     asset_files.each do |source, dest|
       if File.exist?(source)
         FileUtils.mkdir_p(File.dirname(dest))
@@ -95,24 +86,24 @@ namespace :static do
         puts "Copied #{source} to #{dest}"
       end
     end
-    
+
     # Copy images
     if Dir.exist?('app/assets/images')
       FileUtils.mkdir_p('public/images')
       FileUtils.cp_r('app/assets/images/.', 'public/images/')
       puts "Copied images to public/images"
     end
-    
+
     puts "Asset compilation complete!"
   end
 
   desc "Full static site generation (assets + pages)"
   task build: :environment do
     puts "Building complete static site..."
-    
+
     Rake::Task['static:compile_assets'].invoke
     Rake::Task['static:generate'].invoke
-    
+
     puts "Static site build complete!"
     puts "Your static site is ready in the public/ directory."
     puts "You can now deploy the contents of public/ to any web server."
