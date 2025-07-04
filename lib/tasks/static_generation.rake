@@ -7,8 +7,18 @@ namespace :static do
     puts "Compiling assets..."
     Rake::Task['assets:precompile'].invoke
 
-    generator = StaticGenerator.new('public', 8)
-    generator.generate_all
+    # Configure assets for static generation
+    original_debug = Rails.application.config.assets.debug
+    Rails.application.config.assets.debug = false
+    Rails.application.assets.cache = nil  # Clear asset cache
+
+    begin
+      generator = StaticGenerator.new('public', 8)
+      generator.generate_all
+    ensure
+      Rails.application.config.assets.debug = original_debug
+    end
+
     puts "Static site build complete!"
     puts "Your static site is ready in the public/ directory."
     puts "You can now deploy the contents of public/ to any web server."
@@ -28,10 +38,20 @@ namespace :static do
 
   desc "Generate a test batch of pages (first 10 numbers)"
   task generate_test: :environment do
-    generator = StaticGenerator.new('public', 8)
-    generator.generate_home_page
-    generator.generate_number_pages(1, 10)
-    generator.generate_special_pages
+    # Configure assets for static generation
+    original_debug = Rails.application.config.assets.debug
+    Rails.application.config.assets.debug = false
+    Rails.application.assets.cache = nil
+
+    begin
+      generator = StaticGenerator.new('public', 8)
+      generator.generate_home_page
+      generator.generate_number_pages(1, 10)
+      generator.generate_special_pages
+    ensure
+      Rails.application.config.assets.debug = original_debug
+    end
+
     puts "Test generation complete! Check the public/ directory."
   end
 
