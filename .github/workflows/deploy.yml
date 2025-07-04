@@ -1,0 +1,31 @@
+name: Build & Deploy Static Site
+
+on:
+  push:
+    branches: [master]  # or whatever your default branch is
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build Docker image
+        run: docker build -t rails-static-gen -f Dockerfile.static
+
+      - name: Run Docker container to build site
+        run: |
+          docker create --name sitegen rails-static-gen
+          docker cp sitegen:/app/public ./public
+          docker rm sitegen
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
