@@ -25,31 +25,28 @@ namespace :static do
 
   desc "Generate static pages for a specific range of numbers"
   task :generate_range, [:start_num, :end_num] => :environment do |t, args|
-    start_num = args[:start_num]&.to_i || 1
-    end_num = args[:end_num]&.to_i || 100
-
-    puts "Generating pages from #{start_num} to #{end_num}"
-    generator = StaticGenerator.new('public', 8)
-    generator.generate_home_page
-    generator.generate_range(start_num, end_num)
-    generator.generate_special_pages
+    generate_in_range(args[:start_num]&.to_i || 1, args[:end_num]&.to_i || 10)
   end
 
-  desc "Generate a test batch of pages (first 10 numbers)"
-  task generate_test: :environment do
+  def generate_in_range(start_num, end_num)
     # Configure assets for static generation
     original_debug = Rails.application.config.assets.debug
     Rails.application.config.assets.debug = false
 
     begin
+      puts "Generating pages from #{start_num} to #{end_num}"
       generator = StaticGenerator.new('public', 8)
       generator.generate_home_page
-      generator.generate_number_pages(1, 10)
+      generator.generate_range(start_num, end_num)
       generator.generate_special_pages
     ensure
       Rails.application.config.assets.debug = original_debug
     end
+  end
 
+  desc "Generate a test batch of pages (first 10 numbers)"
+  task generate_test: :environment do
+    generate_in_range(1, 10)
     puts "Test generation complete! Check the public/ directory."
   end
 
