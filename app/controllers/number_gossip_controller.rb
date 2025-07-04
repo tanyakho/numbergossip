@@ -4,6 +4,7 @@ class NumberGossipController < ApplicationController
 
   def index
     @cache_page = false
+    @display_bound = Property.display_bound
     if params[:number]
       @number = params[:number].to_f.to_i
       case
@@ -11,7 +12,7 @@ class NumberGossipController < ApplicationController
         flash.now[:error] = "I only gossip about numbers, but if you want to know about #{h params[:number]}, I'm sure <a href='http://www.google.com'>Google</a> will enlighten you.".html_safe
       when @number < 1
         flash.now[:error] = "I'm sure #{@number} is a fine number, but I only like to talk about positive things."
-      when @number >= Property.display_bound
+      when @number >= @display_bound
         flash.now[:error] = "I'm sure #{@number} is a fine number, but I do not yet know any interesting gossip about numbers bigger than #{Property.display_bound - 1}."
       else
         if params[:number] == @number.to_s

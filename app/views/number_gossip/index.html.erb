@@ -3,14 +3,58 @@
 
 <script type="text/javascript">
 <!--
-function urlify_input( ) {
-  entry = document.getElementById('number').value;
-  if (/^[0-9]*$/.test(entry)) {
-    window.location = entry;
+function urlify_input() {
+  var entry = document.getElementById('number').value;
+  var errorDiv = document.getElementById('js-error');
+
+  // Clear any previous error
+  if (errorDiv) {
+    errorDiv.style.display = 'none';
+  }
+
+  // Check if input is a valid number (including decimals)
+  if (/^[+-]?(\d+\.?\d*|\.\d+)$/.test(entry)) {
+    var number = Math.round(parseFloat(entry));
+
+    // Check bounds (1 to 9999 for static site)
+    if (number < 1) {
+      showError("I'm sure " + number + " is a fine number, but I only like to talk about positive things.");
+      return false;
+    } else if (number >= <%= @display_bound %>) {
+      showError("I'm sure " + number + " is a fine number, but I do not yet know any interesting gossip about numbers bigger than <%= @display_bound - 1 %>.");
+      return false;
+    } else {
+      // Navigate to the static page URL
+      window.location = "/" + number + "/";
+      return false;
+    }
+  } else if (entry === "") {
+    // Empty input - back to home page
+    window.location = "/";
     return false;
   } else {
-    return true;
+    // Invalid input - show error
+    var escapedEntry = entry.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    showError("I only gossip about numbers, but if you want to know about " + escapedEntry + ", I'm sure <a href='http://www.google.com'>Google</a> will enlighten you.");
+    return false;
   }
+}
+
+function showError(message) {
+  var errorDiv = document.getElementById('js-error');
+  if (!errorDiv) {
+    // Create error div if it doesn't exist
+    errorDiv = document.createElement('div');
+    errorDiv.id = 'js-error';
+    errorDiv.className = 'error';
+
+    // Insert after the form
+    var form = document.getElementById('form');
+    form.parentNode.insertBefore(errorDiv, form.nextSibling);
+  }
+
+  errorDiv.innerHTML = message;
+  errorDiv.style.display = 'block';
 }
 //-->
 </script>
