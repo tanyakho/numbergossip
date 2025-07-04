@@ -15,17 +15,17 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      - name: Build Docker image
+      - name: Build Docker image, including static site
         run: docker buildx build -t rails-static-gen -f Dockerfile.static --load .
 
-      - name: Run Docker container to build site
+      - name: Run Docker container to extract built site
         run: |
           docker create --name sitegen rails-static-gen
-          docker cp sitegen:/app/public ./public
+          docker cp sitegen:/app/public ./gh-pages-dir
           docker rm sitegen
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./gh-pages-dir
