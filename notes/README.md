@@ -150,6 +150,11 @@ Alternative process to deploy a static version of the site
 - Clean Up Generated Files
   bundle exec rake static:clean
 
+- Test locally
+  cd public/
+  python3 -m http.server 8000
+  browse http://localhost:8000
+
 - Upload somewhere
   rsync -av public/ your-server:/var/www/numbergossip/
 
