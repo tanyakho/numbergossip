@@ -132,22 +132,16 @@ Once everything has been set up (see below), deployment:
 ----------------------------------------
 Alternative process to deploy a static version of the site
 
-- Quick Test (Generate first 100 pages)
+- Quick test (Generate first 10 pages)
   bundle exec rake static:generate_test
 
-- Generate All Pages (1-9999 + special pages)
+- Generate all pages (1-9999 + special pages)
   bundle exec rake static:generate
 
-- Generate Specific Range
+- Generate specific range (including special pages)
   bundle exec rake static:generate_range[500,600]
 
-- Generate Only Special Pages
-  bundle exec rake static:generate_special
-
-- Full Build (Assets + All Pages)
-  bundle exec rake static:build
-
-- Clean Up Generated Files
+- Clean up generated files
   bundle exec rake static:clean
 
 - Test locally
