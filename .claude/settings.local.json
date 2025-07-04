@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle exec rake:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)"
+    ],
+    "deny": []
+  }
+}
