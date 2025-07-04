@@ -10,7 +10,6 @@ namespace :static do
     # Configure assets for static generation
     original_debug = Rails.application.config.assets.debug
     Rails.application.config.assets.debug = false
-    Rails.application.assets.cache = nil  # Clear asset cache
 
     begin
       generator = StaticGenerator.new('public', 8)
@@ -41,7 +40,6 @@ namespace :static do
     # Configure assets for static generation
     original_debug = Rails.application.config.assets.debug
     Rails.application.config.assets.debug = false
-    Rails.application.assets.cache = nil
 
     begin
       generator = StaticGenerator.new('public', 8)
