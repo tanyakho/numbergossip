@@ -8,5 +8,8 @@
 # Ignore Rails logs
 /log/*.log
 
+# Ignore generated assets
+/public/assets
+
 # Ignore generated static site
 /public/**/index.html
