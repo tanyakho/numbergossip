@@ -1,0 +1,170 @@
+The totality of the model for the Number Gossip page needs to be aware
+of numbers and properties.  For each property, it needs to be able to
+answer these questions:
+
+What is this property's name?
+
+What is this property's definition?
+- This should be able to contain paragraph breaks and links to other 
+  properties
+- Perhaps use wiki syntax for desired elements?
+
+What is this property's coolness?
+- The properties are grouped into cool and uncool, by some combination
+  of rarity and aesthetics (quite possibly all rarity).  Whether this
+  is a simple function of how many of them there are or a user-set
+  database field, the property needs to be able to produce it.
+
+What are the ten smallest positive integers with this property?
+- It might happen that not all ten are known
+- In the case of the perfect numbers and the sociable numbers, at least,
+  ten candidates for smallestness can be generated, but it is not known 
+  whether these ten actually are the ten smallest.
+- It would be quite nice if the "ten" here referred to could be varied.
+  Perhaps even on a per-property basis (ten or twenty perfect numbers 
+  should be enough for anyone, but I can easily imagine someone being 
+  amused by the first 100 or 1000 primes).
+
+What is the cutoff for complete coverage?  (Currently it is 10,000,
+exclusive, but it should not be that hard to raise it).
+
+How many positive integers less than the cutoff have this property?
+
+For a given positive integer less than the cutoff, does it have this
+property or not?
+
+
+
+The properties can be roughly classified according to their computational
+characteristics.
+
+Some properties, like "even", have natural, fast predicates.  This
+means that they can easily be tested for, but generating a list
+involves either a testing loop or intelligence.
+
+Some properties, like "triangular", have a natural closed form, which
+may or may not be readily invertible.  In other words, it is easy to
+generate the nth triangular number, but not as easy (either
+mathematically or computationally) to test whether a given number is
+triangular (except by generating a bunch of them and checking whether
+you got this one).
+
+Some properties, like "Fibonacci", are natural sequences.  This means
+that it is easy to make the nth from the first through n-1st, but not
+so easy to test whether a given number is one of these or just to make
+the nth without making the previous ones.
+
+Some properties, like "aspiring", are computationally an immense pain
+in the butt.  While in principle "aspiring" is of the first type,
+i.e. there is a test, this test is not guaranteed to terminate, and in
+the case of 276, hasn't in any amount of time we've been willing to
+wait.  For all anyone knows, 276 could be an aspiring number, but we
+don't list it as such because it could also *not* be one.
+
+A consequence of these computational characteristics is that, for some
+properties it is (probably) faster to compute whether a number has it
+or not on every request than to store an exhaustive list in the
+database.  For most properties, it is faster to store an exhaustive
+list in the database, but this list can be computed, up to any upper
+bound, fairly readily by Ruby.  Also, there are some properties for
+which the list would *have* to be computed offline by a dedicated
+program (probably written in C++, Java, or Mathematica or Matlab), and
+communicated to Ruby and the database via some external mechanism.
+
+The first of the above cases is just a performance optimization over
+the second, because if the test works that fast, Ruby can generate the
+list by just running it for every integer up to any desired upper
+bound.  This suggests the following API:
+  property.compute_list(upto, min_wanted)
+returns a list of numbers L and a bound N.  The guarantee is that L
+contains the smallest numbers with this property, in ascending order,
+and that for every number less than N, being on the list is equivalent
+to having the property (except for some caveats that the program need
+not know about, such as possible odd perfect numbers).  In most cases,
+L.length >= min_wanted and N >= upto, in which case Ruby can just
+populate the database and generally do the right thing.  The
+computationally difficult properties, however, can return a fixed
+(externally computed) list L and bound N independent of the arguments,
+and if they turn out to be too short or too small, Ruby can issue a
+warning to the administrators at database construction time, to get
+them to compute a more thorough list.  Observe that this API permits
+computing and keeping far more information than the live site 
+currently needs, but that makes it easy to flip a switch to raise the
+limits (in other words, you can run the site dealing with nothing
+more than 10,000, but having all the data it needs to go up to 100,000.
+If all the data really is there, you can just flip a switch and raise
+the limit up to 100,000).
+
+
+
+The unique properties add an additional wart.  They differ from normal
+properties in that only one number has them, and thus they tend not to
+have names, and are not browsable.  Some of them, though, are of the
+form "the {smallest|largest} number with regular property X", and some
+are of the form "the {only|smallest|largest|only nontrivial} number
+with all the regular properties X{2,}".  It may (or may not) be worth
+providing a means of computationally confirming such assertions (or,
+at least, their consistency across the site).  It probably isn't worth
+it to automatically generate properties like this on the live site,
+although the admin interface may appreciate some such functionality.
+
+The unique properties need only answer the questions:
+
+Which unique properties does this positive integer have?
+- This is equivalent to "Does this positive integer have this unique 
+  property?" and to "Which positive integer has this unique property?"
+
+What is the definition of this unique property?
+- Like the nonunique properties, this might want to have links to 
+  properties, and/or paragraph breaks.
+
+
+
+I am leaning towards implementing this with two model classes,
+Property and UniqueProperty.  It looks like UniqueProperty should
+just be a straightforward database-backed value class, except for
+the linking mechanism.  Property, on the other hand, is a more 
+complicated story, which I have yet to fully think through.
+
+I am leaning towards having the live site run the properties entirely
+via a numbers_properties join table, but building interesting
+database-backed structure for creating and updating this table from an
+"admin" interface.  This admin interface should be able to do the following
+things:
+
+Display the status of properties in the database, including maxima they
+have been computed to.
+
+Invoke the sequence computation on any given property with any desired 
+limits, store the results in the database, and also report them.
+- Permit clearing a property out?
+  - What does the live site do if the database does not contain 
+    information needed for serving?
+- Permit asking all properties to compute with the same limits.
+
+Change the magic numbers on the live site, notably the 10,000 and 
+the ten.  Perhaps refuse to set them higher than permitted by the 
+extant data.
+
+Add new properties (and permit all appropriate computations and 
+manipulations of metadata).
+
+
+
+Apparent order n:
+Apocalyptic powers
+Catalan numbers
+Maybe vampire numbers
+
+n^2?:
+hungry numbers
+lucky numbers?
+Ulam numbers
+
+???:
+Google numbers
+
+Aspiring numbers just suck
+Sociable numbers also suck
+
+Weird numbers might be exponential

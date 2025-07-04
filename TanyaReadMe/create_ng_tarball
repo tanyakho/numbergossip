@@ -1,0 +1,3 @@
+#!/bin/sh
+
+tar -cvzf number_gossip.tar.gz --exclude="*.log" --exclude=".svn" --exclude="*~" number_gossip

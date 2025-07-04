@@ -1,0 +1,283 @@
+Potentially include the following numbers:
+
+Achilles, powerful, but imperfect. Not sure: too specific A052486
+balanced prime: A006562 Balanced primes (of order one): primes which are the average of the previous prime and the following prime. 
+betrothed A005276 Betrothed (or quasi-amicable) numbers.
+brilliant a positive integer that has exactly two prime factors, both with the same number of digits. A078972
+circular prime (only about primes) A068652 
+Cyclop  A cyclops number is a number in binary that is made up of all 1's, with one 0 in the exact middle. A134808 
+MO: friendly A074902 Known friendly numbers. (conjectural sequence)
+economical number A046759 Economical numbers: write n as a product of primes raised to powers, let D(n) = number of digits in product, l(n) = number of digits in n; sequence gives n such that D(n) < l(n). The numbers that their primes factorizations use fewer digits than themselves, where they use p instead of p^1.
+emirp A006567 Emirps (primes whose reversal is a different prime). 
+happy  A007770 Happy numbers: numbers whose trajectory under iteration of sum of squares of digits map (see A003132) includes 1. 
+left-truncatable prime: A024785 Left-truncatable primes: every suffix is prime and no digits are zero. Not clear why they ignore zero, plus, the name is long. A033664 Every suffix is prime. 
+meanders: A005315 Closed meandric numbers (or meanders): number of ways a loop can cross a road 2n times. 
+mountain prime A134951 Mountain primes. (they start and end with 1, which is not very interesting) Also mountain numbers A134941 Mountain numbers. 
+permutable prime A258706 Absolute primes: every permutation of digits is a prime. Only the smallest representative of each permutation class is shown. A003459
+powerful A001694 Powerful numbers, definition (1): if a prime p divides n then p^2 must also divide n (also called squareful, square full, square-full or 2-powerful numbers). (Not clear what defineition 2 is)
+practical A005153 Practical numbers: positive integers m such that every k <= sigma(m) is a sum of distinct divisors of m. Also called panarithmic numbers. 
+primeval A072857 Primeval numbers: numbers that set a record for the number of distinct primes that can be obtained by permuting some subset of their digits.
+right-truncatable prime A024770 Right-truncatable primes: every prefix is prime. 
+self or Colombian A003052 Self numbers or Colombian numbers (numbers that are not of the form m + sum of digits of m for any m). 
+sphenic A007304 		Sphenic numbers: products of 3 distinct primes. 
+square pyramidal A000330 		Square pyramidal numbers
+super-abundant numbers A004394 Superabundant [or super-abundant] numbers: n such that sigma(n)/n > sigma(m)/m for all m < n, sigma(n) being A000203(n), the sum of the divisors of n. 
+strobogrammatic A000787 		Strobogrammatic numbers: the same upside down. 
+
+
+
+
+
+--------------------------------------------
+
+Rethink Google numbers and undulating numbers (maybe not include trivial undulating numbers.)
+
+Figure out vampire numbers.
+
+Fix tetrahedral (from pyramidal to square pyramidal)
+-----------------------------------------------------------
+
+Cute suggestion for names of numbers from David Wilson email 2/6/09
+
+Ok, so we have
+
+evil numbers
+odious numbers
+negative numbers
+
+and now
+
+perfidious numbers
+
+so that leaves...
+
+abhorrent numbers
+abominable numbers
+accursed numbers
+angry numbers 			There are two sequences: A167046 and A167047
+atrocious numbers
+awful numbers
+avaricious numbers
+bad numbers
+barbaric numbers
+bestial numbers
+blameworthy numbers
+bloodthirsty numbers
+boorish numbers
+brutal numbers
+brutish numbers
+callous numbers
+calamitous numbers
+catastrophic numbers
+caustic numbers
+choleric numbers
+cold-blooded numbers
+corrupt numbers
+crass numbers
+criminal numbers
+crude numbers
+cruel numbers
+damnable numbers
+dangerous numbers
+debauched numbers
+debased numbers (what base would you write these in?)
+defective numbers
+deformed numbers
+degenerate numbers
+depraved numbers
+despicable numbers
+diabolical numbers
+disgusting numbers
+dreadful numbers
+execrable numbers
+faulty numbers
+fierce numbers
+ferocious numbers
+flawed numbers
+foul numbers
+frightful numbers
+furious numbers
+grisly numbers
+gross numbers (144 may be the only one)
+grotesque numbers
+grungy numbers
+harmful numbers
+harrowing numbers
+hateful numbers 		A051003 		Beastly (or hateful) numbers: numbers containing the string 666 in their decimal expansion. 
+heartless numbers
+heinous numbers
+hideous numbers
+homely numbers
+horrendous numbers
+horrible numbers
+horrid numbers
+horrific numbers
+huffy numbers
+icky numbers
+illicit numbers
+immoral numbers
+impious numbers
+indecent numbers
+inexorable numbers
+infamous numbers
+inhuman numbers
+iniquitous numbers
+injurious numbers
+irascible numbers
+irate numbers
+irritating numbers
+lecherous numbers
+lewd numbers
+licentious numbers
+loathsome numbers
+maleficent numbers
+malevolent numbers
+malicious numbers	A074894 		Full list of counterexamples for the k=3 version of the malicious apprentice problem. 
+malignant numbers
+mean numbers
+mischievous numbers
+miserable numbers
+monstrous numbers
+moribund numbers
+morbid numbers
+murderous numbers
+nasty numbers		A009112 		Areas of Pythagorean triangles: numbers which can be the area of a right triangle with integer sides.  related to an essay called Nasty numbers.
+nauseating numbers
+noisome numbers
+noxious numbers
+obnoxious numbers
+obscene numbers
+offensive numbers
+oppressive numbers
+ornery numbers
+outrageous numbers
+painful numbers
+pernicious numbers	A052294 		Pernicious numbers: numbers with a prime number of 1's in their binary expansion. 
+perverse numbers
+pitiless numbers
+profligate numbers
+putrescent numbers
+putrid numbers
+raging numbers
+raunchy numbers
+renegade numbers
+reprehensible numbers
+repellent numbers
+repugnant numbers
+repulsive numbers
+revolting numbers
+rotten numbers		A216730 		List of "rotten" strings in {2,3}* (in the curling number sense). 
+rude numbers
+ruinous numbers
+ruthless numbers
+sadistic numbers
+savage numbers
+scurvy numbers
+severe numbers
+sickening numbers
+sinful numbers
+spiteful numbers
+squalid numbers
+sorrowful numbers
+sullen numbers
+terrible numbers	A260016 		Smallest number requiring n digits for its representation in the "Terrible Twos Problem" without using multidigit expressions. 
+tacky numbers
+tyrannical numbers
+ugly numbers		A094086 		Babylonian reciprocals - factors needed to turn an ugly number into a power of sixty. 
+uncouth numbers
+ungodly numbers	A137201 		"Ungodly" numbers: numbers that, in some base b > 6, contain the string 666 at least once in their expansion. 
+unkind numbers
+unnatural numbers (not a natural number?)
+unpleasant numbers
+unseemly numbers
+vexatious numbers
+vicious numbers
+vile numbers		A003159 		Numbers whose binary representation ends in an even number of zeros. 
+villainous numbers
+violent numbers
+virulent numbers
+vulgar numbers
+wicked numbers		A102393 		A wicked evil sequence. 
+woeful numbers
+wrathful numbers
+wrong numbers
+
+----------------------------------
+Alexey's to do:
+General todo:
+- Fix the review pages (need boss for this)
+- Check and correct hn tag levels
+- Talk about the top-line image with boss
+  - Change once a month?
+  - Randomized?
+  - Set per page?
+  - Aesthetic, mathy pictures desired.
+  - Sets the tone and flavor of the entire site.
+  - Just digits (in different fonts and sizes)
+    - Pi?
+  - Collage of license plates
+- Front page
+- Resync data from public_html
+  - Numbers, Jokes, RussianPlates, Quotes, Wordgame?
+
+Commentary:
+- The "logo" is a bit light -- a little more contrast?
+  - The dark green was better
+- The image was too overbearing.  Eliminate?  Only on some pages?
+  - This may be revised if the image becomes more appropriate.
+- Remember to separate the exterior links from the interior ones.
+  - Remove from navbar and have only on the landing page?
+- Front page has explainations of what the site components are?
+- The "resume" is not really a resume.  It is not intended for the
+  search of work --- the real resume is hidden.  The purpose is to
+  give a brief bio for the casual visitor.  The logos were seen as
+  interesting.
+  
+
+General Refactorings:
+- Do we want general styles for table of contents types of lists?
+
+Style and perfect individual pages:
+- Russian plates
+  - Fold plate photos into site architecture?
+- Puzzles, front, other child, hint, coins, glass balls
+
+General bugs/nits:
+- link_to_unless_current with sub-page functionality?
+- Diminish princeton addition picture to fit
+  - Uniformize all the photo sizes?
+  - Are there any more photos that should go here??
+- Go through and correct page titles
+
+Reasonably done:
+- Links
+- Publications
+- Photos
+- Resume
+
+Version 2:
+- Relink the coffins and integrate and validate the solutions
+  - Style coffins front page, main list, others' submissions
+- Chicken road crossing page
+- Introduce structure where appropriate into various pages on the site?
+  - Coffin problems (and solutions)
+  - Publications (esp. abstracts)
+  - License Plates
+    - Perhaps a show action that folds the pictures into the overall site aesthetic?
+  - Puzzles
+  - Reviews (books, toys)
+  - Photos
+  - Resume
+
+
+Wordgame todo:
+
+Style it!
+
+Input validation
+
+Dictionary metadata in the database?
+- Could prove even more useful if there are multiple word games...
+
+Keep the actual dictionaries in the database as well?  That 
+will make for a lot of model objects...
