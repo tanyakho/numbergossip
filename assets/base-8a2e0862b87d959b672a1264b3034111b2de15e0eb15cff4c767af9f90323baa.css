@@ -1,0 +1,92 @@
+* {margin: 0px; padding: 0;}
+body {font: 0.8125em Verdana, sans-serif; line-height: 1em; color: #333; background: #FFF;}
+
+a {text-decoration: none;}
+a img {border: none;}
+a:link, a:visited {color: #204f68; border-bottom: 1px solid #555;}
+html body a:hover {color: #000; background-color: #E4F2F4;
+  border-bottom: 1px solid #9A8E51;}
+#navbar a, #main h1 a, .title a:link, .title a:visited {border-bottom-width: 0;}
+#main h1 a:hover, .title a:hover {border-bottom-width: 1px;}
+#header h1 {height: 90px; padding: 0px; }
+#header h1 a {display: block; background: url(/assets/tk_logo_green-327e3cd0149c49b82e9bf71e3346d4e929789e996520f7cf33f36828d2eaaec5.gif) left center no-repeat; text-indent: -10000px; height: 50px; border-width: 0px; padding: 20px;}
+
+h1, .title {color: #000; text-align: center;}
+h1, .title {font: 2.5em Georgia, Times, serif; margin-bottom: 0.5em;}
+h1, .title {text-transform: none; letter-spacing: 1px; padding: 20px;}
+h1 a:link, .title a:link, h1 a:visited, .title a:visited {color: #333;}
+h1 a:hover, .title a:hover {color: #000;}
+
+h2 {font: 1.5em Georgia, "Times New Roman", serif; letter-spacing: 1px;
+  text-align: center;}
+h3 {font: bold 1em Verdana, Arial, sans-serif; letter-spacing: 2px;
+  text-transform: uppercase; margin: 1em 0;}
+h4 {font: bold 1.1em Georgia, "Times New Roman", serif; letter-spacing: 1px;}
+
+ul {list-style: none;}
+#content ul {margin-bottom: 1em;}
+#content li {line-height: 1.8;}
+
+span.nowrap, span.formula { /* Should get renamed uniformly to 'formula', but some are in the database */
+  white-space: nowrap;
+}
+
+pre, code {font: 1.05em Courier, monospace;}
+pre {line-height: 1.5em;}
+pre strong {font-size: 1em; font-weight: bold;}
+
+pre code {font-size: 1em; line-height: 1.5em;}
+
+#whole-page {width: auto; margin: auto; margin-top: 0px;}
+
+div.error {
+  padding: 20px;
+  color: red;
+}
+
+#header {
+  padding: 20px 0px 0px 50px;
+}
+
+#top_image {
+  height: 0px;
+  width: auto;
+}
+
+#content {padding-left: 50px; padding-right: 50px; margin-right: 0px; }
+#content p {text-align: left; line-height: 1.8em;
+  margin: 0 0 1em;}
+
+#footer {
+  clear: both;
+  margin-top: 4em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#footer ul {
+
+}
+
+#footer li {
+  display: inline;
+  padding: 0em 1em 0em 1em;
+  text-align: center;
+}
+
+#footer li a {
+/*   font-weight: bold; */
+/*  font-size: 80%; */
+  color: #006b33;
+  border-bottom-width: 0px;
+/*  text-decoration: underline; */
+}
+
+#footer li a:hover {
+  color: #000;
+  background-color: #F4F2E4;
+}
+
+#footer li strong {
+  color: #000;
+}
