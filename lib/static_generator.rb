@@ -55,18 +55,13 @@ class StaticGenerator
     # Submit all work to thread pool
     (start_num..end_num).each do |number|
       future = Concurrent::Future.execute(executor: pool) do
-        begin
-          html = get_page("/#{number}")
-          save_page("#{number}/index.html", html)
+        html = get_page("/#{number}")
+        save_page("#{number}/index.html", html)
 
-          # Update progress
-          current = completed.increment
-          if current % 100 == 0 || current == total
-            puts "  Generated #{current}/#{total} pages"
-          end
-
-        rescue => e
-          puts "Error generating page for #{number}: #{e.message}"
+        # Update progress
+        current = completed.increment
+        if current % 100 == 0 || current == total
+          puts "  Generated #{current}/#{total} pages"
         end
       end
       futures << future
@@ -90,14 +85,8 @@ class StaticGenerator
 
     special_pages.each do |page|
       puts "  Generating #{page}..."
-
-      begin
-        html = get_page("/#{page}")
-        save_page("#{page}/index.html", html)
-
-      rescue => e
-        puts "Error generating #{page}: #{e.message}"
-      end
+      html = get_page("/#{page}")
+      save_page("#{page}/index.html", html)
     end
   end
 
