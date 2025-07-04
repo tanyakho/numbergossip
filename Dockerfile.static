@@ -33,3 +33,9 @@ RUN bundle exec rails rebuild_database
 
 # Build the site
 RUN bundle exec rails static:generate_test
+
+# Fix relative links for deployment to Github Pages without a domain
+RUN bundle exec script/rewrite_urls.rb "/numbergossip"
+
+# Flush .gz files because they were compressed from the wrong thing
+RUN find public/ -name "*.gz" -type f -delete
