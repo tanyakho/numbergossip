@@ -16,7 +16,7 @@ jobs:
         uses: docker/setup-buildx-action@v3
 
       - name: Build Docker image
-        run: docker build -t rails-static-gen -f Dockerfile.static
+        run: docker buildx build -t rails-static-gen -f Dockerfile.static --load .
 
       - name: Run Docker container to build site
         run: |
