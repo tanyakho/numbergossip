@@ -3,10 +3,6 @@ require_relative '../static_generator'
 namespace :static do
   desc "Generate all static pages (1-9999 plus special pages)"
   task generate: :environment do
-    # First compile assets
-    puts "Compiling assets..."
-    Rake::Task['assets:precompile'].invoke
-
     # Configure assets for static generation
     original_debug = Rails.application.config.assets.debug
     Rails.application.config.assets.debug = false

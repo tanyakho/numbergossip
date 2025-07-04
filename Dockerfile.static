@@ -23,8 +23,7 @@ RUN bundle install --without development test
 # Load the app code
 ADD . /app
 
-# Don't need to precompile the assets, b/c the generation task depends on it
-# already
+# Precompile the assets
 RUN bundle exec rails assets:precompile
 
 # Build the production database
@@ -32,7 +31,7 @@ RUN bundle exec rails db:schema:load
 RUN bundle exec rails rebuild_database
 
 # Build the site
-RUN bundle exec rails static:generate_test
+RUN bundle exec rails static:generate
 
 # Fix relative links for deployment to Github Pages without a domain
 # RUN bundle exec script/rewrite_urls.rb "/numbergossip"
