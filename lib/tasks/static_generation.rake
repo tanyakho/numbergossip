@@ -30,7 +30,7 @@ namespace :static do
 
   desc "Generate a test batch of pages (first 100 numbers)"
   task generate_test: :environment do
-    generator = StaticGenerator.new
+    generator = StaticGenerator.new('public', 4) # Use 4 threads for testing
     generator.generate_home_page
     generator.generate_number_pages(1, 100)
     generator.generate_special_pages
