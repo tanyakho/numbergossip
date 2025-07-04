@@ -7,3 +7,13 @@
 
 # Ignore Rails logs
 /log/*.log
+
+# Ignore generate static site
+/public/[0-9]*.html
+/public/contact.html
+/public/credits.html
+/public/editorial_policy.html
+/public/index.html
+/public/links.html
+/public/list.html
+/public/status.html

@@ -130,6 +130,30 @@ Once everything has been set up (see below), deployment:
   that future deployments pick up the change.
 
 ----------------------------------------
+Alternative process to deploy a static version of the site
+
+- Quick Test (Generate first 100 pages)
+  bundle exec rake static:generate_test
+
+- Generate All Pages (1-9999 + special pages)
+  bundle exec rake static:generate
+
+- Generate Specific Range
+  bundle exec rake static:generate_range[500,600]
+
+- Generate Only Special Pages
+  bundle exec rake static:generate_special
+
+- Full Build (Assets + All Pages)
+  bundle exec rake static:build
+
+- Clean Up Generated Files
+  bundle exec rake static:clean
+
+- Upload somewhere
+  rsync -av public/ your-server:/var/www/numbergossip/
+
+----------------------------------------
 Notes on dealing with tool versions as of 5/28/22
 I ended up needing to
 - sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin (I think)
