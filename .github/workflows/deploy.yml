@@ -29,3 +29,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./gh-pages-dir
+          cname: numbergossip.com      # <— this writes CNAME into gh-pages
+          enable_jekyll: false         # optional: drops a .nojekyll
