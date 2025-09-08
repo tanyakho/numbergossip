@@ -1165,13 +1165,13 @@ NVI When counting in binary with fingers, expressing 132 as 0010000100 results i
 144
 * 144 is a dozen dozens, or one gross;
 * 144 is the only composite square in the Fibonacci sequence; (found a reference to a proof)
-* 144 is the smallest square such that there exists another square - 441 - with the same set of digits; (checked) (A034289 Squares which can be rearranged into squares with the same number of digits.)
+* 144 is the smallest square such that there exists another square &mdash; 441 &mdash; with the same set of digits; (checked) (A034289 Squares which can be rearranged into squares with the same number of digits.)
 * 144 is the smallest abundant Fibonacci number; (mine) (A074316 Abundant Fibonacci numbers.)
-* 144 is the largest sum-product integer - the integer that is equal to the sum of its digits times the product of its digits; (planetMath.org) (proof - http://en.wikipedia.org/wiki/Sum-product_number)
+* 144 is the largest sum-product integer &mdash; the integer that is equal to the sum of its digits times the product of its digits; (planetMath.org) (proof - http://en.wikipedia.org/wiki/Sum-product_number)
 * 144 is the smallest square perimeter of a primitive Pythagorean triangle; (checked the paper referred in the sequence) (from OEIS) (A120089 Square perimeters of primitive Pythagorean triangles.)
 * 144 is the smallest square with internal digits also forming a non-zero square; (from OEIS) (A069701 Squares with internal digits also forming a square > 0.)
 * 144 is the smallest number such that its fifth power is the sum of fewer than five other fifth powers, thus disproving Euler's sum of powers conjecture; (http://euler.free.fr/)
-* 144 is the smallest three-digit number in which the sum of distinct digits of the number equals the sum of its distinct prime divisors (144 = 2<sup>4</sup>*3<sup>4</sup> and 1 + 4 = 2 + 3);  [Cramer] checked* 79 is the least positive integer requiring the maximum number of terms, namely 19, to be expressed as a sum of positive fourth powers; A018886, A002804 
+* 144 is the smallest three-digit number in which the sum of distinct digits of the number equals the sum of its distinct prime divisors (144 = 2<sup>4</sup>*3<sup>4</sup> and 1 + 4 = 2 + 3); [Cramer] checked* 79 is the least positive integer requiring the maximum number of terms, namely 19, to be expressed as a sum of positive fourth powers: A018886, A002804 
 
 145
 * 145 is the smallest number (besides the trivial cases of 1 and 2) that is the sum of the factorials of its digits: 145 = 1! + 4! + 5!; (The other numbers are 1, 2 and 40585) (wiki) (checked with Mathematica) (A014080 Factorions: equal to the sum of the factorials of their digits.)

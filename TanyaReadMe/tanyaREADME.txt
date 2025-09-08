@@ -56,7 +56,7 @@ and to stop the server (by pressing Ctrl+C in the terminal).
 
 
 ======================================================
-Standard flow to upload new unique properties.
+Standard flow to upload new unique properties. 2025
 
 Go to the directory numbergossip.
 
@@ -64,7 +64,7 @@ git status
 If it is clean then
 	git pull
 else 
-	git commit -a -m "changed web.yml to point to the new build" (The difference between those two (using -a and not) is that the `-a` stands for `git add`.  The idea is that you can break up one pile of changes into multiple commits if you wish, so `git commit` only commits the changes you have explicitly staged using `git add`.  However, since you often want to commit everything you changed, `git commit -a` first stages all the changes you have made to all files git is tracking (but not new ones), and then commits.)
+	git commit -a -m "created properties blah" (The difference between those two (using -a and not) is that the `-a` stands for `git add`.  The idea is that you can break up one pile of changes into multiple commits if you wish, so `git commit` only commits the changes you have explicitly staged using `git add`.  However, since you often want to commit everything you changed, `git commit -a` first stages all the changes you have made to all files git is tracking (but not new ones), and then commits.)
 
 git push (this pushes my changes to the github, so all my collaborators see them). The changes will be on the website after a delay of up to 30 minutes.
 
