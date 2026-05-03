@@ -68,7 +68,7 @@ else
 
 git push (this pushes my changes to the github, so all my collaborators see them). The changes will be on the website after a delay of up to 30 minutes.
 
-
+On Sep 8, 2025, when I deployed the website disappeared. We found a reason that github lost the value is custom domain field which should be numbergossip.com
 
 
 ========================================================

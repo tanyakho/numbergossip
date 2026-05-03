@@ -482,7 +482,7 @@ NVI 31 is the smallest prime which is the sum of two Smith numbers (4 + 27); (p.
 
 37
 * 37 is the smallest irregular prime (submitted by Andy Baker and John Kiehl); (too special and complicated)
-* 37 is the smallest left and right truncatable prime having more than one digit;
+* 37 is the smallest left and right truncatable prime having more than one odd digit;
 * 37 is the only prime with period length three: 1/37 = 0.027 027 027 ... ; (because it is a divisor of 999)
 * 37 is the prime you get if a three digit number having the same digits is divided by its digit sum;
 * In the famous Sultan's Dowry problem, the commoner, who want to maximize his chances to marry the daughter with the highest dowry, should skip the first 37 daughters (our of the total 100) and marry the daughter whose dowry exceeds the ones he saw before;
@@ -5158,6 +5158,9 @@ NU 8614 and its prime factors contain every digit from 1-9 exactly once; (Not Un
 * 9413 is the smallest prime which is the arithmetic mean of the squares of six consecutive primes; A234432
 9419
 * 9419 is the smallest start of a string of exactly 4 consecutive (but disjoint) pairs of twin primes; (checked, for three pairs it is 5-7, 11-13, 17-19) (A035792 Start of a string of exactly 4 consecutive (but disjoint) pairs of twin primes.) A068220
+
+9450
+* 9450 is the product of double factorials of all one-digit prime numbers: 9450 = 2!! * 3!! * 5!! * 7!! (submitted by Nicolás Villa Abrille); checked
 9474
 * 9474 is the largest number that is the sum of the 4th powers of its digits; (checked with Mathematica) (A052455 Fixed points for operation of repeatedly replacing a number by the sum of the fourth power of its digits.)
 
