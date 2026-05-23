@@ -54,6 +54,10 @@ Open any css file.
 At the end I shouldn't forget to check in (TODO)
 and to stop the server (by pressing Ctrl+C in the terminal).
 
+================================================
+Adding a submitter:
+The list is hard-coded in `app/controllers/number_gossip_controller.rb`, on line 32: `@submitters = [...]`.
+
 
 ======================================================
 Standard flow to upload new unique properties. 2025
